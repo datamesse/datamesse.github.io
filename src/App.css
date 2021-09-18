@@ -126,6 +126,22 @@ div img {
 }
 
 
+.projects {
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  width: auto;
+  background-color:crimson;
+}
+
+.project-tile {
+  margin: 0px;
+  padding: 0px;
+  background-color:chartreuse;
+}
+
+
+
 /* -------------- MEDIUM SCREEN -------------- */
 
 @media only screen and (min-width: 730px) {
@@ -160,6 +176,10 @@ div img {
 /* -------------- BIG SCREEN -------------- */
 @media only screen and (min-width: 1085px) {
   .banner-elements {
+    width: 1070px;
+  }
+
+  .projects {
     width: 1070px;
   }
 
