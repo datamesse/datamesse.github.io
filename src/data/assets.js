@@ -1,6 +1,6 @@
 /* Theme */
 import avatar from '../assets/avatar.jpg';
-import background from '../assets/bannervideo-darkbrtealcommunication.mp4';
+import background from '../assets/bannervideo-cityoceanswisshumanity.mp4';
 
 
 /* Logos */
@@ -24,31 +24,16 @@ import logo_typescript from '../assets/logo-typescript.svg';
 import logo_visualstudio from '../assets/logo-visualstudiocode.svg';
 import logo_youtube from '../assets/logo-youtube.svg';
 
-import logoteal_aws from '../assets/logoteal-aws.svg';
-import logoteal_azure from '../assets/logoteal-azure.svg';
-import logoteal_css from '../assets/logoteal-css.svg';
-import logoteal_excel from '../assets/logoteal-excel.svg';
-import logoteal_github from '../assets/logoteal-github.svg';
-import logoteal_html from '../assets/logoteal-html.svg';
-import logoteal_javascript from '../assets/logoteal-javascript.svg';
-import logoteal_linkedin from '../assets/logoteal-linkedin.svg';
-import logoteal_mongodb from '../assets/logoteal-mongodb.svg';
-import logoteal_nodejs from '../assets/logoteal-nodejs.svg';
-import logoteal_powerbi from '../assets/logoteal-powerbi.svg';
-import logoteal_python from '../assets/logoteal-python.svg';
-import logoteal_react from '../assets/logoteal-react.svg';
-import logoteal_r from '../assets/logoteal-rstudio.svg';
-import logoteal_tableau from '../assets/logoteal-tableau.svg';
-import logoteal_twitter from '../assets/logoteal-twitter.svg';
-import logoteal_typescript from '../assets/logoteal-typescript.svg';
-import logoteal_visualstudio from '../assets/logoteal-visualstudiocode.svg';
-import logoteal_youtube from '../assets/logoteal-youtube.svg';
+import logoblue_github from '../assets/logoblue-github.svg';
+import logoblue_linkedin from '../assets/logoblue-linkedin.svg';
+import logoblue_powerbi from '../assets/logoblue-powerbi.svg';
+import logoblue_tableau from '../assets/logoblue-tableau.svg';
+import logoblue_twitter from '../assets/logoblue-twitter.svg';
+import logoblue_youtube from '../assets/logoblue-youtube.svg';
 
 export { avatar, background,
          logo_aws, logo_azure, logo_css, logo_excel, logo_github, logo_html, logo_javascript,
          logo_linkedin, logo_mongodb, logo_nodejs, logo_powerbi, logo_python, logo_react, logo_r,
          logo_tableau, logo_twitter, logo_typescript, logo_visualstudio, logo_youtube,
-         logoteal_aws, logoteal_azure, logoteal_css, logoteal_excel, logoteal_github, logoteal_html, logoteal_javascript, 
-         logoteal_linkedin , logoteal_mongodb, logoteal_nodejs, logoteal_powerbi, logoteal_python, logoteal_react, logoteal_r,
-         logoteal_tableau, logoteal_twitter, logoteal_typescript, logoteal_visualstudio, logoteal_youtube
-        }
+         logoblue_github, logoblue_linkedin , logoblue_powerbi, logoblue_tableau, logoblue_twitter, logoblue_youtube
+}

@@ -5,8 +5,8 @@
 
 body {
   font-family: 'Chakra Petch', Helvetica;
-  color: #000000;
-  background-color: #050b14;
+  color: #23a9f2;
+  background-color: white;
 }
 
 div {
@@ -23,18 +23,11 @@ div img {
   width: auto;
 }
 
-/* SMALL WINDOW */
 .banner {
   margin: 0px; 
   padding: 0px;
   top: 0;
   left: 0;
-/* cover = resize and trim to whole container, contain = fit image */
-/* fixed stops scrolling, use scroll to scroll */
-/*  background: none;
-  background-size: cover; 
-  background-attachment: fixed;
-*/
 }
 
 .banner-navigation {
@@ -58,7 +51,8 @@ div img {
   z-index: -100;
   background-size: cover;
   overflow: hidden;
-  border-bottom: 1px solid #0c2e34;
+  border-bottom: 1px solid #65e7ff;
+  object-fit:cover;
 }
 
 .banner-elements {
@@ -74,8 +68,8 @@ div img {
   width: 120px;
   margin-right: 15px;
   border-radius: 50%;
-  border: 2px solid #b2ffff;
-  background-color: #1eeddb;
+  border: 2px solid #65e7ff;
+  background-color: #65e7ff;
   left: 0px;
   float: left;
 }
@@ -118,7 +112,6 @@ div img {
   display: none;
 }
 
-
 .banner-label {
   display: none;
 }
@@ -129,7 +122,7 @@ div img {
   float: left;
   margin-right: 10px;
   border-radius: 50%;
-  border: 1px solid #1eeddb;
+  border: 1px solid #65e7ff;
 }
 
 
@@ -143,15 +136,18 @@ div img {
 
   .banner-button-list li {
     margin-right: 20px;
-  
     /* background-color: turquoise; */
   }
 
   .banner-label {
-    color: #b2ffff;
+    color: #23a9f2;
     position: relative;
     display: inline-block;
     top: 5px;
+  }
+
+  .banner-button-list li a:hover .banner-label {
+    color: black;
   }
 
   .banner-icon img {

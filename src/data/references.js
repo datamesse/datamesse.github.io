@@ -16,7 +16,13 @@ const videobgs = [
       sourceURL: 'https://www.pexels.com/video/digital-projection-of-abstract-geometrical-lines-3129671/'},
     { name: 'Digital Projection Of A Planet Geometric Symmetry with Relation to Outer Space by Pressmaster @pexels.com',
       asset: 'bannervideo-darkbgtealglobe.mp4',
-      sourceURL: 'https://www.pexels.com/video/digital-projection-of-a-planet-geometrical-symmetry-with-relation-to-outer-space-3141208/'}
+      sourceURL: 'https://www.pexels.com/video/digital-projection-of-a-planet-geometrical-symmetry-with-relation-to-outer-space-3141208/'},
+    { name: 'Drone footage of an Ocean and Buildings by SwissHumanity @pexels.com',
+      asset: 'bannervideo-cityoceanswisshumanity.mp4',
+      sourceURL: 'https://www.pexels.com/video/drone-footage-of-an-ocean-and-buildings-9113160/'},
+    { name: 'An Aerial Footage of a Landscape in Ireland by Luciann Photography @pexels.com',
+      asset: 'bannervideo-costaltown1luciann.mp4',
+      sourceURL: 'https://www.pexels.com/video/an-aerial-footage-of-a-landscape-in-ireland-5036917/'}
 ]
 
 const logos = [
