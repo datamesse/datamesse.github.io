@@ -1,7 +1,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap");
 
-/* -------------- SMALL SCREEN (DEFAULT) -------------- */
+/* -------------- SMALLEST SCREEN (DEFAULT) -------------- */
 
 body {
   font-family: 'Chakra Petch', Helvetica;
@@ -26,8 +26,8 @@ div img {
 .banner {
   margin: 0px; 
   padding: 0px;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
 }
 
 .banner-navigation {
@@ -125,8 +125,15 @@ div img {
   border: 1px solid #65e7ff;
 }
 
-
 .projects {
+  position:relative;
+  margin: 0px; 
+  padding: 0px;
+  top: 390px;
+  left: 0px;
+}
+
+.project-set {
   margin: 0px;
   padding: 0px;
   height: auto;
@@ -137,9 +144,27 @@ div img {
 .project-tile {
   margin: 0px;
   padding: 0px;
+  width: auto;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
   background-color:chartreuse;
 }
 
+
+/* -------------- SMALL SCREEN -------------- */
+
+@media only screen and (min-width: 450px) {
+
+  .project-tile {
+    width: 47%;
+    padding: 0px;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+}
 
 
 /* -------------- MEDIUM SCREEN -------------- */
@@ -171,6 +196,15 @@ div img {
     width: 35px;
   }
 
+  .project-tile {
+    margin: 0px;
+    padding: 0px;
+    width: 32.3%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    background-color:chartreuse;
+  }
+
 }
 
 /* -------------- BIG SCREEN -------------- */
@@ -179,7 +213,7 @@ div img {
     width: 1070px;
   }
 
-  .projects {
+  .project-set {
     width: 1070px;
   }
 

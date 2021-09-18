@@ -11,8 +11,15 @@ const portfolio = [
         codeURL: 'https://github.com/datamesse/datamesse.github.io/'
     },
     {
-        title: 'Test',
-        description: 'My portfolio site which I designed and built from scratch using React.js and GitHub Pages package.',
+        title: 'Test 1',
+        description: 'This is a test sentence.',
+        stack: { logo_react },
+        siteURL: 'https://datamesse.github.io/',
+        codeURL: 'https://github.com/datamesse/datamesse.github.io/'
+    },
+    {
+        title: 'Test 2',
+        description: 'This is another tst sentence. The quick bron fox ran away from the hungry dog.',
         stack: { logo_react },
         siteURL: 'https://datamesse.github.io/',
         codeURL: 'https://github.com/datamesse/datamesse.github.io/'
