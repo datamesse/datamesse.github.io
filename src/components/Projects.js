@@ -19,7 +19,7 @@ const portfolio = [
     },
     {
         title: 'Test 2',
-        description: 'This is another tst sentence. The quick bron fox ran away from the hungry dog.',
+        description: 'This is another test sentence. The quick bron fox ran away from the hungry dog.',
         stack: { logo_react },
         siteURL: 'https://datamesse.github.io/',
         codeURL: 'https://github.com/datamesse/datamesse.github.io/'
@@ -38,6 +38,8 @@ function Projects() {
                         <div key={index} className='project-tile'> 
                             <h3>{port.title}</h3>
                             <p>{port.description}</p>
+                            <a href={ port.siteURL } target="_blank">SITE</a>
+                            <a href={ port.codeURL } target="_blank">CODE</a>
                         </div>
                     )
                 })

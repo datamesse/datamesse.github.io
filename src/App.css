@@ -9,6 +9,11 @@ body {
   background-color: white;
 }
 
+h2, h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
 div {
   margin: 0px;
   padding: 0px;
@@ -135,25 +140,44 @@ div img {
 
 .project-set {
   margin: 0px;
+  margin-top: 15px;
   padding: 0px;
-  height: auto;
+  height: 200px;
   width: auto;
-  background-color:crimson;
+  /* background-color:crimson; */
 }
 
 .project-tile {
   margin: 0px;
   padding: 0px;
-  width: auto;
+  width: 100%;
   height: auto;
-  padding-left: 10px;
-  padding-right: 10px;
   display: inline-block;
-  background-color:chartreuse;
+  /* background-color:chartreuse; */
+}
+
+.project-tile a {
+  color: #23a9f2;
+  text-decoration: none;
+  margin: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  border: 1px solid #23a9f2;
+  background-color: white;
+}
+
+.project-tile a:hover {
+  color: white;
+  background-color: #65e7ff;
 }
 
 
-/* -------------- SMALL SCREEN -------------- */
+/* -------------- SMALL SCREEN (2 project tiles per row) -------------- */
 
 @media only screen and (min-width: 450px) {
 
@@ -167,7 +191,7 @@ div img {
 }
 
 
-/* -------------- MEDIUM SCREEN -------------- */
+/* -------------- MEDIUM SCREEN (3 project tiles per row) -------------- */
 
 @media only screen and (min-width: 730px) {
 
@@ -202,7 +226,6 @@ div img {
     width: 32.3%;
     margin-left: 0.5%;
     margin-right: 0.5%;
-    background-color:chartreuse;
   }
 
 }
