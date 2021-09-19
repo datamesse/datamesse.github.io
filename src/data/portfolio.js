@@ -30,6 +30,31 @@ const portfolio = [
       siteURL: 'https://datamesse.github.io/',
       codeURL: 'https://github.com/datamesse/datamesse.github.io/'
    },
+
+   {
+      title: 'Data visualisation 4',
+      description: 'Data visualisation and modelling with Power BI and Power Query',
+      stack: logo_powerbi,
+      photo: img_laptopwithcharts,
+      siteURL: 'https://datamesse.github.io/',
+      codeURL: 'https://github.com/datamesse/datamesse.github.io/'
+   },
+   {
+      title: 'Data visualisation 5',
+      description: 'Data visualisation and design with Tableau.',
+      stack: logo_tableau,
+      photo: img_laptopwithcharts,
+      siteURL: 'https://datamesse.github.io/',
+      codeURL: 'https://github.com/datamesse/datamesse.github.io/'
+   },
+   {
+     title: 'Data visualisation 6',
+     description: 'Randomisation and auto-generation of daa using Exel formulas.',
+     stack: logo_excel,
+     photo: img_laptopwithcharts,
+     siteURL: 'https://datamesse.github.io/',
+     codeURL: 'https://github.com/datamesse/datamesse.github.io/'
+  },
 ]
 
 export default portfolio;
