@@ -1,4 +1,3 @@
-import { render } from '@testing-library/react';
 import React from 'react';
 import { avatar, background, 
          logo_github, logo_linkedin, logo_powerbi, logo_tableau, logo_twitter, 

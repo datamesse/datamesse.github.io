@@ -9,7 +9,7 @@ body {
   background-color: white;
 }
 
-h2, h3 {
+h2, h3, img, p {
   margin: 0px;
   padding: 0px;
 }
@@ -150,10 +150,15 @@ div img {
 .project-tile {
   margin: 0px;
   padding: 0px;
-  width: 100%;
   height: auto;
+  width: 100%;
   display: inline-block;
   /* background-color:chartreuse; */
+}
+
+.project-tile img {
+  height: 230px;
+  width: 100%;
 }
 
 .project-tile a {
@@ -174,6 +179,14 @@ div img {
 .project-tile a:hover {
   color: white;
   background-color: #65e7ff;
+}
+
+.stack-overlay img {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: absolute;
 }
 
 

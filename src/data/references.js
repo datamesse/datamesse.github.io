@@ -83,3 +83,9 @@ const logos = [
       asset: 'logo-youtube.svg',
       sourceURL: 'https://worldvectorlogo.com/download/youtube-icon.svg'}
 ]
+
+const img = [
+    { name: 'Black and Gray Laptop on Black Sectional Couch by Lukas @pexels.com',
+      asset: 'img-laptopchartslukas.png',
+      sourceURL: 'https://www.pexels.com/photo/black-and-gray-laptop-on-black-sectional-couch-577210/' }
+]

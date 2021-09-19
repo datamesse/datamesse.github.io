@@ -1,7 +1,8 @@
+/* ASSET FILES FOR SITE THEME */
+
 /* Theme */
 import avatar from '../assets/avatar.jpg';
 import background from '../assets/bannervideo-cityoceanswisshumanity.mp4';
-
 
 /* Logos */
 import logo_aws from '../assets/logo-aws.svg';
@@ -36,4 +37,4 @@ export { avatar, background,
          logo_linkedin, logo_mongodb, logo_nodejs, logo_powerbi, logo_python, logo_react, logo_r,
          logo_tableau, logo_twitter, logo_typescript, logo_visualstudio, logo_youtube,
          logoblue_github, logoblue_linkedin , logoblue_powerbi, logoblue_tableau, logoblue_twitter, logoblue_youtube
-}
+       }
