@@ -5,7 +5,7 @@ function Projects() {
 return (
 <div className='projects'>
    <center>
-   <h2>Projects</h2>
+
        <div className='project-set'>
        {
            portfolio.map(function(port, index){

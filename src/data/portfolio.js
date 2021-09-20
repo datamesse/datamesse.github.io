@@ -24,7 +24,7 @@ const portfolio = [
     },
     {
       title: 'Data generation project',
-      description: 'Randomisation and auto-generation of daa using Exel formulas.',
+      description: 'Randomisation and auto-generation of data using Exel formulas.',
       stack: logo_excel,
       photo: img_laptopwithcharts,
       siteURL: 'https://datamesse.github.io/',

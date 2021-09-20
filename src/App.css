@@ -1,10 +1,11 @@
 
 @import url("https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap");
 
 /* -------------- SMALLEST SCREEN (DEFAULT) -------------- */
 
 body {
-  font-family: 'Chakra Petch', Helvetica;
+  font-family: 'Titillium Web','Chakra Petch', Helvetica;
   color: #23a9f2;
   background-color: white;
 }
@@ -85,7 +86,6 @@ div img {
   padding-top: 75px;
   list-style: none;
   height: 80px;
-  /* background-color: tomato; */
 }
 
 .banner-button-list li {
@@ -94,17 +94,15 @@ div img {
   padding: 0px;
   height: 40px;
   margin-right: 10px;
-
-  /* background-color: turquoise; */
 }
 
 .banner-button-list li a {
+  font-family: 'Chakra Petch', 'Titillium Web', Helvetica;
   text-decoration: none;
   float: left;
   margin: 0px;
   padding: 0px;
   font-size: 22px;
-  /* background-color: crimson; */
 }
 
 .banner-button-list li a img:last-child {
@@ -125,7 +123,7 @@ div img {
   height: 45px;
   width: 45px;
   float: left;
-  margin-right: 10px;
+  margin-right: 8px;
   border-radius: 50%;
   border: 1px solid #65e7ff;
 }
@@ -136,15 +134,20 @@ div img {
   padding: 0px;
   top: 390px;
   left: 0px;
-/*  background-color: blueviolet; */
 }
 
-
 .project-tile {
+  color: black;
   margin: 0px;
-  margin-bottom: 20px;
   padding: 0px;
-  background-color:#cfeeff; 
+  background-color:white; 
+  border: 1px solid #b7e4fc;
+
+}
+
+.project-tile img {
+  height: auto;
+  width: 100%;
 }
 
 .project-set {
@@ -159,13 +162,10 @@ div img {
 /*  background-color:crimson; */
 }
 
-.project-tile img {
-  height: auto;
-  width: 100%;
-}
-
 .project-desc {
+  font-family: Arial;
   height: 100px;
+  margin-top: 3px;
 }
 
 .project-link {
@@ -175,6 +175,7 @@ div img {
 }
 
 .project-tile a {
+  font-family: 'Chakra Petch', 'Titillium Web', Helvetica;
   color: #23a9f2;
   text-decoration: none;
   margin: 0px;
@@ -200,6 +201,7 @@ div img {
   margin-left: 10px;
   margin-top: 10px;
   position: absolute;
+  border-radius: 0px;
 }
 
 
@@ -207,7 +209,21 @@ div img {
 
 @media only screen and (min-width: 520px) {
 
+  .banner-icon img {
+    margin-right: 10px;
+  }
+
+  .project-tile {
+    border-radius: 15px;
+  }
+
+  .project-tile img {
+    border-radius: 15px 15px 0 0;
+  }
+
   .project-set {
+    margin-left: 10px;
+    margin-right: 10px;
     grid-gap: 2%;
     grid-template-rows: repeat(grid-auto-flow, 300px); /* Number of rows onscreen */
     grid-template-columns: repeat(2, 49%);
@@ -245,6 +261,11 @@ div img {
     height: 35px;
     width: 35px;
   }
+
+  .project-tile {
+    margin-bottom: 10px;
+  }
+
   .project-set {
     grid-gap: 1%;
     grid-template-rows: repeat(grid-auto-flow, 250px); /* Number of rows onscreen */
