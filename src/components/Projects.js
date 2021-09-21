@@ -12,6 +12,7 @@ return (
                return (
                    <div key={index} className='project-tile'>
                        <span className='stack-overlay'><img src={ port.stack } alt=""/></span>
+                       <div className='stamp-overlay'>{ port.stamp }</div>
                        <img src={ port.photo } alt=""/>
                        <div className='project-desc'>
                            <h3>{port.title}</h3>

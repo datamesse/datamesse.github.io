@@ -9,6 +9,7 @@ const portfolio = [
     {
        title: 'Data visualisation 1',
        description: 'Data visualisation and modelling with Power BI and Power Query',
+       stamp: '2021-12',
        stack: logo_powerbi,
        photo: img_laptopwithcharts,
        siteURL: 'https://datamesse.github.io/',
@@ -17,6 +18,7 @@ const portfolio = [
     {
        title: 'Data visualisation 2',
        description: 'Data visualisation and design with Tableau.',
+       stamp: '2021-09',
        stack: logo_tableau,
        photo: img_laptopwithcharts,
        siteURL: 'https://datamesse.github.io/',
@@ -24,7 +26,8 @@ const portfolio = [
     },
     {
       title: 'Data generation project',
-      description: 'Randomisation and auto-generation of data using Exel formulas.',
+      description: 'Randomisation and auto-generation of data using Excel.',
+      stamp: '2021-04',
       stack: logo_excel,
       photo: img_laptopwithcharts,
       siteURL: 'https://datamesse.github.io/',
@@ -55,6 +58,31 @@ const portfolio = [
      siteURL: 'https://datamesse.github.io/',
      codeURL: 'https://github.com/datamesse/datamesse.github.io/'
   },
+
+  {
+     title: 'Data visualisation 7',
+     description: 'Data visualisation and modelling with Power BI and Power Query',
+     stack: logo_powerbi,
+     photo: img_laptopwithcharts,
+     siteURL: 'https://datamesse.github.io/',
+     codeURL: 'https://github.com/datamesse/datamesse.github.io/'
+  },
+  {
+     title: 'Data visualisation 8',
+     description: 'Data visualisation and design with Tableau.',
+     stack: logo_tableau,
+     photo: img_laptopwithcharts,
+     siteURL: 'https://datamesse.github.io/',
+     codeURL: 'https://github.com/datamesse/datamesse.github.io/'
+  },
+  {
+    title: 'Data visualisation 9',
+    description: 'Randomisation and auto-generation of daa using Exel formulas.',
+    stack: logo_excel,
+    photo: img_laptopwithcharts,
+    siteURL: 'https://datamesse.github.io/',
+    codeURL: 'https://github.com/datamesse/datamesse.github.io/'
+ },
 ]
 
 export default portfolio;
