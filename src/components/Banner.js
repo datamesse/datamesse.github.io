@@ -5,6 +5,28 @@ import { avatar, background,
        } from '../data/assets';
 import { displayName, bannerDescription, githubURL, tableauURL, twitterURL, blogURL } from '../data/data';
 
+/*                                 <li>
+                                    <a href={ twitterURL } target="_blank">
+                                        <span className="banner-icon">
+                                            <img src={ logoblue_powerbi } />
+                                            <img src={ logo_powerbi } />
+                                        </span>
+                                        <span className="banner-label">Power BI</span>
+                                    </a>
+                                </li>
+
+
+                                <li>
+                                    <a href={ twitterURL } target="_blank">
+                                        <span className="banner-icon">
+                                            <img src={ logoblue_linkedin } />
+                                            <img src={ logo_linkedin } />
+                                        </span>
+                                        <span className="banner-label">LinkedIn</span>
+                                    </a>
+                                </li>
+*/
+
 export default function Banner() {
 
     return (
@@ -31,15 +53,6 @@ export default function Banner() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={ twitterURL } target="_blank">
-                                        <span className="banner-icon">
-                                            <img src={ logoblue_powerbi } />
-                                            <img src={ logo_powerbi } />
-                                        </span>
-                                        <span className="banner-label">Power BI</span>
-                                    </a>
-                                </li>
-                                <li>
                                     <a href={ tableauURL } target="_blank">
                                         <span className="banner-icon">
                                             <img src={ logoblue_tableau } />
@@ -55,15 +68,6 @@ export default function Banner() {
                                             <img src={ logo_twitter } />
                                         </span>
                                         <span className="banner-label">Twitter</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href={ twitterURL } target="_blank">
-                                        <span className="banner-icon">
-                                            <img src={ logoblue_linkedin } />
-                                            <img src={ logo_linkedin } />
-                                        </span>
-                                        <span className="banner-label">LinkedIn</span>
                                     </a>
                                 </li>
                             </ul>
