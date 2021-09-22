@@ -11,9 +11,13 @@ body {
   background-color: white;
 }
 
-h2, h3, img, p {
+h1, h2, h3, img, p {
   margin: 0px;
   padding: 0px;
+}
+
+a {
+  text-decoration: none;
 }
 
 div {
@@ -129,12 +133,27 @@ div img {
   border: 1px solid #65e7ff;
 }
 
+.blog-overlay {
+  font-size: 14px;
+  height: 22px;
+  width: 60px;
+  margin-top: 90px;
+  padding-top: 0px;
+  position: absolute;
+  background-color: darkorange;
+}
+
+.blog-overlay a {
+  color: white;
+  font-family: 'Chakra Petch', 'Titillium Web', Helvetica;
+}
+
 .projects {
   position:relative;
   margin: 0px; 
   padding: 0px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  margin-top: 15px;
+  padding-bottom: 45px;
   top: 347px;
   left: 0px;
   border-top: 1px solid #b7e4fc;
@@ -166,15 +185,18 @@ div img {
 }
 
 .project-desc {
-  font-family: 'Kufam', Arial;
+  font-family: 'Kufam', Helvetica;
+  font-size: 14px;
   height: 100px;
   margin-top: 3px;
   padding-left: 7px;
   padding-right: 7px;
 }
 
-.project-desc h3 {
-  margin-bottom: 5px;
+.project-title {
+  font-family: 'Kufam', Helvetica;
+  font-size: 18px;
+  margin-bottom: 7px;
 }
 
 .project-link {
@@ -224,6 +246,7 @@ div img {
   position: absolute;
   background-color: darkorange;
 }
+
 
 
 /* -------------- SMALL SCREEN (2 project tiles per row) -------------- */

@@ -85,7 +85,13 @@ const logos = [
 ]
 
 const img = [
-    { name: 'Black and Gray Laptop on Black Sectional Couch by Lukas @pexels.com',
+    { name: 'Black and Gray Laptop on Black Sectional Couch by Lukas @ pexels.com',
       asset: 'img-laptopchartslukas.png',
-      sourceURL: 'https://www.pexels.com/photo/black-and-gray-laptop-on-black-sectional-couch-577210/' }
-]
+      sourceURL: 'https://www.pexels.com/photo/black-and-gray-laptop-on-black-sectional-couch-577210/' },
+    { name: 'Laptop Internet Connection Technology by Alesia Kozik @ pexels.com',
+      asset: 'img-laptopalesiakozik.png',
+      sourceURL: 'https://www.pexels.com/photo/laptop-internet-connection-technology-6770609/' },
+    { name: 'Simple Workspace at Home by Mikael Blomkvist @ pexels.com',
+      asset: 'img-pcmikaelblomkvist.png',
+      sourceURL: 'https://www.pexels.com/photo/simple-workspace-at-home-6476587/' },  
+    ]

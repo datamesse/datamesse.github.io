@@ -3,7 +3,7 @@ import { avatar, background,
          logo_github, logo_linkedin, logo_powerbi, logo_tableau, logo_twitter, 
          logoblue_github, logoblue_linkedin, logoblue_powerbi, logoblue_tableau, logoblue_twitter 
        } from '../data/assets';
-import { displayName, bannerDescription, githubURL, tableauURL, twitterURL } from '../data/data';
+import { displayName, bannerDescription, githubURL, tableauURL, twitterURL, blogURL } from '../data/data';
 
 export default function Banner() {
 
@@ -11,6 +11,11 @@ export default function Banner() {
         <div className='banner'>
             <div className='banner-navigation'>
                 <center>
+
+                <div className='blog-overlay'>
+                    <a href={ blogURL } target="_blank">BLOG</a>
+                </div>
+
                     <div className='banner-elements'>
 
                         <img src={ avatar } class='banner-avatar'/>
