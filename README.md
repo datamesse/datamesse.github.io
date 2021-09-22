@@ -19,6 +19,8 @@ npm install -g create-react-app
 
 1. From GitHub, create a new Repository and link it to an empty folder on your machine as your app's local copy via GitHub Desktop. In this example, the folder will be called "datamesse.github.io".
 
+From the Repository's Settings, scroll to the bottom, click GitHub Pages and publish the site to https://datamesse.github.io/.
+
 2. From Command Prompt, navigate to the parent directory of the empty folder.
 ```
 create-react-app datamesse.github.io
@@ -46,11 +48,9 @@ npm install gh-pages --save-dev
 }
 ```
 
-3. 
+3. From Visual Studio Code, build the deployment. Patiently wait until the last line of code "Published" appears.
 ```
-npm predeploy
+npm run deploy
 ```
 
-```
-npm deploy
-```
+4. From GitHub, change the GitHub Pages setting to deploy from branch gh-pages.
