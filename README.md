@@ -1,4 +1,4 @@
-## @data_messe React.js portfolio site
+# @data_messe React.js portfolio site
 
 This is my portfolio website, designed and coded from scratch using HTML, CSS, and JavaScript with React.js and GitHub Pages.
 
@@ -8,10 +8,10 @@ Software logos from [World Vector Logo](https://worldvectorlogo.com/) and [Wikim
 
 Refer to src/data/references.js file for other asset details considered during design process.
 
-## How to create React.js site and deploy to GitHub pages
+# How to create React.js site and deploy to GitHub pages
 Based on post by [Ibrahim Ragab](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f).
 
-# Initial set up
+## Initial set up
 Requirement: Install Node.js on your machine, and install React as a local dependency
 ```
 npm install -g create-react-app
@@ -29,7 +29,7 @@ npm start
 ```
 3. From Visual Studio Code, start building th app, and watch it render via http://localhost:3000/.
 
-# Initial push to GitHub Pages
+## Initial push to GitHub Pages
 
 1. From Visual Studio Code's terminal, install GitHub Pages.
 ```
@@ -53,9 +53,19 @@ npm install gh-pages --save-dev
 npm run deploy
 ```
 
+**Note:** It is important to ensure you let the process complete fully, otherwise you may get errors that forc arebulting from scratch.
+
 4. From GitHub, change the GitHub Pages setting to deploy from branch gh-pages.
 
 5. From GitHub Desktop, push the changes (the Current branch should be main by default, do not change this).
 
-# Subsequent changes to local code and pushing updates
+**Note:** You will only see the changes you applied to the source files in GitHub Desktop for the push, not the compiled file changes that will end up deployed to gh-pages branch. This is normal.
 
+## Subsequent changes to local code and pushing updates
+
+1. From Visual Studio Code, make the changes as required, then build again.
+```
+npm run deploy
+```
+
+2. From GitHub Desktop, push the changes (again, it should still be defaulting to the main branch).
