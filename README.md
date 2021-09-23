@@ -54,3 +54,8 @@ npm run deploy
 ```
 
 4. From GitHub, change the GitHub Pages setting to deploy from branch gh-pages.
+
+5. From GitHub Desktop, push the changes (the Current branch should be main by default, do not change this).
+
+# Subsequent changes to local code and pushing updates
+

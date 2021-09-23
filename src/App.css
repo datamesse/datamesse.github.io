@@ -3,6 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kufam&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100&display=swap");
+
 /* -------------- SMALLEST SCREEN (DEFAULT) -------------- */
 
 body {
@@ -11,7 +13,7 @@ body {
   background-color: white;
 }
 
-h1, h2, h3, img, p {
+h1, h2, h3, h5, h6, img, p {
   margin: 0px;
   padding: 0px;
 }
@@ -39,6 +41,30 @@ div img {
   padding: 0px;
   top: 0px;
   left: 0px;
+}
+
+.banner-title {
+  position: absolute;
+  font-family: 'Encode Sans Expanded';
+  color: white;
+  color: white;
+  top: 0px;
+  height: auto;
+  width: 250px;
+  margin: 0px;
+  padding: 0px;
+  right: 0px;
+}
+
+.banner-title h4 {
+  font-size: 36px;
+  margin-bottom: 7px;
+}
+
+.banner-title p {
+  font-size: 20px;
+  border-top: 1px solid white;
+  padding-top: 7px; 
 }
 
 .banner-navigation {

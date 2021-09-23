@@ -34,9 +34,14 @@ export default function Banner() {
             <div className='banner-navigation'>
                 <center>
 
-                <div className='blog-overlay'>
-                    <a href={ blogURL } target="_blank">BLOG</a>
-                </div>
+                    <div className="banner-title">
+                        <h4>{ displayName }</h4>
+                        <p>{ bannerDescription }</p>
+                    </div>
+
+                    <div className='blog-overlay'>
+                        <a href={ blogURL } target="_blank">BLOG</a>
+                    </div>
 
                     <div className='banner-elements'>
 
@@ -74,7 +79,7 @@ export default function Banner() {
 
                     </div>
                 </center>
-                <video class='banner-video' autoPlay loop muted width>
+                <video class='banner-video' autoplay loop muted playsinline width>
                     <source src={ background } type='video/mp4'/>
                 </video>
             </div>
