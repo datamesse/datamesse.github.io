@@ -53,7 +53,7 @@ npm install gh-pages --save-dev
 npm run deploy
 ```
 
-**Note:** It is important to ensure you let the process complete fully, otherwise you may get errors that forc arebulting from scratch.
+**Note:** It is important to let the process complete fully, otherwise you may get errors that forc arebulting from scratch.
 
 4. From GitHub, change the GitHub Pages setting to deploy from branch gh-pages.
 
@@ -69,3 +69,5 @@ npm run deploy
 ```
 
 2. From GitHub Desktop, push the changes (again, it should still be defaulting to the main branch).
+
+**Note:** If you make a change to the source code and push it without building first, no changes will be reflected on the gh=pages branch. So ensure when trying to push gh-pages build changes, that something in the source files has been changed, otherwise GitHub Desktop won't detect anything for the push.
