@@ -79,7 +79,7 @@ export default function Banner() {
 
                     </div>
                 </center>
-                <video class='banner-video' autoplay loop muted playsinline width>
+                <video class='banner-video' autoPlay loop muted playsinline width>
                     <source src={ background } type='video/mp4'/>
                 </video>
             </div>
