@@ -27,9 +27,13 @@ export default function Post(props) {
         <>
             <Banner />
             <div className = 'post'>
-                <h2>{fetchedPost.title}</h2>
-                <small>{fetchedPost.date}</small>
-                <ReactMarkdown escapeHtml={false}>{fetchedPost.content}</ReactMarkdown>
+                <center>
+                    <h1>{fetchedPost.title}</h1>
+                    <div className='post-body'>
+                        <h4>{fetchedPost.date}</h4>
+                        <ReactMarkdown escapeHtml={false}>{fetchedPost.content}</ReactMarkdown>
+                    </div>
+                </center>
             </div>
         </>
     )

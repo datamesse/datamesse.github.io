@@ -173,7 +173,7 @@ div img {
   list-style-type: none;
   font-size: 14px;
   height: 22px;
-  width: 80px;
+  width: 86px;
   margin-bottom: 4px;
   padding-top: 0px;
   padding-right: 2px;
@@ -184,30 +184,6 @@ div img {
   text-decoration: none;
   color: white;
   font-family: 'Chakra Petch', 'Titillium Web', Helvetica;
-}
-
-.blog {
-  position:relative;
-  margin: 0px; 
-  padding: 0px;
-  margin-top: 15px;
-  padding-bottom: 45px;
-  top: 347px;
-  left: 0px;
-  border-top: 1px solid #b7e4fc;
-  background-color: #c4e6f9;
-}
-
-.post {
-  position:relative;
-  margin: 0px; 
-  padding: 0px;
-  margin-top: 15px;
-  padding-bottom: 45px;
-  top: 347px;
-  left: 0px;
-  border-top: 1px solid #b7e4fc;
-  background-color: #c4e6f9;
 }
 
 .projects {
@@ -243,7 +219,6 @@ div img {
   grid-auto-flow: row;
   grid-template-rows: repeat(2, auto);
   grid-template-columns: repeat(1, auto);
-/*  background-color:crimson; */
 }
 
 .project-desc {
@@ -309,7 +284,117 @@ div img {
   background-color: darkorange;
 }
 
+.blog {
+  position:relative;
+  margin: 0px; 
+  padding: 0px;
+  margin-top: 15px;
+  padding-bottom: 45px;
+  top: 347px;
+  left: 0px;
+  border-top: 1px solid #b7e4fc;
+  background-color: #c4e6f9;
+}
 
+.blog-tile {
+  font-family: 'Chakra Petch', 'Titillium Web', Helvetica;
+  color: black;
+  text-decoration: none;
+  margin: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  border: 1px solid #23a9f2;
+  background-color: white;
+}
+
+.blog-tile img {
+  height: auto;
+  width: 100%;
+}
+
+.blog-tile h2 {
+  font-family: 'Encode Sans Expanded', 'Titillium Web','Chakra Petch', Helvetica;
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+.blog-tile a {
+  color: black;
+}
+
+.blog-meta {
+  text-align: right;
+}
+
+.blog-desc {
+  font-family: 'Kufam', Helvetica;
+  text-align: left;
+}
+
+.post {
+  color: black;
+  font-family: 'Titillium Web','Chakra Petch', Helvetica;
+  position:relative;
+  margin: 0px; 
+  padding: 0px;
+  margin-top: 15px;
+  padding-bottom: 45px;
+  top: 347px;
+  left: 0px;
+  border-top: 1px solid #b7e4fc;
+  background-color: #c4e6f9;
+}
+
+.post h1 {
+  color: #23a9f2;
+}
+
+.post-body {
+  text-align: left;
+  margin: 0px;
+  margin-top: 15px;
+  padding: 0px;
+  padding-bottom: 30px;
+  background-color: white;
+}
+
+.post-body p {
+  font-family: 'Kufam', Verdana;
+  font-size: 14px;
+  padding-top: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 3px;
+}
+
+.post-body h4 {
+  font-size: 14px;
+  font-family: 'Encode Sans Expanded', 'Kufam', Verdana;
+  text-align: right;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  color: #cccccc;
+  display: inline-block;
+  white-space: normal;
+  max-width: 100%; 
+  word-break: break-all; 
+  word-wrap: break-word;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #1e1e1e;
+}
 
 /* -------------- SMALL SCREEN (2 project tiles per row) -------------- */
 
@@ -339,6 +424,7 @@ div img {
   .stack-overlay img {
     border-radius: 0px;
   }
+
 }
 
 
@@ -375,7 +461,6 @@ div img {
     grid-gap: 1%;
     grid-template-rows: repeat(grid-auto-flow, 250px); /* Number of rows onscreen */
     grid-template-columns: repeat(3, 32.66%);
- /*   background-color:crimson; */
   }
 
   .project-tile {
@@ -400,6 +485,11 @@ div img {
 
   .stack-overlay img {
     border-radius: 0px;
+  }
+
+  .post-body {
+    width: 1070px;
+    border-radius: 15px;
   }
 
 }
