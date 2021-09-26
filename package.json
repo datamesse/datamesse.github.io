@@ -1,5 +1,5 @@
 {
-  "homepage": "http://datamesse.github.io/",
+  "homepage": "https://datamesse.github.io/",
   "name": "datamesse.github.io",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +9,8 @@
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-markdown": "^7.0.1",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
@@ -18,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "node src/scripts/main.js"
   },
   "eslintConfig": {
     "extends": [

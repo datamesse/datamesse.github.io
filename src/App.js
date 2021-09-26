@@ -1,16 +1,12 @@
 import './App.css';
 import Banner from './components/Banner.js';
-import Projects from './components/Projects.js';
+import Blog from './components/Blog.js'
 
-
-
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Banner />
-      <Projects />
+      <Blog />
     </div>
   );
 }
-
-export default App;

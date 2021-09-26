@@ -1,13 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
+import reportWebVitals from './reportWebVitals'
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Projects from './components/Projects'
+import Blog from './components/Blog'
+import Post from './components/Post'
+import NotFound from './components/NotFound'
+/* import App from './App'; */
+/* import About from './components/About'; */
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+      <div>
+        <Route exact path="/" component={Projects} />
+        <Route exact path="/blog" component={Blog} />
+        <Route exact path="/404" component={NotFound} />
+        <Route exact path="/post/:id" render={props => <Post {...props} />}
+        />
+      </div>
+  </Router>,
   document.getElementById('root')
 );
 

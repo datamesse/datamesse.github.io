@@ -45,7 +45,7 @@ div img {
 
 .banner-title {
   position: absolute;
-  font-family: 'Encode Sans Expanded';
+  font-family: 'Encode Sans Expanded', 'Titillium Web','Chakra Petch', Helvetica;
   color: white;
   color: white;
   top: 0px;
@@ -159,19 +159,55 @@ div img {
   border: 1px solid #65e7ff;
 }
 
-.blog-overlay {
+.menu-overlay {
+  position: absolute;
+  margin-top: 83px;
+}
+
+.menu-overlay ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu-overlay ul li {
+  list-style-type: none;
   font-size: 14px;
   height: 22px;
-  width: 60px;
-  margin-top: 90px;
+  width: 80px;
+  margin-bottom: 4px;
   padding-top: 0px;
-  position: absolute;
+  padding-right: 2px;
   background-color: darkorange;
 }
 
-.blog-overlay a {
+.menu-overlay a {
+  text-decoration: none;
   color: white;
   font-family: 'Chakra Petch', 'Titillium Web', Helvetica;
+}
+
+.blog {
+  position:relative;
+  margin: 0px; 
+  padding: 0px;
+  margin-top: 15px;
+  padding-bottom: 45px;
+  top: 347px;
+  left: 0px;
+  border-top: 1px solid #b7e4fc;
+  background-color: #c4e6f9;
+}
+
+.post {
+  position:relative;
+  margin: 0px; 
+  padding: 0px;
+  margin-top: 15px;
+  padding-bottom: 45px;
+  top: 347px;
+  left: 0px;
+  border-top: 1px solid #b7e4fc;
+  background-color: #c4e6f9;
 }
 
 .projects {

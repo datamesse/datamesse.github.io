@@ -3,7 +3,7 @@
 import { logo_aws, logo_azure, logo_css, logo_excel, logo_html, logo_javascript, logo_mongodb, logo_nodejs,
    logo_powerbi, logo_python, logo_react, logo_r, logo_tableau,logo_typescript, logo_visualstudio
  } from '../data/assets';
-import img_portfoliowebsitereact from '../assets/img-2021-09-portfolio-website-react.png';
+import img_portfoliowebsitereact from '../assets-portfolio/img-2021-09-portfolio-website-react.png';
 
 const portfolio = [
     {
