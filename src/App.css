@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kufam&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap");
 
 /* -------------- SMALLEST SCREEN (DEFAULT) -------------- */
 
@@ -90,6 +90,7 @@ div img {
   overflow: hidden;
   border-bottom: 1px solid #b7e4fc;
   object-fit:cover;
+  background-image: linear-gradient(#0c2e4a, #2e6969);
 }
 
 .banner-elements {
@@ -184,6 +185,10 @@ div img {
   text-decoration: none;
   color: white;
   font-family: 'Chakra Petch', 'Titillium Web', Helvetica;
+}
+
+.menu-overlay ul li:hover {
+  background-color: #ffca4a;
 }
 
 .projects {
@@ -329,6 +334,7 @@ div img {
 
 .blog-meta {
   text-align: right;
+  color: #23a9f2;
 }
 
 .blog-desc {
@@ -381,19 +387,24 @@ div img {
   padding-right: 20px;
 }
 
+.post-body img {
+  max-width: 100%;
+}
+
 code {
-  font-family: 'Courier New', Courier, monospace;
-  color: #cccccc;
+  font-size: 14px;
+  font-family: 'IBM Plex Mono', Courier;
+  color: #d5d5d5;
   display: inline-block;
   white-space: normal;
   max-width: 100%; 
   word-break: break-all; 
-  word-wrap: break-word;
+  word-wrap: normal;
   margin-left: 20px;
   margin-right: 20px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  background-color: #1e1e1e;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #333333;
 }
 
 /* -------------- SMALL SCREEN (2 project tiles per row) -------------- */
@@ -423,6 +434,10 @@ code {
 
   .stack-overlay img {
     border-radius: 0px;
+  }
+
+  .post-body img {
+    max-width: 65%;
   }
 
 }
@@ -471,6 +486,10 @@ code {
     border-radius: 0px;
   }
 
+  .post-body img {
+    max-width: 80%  
+  }
+
 }
 
 /* -------------- BIG SCREEN -------------- */
@@ -490,6 +509,10 @@ code {
   .post-body {
     width: 1070px;
     border-radius: 15px;
+  }
+
+  .post-body img {
+    max-width: 100%  
   }
 
 }
