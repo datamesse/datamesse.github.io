@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0bd347b.chunk.css",
-    "main.js": "/static/js/main.fe591b13.chunk.js",
-    "main.js.map": "/static/js/main.fe591b13.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c876632d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c876632d.js.map",
-    "static/js/2.680fcf62.chunk.js": "/static/js/2.680fcf62.chunk.js",
-    "static/js/2.680fcf62.chunk.js.map": "/static/js/2.680fcf62.chunk.js.map",
-    "static/js/3.f6baddbc.chunk.js": "/static/js/3.f6baddbc.chunk.js",
-    "static/js/3.f6baddbc.chunk.js.map": "/static/js/3.f6baddbc.chunk.js.map",
+    "main.css": "/static/css/main.2da3d729.chunk.css",
+    "main.js": "/static/js/main.d580db46.chunk.js",
+    "main.js.map": "/static/js/main.d580db46.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4cb9c1c6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4cb9c1c6.js.map",
+    "static/js/2.716f0cf1.chunk.js": "/static/js/2.716f0cf1.chunk.js",
+    "static/js/2.716f0cf1.chunk.js.map": "/static/js/2.716f0cf1.chunk.js.map",
+    "static/js/3.b2c118b9.chunk.js": "/static/js/3.b2c118b9.chunk.js",
+    "static/js/3.b2c118b9.chunk.js.map": "/static/js/3.b2c118b9.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a0bd347b.chunk.css.map": "/static/css/main.a0bd347b.chunk.css.map",
-    "static/js/2.680fcf62.chunk.js.LICENSE.txt": "/static/js/2.680fcf62.chunk.js.LICENSE.txt",
+    "static/css/main.2da3d729.chunk.css.map": "/static/css/main.2da3d729.chunk.css.map",
+    "static/js/2.716f0cf1.chunk.js.LICENSE.txt": "/static/js/2.716f0cf1.chunk.js.LICENSE.txt",
     "static/media/bannervideo-cityoceanswisshumanity.5a02ce6b.mp4": "/static/media/bannervideo-cityoceanswisshumanity.5a02ce6b.mp4",
     "static/media/img-2021-09-portfolio-website-react.3968b2e4.png": "/static/media/img-2021-09-portfolio-website-react.3968b2e4.png",
     "static/media/logo-aws.1baaa078.svg": "/static/media/logo-aws.1baaa078.svg",
@@ -41,9 +41,9 @@
     "static/media/logoblue-youtube.89bb51be.svg": "/static/media/logoblue-youtube.89bb51be.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c876632d.js",
-    "static/js/2.680fcf62.chunk.js",
-    "static/css/main.a0bd347b.chunk.css",
-    "static/js/main.fe591b13.chunk.js"
+    "static/js/runtime-main.4cb9c1c6.js",
+    "static/js/2.716f0cf1.chunk.js",
+    "static/css/main.2da3d729.chunk.css",
+    "static/js/main.d580db46.chunk.js"
   ]
 }
