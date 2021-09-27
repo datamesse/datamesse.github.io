@@ -387,6 +387,11 @@ div img {
   padding-right: 20px;
 }
 
+.post-body p {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
 .post-body img {
   max-width: 100%;
 }
