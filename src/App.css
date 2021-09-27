@@ -395,6 +395,10 @@ div img {
 .post-body img {
   max-width: 100%;
 }
+.post-body a {
+  text-decoration: none;
+  color: black;
+}
 
 code {
   font-size: 14px;
