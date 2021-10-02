@@ -400,12 +400,18 @@ div img {
   color: black;
 }
 
+.post-body ul {
+  margin-top: 5px;
+  margin-bottom: 16px;
+  margin-left: 6px;
+}
+
 code {
   font-size: 14px;
   font-family: 'IBM Plex Mono', Courier;
   color: #d5d5d5;
   display: inline-block;
-  white-space: normal;
+  white-space:pre-wrap;
   max-width: 100%; 
   word-break: break-all; 
   word-wrap: normal;
