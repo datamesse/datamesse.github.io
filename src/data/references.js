@@ -22,7 +22,10 @@ const videobgs = [
       sourceURL: 'https://www.pexels.com/video/drone-footage-of-an-ocean-and-buildings-9113160/'},
     { name: 'An Aerial Footage of a Landscape in Ireland by Luciann Photography @pexels.com',
       asset: 'bannervideo-costaltown1luciann.mp4',
-      sourceURL: 'https://www.pexels.com/video/an-aerial-footage-of-a-landscape-in-ireland-5036917/'}
+      sourceURL: 'https://www.pexels.com/video/an-aerial-footage-of-a-landscape-in-ireland-5036917/'},
+    { name: 'Sydney Australia Skyline at Night by Amit @pexels.com',
+      asset: 'bannervideo-sydneynightskyline.mp4',
+      sourceURL: 'https://www.pexels.com/video/sydney-australia-s-skyline-at-night-3760621/'}
 ]
 
 const logos = [
