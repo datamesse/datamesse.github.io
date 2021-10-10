@@ -5,7 +5,7 @@ import { avatar, background,
          logo_github, logo_linkedin, logo_powerbi, logo_tableau, logo_twitter, 
          logoblue_github, logoblue_linkedin, logoblue_powerbi, logoblue_tableau, logoblue_twitter 
        } from '../data/assets'
-import { displayName, bannerDescription, githubURL, tableauURL, twitterURL } from '../data/data'
+import { displayName, bannerDescription, githubURL, powerbiURL, tableauURL, twitterURL } from '../data/data'
 
 export default function Banner() {
     return (
@@ -36,6 +36,15 @@ export default function Banner() {
                                             <img src={ logo_github } />
                                         </span>
                                         <span className='banner-label'>GitHub</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href={ powerbiURL } target='_blank'>
+                                        <span className='banner-icon'>
+                                            <img src={ logoblue_powerbi } />
+                                            <img src={ logo_powerbi } />
+                                        </span>
+                                        <span className='banner-label'>Power BI</span>
                                     </a>
                                 </li>
                                 <li>
