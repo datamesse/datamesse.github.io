@@ -423,6 +423,16 @@ code {
   background-color: #333333;
 }
 
+.footer {
+  color: white;
+  font-size: 12px;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  position: fixed;
+  bottom: 0px;
+}
+
 /* -------------- SMALLER SCREEN (1 project tile per row) -------------- */
 
 @media only screen and (min-width: 414px) {
