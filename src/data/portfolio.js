@@ -14,7 +14,7 @@ const portfolio = [
       stack: logo_powerbi,
       photo: img_singaporerentpowerbi,
       siteURL: 'https://app.powerbi.com/view?r=eyJrIjoiNzFjZTM5MmYtZWU4OC00MmE4LWFkMGQtOTE0NWI3MThhZWYyIiwidCI6IjM5MTA5NGVmLTAxN2YtNGUwMy1hM2NjLTQ1OGQ3N2I1YjBjZSJ9',
-      codeURL: 'https://github.com/datamesse/'
+      codeURL: 'https://github.com/datamesse/data-visualisation-datasets/blob/main/Singapore%20rental%20prices/Data%20visualisation%20code.md'
    },
    {
        title: 'Project portfolio',
