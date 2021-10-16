@@ -18,6 +18,7 @@ export default function Projects() {
                                 <div key={index} className='project-tile'>
                                     <span className='stack-overlay'><img src={ port.stack } alt=''/></span>
                                         <div className='stamp-overlay'>{ port.stamp }</div>
+                                        <div className='stack-overlaybg'></div>
                                     <img src={ port.photo } alt=''/>
                                     <div className='project-desc'>
                                         <p className='project-title'>{port.title}</p>

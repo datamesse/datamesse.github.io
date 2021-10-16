@@ -276,6 +276,15 @@ div img {
   margin-top: 10px;
   position: absolute;
   border-radius: 0px;
+  z-index: 100;
+}
+
+.stack-overlaybg {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  z-index: 50;
 }
 
 .stamp-overlay {
@@ -306,11 +315,11 @@ div img {
   font-family: 'Chakra Petch', 'Titillium Web', Helvetica;
   color: black;
   text-decoration: none;
-  margin: 0px;
+  margin-top: 0px;
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
-  padding: 5px;
+  padding: 10px;
   padding-left: 15px;
   padding-right: 15px;
   font-size: 14px;
@@ -341,6 +350,22 @@ div img {
 .blog-desc {
   font-family: 'Kufam', Helvetica;
   text-align: left;
+}
+
+.blogstamp-overlay {
+  text-align: left;
+  display: block;
+}
+
+.blogstamp-overlay img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border-radius: 0px;
+}
+
+.blog-tile h2 {
+  margin-top: 17px;
 }
 
 .post {
@@ -485,6 +510,10 @@ code {
 
   .stack-overlay img {
     border-radius: 0px;
+  }
+
+  .stack-overlaybg {
+    border-radius: 15px 0 0 0;
   }
 
   .post-body img {

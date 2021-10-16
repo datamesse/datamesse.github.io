@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import '../App.css'
 import Banner from './Banner'
 import Footer from './Footer'
+import { assetURL } from '../data/data'
 import Posts from '../data/posts.json'
 import { logo_aws, logo_azure, logo_css, logo_excel, logo_html, logo_javascript, logo_mongodb, logo_nodejs,
     logo_powerbi, logo_python, logo_react, logo_r, logo_tableau,logo_typescript, logo_visualstudio
@@ -28,6 +29,9 @@ export default function Blog() {
                             Posts.map((post, i) => {
                                 return (
                                     <div key={i} className='blog-tile'>
+                                        <span className='blogstamp-overlay'>
+                                            <img src= {`${ assetURL }${post.tag}.svg`} alt=''/>
+                                        </span>
                                         <div className='blog-meta'>
                                             <small>Published {post.date}</small>
                                         </div>

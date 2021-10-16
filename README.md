@@ -1,16 +1,20 @@
-# @data_messe React.js blog site
+# @data_messe React.js portfolio and blog site
 
-This is my blog website, designed and coded using HTML, CSS, Markdown, and JavaScript with React.js and GitHub Pages.
+This is my personal website, designed and coded using HTML, CSS, Markdown, and JavaScript with React.js and GitHub Pages.
 
-My previous blog used a Jekyll template and kept triggering failed deployment errors, so I decided to stop using such templates, and code the blog from scratch to make it easier to troubleshoot.
+My previous blog used a Jekyll boiler template and kept triggering failed deployment errors, so I decided to stop using such templates, and I coded the site from scratch to make it easier to troubleshoot.
 
-The underlying code for rendering blog post data (as the alternative for using Jekyll) was from followng a [YouTube tutorial by Will Ward](https://www.youtube.com/watch?v=gT1v33oA1gI&list=PLASldBPN_pkBfRXOkBOaeCJYzCnISw5-Z).
+The underlying code for rendering blog post data (as the alternative for using Jekyll) was from following a [YouTube tutorial by Will Ward](https://www.youtube.com/watch?v=gT1v33oA1gI&list=PLASldBPN_pkBfRXOkBOaeCJYzCnISw5-Z).
 
-Video banner background ["Drone Footage of an Ocean and Buildings"](https://www.pexels.com/video/drone-footage-of-an-ocean-and-buildings-9113160) is used free from [Pexels.com](https://www.pexels.com) by [SwissHumanity](https://www.pexels.com/@swisshumanity-1686058) a.k.a. [SwissHumanity Stories](https://www.youtube.com/c/SwissHumanityStories/videos)
+That code implementation is only used for the blog component. The project portfolio component simply renders raw JSON data, because unlike the blog, the portfolio does not need to render markdown as separate pages.
 
-Software logos from [World Vector Logo](https://worldvectorlogo.com/) and [Wikimedia.org](https://upload.wikimedia.org/).
+The video banner background ["Drone Footage of an Ocean and Buildings"](https://www.pexels.com/video/drone-footage-of-an-ocean-and-buildings-9113160) is used free from [Pexels.com](https://www.pexels.com) by [SwissHumanity](https://www.pexels.com/@swisshumanity-1686058) a.k.a. [SwissHumanity Stories on YouTube](https://www.youtube.com/c/SwissHumanityStories/videos).
 
-Refer to src/data/references.js file for other asset details considered during design process.
+Software logos were used from [World Vector Logo](https://worldvectorlogo.com/) and [Wikimedia.org](https://upload.wikimedia.org/).
+
+Refer to src/data/references.js file for other asset details considered during this site's design process.
+
+See below on how you get yourself started on your own GitHub Pages site.
 
 # How to create React.js site and deploy to GitHub pages
 Based on post by [Ibrahim Ragab](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f).
