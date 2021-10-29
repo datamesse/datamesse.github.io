@@ -307,8 +307,10 @@ div img {
   padding-bottom: 45px;
   top: 395px;
   left: 0px;
-  border-top: 1px solid #b7e4fc;
-  background-color: #c4e6f9;
+  background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-tile.jpg");
+  background-repeat: repeat-y repeat-x;
+/*  border-top: 1px solid #b7e4fc;
+  background-color: #c4e6f9; */
 }
 
 .blog-tile {
