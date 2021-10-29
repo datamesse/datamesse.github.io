@@ -10,7 +10,6 @@ export default function Projects() {
             <Banner />
             <div className='projects'>
                 <center>
-                    <h1>PROJECTS</h1>
                     <div className='project-set'>
                     {
                         portfolio.map(function(port, index){

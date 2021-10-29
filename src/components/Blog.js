@@ -22,7 +22,6 @@ export default function Blog() {
             <Banner />
             <div className='blog'>
                 <center>
-                    <h1>BLOG</h1>
                     <div className='project-set'>
                     {
                         Posts.length &&
