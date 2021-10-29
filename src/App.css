@@ -102,16 +102,16 @@ div img {
   min-height: 100%;
   height: auto;
   width: auto;
-  z-index: -100;
+/*
   background-size: cover;
   overflow: hidden;
   border-bottom: 1px solid #b7e4fc;
   object-fit:cover;
-
+*/
   background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-tiledot.png");
   background-repeat: repeat-y repeat-x;
 
-  z-index: 9999;
+  z-index: 1;
 }
 
 .banner-elements {
