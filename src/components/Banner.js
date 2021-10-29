@@ -7,6 +7,8 @@ import { avatar, background,
        } from '../data/assets'
 import { displayName, bannerDescription, githubURL, powerbiURL, tableauURL, twitterURL } from '../data/data'
 
+
+
 export default function Banner() {
     return (
         <div className='banner'>
@@ -68,6 +70,7 @@ export default function Banner() {
                             </ul>
                     </div>
                 </center>
+                <div class='banner-video-overlay'></div>
                 <video class='banner-video' autoPlay loop muted playsinline width>
                     <source src={ background } type='video/mp4'/>
                 </video>

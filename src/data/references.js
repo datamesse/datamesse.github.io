@@ -29,9 +29,29 @@ const videobgs = [
     { name: 'An Image of a DNA Presentation by Pressmaster @ pexels.com',
       asset: 'bannervideo-dnaladderteal.mp4',
       sourceURL: 'https://www.pexels.com/video/an-image-of-a-dna-presentation-3191573/'},
-      { name: 'Digital Formation of a DNA in an Animated Presentation by Pressmaster @ pexels.com',
+    { name: 'Digital Formation of a DNA in an Animated Presentation by Pressmaster @ pexels.com',
       asset: 'bannervideo-bluehelix.mp4',
-      sourceURL: 'https://www.pexels.com/video/digital-formation-of-a-dna-in-an-animated-presentation-3191572/'}
+      sourceURL: 'https://www.pexels.com/video/digital-formation-of-a-dna-in-an-animated-presentation-3191572/'},
+    { name: 'World Globe International Globe 1992 by bellergy @ pixabay.com',
+      asset: 'bannervideo-darkpurpleglobe.mp4',
+      sourceURL: 'https://pixabay.com/videos/world-globe-international-global-1992/'},
+    { name: 'Network Connect Internet Abstract by ArtDio2020 @ pixabay.com',
+      asset: 'bannervideo-lightnetwork.mp4',
+      sourceURL: 'https://pixabay.com/videos/network-connect-internet-abstract-45961/'},
+    { name: 'Futuristic Abstract Technology Blue by ArtDio2020 @ pixabay.com',
+      asset: 'bannervideo-bluerectangles1.mp4',
+      sourceURL: 'https://pixabay.com/videos/futuristic-abstract-technology-blue-45945/'},
+    { name: 'Communication Line Technology by ArtDio2020 @ pixabay.com',
+      asset: 'bannervideo-bluerectangles2.mp4',
+      sourceURL: 'https://pixabay.com/videos/communication-line-technology-45902/'},
+    { name: 'Sydney Harbour Opera House by Squirrel_photos @ pixabay.com',
+      asset: 'bannervideo-sydneyharbourspeed.mp4',
+      sourceURL: 'https://pixabay.com/videos/sydney-harbour-opera-house-18151/'}
+       
+      
+
+      
+      
     ]
 
 const logos = [
