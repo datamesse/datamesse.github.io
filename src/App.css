@@ -355,7 +355,7 @@ div img {
   margin-top: 0px;
   margin-left: 20px;
   margin-right: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   padding: 0px;
   font-size: 14px;
 }
@@ -405,6 +405,7 @@ div img {
 .blog-desc {
   font-family: 'Kufam', Helvetica;
   text-align: left;
+  font-size: 12px;
   padding-left: 15px;
   padding-right: 15px;
   background-color: white;
@@ -461,6 +462,7 @@ div img {
   padding: 0px;
   padding-bottom: 30px;
   background-color: white;
+  box-shadow: 14px 14px rgba(60, 64, 67, 0.3);
 }
 
 .post-body p {
@@ -570,6 +572,7 @@ code {
   .project-tile {
     border-radius: 15px;
     border: 1px solid #b7e4fc;
+    margin-bottom: 20px;
   }
 
   .project-tile img {
