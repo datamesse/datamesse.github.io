@@ -2,7 +2,7 @@
 
 /* Theme */
 import avatar from '../assets-theme/avatar.jpg';
-import background from '../assets-theme/bannervideo-cityoceanswisshumanity.mp4';
+import background from '../assets-theme/bannervideo-bluerectangles2.mp4';
 
 /* Logos */
 import logo_aws from '../assets-theme/logo-aws.svg'

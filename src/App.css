@@ -94,26 +94,6 @@ div img {
   background-image: linear-gradient(#c5c1b8, #f6efe5);
 }
 
-.banner-video-overlay {
-  position: absolute; 
-  right: 0; 
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  height: auto;
-  width: auto;
-/*
-  background-size: cover;
-  overflow: hidden;
-  border-bottom: 1px solid #b7e4fc;
-  object-fit:cover;
-*/
-  background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-tiledot.png");
-  background-repeat: repeat-y repeat-x;
-
-  z-index: 1;
-}
-
 .banner-elements {
   margin-top: 212px;
   margin-left: 15px;
