@@ -3,6 +3,7 @@ import { Redirect } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import '../App.css'
 import Banner from './Banner'
+import Footer from './Footer'
 import postList from '../data/posts.json'
 
 export default function Post(props) {
@@ -29,13 +30,14 @@ export default function Post(props) {
             <Banner />
             <div className = 'post'>
                 <center>
-                    <h1>{fetchedPost.title}</h1>
                     <div className='post-body'>
                         <h4>{fetchedPost.date}</h4>
+                        <h1>{fetchedPost.title}</h1>
                         <ReactMarkdown escapeHtml={false}>{fetchedPost.content}</ReactMarkdown>
                     </div>
                 </center>
             </div>
+            <Footer />
         </>
     )
 }

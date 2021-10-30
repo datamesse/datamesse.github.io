@@ -9,7 +9,6 @@
 body {
   font-family: 'Titillium Web','Chakra Petch', Helvetica;
   color: #23a9f2;
-/*  background-color: white; */
   background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-tile.png");
   background-repeat: repeat-y repeat-x;
 }
@@ -99,7 +98,6 @@ div img {
   margin-left: 15px;
   height: 160px;
   width: auto;
-  /* background-color:blueviolet; */
 }
 
 .banner-avatar {
@@ -110,10 +108,6 @@ div img {
   border-radius: 50%;
   border: 2px solid white;
   background-color: white;
-  /*
-  border: 2px solid #b7e4fc;
-  background-color: #b7e4fc;
-  */
   left: 0px;
   float: left;
 }
@@ -178,8 +172,6 @@ div img {
   padding: 0px;
 }
 
-  /* https://bennettfeely.com/clippy/ */
-
 .menu-overlay ul li {
   clip-path: polygon(100% 0, 100% 80%, 96% 100%, 0 100%, 0 85%, 2% 80%, 2% 23%, 0 16%, 0 0) ;
   list-style-type: none;
@@ -201,7 +193,7 @@ div img {
   margin-left: 10px;
   background-color: #f3ffff;
   display: inline-flex;
-  animation: glowmenu 1s infinite alternate;
+  animation: glowmenu 2s infinite alternate;
 }
 
 @keyframes glowmenu {
@@ -212,7 +204,7 @@ div img {
   to {
     box-shadow:  
     0 0 1px 1px #acffff,
-    0 0 1px 1px #88e8ff;
+    0 0 1px 2px #88e8ff;
   }
 }
 
@@ -236,8 +228,6 @@ div img {
   padding-bottom: 45px;
   top: 395px;
   left: 0px;
-/*  border-top: 1px solid #b7e4fc;
-  background-color: #c4e6f9; */
 }
 
 .project-tile {
@@ -281,7 +271,6 @@ div img {
 .project-link {
   width: 100%;
   height: 40px;
-/*  background-color: cornflowerblue; */
 }
 
 .project-tile a {
@@ -343,9 +332,6 @@ div img {
   padding-bottom: 45px;
   top: 395px;
   left: 0px;
-
-/*  border-top: 1px solid #b7e4fc;
-  background-color: #c4e6f9; */
 }
 
 .blog-tile {
@@ -474,11 +460,17 @@ div img {
   padding-bottom: 3px;
 }
 
+.post-body h1 {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .post-body h4 {
   font-size: 14px;
   font-family: 'Encode Sans Expanded', 'Kufam', Verdana;
   text-align: right;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding-top: 10px;
   padding-right: 20px;
 }
@@ -571,8 +563,10 @@ code {
 
   .project-tile {
     border-radius: 15px;
-    border: 1px solid #b7e4fc;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 20px;
+    box-shadow: 7px 7px rgba(60, 64, 67, 0.3);
   }
 
   .project-tile img {
@@ -609,7 +603,6 @@ code {
 
   .banner-button-list li {
     margin-right: 20px;
-    /* background-color: turquoise; */
   }
 
   .banner-label {
