@@ -369,6 +369,7 @@ div img {
   padding-bottom: 5px;
   background-color: #1f201e;
   border-radius: 15px 15px 0 0;
+  box-shadow: 7px 7px rgba(60, 64, 67, 0.3);
 }
 
 .blog-tile a {
@@ -398,6 +399,7 @@ div img {
   padding-bottom: 5px;
   text-align: right;
   background-color: white;
+  box-shadow: 7px 7px rgba(60, 64, 67, 0.3);
 }
 
 .blog-desc {
@@ -406,6 +408,7 @@ div img {
   padding-left: 15px;
   padding-right: 15px;
   background-color: white;
+  box-shadow: 7px 7px rgba(60, 64, 67, 0.3);
 }
 
 .blog-tile-footer {
@@ -416,6 +419,7 @@ div img {
   padding-right: 15px;
   background-color: white;
   border-radius: 0 0 15px 15px;
+  box-shadow: 7px 7px rgba(60, 64, 67, 0.3);
 }
 
 .blogstamp-overlay {
