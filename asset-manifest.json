@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9bc9a5a.chunk.css",
-    "main.js": "/static/js/main.c6376eaa.chunk.js",
-    "main.js.map": "/static/js/main.c6376eaa.chunk.js.map",
+    "main.css": "/static/css/main.0f869eb1.chunk.css",
+    "main.js": "/static/js/main.49578a21.chunk.js",
+    "main.js.map": "/static/js/main.49578a21.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4cb9c1c6.js",
     "runtime-main.js.map": "/static/js/runtime-main.4cb9c1c6.js.map",
     "static/js/2.716f0cf1.chunk.js": "/static/js/2.716f0cf1.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/3.b2c118b9.chunk.js": "/static/js/3.b2c118b9.chunk.js",
     "static/js/3.b2c118b9.chunk.js.map": "/static/js/3.b2c118b9.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e9bc9a5a.chunk.css.map": "/static/css/main.e9bc9a5a.chunk.css.map",
+    "static/css/main.0f869eb1.chunk.css.map": "/static/css/main.0f869eb1.chunk.css.map",
     "static/js/2.716f0cf1.chunk.js.LICENSE.txt": "/static/js/2.716f0cf1.chunk.js.LICENSE.txt",
-    "static/media/bannervideo-cityoceanswisshumanity.5a02ce6b.mp4": "/static/media/bannervideo-cityoceanswisshumanity.5a02ce6b.mp4",
+    "static/media/bannervideo-bluerectangles2.56f34f60.mp4": "/static/media/bannervideo-bluerectangles2.56f34f60.mp4",
     "static/media/img-2021-09-portfolio-website-react.e1242c62.png": "/static/media/img-2021-09-portfolio-website-react.e1242c62.png",
     "static/media/img-2021-10-power-bi-quarterly-singapore-rental-prices-by-currency.8745e860.png": "/static/media/img-2021-10-power-bi-quarterly-singapore-rental-prices-by-currency.8745e860.png",
     "static/media/logo-aws.1baaa078.svg": "/static/media/logo-aws.1baaa078.svg",
@@ -44,7 +44,7 @@
   "entrypoints": [
     "static/js/runtime-main.4cb9c1c6.js",
     "static/js/2.716f0cf1.chunk.js",
-    "static/css/main.e9bc9a5a.chunk.css",
-    "static/js/main.c6376eaa.chunk.js"
+    "static/css/main.0f869eb1.chunk.css",
+    "static/js/main.49578a21.chunk.js"
   ]
 }
