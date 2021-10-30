@@ -29,12 +29,11 @@ export default function Blog() {
                                 return (
                                     <div key={i} className='blog-tile'>
                                         <div className='blog-tile-header'>
-                                        <span className='blogstamp-overlay'>
-                                            <img src= {`${ assetURL }${post.tag}.svg`} alt=''/>
-                                        </span>
-                                            
-                                            <Link to={`/post/${post.id}`}>{post.title}</Link></div>
-
+                                            <span className='blogstamp-overlay'>
+                                                <img src= {`${ assetURL }${post.tag}.svg`} alt=''/>
+                                            </span>
+                                            <Link to={`/post/${post.id}`}>{post.title}</Link>
+                                        </div>
                                         <div className='blog-meta'>
                                             <small>{post.date}</small>
                                         </div>
@@ -44,6 +43,7 @@ export default function Blog() {
                                                 <Link to={`/post/${post.id}`}>Read more...</Link>
                                             </small>
                                         </div>
+                                        <div className='blog-tile-footer'></div>
                                     </div>
                                 )
                             })
