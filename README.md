@@ -8,6 +8,12 @@ The underlying code for rendering blog post data (as the alternative for using J
 
 That code implementation is only used for the blog component. The project portfolio component simply renders raw JSON data, because unlike the blog, the portfolio does not need to render markdown as separate pages.
 
+Create CSS paths
+https://bennettfeely.com/clippy/
+
+Create glowing effects
+https://stackoverflow.com/questions/34821217/easily-create-an-animated-glow
+
 The video banner background ["Drone Footage of an Ocean and Buildings"](https://www.pexels.com/video/drone-footage-of-an-ocean-and-buildings-9113160) is used free from [Pexels.com](https://www.pexels.com) by [SwissHumanity](https://www.pexels.com/@swisshumanity-1686058) a.k.a. [SwissHumanity Stories on YouTube](https://www.youtube.com/c/SwissHumanityStories/videos).
 
 Software logos were used from [World Vector Logo](https://worldvectorlogo.com/) and [Wikimedia.org](https://upload.wikimedia.org/).

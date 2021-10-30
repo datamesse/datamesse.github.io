@@ -28,13 +28,16 @@ export default function Blog() {
                             Posts.map((post, i) => {
                                 return (
                                     <div key={i} className='blog-tile'>
+                                        <div className='blog-tile-header'>
                                         <span className='blogstamp-overlay'>
                                             <img src= {`${ assetURL }${post.tag}.svg`} alt=''/>
                                         </span>
+                                            
+                                            <Link to={`/post/${post.id}`}>{post.title}</Link></div>
+
                                         <div className='blog-meta'>
-                                            <small>Published {post.date}</small>
+                                            <small>{post.date}</small>
                                         </div>
-                                        <h2><Link to={`/post/${post.id}`}>{post.title}</Link></h2>
                                         <ReactMarkdown className='blog-desc' escapeHtml={false}>{excerptList[i]}</ReactMarkdown>
                                         <div className='blog-meta'>
                                             <small>
