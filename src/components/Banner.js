@@ -13,20 +13,22 @@ export default function Banner() {
     return (
         <div className='banner'>
             <div className='banner-navigation'>
+                <div className='menu-overlay'>
+                    <ul>  
+                        <li>
+                            <div className='menu-overlay-glow'></div>
+                            <Link to='/'>PROJECTS</Link>
+                        </li>
+                        <li>
+                            <div className='menu-overlay-glow'></div>
+                            <Link to='/blog'>BLOG</Link>
+                        </li>
+                    </ul>
+                </div>
                 <center>
                     <div className='banner-title'>
                         <h4>{ displayName }</h4>
                         <p>{ bannerDescription }</p>
-                    </div>
-                    <div className='menu-overlay'>
-                        <ul>  
-                            <li>
-                                <Link to='/'>PROJECTS</Link>
-                            </li>
-                            <li>
-                                <Link to='/blog'>BLOG</Link>
-                            </li>
-                        </ul>
                     </div>
                     <div className='banner-elements'>
                         <img src={ avatar } class='banner-avatar'/>
@@ -70,7 +72,6 @@ export default function Banner() {
                             </ul>
                     </div>
                 </center>
-                <div class='banner-video-overlay'></div>
                 <video class='banner-video' autoPlay loop muted playsinline width>
                     <source src={ background } type='video/mp4'/>
                 </video>

@@ -165,7 +165,8 @@ div img {
 
 .menu-overlay {
   position: absolute;
-  margin-top: 83px;
+  margin-top: 0px;
+  margin-left: 15px;
 }
 
 .menu-overlay ul {
@@ -173,25 +174,54 @@ div img {
   padding: 0px;
 }
 
+  /* https://bennettfeely.com/clippy/ */
+
 .menu-overlay ul li {
+  clip-path: polygon(100% 0, 100% 80%, 96% 100%, 0 100%, 0 85%, 2% 80%, 2% 23%, 0 16%, 0 0) ;
   list-style-type: none;
-  font-size: 14px;
+  font-size: 13px;
   height: 22px;
-  width: 86px;
-  margin-bottom: 4px;
-  padding-top: 0px;
+  width: 100px;
+  margin-bottom: 8px;
+  padding-top: 1px;
   padding-right: 2px;
-  background-color: darkorange;
+  border-top: 1px solid #a7f5ff;
+  background-color: #2a2a29;
+  text-align: left;
+}
+
+.menu-overlay-glow {
+  width: 1px;
+  height: 11px;
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color: #f3ffff;
+  display: inline-flex;
+  animation: glowmenu 1s infinite alternate;
+}
+
+@keyframes glowmenu {
+  from {
+    box-shadow:
+    0 0 1px 1px #c6ffff;
+  }
+  to {
+    box-shadow:  
+    0 0 1px 1px #acffff,
+    0 0 1px 1px #88e8ff;
+  }
 }
 
 .menu-overlay a {
   text-decoration: none;
   color: white;
+  width: 100%;
+  margin-left: 9px;
   font-family: 'Chakra Petch', 'Titillium Web', Helvetica;
 }
 
 .menu-overlay ul li:hover {
-  background-color: #ffca4a;
+  background-color: #00bdff;
 }
 
 .projects {

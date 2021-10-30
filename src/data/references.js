@@ -47,12 +47,7 @@ const videobgs = [
     { name: 'Sydney Harbour Opera House by Squirrel_photos @ pixabay.com',
       asset: 'bannervideo-sydneyharbourspeed.mp4',
       sourceURL: 'https://pixabay.com/videos/sydney-harbour-opera-house-18151/'}
-       
-      
-
-      
-      
-    ]
+]
 
 const logos = [
     { name: 'AWS',
