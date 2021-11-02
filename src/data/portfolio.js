@@ -7,6 +7,7 @@ import img_portfoliowebsitereact from '../assets-portfolio/img-2021-09-portfolio
 import img_singaporerentpowerbi from '../assets-portfolio/img-2021-10-power-bi-quarterly-singapore-rental-prices-by-currency.png';
 import img_followthesunpowerbi from  '../assets-portfolio/img-2021-11-power-bi-follow-the-sun-customer-support.png';
 
+
 const portfolio = [
    {
       title: 'Follow the sun customer support',
