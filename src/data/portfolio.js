@@ -14,7 +14,7 @@ const portfolio = [
       stamp: '2021-11',
       stack: logo_powerbi,
       photo: img_followthesunpowerbi,
-      siteURL: 'https://app.powerbi.com/view?r=eyJrIjoiZTc5MzQ4OWYtMTg5OS00NmQ3LWExNzgtNDE5ZmE5ZDRlOWQ4IiwidCI6IjM5MTA5NGVmLTAxN2YtNGUwMy1hM2NjLTQ1OGQ3N2I1YjBjZSJ9',
+      siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/Follow-the-sun-customer-service-support/m-p/2168279',
       codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/Support%20ticket%20updates'
    },
    {
@@ -23,8 +23,8 @@ const portfolio = [
       stamp: '2021-10',
       stack: logo_powerbi,
       photo: img_singaporerentpowerbi,
-      siteURL: 'https://app.powerbi.com/view?r=eyJrIjoiNzFjZTM5MmYtZWU4OC00MmE4LWFkMGQtOTE0NWI3MThhZWYyIiwidCI6IjM5MTA5NGVmLTAxN2YtNGUwMy1hM2NjLTQ1OGQ3N2I1YjBjZSJ9',
-      codeURL: 'https://github.com/datamesse/data-visualisation-datasets/blob/main/Singapore%20rental%20prices/Data%20visualisation%20code.md'
+      siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/Quarterly-Singapore-median-rental-prices-by-currency/m-p/2125424',
+      codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/Singapore%20rental%20prices'
    },
    {
        title: 'Project portfolio',
