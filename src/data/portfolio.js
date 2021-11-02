@@ -10,7 +10,7 @@ import img_followthesunpowerbi from  '../assets-portfolio/img-2021-11-power-bi-f
 const portfolio = [
    {
       title: 'Follow the sun customer support',
-      description: 'Power BI report showing global teamwork and performance for customer service',
+      description: 'Power BI report showing teamwork and performance for global customer service',
       stamp: '2021-11',
       stack: logo_powerbi,
       photo: img_followthesunpowerbi,
