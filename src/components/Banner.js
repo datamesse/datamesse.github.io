@@ -5,9 +5,20 @@ import { avatar, background,
          logo_github, logo_linkedin, logo_powerbi, logo_tableau, logo_twitter, 
          logoblue_github, logoblue_linkedin, logoblue_powerbi, logoblue_tableau, logoblue_twitter 
        } from '../data/assets'
-import { displayName, bannerDescription, githubURL, powerbiURL, tableauURL, twitterURL } from '../data/data'
+import { displayName, ascii0, ascii1, ascii2, ascii3, bannerDescription, githubURL, powerbiURL, tableauURL, twitterURL } from '../data/data'
 
-
+/* Animated banner title and swapping name loop 
+var headings = [displayName, ascii1+ascii2+ascii3];
+var i = 0;
+var intervalId = setInterval(function() {
+  document.getElementById("title").innerHTML = headings[i];
+  if (i == (headings.length - 1)) {
+    i = 0;
+  } else {
+    i++;
+  }
+}, 5000)
+*/
 
 export default function Banner() {
     return (
@@ -27,7 +38,7 @@ export default function Banner() {
                 </div>
                 <center>
                     <div className='banner-title'>
-                        <h4>{ displayName }</h4>
+                        <h4 id='title'>{ displayName }</h4>
                         <p>{ bannerDescription }</p>
                     </div>
                     <div className='banner-elements'>
@@ -67,6 +78,15 @@ export default function Banner() {
                                             <img src={ logo_twitter } />
                                         </span>
                                         <span className='banner-label'>Twitter</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href={ ascii0 + ascii2 + ascii3 } target='_blank'>
+                                        <span className='banner-icon'>
+                                            <img src={ logoblue_linkedin } />
+                                            <img src={ logo_linkedin } />
+                                        </span>
+                                        <span className='banner-label'>LinkedIn</span>
                                     </a>
                                 </li>
                             </ul>
