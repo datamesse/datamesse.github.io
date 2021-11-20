@@ -19,6 +19,7 @@ import logo_powerbi from '../assets-theme/logo-powerbi.svg'
 import logo_python from '../assets-theme/logo-python.svg'
 import logo_react from '../assets-theme/logo-react.svg'
 import logo_r from '../assets-theme/logo-rstudio.svg'
+import logo_sqlserver from '../assets-theme/logo-sqlserver.svg'
 import logo_tableau from '../assets-theme/logo-tableau.svg'
 import logo_twitter from '../assets-theme/logo-twitter.svg'
 import logo_typescript from '../assets-theme/logo-typescript.svg'
@@ -35,6 +36,6 @@ import logoblue_youtube from '../assets-theme/logoblue-youtube.svg'
 export { avatar, background,
          logo_aws, logo_azure, logo_css, logo_excel, logo_github, logo_html, logo_javascript,
          logo_linkedin, logo_mongodb, logo_nodejs, logo_powerbi, logo_python, logo_react, logo_r,
-         logo_tableau, logo_twitter, logo_typescript, logo_visualstudio, logo_youtube,
+         logo_sqlserver, logo_tableau, logo_twitter, logo_typescript, logo_visualstudio, logo_youtube,
          logoblue_github, logoblue_linkedin , logoblue_powerbi, logoblue_tableau, logoblue_twitter, logoblue_youtube
        }
