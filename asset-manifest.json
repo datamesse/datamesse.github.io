@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9c57815a.chunk.css",
-    "main.js": "/static/js/main.d8791af6.chunk.js",
-    "main.js.map": "/static/js/main.d8791af6.chunk.js.map",
+    "main.js": "/static/js/main.e8d3c747.chunk.js",
+    "main.js.map": "/static/js/main.e8d3c747.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4cb9c1c6.js",
     "runtime-main.js.map": "/static/js/runtime-main.4cb9c1c6.js.map",
     "static/js/2.716f0cf1.chunk.js": "/static/js/2.716f0cf1.chunk.js",
@@ -30,6 +30,7 @@
     "static/media/logo-python.063da199.svg": "/static/media/logo-python.063da199.svg",
     "static/media/logo-react.6ce24c58.svg": "/static/media/logo-react.6ce24c58.svg",
     "static/media/logo-rstudio.3168bdba.svg": "/static/media/logo-rstudio.3168bdba.svg",
+    "static/media/logo-sqlserver.87192a7b.svg": "/static/media/logo-sqlserver.87192a7b.svg",
     "static/media/logo-tableau.be3c5104.svg": "/static/media/logo-tableau.be3c5104.svg",
     "static/media/logo-twitter.d9f209d1.svg": "/static/media/logo-twitter.d9f209d1.svg",
     "static/media/logo-typescript.e0cf5672.svg": "/static/media/logo-typescript.e0cf5672.svg",
@@ -46,6 +47,6 @@
     "static/js/runtime-main.4cb9c1c6.js",
     "static/js/2.716f0cf1.chunk.js",
     "static/css/main.9c57815a.chunk.css",
-    "static/js/main.d8791af6.chunk.js"
+    "static/js/main.e8d3c747.chunk.js"
   ]
 }
