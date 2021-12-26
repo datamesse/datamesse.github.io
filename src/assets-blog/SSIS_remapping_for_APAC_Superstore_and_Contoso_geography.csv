@@ -55,7 +55,7 @@ APAC Superstore,Australia,Western Australia,Bunbury,,,
 APAC Superstore,Australia,Western Australia,Geraldton,,,
 APAC Superstore,Australia,Western Australia,Perth,,,
 APAC Superstore,Bangladesh,Chittagong,Chittagong,,,
-APAC Superstore,Bangladesh,Chittagong,Coxís B?z?r,,,
+APAC Superstore,Bangladesh,Chittagong,Cox?s B?z?r,,,
 APAC Superstore,Bangladesh,Dhaka,Dhaka,,,
 APAC Superstore,Bangladesh,Dhaka,Narsingdi,,,
 APAC Superstore,Bangladesh,Khulna,Khulna,,,
@@ -222,7 +222,7 @@ APAC Superstore,China,Zhejiang,Jinhua,,,
 APAC Superstore,China,Zhejiang,Ningbo,,,
 APAC Superstore,China,Zhejiang,Shaoxing,,,
 APAC Superstore,China,Zhejiang,Wenzhou,,,
-APAC Superstore,Hong Kong SAR,Hong Kong SAR,Kowloon,Hong Kong,,
+APAC Superstore,Hong Kong SAR,Hong Kong SAR,Kowloon,Hong Kong,Hong Kong,
 APAC Superstore,India,Andhra Pradesh,Anantapur,,,
 APAC Superstore,India,Andhra Pradesh,Guntur,,,
 APAC Superstore,India,Andhra Pradesh,Kakinada,,,
@@ -537,11 +537,11 @@ APAC Superstore,Sri Lanka,Western,Colombo,,,
 APAC Superstore,Taiwan,Taipei City,Taipei,,,
 APAC Superstore,Thailand,Bangkok,Bangkok,,Krung Thep,
 APAC Superstore,Thailand,Nakhon Ratchasima,Nakhon Ratchasima,,Isan,
-APAC Superstore,Vietnam,D‡ Nang,Da Nang,,,
-APAC Superstore,Vietnam,Ho ChÌ Minh City,Ho Chi Minh City,,,
-APAC Superstore,Vietnam,Kh·nh HÚa,Nha Trang,,,
-APAC Superstore,Vietnam,KiÍn Giang,Rach Gia,,,
-APAC Superstore,Vietnam,Th? DÙ H‡ N?i,Hanoi,,,
+APAC Superstore,Vietnam,DÖ Nang,Da Nang,,,
+APAC Superstore,Vietnam,Ho Ch° Minh City,Ho Chi Minh City,,,
+APAC Superstore,Vietnam,Kh†nh Hïa,Nha Trang,,,
+APAC Superstore,Vietnam,Kiàn Giang,Rach Gia,,,
+APAC Superstore,Vietnam,Th? Dì HÖ N?i,Hanoi,,,
 APAC Superstore,Vietnam,T?nh C?n Th?,Can Tho,,,
 Contoso,Armenia,Armenia,Yerevan,,,
 Contoso,Australia,Molonglo,Canberra,,Australian Capital Territory,
@@ -618,7 +618,7 @@ Contoso,France,Hauts de Seine,Boulogne-Billancourt,,,
 Contoso,France,Hauts de Seine,Colombes,,,
 Contoso,France,Hauts de Seine,Courbevoie,,,
 Contoso,France,Hauts de Seine,Paris La Defense,,,
-Contoso,France,Hauts de Seine,SËvres,,,
+Contoso,France,Hauts de Seine,Sävres,,,
 Contoso,France,Hauts de Seine,Suresnes,,,
 Contoso,France,Loiret,Orleans,,,
 Contoso,France,Moselle,Metz,,,
@@ -629,7 +629,7 @@ Contoso,France,Nord,Roncq,,,
 Contoso,France,Nord,Roubaix,,,
 Contoso,France,Nord,Villeneuve-d'Ascq,,,
 Contoso,France,Pas de Calais,Boulogne-sur-Mer,,,
-Contoso,France,Seine (Paris),Paris,,Œle-de-France,
+Contoso,France,Seine (Paris),Paris,,◊le-de-France,
 Contoso,France,Seine et Marne,Lieusaint,,,
 Contoso,France,Seine et Marne,Roissy en Brie,,,
 Contoso,France,Seine Saint Denis,Bobigny,,,
@@ -653,7 +653,7 @@ Contoso,Germany,Hamburg,Hamburg ,,,
 Contoso,Germany,Hesse,Darmstadt,,,
 Contoso,Germany,Hesse,Frankfurt,,,
 Contoso,Germany,Hesse,Kassel,,,
-Contoso,Germany,Hesse,M¸hlheim am Main,,,
+Contoso,Germany,Hesse,MÅhlheim am Main,,,
 Contoso,Germany,Hesse,Offenbach am Main,,,
 Contoso,Germany,Lower Saxony,Brunswick,,,
 Contoso,Germany,Lower Saxony,Hanover,,,
@@ -667,7 +667,7 @@ Contoso,Germany,North Rhine-Westphalia,Neunkirchen,,,
 Contoso,Germany,North Rhine-Westphalia,Paderborn,,,
 Contoso,Germany,North Rhine-Westphalia,Solingen,,,
 Contoso,Germany,North Rhine-Westphalia,Werne,,,
-Contoso,Germany,Saar,Saarbr¸cken,,,
+Contoso,Germany,Saar,SaarbrÅcken,,,
 Contoso,Germany,Saar,Saarlouis,,,
 Contoso,Germany,Saar,Sulzbach Taunus,,,
 Contoso,Germany,Saxony,Dresden,,,
@@ -746,10 +746,10 @@ Contoso,United Kingdom,England ,Cheshire,England,Cheshire,
 Contoso,United Kingdom,England ,Manchester,England,Greater Manchester,
 Contoso,United Kingdom,Scotland,Edinburgh,Scotland, Edinburgh,Mayfield
 Contoso,United Kingdom,Scotland,Glasgow,Scotland, Glasgow,Merchant City
-Contoso,United States,Alabama,Birmingham,Brazil,S„o Paulo,S„o Paulo
+Contoso,United States,Alabama,Birmingham,Brazil,S∆o Paulo,S∆o Paulo
 Contoso,United States,Alaska,Anchorage,Brazil,Rio de Janeiro,Rio de Janeiro
-Contoso,United States,Arizona,Chandler,Brazil,S„o Paulo,S„o Paulo
-Contoso,United States,California,Barstow,Brazil,S„o Paulo,S„o Paulo
+Contoso,United States,Arizona,Chandler,Brazil,S∆o Paulo,S∆o Paulo
+Contoso,United States,California,Barstow,Brazil,S∆o Paulo,S∆o Paulo
 Contoso,United States,California,Bell Gardens,Italy,Liguria,Genoa
 Contoso,United States,California,Bellflower,Italy,Liguria,Genoa
 Contoso,United States,California,Berkeley,Italy,Liguria,Genoa
@@ -790,83 +790,83 @@ Contoso,United States,California,San Carlos,Italy,Veneto,Venice
 Contoso,United States,California,San Diego,Uruguay,Montevideo,Montevideo
 Contoso,United States,California,San Francisco,Uruguay,Salto,Salto
 Contoso,United States,California,San Gabriel,Uruguay,Canelones,Ciudad de la Costa
-Contoso,United States,California,Santa Cruz,Uruguay,Paysand˙,Paysand˙
+Contoso,United States,California,Santa Cruz,Uruguay,Paysand£,Paysand£
 Contoso,United States,California,Santa Monica,Uruguay,Canelones,Las Piedras
 Contoso,United States,California,Spring Valley,Uruguay,Rivera,Rivera
 Contoso,United States,California,Torrance,Uruguay,Maldonado,Maldonado
-Contoso,United States,California,West Covina,Uruguay,TacuarembÛ,TacuarembÛ
+Contoso,United States,California,West Covina,Uruguay,Tacuaremb¢,Tacuaremb¢
 Contoso,United States,California,Woodland Hills,Uruguay,Cerro Largo,Melo
-Contoso,United States,Colorado,Aurora,Colombia,Capital District,Bogot·
-Contoso,United States,Colorado,Berthoud,Colombia,Antioquia,MedellÌn
+Contoso,United States,Colorado,Aurora,Colombia,Capital District,Bogot†
+Contoso,United States,Colorado,Berthoud,Colombia,Antioquia,Medell°n
 Contoso,United States,Colorado,Boulder,Colombia,Valle del Cauca,Cali
-Contoso,United States,Colorado,Castle Rock,Colombia,Atl·ntico,Barranquilla
-Contoso,United States,Colorado,Denver,Colombia,BolÌvar,Cartagena
-Contoso,United States,Colorado,Englewood,Colombia,Norte de Santander,C˙cuta
+Contoso,United States,Colorado,Castle Rock,Colombia,Atl†ntico,Barranquilla
+Contoso,United States,Colorado,Denver,Colombia,Bol°var,Cartagena
+Contoso,United States,Colorado,Englewood,Colombia,Norte de Santander,C£cuta
 Contoso,United States,Colorado,Grand Junction,Colombia,Santander,Bucaramanga
-Contoso,United States,Colorado,Greeley,Colombia,Tolima,IbaguÈ
-Contoso,United States,Colorado,Lafayette,Colombia,Atl·ntico,Soledad
+Contoso,United States,Colorado,Greeley,Colombia,Tolima,IbaguÇ
+Contoso,United States,Colorado,Lafayette,Colombia,Atl†ntico,Soledad
 Contoso,United States,Colorado,Littleton,Colombia,Risaralda,Pereira
 Contoso,United States,Colorado,Loveland,Colombia,Magdalena,Santa Marta
 Contoso,United States,Colorado,Milliken,Colombia,Cundinamarca,Soacha
-Contoso,United States,Colorado,New Castle,Colombia,NariÒo,San Juan de Pasto
+Contoso,United States,Colorado,New Castle,Colombia,Nari§o,San Juan de Pasto
 Contoso,United States,Colorado,Parker,Colombia,Meta,Villavicencio
 Contoso,United States,Colorado,Sedalia,Colombia,Caldas,Manizales
-Contoso,United States,Colorado,Thornton,Colombia,CÛrdoba,MonterÌa
+Contoso,United States,Colorado,Thornton,Colombia,C¢rdoba,Monter°a
 Contoso,United States,Colorado,Wheat Ridge,Colombia,Antioquia,Bello
-Contoso,United States,Connecticut,Darien,Brazil,S„o Paulo,S„o Paulo
+Contoso,United States,Connecticut,Darien,Brazil,S∆o Paulo,S∆o Paulo
 Contoso,United States,Connecticut,Hartford,Brazil,Rio de Janeiro,Rio de Janeiro
-Contoso,United States,Connecticut,New Haven ,Brazil,S„o Paulo,S„o Paulo
+Contoso,United States,Connecticut,New Haven ,Brazil,S∆o Paulo,S∆o Paulo
 Contoso,United States,Connecticut,New London,Brazil,Rio de Janeiro,Rio de Janeiro
-Contoso,United States,Connecticut,Old Saybrook,Brazil,S„o Paulo,S„o Paulo
+Contoso,United States,Connecticut,Old Saybrook,Brazil,S∆o Paulo,S∆o Paulo
 Contoso,United States,Connecticut,Waterbury,Brazil,Rio de Janeiro,Rio de Janeiro
-Contoso,United States,Florida,Bradenton,Brazil,Distrito Federal,BrasÌlia
+Contoso,United States,Florida,Bradenton,Brazil,Distrito Federal,Bras°lia
 Contoso,United States,Florida,Cape Canaveral,Brazil,Bahia,Salvador
-Contoso,United States,Florida,Clearwater,Brazil,Cear·,Fortaleza
+Contoso,United States,Florida,Clearwater,Brazil,Cear†,Fortaleza
 Contoso,United States,Florida,Fort Lauderdale,Brazil,Minas Gerais,Belo Horizonte
 Contoso,United States,Florida,Jacksonville,Brazil,Amazonas,Manaus
-Contoso,United States,Florida,Key West,Brazil,Paran·,Curitiba
+Contoso,United States,Florida,Key West,Brazil,Paran†,Curitiba
 Contoso,United States,Florida,Lakeland,Brazil,Pernambuco,Recife
-Contoso,United States,Florida,Miami,Brazil,Goi·s,Goi‚nia
-Contoso,United States,Florida,Naples,Brazil,Par·,BelÈm
+Contoso,United States,Florida,Miami,Brazil,Goi†s,GoiÉnia
+Contoso,United States,Florida,Naples,Brazil,Par†,BelÇm
 Contoso,United States,Florida,Orlando,Brazil,Rio Grande do Sul,Porto Alegre
-Contoso,United States,Florida,Sebring,Brazil,S„o Paulo,Guarulhos
-Contoso,United States,Florida,Tallahassee,Brazil,S„o Paulo,Campinas
-Contoso,United States,Florida,Tampa,Brazil,Maranh„o,S„o LuÌs
-Contoso,United States,Georgia,Byron,Brazil,Rio de Janeiro,S„o GonÁalo
-Contoso,United States,Georgia,Clarkston,Brazil,Alagoas,MaceiÛ
+Contoso,United States,Florida,Sebring,Brazil,S∆o Paulo,Guarulhos
+Contoso,United States,Florida,Tallahassee,Brazil,S∆o Paulo,Campinas
+Contoso,United States,Florida,Tampa,Brazil,Maranh∆o,S∆o Lu°s
+Contoso,United States,Georgia,Byron,Brazil,Rio de Janeiro,S∆o Gonáalo
+Contoso,United States,Georgia,Clarkston,Brazil,Alagoas,Macei¢
 Contoso,United States,Georgia,Columbus,Brazil,Rio de Janeiro,Duque de Caxias
 Contoso,United States,Illinois,Carol Stream,Brazil,Mato Grosso do Sul,Campo Grande
 Contoso,United States,Illinois,Chicago,Brazil,Rio Grande do Norte,Natal
-Contoso,United States,Kentucky,Campbellsville,Brazil,PiauÌ,Teresina
-Contoso,United States,Maine,Bangor,Brazil,S„o Paulo,S„o Bernardo do Campo
+Contoso,United States,Kentucky,Campbellsville,Brazil,Piau°,Teresina
+Contoso,United States,Maine,Bangor,Brazil,S∆o Paulo,S∆o Bernardo do Campo
 Contoso,United States,Maine,Bar Harbor,Ukraine,Kyiv,Kyiv
 Contoso,United States,Maine,Lewiston,Ukraine,Kharkiv Oblast,Kharkiv
 Contoso,United States,Maine,Orono,Ukraine,Odesa Oblast,Odesa
 Contoso,United States,Maine,South Portland,Ukraine,Dnipropetrovsk Oblast,Dnipro
 Contoso,United States,Maryland,Annapolis,Ukraine,Donetsk Oblast,Donetsk
 Contoso,United States,Maryland,Baltimore,Ukraine,Zaporizhzhia Oblast,Zaporizhzhia
-Contoso,United States,Maryland,Bethesda,Switzerland,Z¸rich,Z¸rich
+Contoso,United States,Maryland,Bethesda,Switzerland,ZÅrich,ZÅrich
 Contoso,United States,Maryland,Germantown,Switzerland,Geneva,Geneva
 Contoso,United States,Maryland,Howard,Switzerland,Basel-Stadt,Basel
 Contoso,United States,Maryland,Parkville,Switzerland,Vaud,Lausanne
 Contoso,United States,Maryland,Ridgely,Switzerland,Bern,Bern
-Contoso,United States,Massachusetts,Attleboro,Switzerland,Z¸rich,Winterthur
+Contoso,United States,Massachusetts,Attleboro,Switzerland,ZÅrich,Winterthur
 Contoso,United States,Massachusetts,Boston,Switzerland,Lucerne,Lucerne
 Contoso,United States,Massachusetts,Braintree,Switzerland,St. Gallen,St. Gallen
 Contoso,United States,Massachusetts,Falmouth,Switzerland,Ticino,Lugano
 Contoso,United States,Massachusetts,Framingham,Switzerland,Bern,Biel/Bienne
-Contoso,United States,Massachusetts,Haverhill,Sweden,Sˆdermanland,Stockholm
-Contoso,United States,Massachusetts,Hingham,Sweden,V‰stra Gˆtaland,Gˆteborg
-Contoso,United States,Massachusetts,Holyoke,Sweden,Scania,Malmˆ
+Contoso,United States,Massachusetts,Haverhill,Sweden,Sîdermanland,Stockholm
+Contoso,United States,Massachusetts,Hingham,Sweden,VÑstra Gîtaland,Gîteborg
+Contoso,United States,Massachusetts,Holyoke,Sweden,Scania,Malmî
 Contoso,United States,Massachusetts,Leominster,Sweden,Uppland,Uppsala
-Contoso,United States,Massachusetts,Lowell,Sweden,V‰stmanland,V‰sterÂs
-Contoso,United States,Massachusetts,Lynn,Sweden,N‰rke,÷rebro
-Contoso,United States,Massachusetts,Nantucket,Sweden,÷stergˆtland,Linkˆping
+Contoso,United States,Massachusetts,Lowell,Sweden,VÑstmanland,VÑsterÜs
+Contoso,United States,Massachusetts,Lynn,Sweden,NÑrke,ôrebro
+Contoso,United States,Massachusetts,Nantucket,Sweden,ôstergîtland,Linkîping
 Contoso,United States,Massachusetts,New Bedford,Sweden,Scania,Helsingborg
-Contoso,United States,Massachusetts,Northampton,Sweden,Sˆdermanland,Eskilstuna
+Contoso,United States,Massachusetts,Northampton,Sweden,Sîdermanland,Eskilstuna
 Contoso,United States,Massachusetts,Pittsfield,Poland,Masovian,Warsaw
-Contoso,United States,Massachusetts,Provincetown,Poland,Lesser Poland,KrakÛw
-Contoso,United States,Massachusetts,Quincy,Poland,?Ûd?,?Ûd?
+Contoso,United States,Massachusetts,Provincetown,Poland,Lesser Poland,Krak¢w
+Contoso,United States,Massachusetts,Quincy,Poland,?¢d?,?¢d?
 Contoso,United States,Massachusetts,Somerville,Poland,Lower Silesian,Wroc?aw
 Contoso,United States,Massachusetts,Worcester,Poland,Greater Poland,Pozna?
 Contoso,United States,Minnesota,Branch,Poland,Pomeranian,Gda?sk
@@ -876,21 +876,21 @@ Contoso,United States,Montana,Billings,Poland,Lublin,Lublin
 Contoso,United States,New Jersey,Atlantic City ,Poland,Podlaskie,Bia?ystok
 Contoso,United States,New Jersey,Bayonne ,Norway,Oslo,Oslo
 Contoso,United States,New Jersey,Cape May,Norway,Vestland,Bergen
-Contoso,United States,New Jersey,Clifton,Norway,Tr¯ndelag,Trondheim
+Contoso,United States,New Jersey,Clifton,Norway,Trõndelag,Trondheim
 Contoso,United States,New Jersey,East Orange ,Norway,Rogaland,Stavanger
 Contoso,United States,New Jersey,Hackensack ,Norway,Agder,Kristiansand
 Contoso,United States,New Jersey,Hoboken ,Norway,Viken,Fredrikstad
 Contoso,United States,New Jersey,Jersey City,Norway,Rogaland,Sandnes
-Contoso,United States,New Jersey,Montclair ,Norway,Troms og Finnmark,Troms¯
+Contoso,United States,New Jersey,Montclair ,Norway,Troms og Finnmark,Tromsõ
 Contoso,United States,New Jersey,Morristown ,Norway,Vestfold og Telemark,Skien
 Contoso,United States,New Jersey,New Brunswick ,Norway,Viken,Drammen
 Contoso,United States,New Jersey,Newark,Norway,Viken,Sarpsborg
-Contoso,United States,New Jersey,Passaic ,Norway,Nordland,Bod¯
+Contoso,United States,New Jersey,Passaic ,Norway,Nordland,Bodõ
 Contoso,United States,New Jersey,Paterson,Norway,Vestfold og Telemark,Sandefjord
-Contoso,United States,New Jersey,Trenton,Norway,M¯re og Romsdal,≈lesund
+Contoso,United States,New Jersey,Trenton,Norway,Mõre og Romsdal,èlesund
 Contoso,United States,New Jersey,Vineland,Norway,Vestfold og Telemark,Larvik
 Contoso,United States,New York,Albany,Norway,Agder,Arendal
-Contoso,United States,New York,Brooklyn,Norway,Vestfold og Telemark,T¯nsberg
+Contoso,United States,New York,Brooklyn,Norway,Vestfold og Telemark,Tõnsberg
 Contoso,United States,New York,Buffalo,Norway,Vestfold og Telemark,Porsgrunn
 Contoso,United States,New York,Central Valley,Norway,Rogaland,Haugesund
 Contoso,United States,New York,Cheektowaga,Norway,Innlandet,Hamar
@@ -921,27 +921,27 @@ Contoso,United States,Oregon,Woodburn,Finland,Pirkanmaa,Tampere
 Contoso,United States,South Carolina,Bluffton,Finland,Uusimaa,Vantaa
 Contoso,United States,South Carolina,Charleston ,Finland,North Ostrobothnia,Oulu
 Contoso,United States,South Carolina,Greenville,Finland,Turku,Turku
-Contoso,United States,Texas,Arlington,Finland,Jyv‰skyl‰,Jyv‰skyl‰
-Contoso,United States,Texas,Austin,Finland,P‰ij‰nne Tavastia,Lahti
+Contoso,United States,Texas,Arlington,Finland,JyvÑskylÑ,JyvÑskylÑ
+Contoso,United States,Texas,Austin,Finland,PÑijÑnne Tavastia,Lahti
 Contoso,United States,Texas,Baytown,Finland,North Savo,Kuopio
 Contoso,United States,Texas,Beaumont,Finland,Satakunta,Pori
 Contoso,United States,Texas,Carrollton,Chile,Santiago Metropolitan,Santiago
 Contoso,United States,Texas,Cedar Park,Chile,Santiago Metropolitan,Puente Alto
-Contoso,United States,Texas,College Station,Chile,Santiago Metropolitan,Maip˙
+Contoso,United States,Texas,College Station,Chile,Santiago Metropolitan,Maip£
 Contoso,United States,Texas,Dallas,Argentina,Buenos Aires,Buenos Aires
-Contoso,United States,Texas,Denton,Argentina,CÛrdoba,CÛrdoba
+Contoso,United States,Texas,Denton,Argentina,C¢rdoba,C¢rdoba
 Contoso,United States,Texas,Desoto,Belgium,Antwerp,Antwerp
 Contoso,United States,Texas,Fort Worth,Belgium,East Flanders,Ghent
 Contoso,United States,Texas,Georgetown,Estonia,Harju,Tallinn
 Contoso,United States,Texas,Grand Prairie,Estonia,Harju,Tallinn
 Contoso,United States,Texas,Hillsboro,Estonia,Tartu,Tartu
 Contoso,United States,Texas,Houston,Estonia,Ida-Viru,Narva
-Contoso,United States,Texas,Humble,Estonia,P‰rnu,P‰rnu
-Contoso,United States,Texas,La Porte,Estonia,Ida-Viru,Kohtla-J‰rve
+Contoso,United States,Texas,Humble,Estonia,PÑrnu,PÑrnu
+Contoso,United States,Texas,La Porte,Estonia,Ida-Viru,Kohtla-JÑrve
 Contoso,United States,Texas,Lewisville,Belgium,Antwerp,Antwerp
 Contoso,United States,Texas,Longview,Belgium,East Flanders,Ghent
 Contoso,United States,Texas,Marshall,Belgium,Hainaut,Charleroi
-Contoso,United States,Texas,Midland,Belgium,LiËge,LiËge
+Contoso,United States,Texas,Midland,Belgium,Liäge,Liäge
 Contoso,United States,Texas,Minden,Belgium,Brussels,Brussels
 Contoso,United States,Texas,Orange,Belgium,West Flanders,Bruges
 Contoso,United States,Texas,Pasadena,Belgium,Namur,Namur
@@ -949,73 +949,73 @@ Contoso,United States,Texas,Plano,Belgium,Flemish Brabant,Leuven
 Contoso,United States,Texas,Richardson,Belgium,Hainaut,Mons
 Contoso,United States,Texas,Round Rock,Belgium,Antwerp,Mechelen
 Contoso,United States,Texas,Russellville,Belgium,East Flanders,Aalst
-Contoso,United States,Texas,San Antonio,Belgium,Hainaut,La LouviËre
+Contoso,United States,Texas,San Antonio,Belgium,Hainaut,La Louviäre
 Contoso,United States,Texas,Shreveport,Belgium,Limburg,Hasselt
 Contoso,United States,Texas,Spring,Belgium,East Flanders,Sint-Niklaas
 Contoso,United States,Texas,Texas City,Belgium,West Flanders,Kortrijk
 Contoso,United States,Utah,Bountiful,Belgium,West Flanders,Ostend
 Contoso,United States,Utah,Cedar City,Belgium,Hainaut,Tournai
 Contoso,United States,Virginia,Alexandria,Belgium,Limburg,Genk
-Contoso,United States,Virginia,Chantilly,Belgium,LiËge,Seraing
+Contoso,United States,Virginia,Chantilly,Belgium,Liäge,Seraing
 Contoso,United States,Virginia,Charlottesville ,Belgium,West Flanders,Roeselare
 Contoso,United States,Virginia,Fredericksburg,Belgium,Hainaut,Mouscron
-Contoso,United States,Virginia,Martinsville ,Belgium,LiËge,Verviers
+Contoso,United States,Virginia,Martinsville ,Belgium,Liäge,Verviers
 Contoso,United States,Virginia,Norfolk,Belgium,Limburg,Beringen
 Contoso,United States,Virginia,Roanoke,Belgium,East Flanders,Dendermonde
 Contoso,United States,Virginia,Virginia Beach,Belgium,Flemish Brabant,Vilvoorde
 Contoso,United States,Virginia,Winchester,Belgium,Antwerp,Turnhout
 Contoso,United States,Washington,Ballard,Argentina,Buenos Aires,Buenos Aires
-Contoso,United States,Washington,Bellevue,Argentina,CÛrdoba,CÛrdoba
+Contoso,United States,Washington,Bellevue,Argentina,C¢rdoba,C¢rdoba
 Contoso,United States,Washington,Bellingham,Argentina,Santa Fe,Rosario
 Contoso,United States,Washington,Bothell,Argentina,Buenos Aires,La Plata
 Contoso,United States,Washington,Bremerton,Argentina,Buenos Aires,Mar del Plata
-Contoso,United States,Washington,Burien,Argentina,Tucum·n,San Miguel de Tucum·n
+Contoso,United States,Washington,Burien,Argentina,Tucum†n,San Miguel de Tucum†n
 Contoso,United States,Washington,Chehalis,Argentina,Salta,Salta
 Contoso,United States,Washington,Cheney,Argentina,Santa Fe,Santa Fe de la Vera Cruz
-Contoso,United States,Washington,Cle Elum,Argentina,Buenos Aires,Vicente LÛpez
+Contoso,United States,Washington,Cle Elum,Argentina,Buenos Aires,Vicente L¢pez
 Contoso,United States,Washington,Edmonds,Argentina,Corrientes,Corrientes
 Contoso,United States,Washington,Everett,Argentina,Buenos Aires,Pilar
-Contoso,United States,Washington,Fall City,Argentina,Buenos Aires,BahÌa Blanca
+Contoso,United States,Washington,Fall City,Argentina,Buenos Aires,Bah°a Blanca
 Contoso,United States,Washington,Granger,Argentina,Chaco,Resistencia
 Contoso,United States,Washington,Issaquah,Argentina,Misiones,Posadas
 Contoso,United States,Washington,Kennewick,Argentina,Jujuy,San Salvador de Jujuy
 Contoso,United States,Washington,Kirkland,Argentina,Santiago del Estero,Santiago del Estero
-Contoso,United States,Washington,Lynnwood,Argentina,Entre RÌos,Paran·
-Contoso,United States,Washington,Marysville,Argentina,NeuquÈn,NeuquÈn
+Contoso,United States,Washington,Lynnwood,Argentina,Entre R°os,Paran†
+Contoso,United States,Washington,Marysville,Argentina,NeuquÇn,NeuquÇn
 Contoso,United States,Washington,North Bend,Argentina,Formosa,Formosa
-Contoso,United States,Washington,Olympia,Argentina,Buenos Aires,Lan˙s
+Contoso,United States,Washington,Olympia,Argentina,Buenos Aires,Lan£s
 Contoso,United States,Washington,Port Orchard,Argentina,Mendoza,Godoy Cruz
 Contoso,United States,Washington,Puyallup,Argentina,Mendoza,Las Heras
 Contoso,United States,Washington,Redmond,Argentina,La Rioja,La Rioja
 Contoso,United States,Washington,Renton,Chile,Santiago Metropolitan,Santiago
 Contoso,United States,Washington,Seattle,Chile,Santiago Metropolitan,Puente Alto
-Contoso,United States,Washington,Sedro Woolley,Chile,Santiago Metropolitan,Maip˙
+Contoso,United States,Washington,Sedro Woolley,Chile,Santiago Metropolitan,Maip£
 Contoso,United States,Washington,Snoqualmie,Chile,Santiago Metropolitan,La Florida
-Contoso,United States,Washington,Spokane,Chile,ValparaÌso,ViÒa del Mar
+Contoso,United States,Washington,Spokane,Chile,Valpara°so,Vi§a del Mar
 Contoso,United States,Washington,Sunnyside,Chile,Antofagasta,Antofagasta
-Contoso,United States,Washington,Tacoma,Chile,ValparaÌso,ValparaÌso
+Contoso,United States,Washington,Tacoma,Chile,Valpara°so,Valpara°so
 Contoso,United States,Washington,Toppenish,Chile,Santiago Metropolitan,Las Condes
 Contoso,United States,Washington,Veradale,Chile,Santiago Metropolitan,San Bernardo
-Contoso,United States,Washington,Walla Walla,Chile,AraucanÌa,Temuco
-Contoso,United States,Washington,Wapato,Chile,Santiago Metropolitan,PeÒalolÈn
-Contoso,United States,Washington,Yakima,Chile,BiobÌo,ConcepciÛn
+Contoso,United States,Washington,Walla Walla,Chile,Araucan°a,Temuco
+Contoso,United States,Washington,Wapato,Chile,Santiago Metropolitan,Pe§alolÇn
+Contoso,United States,Washington,Yakima,Chile,Biob°o,Concepci¢n
 Contoso,United States,Wisconsin,Appleton,Chile,O'Higgins,Rancagua
 Contoso,United States,Wisconsin,Burlington,Chile,Santiago Metropolitan,Pudahuel
 Contoso,United States,Wisconsin,East Troy,Chile,Santiago Metropolitan,La Pintana
 Contoso,United States,Wisconsin,Edgerton,Chile,Maule,Talca
 Contoso,United States,Wisconsin,Fond du Lac,Chile,Santiago Metropolitan,El Bosque
 Contoso,United States,Wisconsin,Fort Atkinson,Chile,Arica,Arica
-Contoso,United States,Wisconsin,Green Bay,Chile,Tarapac·,Iquique
-Contoso,United States,Wisconsin,Madison,Chile,Santiago Metropolitan,—uÒoa
-Contoso,United States,Wisconsin,Manitowoc,Chile,BiobÌo,Talcahuano
+Contoso,United States,Wisconsin,Green Bay,Chile,Tarapac†,Iquique
+Contoso,United States,Wisconsin,Madison,Chile,Santiago Metropolitan,•u§oa
+Contoso,United States,Wisconsin,Manitowoc,Chile,Biob°o,Talcahuano
 Contoso,United States,Wisconsin,Menasha,Chile,Los Lagos,Puerto Montt
 Contoso,United States,Wisconsin,Milwaukee,Chile,Coquimbo,Coquimbo
 Contoso,United States,Wisconsin,Oregon,Chile,Santiago Metropolitan,Cerro Navia
 Contoso,United States,Wisconsin,Oshkosh,Chile,Santiago Metropolitan,Recoleta
 Contoso,United States,Wisconsin,Port Washington,Chile,Coquimbo,La Serena
-Contoso,United States,Wisconsin,Racine,Chile,BiobÌo,Chill·n
+Contoso,United States,Wisconsin,Racine,Chile,Biob°o,Chill†n
 Contoso,United States,Wisconsin,Sheboygan,Chile,Santiago Metropolitan,Renca
-Contoso,United States,Wisconsin,Stoughton,Chile,Santiago Metropolitan,ConchalÌ
+Contoso,United States,Wisconsin,Stoughton,Chile,Santiago Metropolitan,Conchal°
 Contoso,United States,Wisconsin,Waukesha,Chile,Santiago Metropolitan,La Granja
 Contoso,United States,Wyoming,Casper,Chile,Los Lagos,Osorno
-Contoso,United States,Wyoming,Cheyenne,Chile,Santiago Metropolitan,EstaciÛn Central
+Contoso,United States,Wyoming,Cheyenne,Chile,Santiago Metropolitan,Estaci¢n Central
