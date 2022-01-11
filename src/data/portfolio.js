@@ -1,13 +1,23 @@
 /* PROJECT DATA FOR PORTFOLIO.JS TILES */
 
 import { logo_aws, logo_azure, logo_css, logo_excel, logo_html, logo_javascript, logo_mongodb, logo_nodejs,
-   logo_powerbi, logo_python, logo_react, logo_r, logo_tableau,logo_typescript, logo_visualstudio
+   logo_powerbi, logo_python, logo_react, logo_r, logo_sqlserver, logo_tableau,logo_typescript, logo_visualstudio
  } from '../data/assets';
 import img_portfoliowebsitereact from '../assets-portfolio/img-2021-09-portfolio-website-react.png';
 import img_singaporerentpowerbi from '../assets-portfolio/img-2021-10-power-bi-quarterly-singapore-rental-prices-by-currency.png';
 import img_followthesunpowerbi from  '../assets-portfolio/img-2021-11-power-bi-follow-the-sun-customer-support.png';
+import img_internationalmarketplacessis from '../assets-portfolio/img-2022-01-sql-server-integration-services-international-marketplace.png';
 
 const portfolio = [
+   {
+      title: 'International marketplace dataset',
+      description: 'SQL Server Integration Services package that merges different sample sales datasets',
+      stamp: '2022-01',
+      stack: logo_sqlserver,
+      photo: img_internationalmarketplacessis,
+      siteURL: '',
+      codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/International%20Marketplace%20sales'
+   },
    {
       title: 'Follow the sun customer support',
       description: 'Power BI report showing teamwork and performance for global customer service',
