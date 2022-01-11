@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9c57815a.chunk.css",
-    "main.js": "/static/js/main.8fc98f8f.chunk.js",
-    "main.js.map": "/static/js/main.8fc98f8f.chunk.js.map",
+    "main.js": "/static/js/main.fdef57e7.chunk.js",
+    "main.js.map": "/static/js/main.fdef57e7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4cb9c1c6.js",
     "runtime-main.js.map": "/static/js/runtime-main.4cb9c1c6.js.map",
     "static/js/2.716f0cf1.chunk.js": "/static/js/2.716f0cf1.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/img-2021-09-portfolio-website-react.154f6de5.png": "/static/media/img-2021-09-portfolio-website-react.154f6de5.png",
     "static/media/img-2021-10-power-bi-quarterly-singapore-rental-prices-by-currency.8745e860.png": "/static/media/img-2021-10-power-bi-quarterly-singapore-rental-prices-by-currency.8745e860.png",
     "static/media/img-2021-11-power-bi-follow-the-sun-customer-support.5656c9fc.png": "/static/media/img-2021-11-power-bi-follow-the-sun-customer-support.5656c9fc.png",
+    "static/media/img-2022-01-sql-server-integration-services-international-marketplace.80dbe5f6.png": "/static/media/img-2022-01-sql-server-integration-services-international-marketplace.80dbe5f6.png",
     "static/media/logo-aws.1baaa078.svg": "/static/media/logo-aws.1baaa078.svg",
     "static/media/logo-azure.e88b515d.svg": "/static/media/logo-azure.e88b515d.svg",
     "static/media/logo-css.c16f99e3.svg": "/static/media/logo-css.c16f99e3.svg",
@@ -47,6 +48,6 @@
     "static/js/runtime-main.4cb9c1c6.js",
     "static/js/2.716f0cf1.chunk.js",
     "static/css/main.9c57815a.chunk.css",
-    "static/js/main.8fc98f8f.chunk.js"
+    "static/js/main.fdef57e7.chunk.js"
   ]
 }
