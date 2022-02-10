@@ -40,15 +40,19 @@ export default function Banner() {
         <div className='banner'>
             <div className='banner-navigation'>
                 <div className='menu-overlay'>
-                    <ul>  
-                        <li>
-                            <div className='menu-overlay-glow'></div>
-                            <Link to='/'>PROJECTS</Link>
-                        </li>
-                        <li>
-                            <div className='menu-overlay-glow'></div>
-                            <Link to='/blog'>BLOG</Link>
-                        </li>
+                    <ul> 
+                        <Link to='/'>
+                            <li>
+                                <div className='menu-overlay-glow'></div>
+                                PORTFOLIO
+                            </li>                            
+                        </Link>
+                        <Link to='/blog'>
+                            <li>
+                                <div className='menu-overlay-glow'></div>
+                                BLOG
+                            </li>
+                        </Link>
                     </ul>
                 </div>
                 <center>
