@@ -181,6 +181,7 @@ div img {
   padding-top: 6px;
   padding-right: 2px;
   border-top: 1px solid #a7f5ff;
+  border-bottom: 1px solid #0063c0;
 /*  background-color: #2a2a29; */
   background-image: linear-gradient(to top, #019eff 15%, #00abff  31%, #0ac1ff  60%);
   text-align: left;
