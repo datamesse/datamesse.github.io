@@ -99,6 +99,25 @@ export default function Banner() {
                                         <span className='banner-label'>Twitter</span>
                                     </a>
                                 </li>
+
+
+
+
+
+                                <li>
+                                    <a href={ ascii0 + ascii2 + ascii3 } target='_blank'>
+                                        <span className='banner-icon'>
+                                            <img src={ logoblue_linkedin } />
+                                            <img src={ logo_linkedin } />
+                                        </span>
+                                        <span className='banner-label'>LinkedIn</span>
+                                    </a>
+                                </li>
+
+
+
+
+
                             </ul>
                     </div>
                 </center>
