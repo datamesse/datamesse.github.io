@@ -7,8 +7,18 @@ import img_portfoliowebsitereact from '../assets-portfolio/img-2021-09-portfolio
 import img_singaporerentpowerbi from '../assets-portfolio/img-2021-10-power-bi-quarterly-singapore-rental-prices-by-currency.png';
 import img_followthesunpowerbi from  '../assets-portfolio/img-2021-11-power-bi-follow-the-sun-customer-support.png';
 import img_internationalmarketplacessis from '../assets-portfolio/img-2022-01-sql-server-integration-services-international-marketplace.png';
+import img_internationalmarketplacepowerbi from '../assets-portfolio/img-2022-04-power-bi-international-marketplace-python-deneb.png';
 
 const portfolio = [
+   {
+      title: 'International marketplace',
+      description: 'Power BI report incorporating Python predictive profit and custom Deneb (JSON-based) visuals',
+      stamp: '2022-04',
+      stack: logo_powerbi,
+      photo: img_internationalmarketplacepowerbi,
+      siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/International-Marketplace-profit-report-using-Python-and-Deneb/m-p/2480550#M7154',
+      codeURL: 'https://github.com/datamesse/data-visualisation-datasets/blob/main/International%20Marketplace%20sales/Power%20Query%20and%20Deneb%20code.md'
+   },
    {
       title: 'International marketplace dataset',
       description: 'SQL Server Integration Services package that merges different sample sales datasets',
