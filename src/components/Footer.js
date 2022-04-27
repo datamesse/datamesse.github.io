@@ -8,7 +8,7 @@ export default function Footer() {
     return (
             <div className='footer'>
                 <center>
-                    <p>data messe | Ⓒ {year}</p>
+                    <p>website coded by data messe | Ⓒ {year}</p>
                 </center>
             </div>
     )
