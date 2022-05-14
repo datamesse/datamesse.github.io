@@ -20,20 +20,14 @@ var intervalId = setInterval(function() {
 }, 5000)
 */
 
-
-/*
-
-                                <li>
-                                    <a href={ ascii0 + ascii2 + ascii3 } target='_blank'>
-                                        <span className='banner-icon'>
-                                            <img src={ logoblue_linkedin } />
-                                            <img src={ logo_linkedin } />
-                                        </span>
-                                        <span className='banner-label'>LinkedIn</span>
-                                    </a>
-                                </li>
-
-*/
+                        /*
+                        <Link to='/about'>
+                            <li>
+                                <div className='menu-overlay-glow'></div>
+                                ABOUT
+                            </li>
+                        </Link>
+                        */
 
 export default function Banner() {
     return (
@@ -99,10 +93,6 @@ export default function Banner() {
                                         <span className='banner-label'>Twitter</span>
                                     </a>
                                 </li>
-
-
-
-
                                 <li>
                                     <a href={ ascii0 + ascii2 + ascii3 } target='_blank'>
                                         <span className='banner-icon'>
@@ -112,16 +102,6 @@ export default function Banner() {
                                         <span className='banner-label'>LinkedIn</span>
                                     </a>
                                 </li>
-
-
-
-
-
-
-
-
-
-
                             </ul>
                     </div>
                 </center>

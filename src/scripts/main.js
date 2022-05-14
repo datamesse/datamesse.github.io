@@ -95,7 +95,7 @@ const getPages = async () => {
                 }
                 pagelist.push(page)
                     let data = JSON.stringify(pagelist)
-                    fs.writeFileSync("src/data/pages.json", data)
+                    fs.writeFileSync("src/data/about.json", data)
                 })
             })
         })

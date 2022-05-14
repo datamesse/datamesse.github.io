@@ -6,6 +6,7 @@ import './index.css';
 import Projects from './components/Projects'
 import Blog from './components/Blog'
 import Post from './components/Post'
+import About from './components/About'
 import NotFound from './components/NotFound'
 /* import App from './App'; */
 /* import About from './components/About'; */
@@ -15,6 +16,7 @@ ReactDOM.render(
       <div>
         <Route exact path="/" component={Projects} />
         <Route exact path="/blog" component={Blog} />
+        <Route exact path="/about" component={About} />
         <Route exact path="/404" component={NotFound} />
         <Route exact path="/post/:id" render={props => <Post {...props} />}
         />
