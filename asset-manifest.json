@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.63398499.chunk.css",
-  "main.js": "/static/js/main.7e0406e7.chunk.js",
-  "main.js.map": "/static/js/main.7e0406e7.chunk.js.map",
+  "main.js": "/static/js/main.d11056c6.chunk.js",
+  "main.js.map": "/static/js/main.d11056c6.chunk.js.map",
   "static/js/1.6253ddba.chunk.js": "/static/js/1.6253ddba.chunk.js",
   "static/js/1.6253ddba.chunk.js.map": "/static/js/1.6253ddba.chunk.js.map",
   "static/js/2.d01a77b8.chunk.js": "/static/js/2.d01a77b8.chunk.js",
@@ -42,6 +42,6 @@
   "static/media/img-2022-04-power-bi-international-marketplace-python-deneb.png": "/static/media/img-2022-04-power-bi-international-marketplace-python-deneb.51bf9a11.png",
   "static/css/main.63398499.chunk.css.map": "/static/css/main.63398499.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.336147ea4f49d2d5c6c31b3567884135.js": "/precache-manifest.336147ea4f49d2d5c6c31b3567884135.js",
+  "precache-manifest.45c067375d468f026363253dad4e1fe6.js": "/precache-manifest.45c067375d468f026363253dad4e1fe6.js",
   "service-worker.js": "/service-worker.js"
 }
