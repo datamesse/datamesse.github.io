@@ -9,7 +9,7 @@ function BlogPreview() {
             <Separator />
             <label className='section-title'>Blog</label>
             <Link to='/blog'>
-                Click here to go to all blog posts
+                Click here to view all blog posts
             </Link>
         </div>
     );

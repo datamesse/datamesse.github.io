@@ -14,10 +14,13 @@ function About() {
 
             <div className='about-top'>
                 <div className='about-info'>
-                    data messe
-                    <br /> messe is a German word meaning trade fair;
-                    <br /> - Wikipedia.org
-                    <br />(https://en.wikipedia.org/wiki/Messe)
+
+                    <h1>data messe</h1>
+                    <p>Hi, I'm a data analysis and visualisation specialist.</p>
+                    <br />
+                    <div className='about-quote'>
+                        <a href="https://en.wikipedia.org/wiki/Messe">Messe is a German word meaning trade fair;  - Wikipedia</a>
+                    </div>
                 </div>
                 <div className='about-photo'>
                     <img className='about-image' src={ image_sentimentanalysis_animated } />

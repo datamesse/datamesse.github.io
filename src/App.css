@@ -94,7 +94,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: yellow;
+    background-color: #E9F6FE;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -124,7 +124,7 @@ body {
 
 .body {
     padding: 12px;
-    padding-bottom: 36px;;
+    padding-bottom: 36px;
 }
 
 
@@ -142,6 +142,20 @@ body {
 .about-image {
     height: 420px;
 }
+
+.about-quote {
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 7px;
+}
+
+.about a {
+    text-decoration: none;
+    color: #000;
+}
+
 
 .links {
     display: flex;
@@ -315,6 +329,12 @@ body {
     width: 100%;
 }
 
+.blog-preview a {
+    text-decoration: none;
+    color: #000;
+    margin: auto;
+}
+
 
 
 .contact {
@@ -323,15 +343,36 @@ body {
     width: 100%;
 }
 
+.contact p {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
 
 
 .footer {
+    font-family: 'Kanit';
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
     padding: 12px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding-top: 24px;
     background-color: #000;
+}
+
+.footer p {
+    margin: 0px;
+    margin-left: 15px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 15px;
 }
 
 
