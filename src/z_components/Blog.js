@@ -1,10 +1,15 @@
-import React from 'react';
-import ReactMarkdown from 'react-markdown';
-import { Link } from 'react-router-dom';
-import '../App.css';
-import Header from './Header';
-import { assetURL } from '../data/data';
-import Posts from '../data/posts.json';
+import React from 'react'
+import ReactMarkdown from 'react-markdown'
+import { Link } from 'react-router-dom'
+import '../App.css'
+import Banner from './Banner'
+import Footer from './Footer'
+import { assetURL } from '../data/data'
+import Posts from '../data/posts.json'
+import { logo_aws, logo_azure, logo_css, logo_excel, logo_html, logo_javascript, logo_mongodb, logo_nodejs,
+    logo_powerbi, logo_python, logo_react, logo_r, logo_tableau,logo_typescript, logo_visualstudio
+  } from '../data/assets';
+
 
 export default function Blog() {
     const excerptList = Posts.map(post => {
@@ -14,10 +19,10 @@ export default function Blog() {
     console.log(Posts)
     return (
         <>
-            <Header />
+            <Banner />
             <div className='blog'>
                 <center>
-                    <div className='blog-set'>
+                    <div className='project-set'>
                     {
                         Posts.length &&
                             Posts.map((post, i) => {
@@ -46,6 +51,7 @@ export default function Blog() {
                     </div>
                 </center>
             </div>
+            <Footer />
         </>
     )
 }

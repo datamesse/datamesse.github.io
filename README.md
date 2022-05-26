@@ -4,6 +4,8 @@ This is my personal website, designed and coded using HTML, CSS, Markdown, and J
 
 My previous blog used a Jekyll boiler template and kept triggering failed deployment errors, so I decided to stop using such templates, and I coded the site from scratch to make it easier to troubleshoot.
 
+The recent update to my site is based on a [YouTube tutorial by Shuvam Kumar a.k.a Overreacted](https://www.youtube.com/watch?v=j0yZc2yfa7o).
+
 The underlying code for rendering blog post data (as the alternative for using Jekyll) was from following a [YouTube tutorial by Will Ward](https://www.youtube.com/watch?v=gT1v33oA1gI&list=PLASldBPN_pkBfRXOkBOaeCJYzCnISw5-Z).
 
 The code to animate the title switch was by [Ajay Narain Mathur on Stack Overflow](https://stackoverflow.com/questions/40878859/changing-a-heading-every-few-seconds-with-an-array-and-a-loop).
@@ -111,3 +113,33 @@ npm run deploy
 **Note:** If you make a change to the source code and push it without building first, no changes will be reflected on the gh-pages branch. So ensure that when trying to push gh-pages build changes, that something in the source files has been changed, otherwise GitHub Desktop won't detect anything for the push.
 
 **Note:** If you hit an error whilst performing the push, it may be relating to number/size of files being sent, in which case from GitHub Desktop, try repushing, otherwise click the History tab and undo or reverse the commits that are pending, and resend the changes in smaller amounts.
+
+## Using anchor tags for same page navigation
+
+Based on this Stack Overflow post: [https://stackoverflow.com/questions/48223566/using-anchor-tags-in-react-router-4](https://stackoverflow.com/questions/48223566/using-anchor-tags-in-react-router-4)
+
+1. Import React Router HashLink.
+
+```
+npm install --save react-router-hash-link
+```
+
+2. Add HashLink to the React component.
+
+```
+import { HashLink as Link } from 'react-router-hash-link';
+```
+
+3. Add link to React component.
+
+```
+<Link to="/pathLink#yourAnchorTag">Your link text</Link>
+```
+
+4. Add the div id reference to the React component.
+
+```
+<div id= "yourAnchorTag">
+      <p>Linked to here<p>
+</div>
+```

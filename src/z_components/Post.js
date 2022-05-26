@@ -1,10 +1,10 @@
-import React from 'react';
-import { Redirect } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown';
-import '../App.css';
-import Header from './Header';
-import Footer from './Footer';
-import postList from '../data/posts.json';
+import React from 'react'
+import { Redirect } from 'react-router-dom'
+import ReactMarkdown from 'react-markdown'
+import '../App.css'
+import Banner from './Banner'
+import Footer from './Footer'
+import postList from '../data/posts.json'
 
 export default function Post(props) {
     const validId = parseInt(props.match.params.id)
@@ -27,7 +27,7 @@ export default function Post(props) {
     }
     return (
         <>
-            <Header />
+            <Banner />
             <div className = 'post'>
                 <center>
                     <div className='post-body'>

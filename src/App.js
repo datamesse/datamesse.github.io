@@ -1,12 +1,8 @@
-import './App.css';
-import Banner from './components/Banner.js';
-import Blog from './components/Blog.js'
+import React from "react";
+import Home from "./components/Home";
 
-export default function App() {
-  return (
-    <div className="App">
-      <Banner />
-      <Blog />
-    </div>
-  );
-}
+const App = () => {
+    return <Home />
+};
+
+export default App;

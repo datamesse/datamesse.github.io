@@ -17,7 +17,8 @@ const portfolio = [
       stack: logo_powerbi,
       photo: img_internationalmarketplacepowerbi,
       siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/International-Marketplace-profit-report-using-Python-and-Deneb/m-p/2480550#M7154',
-      codeURL: 'https://github.com/datamesse/data-visualisation-datasets/blob/main/International%20Marketplace%20sales/Power%20Query%20and%20Deneb%20code.md'
+      codeURL: 'https://github.com/datamesse/data-visualisation-datasets/blob/main/International%20Marketplace%20sales/Power%20Query%20and%20Deneb%20code.md',
+      tags: ["Power BI", "Python", "Deneb", "Vega-Lite", "Power Query"]
    },
    {
       title: 'International marketplace dataset',
@@ -26,7 +27,8 @@ const portfolio = [
       stack: logo_sqlserver,
       photo: img_internationalmarketplacessis,
       siteURL: 'https://datamesse.github.io/#/post/1641906000',
-      codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/International%20Marketplace%20sales'
+      codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/International%20Marketplace%20sales',
+      tags: ["T-SQL", "ETL", "SQL Server Integration Services"]
    },
    {
       title: 'Follow the sun customer support',
@@ -35,7 +37,8 @@ const portfolio = [
       stack: logo_powerbi,
       photo: img_followthesunpowerbi,
       siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/Follow-the-sun-customer-service-support/m-p/2168279',
-      codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/Support%20ticket%20updates'
+      codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/Support%20ticket%20updates',
+      tags: ["Power BI", "Power Query", "DAX", "Excel"]
    },
    {
       title: 'Singapore rental prices',
@@ -44,17 +47,19 @@ const portfolio = [
       stack: logo_powerbi,
       photo: img_singaporerentpowerbi,
       siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/Quarterly-Singapore-median-rental-prices-by-currency/m-p/2125424',
-      codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/Singapore%20rental%20prices'
+      codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/Singapore%20rental%20prices',
+      tags: ["Power BI", "Power Query", "DAX"]
    },
    {
-       title: 'Project portfolio',
-       description: 'My portfolio website coded using HTML, CSS, and JavaScript with React.js and GitHub Pages',
-       stamp: '2021-09',
-       stack: logo_html,
-       photo: img_portfoliowebsitereact,
-       siteURL: 'https://datamesse.github.io/',
-       codeURL: 'https://github.com/datamesse/datamesse.github.io/'
-    }
+      title: 'Project portfolio',
+      description: 'My portfolio website coded using HTML, CSS, and JavaScript with React.js and GitHub Pages',
+      stamp: '2021-09',
+      stack: logo_html,
+      photo: img_portfoliowebsitereact,
+      siteURL: 'https://datamesse.github.io/',
+      codeURL: 'https://github.com/datamesse/datamesse.github.io/',
+      tags: ["HTML","CSS","React.js"]
+   }
 ]
 
 export default portfolio;

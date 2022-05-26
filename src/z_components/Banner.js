@@ -5,10 +5,10 @@ import { avatar, background,
          logo_github, logo_linkedin, logo_powerbi, logo_tableau, logo_twitter, 
          logoblue_github, logoblue_linkedin, logoblue_powerbi, logoblue_tableau, logoblue_twitter 
        } from '../data/assets'
-import { displayName, ascii0, ascii1, ascii2, ascii3, bannerDescription, githubURL, powerbiURL, tableauURL, twitterURL } from '../data/data'
+import { displayName, ascii0, ascii1, ascii2, ascii3, ascii4, bannerDescription, githubURL, powerbiURL, tableauURL, twitterURL } from '../data/data'
 
-/* Animated banner title and swapping name loop 
-var headings = [displayName, ascii1+ascii2+ascii3];
+/* Animated banner title and swapping name loop */
+var headings = [displayName, ascii2+ascii3+ascii4];
 var i = 0;
 var intervalId = setInterval(function() {
   document.getElementById("title").innerHTML = headings[i];
@@ -17,17 +17,8 @@ var intervalId = setInterval(function() {
   } else {
     i++;
   }
-}, 5000)
-*/
-
-                        /*
-                        <Link to='/about'>
-                            <li>
-                                <div className='menu-overlay-glow'></div>
-                                ABOUT
-                            </li>
-                        </Link>
-                        */
+}, 3000)
+/**/
 
 export default function Banner() {
     return (
@@ -45,6 +36,12 @@ export default function Banner() {
                             <li>
                                 <div className='menu-overlay-glow'></div>
                                 BLOG
+                            </li>
+                        </Link>
+                        <Link to='/about'>
+                            <li>
+                                <div className='menu-overlay-glow'></div>
+                                ABOUT
                             </li>
                         </Link>
                     </ul>
