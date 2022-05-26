@@ -1,27 +1,71 @@
 self.__precacheManifest = [
   {
-    "revision": "d11056c67892d953eadd",
-    "url": "/static/css/main.63398499.chunk.css"
+    "revision": "f960eeaef87197a4ea58",
+    "url": "/static/css/main.f26e3fee.chunk.css"
   },
   {
-    "revision": "d11056c67892d953eadd",
-    "url": "/static/js/main.d11056c6.chunk.js"
+    "revision": "f960eeaef87197a4ea58",
+    "url": "/static/js/main.f960eeae.chunk.js"
   },
   {
-    "revision": "6253ddbadd117d451f00",
-    "url": "/static/js/1.6253ddba.chunk.js"
+    "revision": "a0ff59809693b5f97b88",
+    "url": "/static/js/1.a0ff5980.chunk.js"
   },
   {
-    "revision": "d01a77b81858598f1cf5",
-    "url": "/static/js/2.d01a77b8.chunk.js"
+    "revision": "c827d4d3cd79388b602b",
+    "url": "/static/js/2.c827d4d3.chunk.js"
   },
   {
-    "revision": "913dd894c060a16dc8de",
-    "url": "/static/js/runtime~main.913dd894.js"
+    "revision": "cf735f7ce889e0895c24",
+    "url": "/static/js/runtime~main.cf735f7c.js"
   },
   {
     "revision": "b90dc4f8343dbdd2563ac6b5cf5c9a93",
     "url": "/static/media/bannervideo-bluerectangles2.b90dc4f8.mp4"
+  },
+  {
+    "revision": "2a24a8e56030e33cc889daea11e0b839",
+    "url": "/static/media/storyset-sentiment-analysis-rafiki-animated.2a24a8e5.svg"
+  },
+  {
+    "revision": "71a753216f80935f4373216b1d594393",
+    "url": "/static/media/flaticon-calendar-lines-pen.71a75321.svg"
+  },
+  {
+    "revision": "a6cf4ebf0fde33aed964c4ac38e4e2c4",
+    "url": "/static/media/flaticon-chart-histogram.a6cf4ebf.svg"
+  },
+  {
+    "revision": "e2352a187163623009bb7d0d37603965",
+    "url": "/static/media/flaticon-cross-circle.e2352a18.svg"
+  },
+  {
+    "revision": "71276228e5234c29f9e58d414fc17099",
+    "url": "/static/media/flaticon-diploma.71276228.svg"
+  },
+  {
+    "revision": "756c3c9a683133196be655293f141fcf",
+    "url": "/static/media/flaticon-edit.756c3c9a.svg"
+  },
+  {
+    "revision": "5eaa9781bb2960a529dfbbe5b03415bf",
+    "url": "/static/media/flaticon-globe.5eaa9781.svg"
+  },
+  {
+    "revision": "5f0cf06621ce815403c7a115e8467976",
+    "url": "/static/media/flaticon-keyboard.5f0cf066.svg"
+  },
+  {
+    "revision": "159c842761208d1656a662416e4c5df4",
+    "url": "/static/media/flaticon-magic-wand.159c8427.svg"
+  },
+  {
+    "revision": "f853f4d640ae055484f8eb4ea01bb301",
+    "url": "/static/media/flaticon-menu-burger.f853f4d6.svg"
+  },
+  {
+    "revision": "896ea9e4bf900de2e14e0f528b87f2c0",
+    "url": "/static/media/flaticon-paper-plane.896ea9e4.svg"
   },
   {
     "revision": "fdff4014b22f67787c176c6aa52890a7",
@@ -148,7 +192,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-04-power-bi-international-marketplace-python-deneb.51bf9a11.png"
   },
   {
-    "revision": "4f7c29a7dec9b4cb9dce1b005368933e",
+    "revision": "2abdbac1e152f2693c92bf6eb83dae5e",
     "url": "/index.html"
   }
 ];
