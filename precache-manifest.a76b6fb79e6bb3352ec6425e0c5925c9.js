@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "dffbd43884f72f092311",
-    "url": "/static/css/main.94841be4.chunk.css"
+    "revision": "19c94a490c3c6a4f3f71",
+    "url": "/static/css/main.109b7082.chunk.css"
   },
   {
-    "revision": "dffbd43884f72f092311",
-    "url": "/static/js/main.dffbd438.chunk.js"
+    "revision": "19c94a490c3c6a4f3f71",
+    "url": "/static/js/main.19c94a49.chunk.js"
   },
   {
     "revision": "62b29575e2b919396439",
@@ -184,8 +184,8 @@ self.__precacheManifest = [
     "url": "/static/media/logoblue-youtube.90400f1e.svg"
   },
   {
-    "revision": "28f6f8d006925c343c743700edb59b11",
-    "url": "/static/media/img-2021-09-portfolio-website-react.28f6f8d0.png"
+    "revision": "7aeab392a562f92819f37ba154f16b25",
+    "url": "/static/media/img-2022-05-portfolio-website-react.7aeab392.png"
   },
   {
     "revision": "5e5019ffa3ede722e0114e373b477d21",
@@ -204,7 +204,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-04-power-bi-international-marketplace-python-deneb.51bf9a11.png"
   },
   {
-    "revision": "32148849140b53a46f68ad0782088a61",
+    "revision": "86b090405f4dcba9e2c5b10539091031",
     "url": "/index.html"
   }
 ];

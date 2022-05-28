@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.94841be4.chunk.css",
-  "main.js": "/static/js/main.dffbd438.chunk.js",
-  "main.js.map": "/static/js/main.dffbd438.chunk.js.map",
+  "main.css": "/static/css/main.109b7082.chunk.css",
+  "main.js": "/static/js/main.19c94a49.chunk.js",
+  "main.js.map": "/static/js/main.19c94a49.chunk.js.map",
   "static/js/1.62b29575.chunk.js": "/static/js/1.62b29575.chunk.js",
   "static/js/1.62b29575.chunk.js.map": "/static/js/1.62b29575.chunk.js.map",
   "static/css/2.67df24a2.chunk.css": "/static/css/2.67df24a2.chunk.css",
@@ -49,14 +49,14 @@
   "static/media/logoblue-tableau.svg": "/static/media/logoblue-tableau.b8ed4136.svg",
   "static/media/logoblue-twitter.svg": "/static/media/logoblue-twitter.dfac15a2.svg",
   "static/media/logoblue-youtube.svg": "/static/media/logoblue-youtube.90400f1e.svg",
-  "static/media/img-2021-09-portfolio-website-react.png": "/static/media/img-2021-09-portfolio-website-react.28f6f8d0.png",
+  "static/media/img-2022-05-portfolio-website-react.png": "/static/media/img-2022-05-portfolio-website-react.7aeab392.png",
   "static/media/img-2021-10-power-bi-quarterly-singapore-rental-prices-by-currency.png": "/static/media/img-2021-10-power-bi-quarterly-singapore-rental-prices-by-currency.5e5019ff.png",
   "static/media/img-2021-11-power-bi-follow-the-sun-customer-support.png": "/static/media/img-2021-11-power-bi-follow-the-sun-customer-support.5646c46e.png",
   "static/media/img-2022-01-sql-server-integration-services-international-marketplace.png": "/static/media/img-2022-01-sql-server-integration-services-international-marketplace.29c82787.png",
   "static/media/img-2022-04-power-bi-international-marketplace-python-deneb.png": "/static/media/img-2022-04-power-bi-international-marketplace-python-deneb.51bf9a11.png",
-  "static/css/main.94841be4.chunk.css.map": "/static/css/main.94841be4.chunk.css.map",
   "static/css/2.67df24a2.chunk.css.map": "/static/css/2.67df24a2.chunk.css.map",
+  "static/css/main.109b7082.chunk.css.map": "/static/css/main.109b7082.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.affea8651662fe4822e0f5ce4ff11941.js": "/precache-manifest.affea8651662fe4822e0f5ce4ff11941.js",
+  "precache-manifest.a76b6fb79e6bb3352ec6425e0c5925c9.js": "/precache-manifest.a76b6fb79e6bb3352ec6425e0c5925c9.js",
   "service-worker.js": "/service-worker.js"
 }
