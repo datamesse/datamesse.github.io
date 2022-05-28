@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "d07f250eb16d1202775c",
-    "url": "/static/css/main.835ffbba.chunk.css"
+    "revision": "2613b5381bd5dd611d6e",
+    "url": "/static/css/main.ee85f075.chunk.css"
   },
   {
-    "revision": "d07f250eb16d1202775c",
-    "url": "/static/js/main.d07f250e.chunk.js"
+    "revision": "2613b5381bd5dd611d6e",
+    "url": "/static/js/main.2613b538.chunk.js"
   },
   {
-    "revision": "80624ee6e3c8d579c24c",
-    "url": "/static/js/1.80624ee6.chunk.js"
+    "revision": "62b29575e2b919396439",
+    "url": "/static/js/1.62b29575.chunk.js"
   },
   {
-    "revision": "fd5da91494bcd370c160",
-    "url": "/static/js/2.fd5da914.chunk.js"
+    "revision": "3a7c1e6a33e126a0eab8",
+    "url": "/static/css/2.67df24a2.chunk.css"
   },
   {
-    "revision": "8c4f1ac7b3142becc350",
-    "url": "/static/js/runtime~main.8c4f1ac7.js"
+    "revision": "3a7c1e6a33e126a0eab8",
+    "url": "/static/js/2.3a7c1e6a.chunk.js"
+  },
+  {
+    "revision": "88acd06e1faf55547e53",
+    "url": "/static/js/runtime~main.88acd06e.js"
   },
   {
     "revision": "b90dc4f8343dbdd2563ac6b5cf5c9a93",
@@ -200,7 +204,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-04-power-bi-international-marketplace-python-deneb.51bf9a11.png"
   },
   {
-    "revision": "da14ccad55eed683ff1e8f358c6aa496",
+    "revision": "1432f34d4c640a78cc6fd8ab8ae27bf1",
     "url": "/index.html"
   }
 ];
