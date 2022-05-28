@@ -14,7 +14,11 @@ That code implementation is only used for the blog component. The project portfo
 
 The video banner background ["Communication Line Technology"](https://pixabay.com/videos/communication-line-technology-45902/') is used free from [pixabay.com](https://www.pixabay.com) by [ArtDio2020](https://pixabay.com/users/artdio2020-8194567/?tab=videos).
 
-Software logos were used from [World Vector Logo](https://worldvectorlogo.com/) and [Wikimedia.org](https://upload.wikimedia.org/).
+Software logos and other art were used from:
+ * [Flaticon.com](https://www.flaticon.com/uicons)
+ * [StorySet.com](https://storyset.com/data)
+ * [Wikimedia.org](https://upload.wikimedia.org/)
+ * [WorldVectorLogo.com](https://worldvectorlogo.com/)
 
 Online CSS tool "Clippy" by [Bennett Feely](https://bennettfeely.com/clippy/) was used to help design CSS path for Blog and Projects buttons.
 
@@ -143,3 +147,8 @@ import { HashLink as Link } from 'react-router-hash-link';
       <p>Linked to here<p>
 </div>
 ```
+
+## Adding donut charts for skill sets
+
+
+* [npmjs.com/package/react-circular-progressbar](npmjs.com/package/react-circular-progressbar)

@@ -105,6 +105,7 @@ body {
     top: 0px;
     flex-direction: column;
     z-index: 1;
+    border-radius: 15px;
 }
 
 .menu-mobile-option {
@@ -252,7 +253,6 @@ body {
     border-radius: 15px;
     box-shadow: 7px 7px rgba(60, 64, 67, 0.3);
 }
-
 
 .section-title {
     font-family: 'Kanit';
@@ -660,8 +660,18 @@ code {
     .project-photo {
         width: 90%;
     }
+    .project-title {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .project-links {
+        justify-content: center;
+    }
     .project-tags {
         max-width: 100%;
+        justify-content: center;
     }
     .skills-list {
         max-width: 100%;

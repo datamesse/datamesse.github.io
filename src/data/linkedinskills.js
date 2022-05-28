@@ -1,5 +1,5 @@
-import { logo_aws, logo_azure, logo_css, logo_excel, logo_html, logo_javascript, logo_mongodb, logo_nodejs,
-    logo_powerbi, logo_python, logo_react, logo_r, logo_sqlserver, logo_tableau,logo_typescript, logo_visualstudio
+import { logo_aws, logo_azure, logo_css, logo_excel, logo_html, logo_javascript, logo_mongodb, logo_nodejs, logo_photoshop,
+    logo_powerbi, logo_python, logo_react, logo_r, logo_sqlserver, logo_tableau,logo_typescript, logo_visualstudio, logo_xml
   } from '../data/assets';
 
 export const LinkedInSkills = [
@@ -58,7 +58,7 @@ export const LinkedInSkills = [
                 date: "5th May 2022",
                 score: "Top 15%",
                 taken: "203.0 thousand",
-                icon: logo_html
+                icon: logo_xml
             }
         ]
     },
@@ -70,7 +70,7 @@ export const LinkedInSkills = [
                     date: "10th August 2020",
                     score: "Top 30%",
                     taken: "2.6 million",
-                    icon: logo_html
+                    icon: logo_photoshop
                 }
             ]
     }

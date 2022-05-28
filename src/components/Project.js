@@ -30,7 +30,7 @@ function Project({ project }) {
                     })}
                 </div>
             </div>
-            <img src={project.photo} className='project-photo' />
+                <img src={project.photo} className='project-photo' />
         </div>
     );
 }
