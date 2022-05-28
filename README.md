@@ -150,5 +150,14 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 ## Adding donut charts for skill sets
 
+* [Youtube tutorial by Rizwan Khan](https://youtu.be/RUx1Zvv1qQU?t=3260)
 
 * [npmjs.com/package/react-circular-progressbar](npmjs.com/package/react-circular-progressbar)
+
+* [Sample code](https://codesandbox.io/s/vymm4oln6y?file=/index.js:6663-6673)
+
+1. Install React Circular Progressbar
+
+```
+npm install react-circular-progressbar
+```

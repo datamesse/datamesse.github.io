@@ -9,15 +9,15 @@ export const LinkedInSkills = [
             {
                 name: "Microsoft Power BI",
                 date: "27th August 2021",
-                score: "Top 15%",
-                taken: "506.6 thousand",
+                score: 15,
+                taken: "506.6 k",
                 icon: logo_powerbi
             },
             {
                 name: "Microsoft Excel",
                 date: "30th October 2019",
-                score: "Top 5%",
-                taken: "21.4 million",
+                score: 5,
+                taken: "21.4 M",
                 icon: logo_excel
             }
         ]
@@ -28,36 +28,36 @@ export const LinkedInSkills = [
             {
                 name: "Microsoft T-SQL",
                 date: "27th August 2021",
-                score: "Top 30%",
-                taken: "323.1 thousand",
+                score: 30,
+                taken: "323.1 k",
                 icon: logo_sqlserver
             },
             {
                 name: "HTML",
                 date: "10th September 2020",
-                score: "Top 30%",
-                taken: "2.7 million",
+                score: 30,
+                taken: "2.7 M",
                 icon: logo_html
             },
             {
                 name: "CSS",
                 date: "10th September 2020",
-                score: "Top 15%",
-                taken: "1.4 million",
+                score: 15,
+                taken: "1.4 M",
                 icon: logo_css
             },
             {
                 name: "JavaScript",
                 date: "10th May 2020",
-                score: "Top 5%",
-                taken: "1.8 million",
+                score: 5,
+                taken: "1.8 M",
                 icon: logo_javascript
             },
             {
                 name: "XML",
                 date: "5th May 2022",
-                score: "Top 15%",
-                taken: "203.0 thousand",
+                score: 15,
+                taken: "203.0 k",
                 icon: logo_xml
             }
         ]
@@ -68,8 +68,8 @@ export const LinkedInSkills = [
                 {
                     name: "Adobe Photoshop",
                     date: "10th August 2020",
-                    score: "Top 30%",
-                    taken: "2.6 million",
+                    score: 30,
+                    taken: "2.6 M",
                     icon: logo_photoshop
                 }
             ]
