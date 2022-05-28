@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "f960eeaef87197a4ea58",
-    "url": "/static/css/main.f26e3fee.chunk.css"
+    "revision": "d07f250eb16d1202775c",
+    "url": "/static/css/main.835ffbba.chunk.css"
   },
   {
-    "revision": "f960eeaef87197a4ea58",
-    "url": "/static/js/main.f960eeae.chunk.js"
+    "revision": "d07f250eb16d1202775c",
+    "url": "/static/js/main.d07f250e.chunk.js"
   },
   {
-    "revision": "a0ff59809693b5f97b88",
-    "url": "/static/js/1.a0ff5980.chunk.js"
+    "revision": "80624ee6e3c8d579c24c",
+    "url": "/static/js/1.80624ee6.chunk.js"
   },
   {
-    "revision": "c827d4d3cd79388b602b",
-    "url": "/static/js/2.c827d4d3.chunk.js"
+    "revision": "fd5da91494bcd370c160",
+    "url": "/static/js/2.fd5da914.chunk.js"
   },
   {
-    "revision": "cf735f7ce889e0895c24",
-    "url": "/static/js/runtime~main.cf735f7c.js"
+    "revision": "8c4f1ac7b3142becc350",
+    "url": "/static/js/runtime~main.8c4f1ac7.js"
   },
   {
     "revision": "b90dc4f8343dbdd2563ac6b5cf5c9a93",
@@ -108,6 +108,10 @@ self.__precacheManifest = [
     "url": "/static/media/logo-nodejs.a1231528.svg"
   },
   {
+    "revision": "4c7cd5a20770c6c5e1263e7de79686cf",
+    "url": "/static/media/logo-photoshop.4c7cd5a2.svg"
+  },
+  {
     "revision": "c70d8b4376bbadf9f8d14fc0ff0b8ac2",
     "url": "/static/media/logo-powerbi.c70d8b43.svg"
   },
@@ -142,6 +146,10 @@ self.__precacheManifest = [
   {
     "revision": "e60fcd0974402a2aaf59f3835776c5ea",
     "url": "/static/media/logo-visualstudiocode.e60fcd09.svg"
+  },
+  {
+    "revision": "928036dea3aa19c1652da717abdc6fdf",
+    "url": "/static/media/logo-xml.928036de.svg"
   },
   {
     "revision": "ee528d4fd418acd30f317e6a54404cd6",
@@ -192,7 +200,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-04-power-bi-international-marketplace-python-deneb.51bf9a11.png"
   },
   {
-    "revision": "2abdbac1e152f2693c92bf6eb83dae5e",
+    "revision": "da14ccad55eed683ff1e8f358c6aa496",
     "url": "/index.html"
   }
 ];
