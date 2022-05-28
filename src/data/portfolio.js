@@ -47,7 +47,7 @@ const portfolio = [
       title: 'Singapore rental prices report',
       description: 'A Power BI report showing trends of Singapore rent by quarter, flat type, and major currency conversions.',
       stamp: '2021-10',
-      shortdate: 'OCT 2022',
+      shortdate: 'OCT 2021',
       stack: logo_powerbi,
       photo: img_singaporerentpowerbi,
       siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/Quarterly-Singapore-median-rental-prices-by-currency/m-p/2125424',
