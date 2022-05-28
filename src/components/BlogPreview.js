@@ -8,8 +8,8 @@ function BlogPreview() {
         <div className='blog-preview' id='blog'>
             <Separator />
             <label className='section-title'>Blog</label>
-            <Link to='/blog'>
-                Click here to view all blog posts
+            <Link to='/blog' target='_blank'>
+                Click here to preview all blog posts
             </Link>
         </div>
     );

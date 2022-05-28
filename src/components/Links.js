@@ -8,7 +8,7 @@ import { SocialData } from '../data/social';
         <div className='links'>
             {data.map((item)=>{
                 return(
-                        <a href={item.link}>
+                        <a href={item.link} target='_blank'>
                             <div className='link'>
                                 <img src={item.icon} className='link-icon' />
                             </div>

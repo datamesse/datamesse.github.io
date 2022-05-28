@@ -64,9 +64,15 @@ body {
 
 .menu-desktop-option a {
     text-decoration: none;
-    color: black;
+    color: #000;
     display: flex;
     align-items: center;
+}
+
+.menu-desktop-option a:hover {
+    color: #23a9f2;
+    padding-bottom: 4px;
+    border-bottom: 3px solid #23a9f2;
 }
 
 .menu-option {
@@ -97,9 +103,8 @@ body {
     background-color: #E9F6FE;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    height: 100vh;
-    width: 60vw;
+    height: 55vh;
+    width: 55vw;
     position: absolute;
     right: 0px;
     top: 0px;
@@ -122,6 +127,9 @@ body {
     display: flex;
 }
 
+.menu-mobile-option a:hover {
+    color: #23a9f2;
+}
 
 .body {
     padding: 12px;
@@ -136,8 +144,24 @@ body {
     align-items: center;
 }
 
+.about-avatar {
+    height: 90px;
+    width: 90px;
+    margin-right: 15px;
+    border-radius: 50%;
+    border: 2px solid #E9F6FE;
+    background-color: #E9F6FE;
+    left: 0px;
+    float: left;
+  }
+
 .about-info {
-    font-size: 24px;
+    font-size: 18px;
+}
+
+.about-title {
+    display: flex;
+    align-items: center;
 }
 
 .about-image {
@@ -287,6 +311,15 @@ body {
     color: #23a9f2;
 }
 
+.skills p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.skills ul li {
+    margin-bottom: 8px;
+}
+
 .skills-section {
     display: flex;
     justify-content: space-between;
@@ -311,7 +344,7 @@ body {
 .skill {
     display: flex;
     flex-direction: column;
-    width: max-content;
+/*    width: max-content; */
     padding: 8px 16px;
     height: 140px;
     width: 140px;
@@ -321,19 +354,28 @@ body {
 }
 
 .skill-icon {
-    height: 50px;
+    height: 60px;
 }
 
 .skill-name {
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Kanit';
-    font-weight: 600;
+    font-weight: 700;
+    margin-top: 7px;
 }
 
 .skill-score {
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Kanit';
     font-weight: 600;
+    margin: 0px;
+}
+
+.skill-date {
+    font-size: 11px;
+    font-family: 'Kanit';
+    font-weight: 600;
+    margin: 0px;
 }
 
 .blog-preview {
@@ -344,7 +386,7 @@ body {
 
 .blog-preview a {
     text-decoration: none;
-    color: #000;
+    color: #23a9f2;
     margin: auto;
 }
 
@@ -654,8 +696,17 @@ code {
         justify-content: center;
         align-items: center;
     }
+    .about-avatar {
+        height: 120px;
+        width: 120px;
+    }
     .about-info {
-        font-size: 20px;
+        font-size: 16px;
+    }
+    .about-title {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .about-image {
         height: 280px;
@@ -701,6 +752,20 @@ code {
     .skill-icon {
         height: 30px;
     }
+    .skill-name {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .skill-score {
+        font-size: 10px;
+    }
+    
+    .skill-date {
+        font-size: 9px;
+    }
+
+
+
 }
 
 @media only screen and (max-width: 512px){

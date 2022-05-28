@@ -14,12 +14,13 @@ function Skill({ skill }) {
                     pathColor: "#23a9f2",
                     trailColor: "#E9F6FE"
                 })}>
-                <label className='skill-name'>{ skill.name }</label>
+                <label className='skill-name'>{ skill.shortname }</label>
                 <img className='skill-icon'
                   src={ skill.icon }
                   alt={ skill.name }
                 />
                 <label className='skill-score'>Top {`${ skill.score }%`} of {skill.taken}</label>
+                <label className='skill-date'>{skill.shortdate}</label>
             </CircularProgressbarWithChildren>
         </div>
     )

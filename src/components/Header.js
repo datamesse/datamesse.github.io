@@ -2,12 +2,8 @@ import React, { useState } from 'react';
 import '../App.css';
 import MenuDesktop from './MenuDesktop';
 import MenuMobile from './MenuMobile';
-import { icon_menuburger, icon_edit, icon_diploma, icon_paperplane,
-    avatar, background, 
-    logo_github, logo_linkedin, logo_powerbi, logo_tableau, logo_twitter, 
-    logoblue_github, logoblue_linkedin, logoblue_powerbi, logoblue_tableau, logoblue_twitter 
-  } from '../data/assets'
-import { displayName, ascii0, ascii1, ascii2, ascii3, ascii4, bannerDescription, githubURL, powerbiURL, tableauURL, twitterURL } from '../data/data'
+import { icon_menuburger } from '../data/assets'
+import { displayName, ascii2, ascii3, ascii4 } from '../data/data'
 
 var headings = [ascii2+ascii3+ascii4, displayName];
 var i = 0;

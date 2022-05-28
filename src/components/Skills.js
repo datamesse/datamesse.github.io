@@ -3,11 +3,6 @@ import '../App.css';
 import Separator from './Separator';
 import { LinkedInSkills } from '../data/linkedinskills';
 import Skill from './Skill';
-import { avatar, background,
-    icon_calendarlinespen, icon_charthistogram, icon_crosscircle, icon_diploma, icon_edit, icon_magicwand, icon_menuburger, icon_paperplane, 
-    logo_github, logo_linkedin, logo_powerbi, logo_tableau, logo_twitter, 
-    logoblue_github, logoblue_linkedin, logoblue_powerbi, logoblue_tableau, logoblue_twitter 
-} from '../data/assets';
 
 function Skills() {
     const data = LinkedInSkills
@@ -25,10 +20,10 @@ function Skills() {
             </p>
             <ul>
                 <li>
-                    <a href="https://www.linkedin.com/help/linkedin/answer/a507663">How are LinkedIn Skill Assessments made and scored?</a>
+                    <a href="https://www.linkedin.com/help/linkedin/answer/a507663" target='_blank'>How are LinkedIn Skill Assessments made and scored?</a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/help/linkedin/answer/a507734">What are the available LinkedIn Skill Assessments?</a>
+                    <a href="https://www.linkedin.com/help/linkedin/answer/a507734" target='_blank'>What are the available LinkedIn Skill Assessments?</a>
                 </li>
             </ul>
             <div>

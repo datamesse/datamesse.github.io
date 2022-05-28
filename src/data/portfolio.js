@@ -11,8 +11,8 @@ import img_internationalmarketplacepowerbi from '../assets-portfolio/img-2022-04
 
 const portfolio = [
    {
-      title: 'International marketplace',
-      description: 'Power BI report incorporating Python predictive profit and custom Deneb (JSON-based) visuals',
+      title: 'International marketplace report',
+      description: 'A Power BI report incorporating Python profit predictions and custom Deneb (JSON-based) visualisations.',
       stamp: '2022-04',
       stack: logo_powerbi,
       photo: img_internationalmarketplacepowerbi,
@@ -22,7 +22,7 @@ const portfolio = [
    },
    {
       title: 'International marketplace dataset',
-      description: 'SQL Server Integration Services package that merges different sample sales datasets',
+      description: 'An SQL Server Integration Services package that merges different Microsoft and Tableau sample sales datasets into a single data warehouse.',
       stamp: '2022-01',
       stack: logo_sqlserver,
       photo: img_internationalmarketplacessis,
@@ -31,8 +31,8 @@ const portfolio = [
       tags: ["T-SQL", "ETL", "SQL Server Integration Services"]
    },
    {
-      title: 'Follow the sun customer support',
-      description: 'Power BI report showing teamwork and performance for global customer service',
+      title: 'Follow the sun customer support report',
+      description: 'A Power BI report showing teamwork and performance for global customer service. Incorporates dynamic daylight saving offsets, which are not inherent in Power BI time intelligence (at the time of writing).',
       stamp: '2021-11',
       stack: logo_powerbi,
       photo: img_followthesunpowerbi,
@@ -41,8 +41,8 @@ const portfolio = [
       tags: ["Power BI", "Power Query", "DAX", "Excel"]
    },
    {
-      title: 'Singapore rental prices',
-      description: 'Power BI report showing trends of Singapore rent by quarter, major currency, and flat type',
+      title: 'Singapore rental prices report',
+      description: 'A Power BI report showing trends of Singapore rent by quarter, flat type, and major currency conversions.',
       stamp: '2021-10',
       stack: logo_powerbi,
       photo: img_singaporerentpowerbi,
@@ -51,7 +51,7 @@ const portfolio = [
       tags: ["Power BI", "Power Query", "DAX"]
    },
    {
-      title: 'Project portfolio',
+      title: 'Website portfolio and blog',
       description: 'My portfolio website coded using HTML, CSS, and JavaScript with React.js and GitHub Pages',
       stamp: '2021-09',
       stack: logo_html,

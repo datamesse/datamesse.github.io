@@ -6,10 +6,6 @@ import Banner from './Banner'
 import Footer from './Footer'
 import { assetURL } from '../data/data'
 import Posts from '../data/posts.json'
-import { logo_aws, logo_azure, logo_css, logo_excel, logo_html, logo_javascript, logo_mongodb, logo_nodejs,
-    logo_powerbi, logo_python, logo_react, logo_r, logo_tableau,logo_typescript, logo_visualstudio
-  } from '../data/assets';
-
 
 export default function Blog() {
     const excerptList = Posts.map(post => {

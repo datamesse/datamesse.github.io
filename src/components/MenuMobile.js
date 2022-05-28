@@ -1,9 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { avatar, background,
-    icon_calendarlinespen, icon_charthistogram, icon_crosscircle, icon_diploma, icon_edit, icon_magicwand, icon_menuburger, icon_paperplane, 
-    logo_github, logo_linkedin, logo_powerbi, logo_tableau, logo_twitter, 
-    logoblue_github, logoblue_linkedin, logoblue_powerbi, logoblue_tableau, logoblue_twitter 
+import { icon_charthistogram, icon_crosscircle, icon_diploma, icon_edit, icon_magicwand, icon_menuburger, icon_paperplane
 } from '../data/assets';
 import { HashLink as Link } from 'react-router-hash-link';
 
