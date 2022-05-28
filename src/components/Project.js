@@ -7,21 +7,26 @@ function Project({ project }) {
         <div className='project'>
             <div className='project-info'>
                 <label className='project-title'>{project.title}</label>
-                <div className='project-links'>
-                    {project.siteURL && (
-                        <a href={project.siteURL} target='_blank'>
-                            <div className='project-link-button'>
-                                <img className='project-link-icon' src={ icon_globe } />SITE
-                            </div>
-                        </a>
-                    )}
-                    {project.codeURL && (
-                        <a href={project.codeURL} target='_blank'>
-                            <div className='project-link-button'>
-                                <img className='project-link-icon' src={ logo_github } />CODE
-                            </div>
-                        </a>
-                    )}
+                <div className='project-links-date'>
+                    <div className='project-links'>
+                        {project.siteURL && (
+                            <a href={project.siteURL} target='_blank'>
+                                <div className='project-link-button'>
+                                    <img className='project-link-icon' src={ icon_globe } />SITE
+                                </div>
+                            </a>
+                        )}
+                        {project.codeURL && (
+                            <a href={project.codeURL} target='_blank'>
+                                <div className='project-link-button'>
+                                    <img className='project-link-icon' src={ logo_github } />CODE
+                                </div>
+                            </a>
+                        )}
+                    </div>
+                    <div className='project-date'>
+                        <label>completed {project.shortdate}</label>
+                    </div>
                 </div>
                 <p>{project.description}</p>
                 <div className='project-tags'>

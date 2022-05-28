@@ -150,14 +150,44 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 ## Adding donut charts for skill sets
 
-* [Youtube tutorial by Rizwan Khan](https://youtu.be/RUx1Zvv1qQU?t=3260)
+Based on this [Youtube tutorial by Rizwan Khan](https://youtu.be/RUx1Zvv1qQU?t=3260).
+Other important links are below:
 
-* [npmjs.com/package/react-circular-progressbar](npmjs.com/package/react-circular-progressbar)
+* [Official website for React Circular Progressbar](npmjs.com/package/react-circular-progressbar)
 
-* [Sample code](https://codesandbox.io/s/vymm4oln6y?file=/index.js:6663-6673)
+* [Sample code on how to customise the progress bar](https://codesandbox.io/s/vymm4oln6y?file=/index.js:6663-6673)
 
 1. Install React Circular Progressbar
 
 ```
 npm install react-circular-progressbar
 ```
+
+2. Import the following reference and stylesheet into your React component.
+
+```
+import { CircularProgressbarWithChildren, buildStyles } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
+```
+
+3. Add the progressbar component. Note there are many variations (i.e. components to choose from), and the example below is one where you can add div elements inside the donut chart.
+
+```
+<CircularProgressbarWithChildren
+    strokeWidth={3}
+    value={100 - skill.score}
+    styles={buildStyles({
+        pathColor: "#23a9f2",
+        trailColor: "#E9F6FE"
+    })}>
+    <label className='skill-name'>{ skill.shortname }</label>
+    <img className='skill-icon'
+      src={ skill.icon }
+      alt={ skill.name }
+    />
+    <label className='skill-score'>Top {`${ skill.score }%`} of {skill.taken}</label>
+    <label className='skill-date'>{skill.shortdate}</label>
+</CircularProgressbarWithChildren>
+```
+
+4. Add

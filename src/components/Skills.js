@@ -9,10 +9,10 @@ function Skills() {
     return (
         <div className='skills' id='skills'>
             <Separator />
-            <label className='section-title'>LinkedIn Skills Assessments</label>
+            <label className='section-title'>LinkedIn Skill Assessments</label>
             <p>
                 LinkedIn offers multiple choice tests and groups high performers in the Top 5, 15, and 30 percentiles.
-                These charts indicate my skill, the number of people who took each test, and my group rank amongst them.
+                These charts indicate my skill, my group rank amongst the number of people that took the test, and the dates when I earned each Skills badge.
             </p>
             <p>
                 For more information on my other skills, please visit my LinkedIn profile's Skills section.

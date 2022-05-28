@@ -5,7 +5,7 @@ import MenuMobile from './MenuMobile';
 import { icon_menuburger } from '../data/assets'
 import { displayName, ascii2, ascii3, ascii4 } from '../data/data'
 
-var headings = [ascii2+ascii3+ascii4, displayName];
+var headings = [displayName, ascii2+ascii3+ascii4];
 var i = 0;
 var intervalId = setInterval(function() {
   document.getElementById("title").innerHTML = headings[i];
@@ -21,7 +21,7 @@ const [isOpen, setIsOpen] = useState(false)
     return (
         <>
             <div className="header">
-                <div className="sitename" id="title"></div>
+            <div className="sitename" id="title"></div>
                 <div className="menu">
                     <div className="menu-desktop">
                         <MenuDesktop />

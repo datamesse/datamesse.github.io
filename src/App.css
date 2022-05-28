@@ -224,6 +224,11 @@ body {
     font-weight: 600;
 }
 
+.project-links-date {
+    display: flex;
+    justify-content: space-between;
+}
+
 .project-links {
     display: flex;
     margin-top: 6px;
@@ -252,6 +257,18 @@ body {
     display: flex;
     align-items: center;
     margin-right: 4px;
+}
+
+.project-date {
+    font-family: 'Kanit';
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 6px;
+    margin-right: 15px;
 }
 
 .project-tags {
@@ -708,6 +725,9 @@ code {
         justify-content: center;
         align-items: center;
     }
+    .about-title h1 {
+        padding-right: 15px;
+    }
     .about-image {
         height: 280px;
     }
@@ -729,6 +749,10 @@ code {
         justify-content: center;
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+    .project-links-date {
+        flex-direction: column;
+        align-items: center;
     }
     .project-links {
         justify-content: center;
