@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "a1b617a0656337322773",
-    "url": "/static/css/main.60e3e776.chunk.css"
+    "revision": "c46402092985dc81de4b",
+    "url": "/static/css/main.ac33ac66.chunk.css"
   },
   {
-    "revision": "a1b617a0656337322773",
-    "url": "/static/js/main.a1b617a0.chunk.js"
+    "revision": "c46402092985dc81de4b",
+    "url": "/static/js/main.c4640209.chunk.js"
   },
   {
-    "revision": "50e7d7e1cc9bf47893ec",
-    "url": "/static/js/1.50e7d7e1.chunk.js"
+    "revision": "24fdb58a3e1ae7cf6c86",
+    "url": "/static/js/1.24fdb58a.chunk.js"
   },
   {
-    "revision": "afd131013035012d8ce7",
-    "url": "/static/css/2.a26026e3.chunk.css"
+    "revision": "fbece9926d22983ac3fe",
+    "url": "/static/css/2.9225efd7.chunk.css"
   },
   {
-    "revision": "afd131013035012d8ce7",
-    "url": "/static/js/2.afd13101.chunk.js"
+    "revision": "fbece9926d22983ac3fe",
+    "url": "/static/js/2.fbece992.chunk.js"
   },
   {
-    "revision": "bd7d38e1e12541cfbcfa",
-    "url": "/static/js/runtime~main.bd7d38e1.js"
+    "revision": "6fcc63898e919ccdc972",
+    "url": "/static/js/runtime~main.6fcc6389.js"
   },
   {
     "revision": "b90dc4f8343dbdd2563ac6b5cf5c9a93",
@@ -102,6 +102,10 @@ self.__precacheManifest = [
   {
     "revision": "f935b988635bb10498a83f5f012ce214",
     "url": "/static/media/logo-javascript.f935b988.svg"
+  },
+  {
+    "revision": "61e21c2e976d26bb8b904c7e358bffe7",
+    "url": "/static/media/logo-json.61e21c2e.svg"
   },
   {
     "revision": "5a996c66cbcea7fbbe3ce0fcfac739b7",
@@ -208,7 +212,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-04-power-bi-international-marketplace-python-deneb.51bf9a11.png"
   },
   {
-    "revision": "865a33a222c376ae9018c8adbac4bba7",
+    "revision": "4627fb99b288e5234e2f3ec5c7a012ed",
     "url": "/index.html"
   }
 ];
