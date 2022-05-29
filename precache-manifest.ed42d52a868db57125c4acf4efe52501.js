@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "34295bba2d65a3c8b685",
-    "url": "/static/css/main.ceca5824.chunk.css"
+    "revision": "a33e84b1dbdb4048ecd1",
+    "url": "/static/css/main.fa56c539.chunk.css"
   },
   {
-    "revision": "34295bba2d65a3c8b685",
-    "url": "/static/js/main.34295bba.chunk.js"
+    "revision": "a33e84b1dbdb4048ecd1",
+    "url": "/static/js/main.a33e84b1.chunk.js"
   },
   {
-    "revision": "62b29575e2b919396439",
-    "url": "/static/js/1.62b29575.chunk.js"
+    "revision": "50e7d7e1cc9bf47893ec",
+    "url": "/static/js/1.50e7d7e1.chunk.js"
   },
   {
-    "revision": "3a7c1e6a33e126a0eab8",
-    "url": "/static/css/2.67df24a2.chunk.css"
+    "revision": "afd131013035012d8ce7",
+    "url": "/static/css/2.a26026e3.chunk.css"
   },
   {
-    "revision": "3a7c1e6a33e126a0eab8",
-    "url": "/static/js/2.3a7c1e6a.chunk.js"
+    "revision": "afd131013035012d8ce7",
+    "url": "/static/js/2.afd13101.chunk.js"
   },
   {
-    "revision": "88acd06e1faf55547e53",
-    "url": "/static/js/runtime~main.88acd06e.js"
+    "revision": "bd7d38e1e12541cfbcfa",
+    "url": "/static/js/runtime~main.bd7d38e1.js"
   },
   {
     "revision": "b90dc4f8343dbdd2563ac6b5cf5c9a93",
@@ -30,6 +30,10 @@ self.__precacheManifest = [
   {
     "revision": "2a24a8e56030e33cc889daea11e0b839",
     "url": "/static/media/storyset-sentiment-analysis-rafiki-animated.2a24a8e5.svg"
+  },
+  {
+    "revision": "1ccac642cafeba6658e199ca954446a4",
+    "url": "/static/media/storyset-on-the-way-pana.1ccac642.svg"
   },
   {
     "revision": "71a753216f80935f4373216b1d594393",
@@ -204,7 +208,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-04-power-bi-international-marketplace-python-deneb.51bf9a11.png"
   },
   {
-    "revision": "fdbdc03be42bdf547ef6798b06cbdced",
+    "revision": "96b012af2ab740daf0939e84652100dc",
     "url": "/index.html"
   }
 ];
