@@ -26,8 +26,8 @@ export default function Post(props) {
         return <Redirect to='/404' />
     }
     return (
-        <>
-            <Header />
+        <div className="home pattern">
+                <Header />
             <div className = 'post'>
                 <center>
                     <div className='post-body'>
@@ -38,6 +38,6 @@ export default function Post(props) {
                 </center>
             </div>
             <Footer />
-        </>
+        </div>
     )
 }

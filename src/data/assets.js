@@ -4,6 +4,7 @@
 import avatar from '../assets-theme/avatar.jpg';
 import background from '../assets-theme/bannervideo-bluerectangles2.mp4';
 import image_sentimentanalysis_animated from '../assets-theme/storyset-sentiment-analysis-rafiki-animated.svg';
+import image_onthewaypana from '../assets-theme/storyset-on-the-way-pana.svg';
 
 /* Icons */
 import icon_calendarlinespen from '../assets-theme/flaticon-calendar-lines-pen.svg';
@@ -49,7 +50,7 @@ import logoblue_twitter from '../assets-theme/logoblue-twitter.svg'
 import logoblue_youtube from '../assets-theme/logoblue-youtube.svg'
 
 export { avatar, background,
-         image_sentimentanalysis_animated,
+         image_sentimentanalysis_animated, image_onthewaypana,
          icon_calendarlinespen, icon_charthistogram, icon_crosscircle, icon_diploma, icon_edit, icon_globe, icon_keyboard, icon_magicwand, icon_menuburger, icon_paperplane,
          logo_aws, logo_azure, logo_css, logo_excel, logo_github, logo_html, logo_javascript,
          logo_linkedin, logo_mongodb, logo_nodejs, logo_photoshop, logo_powerbi, logo_python, logo_react, logo_r,

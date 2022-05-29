@@ -6,6 +6,7 @@ import './index.css';
 import Home from './components/Home';
 import Blog from './components/Blog';
 import Post from './components/Post';
+import NotFound from './components/NotFound';
 
 ReactDOM.render(
   <Router>
@@ -13,6 +14,7 @@ ReactDOM.render(
         <Route exact path="/" component={Home} />
         <Route exact path="/blog" component={Blog} />
         <Route exact path="/post/:id" render={props => <Post {...props} />} />
+        <Route exact path="/404" component={NotFound} />
       </div>
   </Router>,
 

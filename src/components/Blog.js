@@ -5,6 +5,7 @@ import '../App.css';
 import Header from './Header';
 import { assetURL } from '../data/data';
 import Posts from '../data/posts.json';
+import Footer from './Footer';
 
 export default function Blog() {
     const excerptList = Posts.map(post => {
@@ -14,9 +15,14 @@ export default function Blog() {
     console.log(Posts)
     return (
         <>
-            <Header />
+            <div className="home">
+                <Header />
+            </div>
             <div className='blog'>
                 <center>
+                <div className='blog-header'>
+                    <label className='section-title'>Blog</label>
+                </div>
                     <div className='blog-set'>
                     {
                         Posts.length &&
@@ -46,6 +52,7 @@ export default function Blog() {
                     </div>
                 </center>
             </div>
+            <Footer />
         </>
     )
 }
