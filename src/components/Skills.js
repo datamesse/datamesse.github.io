@@ -15,7 +15,7 @@ function Skills() {
                 These charts indicate my skill, my group rank amongst the number of people that took the test, and the dates when I earned each Skill badge.
             </p>
             <p>
-                For more information on my other skills, please visit my LinkedIn profile's Skills section.
+                For more information on my other skills, please visit my LinkedIn profile.
                 Or for more information on LinkedIn's assessments, please visit the links below.
             </p>
             <ul>

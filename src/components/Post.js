@@ -26,18 +26,21 @@ export default function Post(props) {
         return <Redirect to='/404' />
     }
     return (
-        <div className="home pattern">
+        <>
+            <div className="home">
                 <Header />
-            <div className = 'post'>
+            </div>
+            <div className='post'>
                 <center>
                     <div className='post-body'>
-                        <h4>{fetchedPost.date}</h4>
+                        <h4 className='post-meta'>{fetchedPost.date}</h4>
                         <h1>{fetchedPost.title}</h1>
                         <ReactMarkdown escapeHtml={false}>{fetchedPost.content}</ReactMarkdown>
                     </div>
                 </center>
             </div>
             <Footer />
-        </div>
+
+        </>
     )
 }

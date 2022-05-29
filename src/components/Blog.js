@@ -41,7 +41,7 @@ export default function Blog() {
                                         <ReactMarkdown className='blog-desc' escapeHtml={false}>{excerptList[i]}</ReactMarkdown>
                                         <div className='blog-meta'>
                                             <small>
-                                                <Link to={`/post/${post.id}`}>Read more...</Link>
+                                                <Link to={`/post/${post.id}`} target='_blank'>Read more...</Link>
                                             </small>
                                         </div>
                                         <div className='blog-tile-footer'></div>
