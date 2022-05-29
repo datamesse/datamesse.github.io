@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.fbd75bfe.chunk.css",
-  "main.js": "/static/js/main.7271e93c.chunk.js",
-  "main.js.map": "/static/js/main.7271e93c.chunk.js.map",
+  "main.css": "/static/css/main.60e3e776.chunk.css",
+  "main.js": "/static/js/main.a1b617a0.chunk.js",
+  "main.js.map": "/static/js/main.a1b617a0.chunk.js.map",
   "static/js/1.50e7d7e1.chunk.js": "/static/js/1.50e7d7e1.chunk.js",
   "static/js/1.50e7d7e1.chunk.js.map": "/static/js/1.50e7d7e1.chunk.js.map",
   "static/css/2.a26026e3.chunk.css": "/static/css/2.a26026e3.chunk.css",
@@ -55,9 +55,9 @@
   "static/media/img-2021-11-power-bi-follow-the-sun-customer-support.png": "/static/media/img-2021-11-power-bi-follow-the-sun-customer-support.5646c46e.png",
   "static/media/img-2022-01-sql-server-integration-services-international-marketplace.png": "/static/media/img-2022-01-sql-server-integration-services-international-marketplace.29c82787.png",
   "static/media/img-2022-04-power-bi-international-marketplace-python-deneb.png": "/static/media/img-2022-04-power-bi-international-marketplace-python-deneb.51bf9a11.png",
-  "static/css/main.fbd75bfe.chunk.css.map": "/static/css/main.fbd75bfe.chunk.css.map",
+  "static/css/main.60e3e776.chunk.css.map": "/static/css/main.60e3e776.chunk.css.map",
   "static/css/2.a26026e3.chunk.css.map": "/static/css/2.a26026e3.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.32eb6a79a806b466799eeff5a3f0d3b3.js": "/precache-manifest.32eb6a79a806b466799eeff5a3f0d3b3.js",
+  "precache-manifest.c061685f95999b7f90e5dbb15889b5bf.js": "/precache-manifest.c061685f95999b7f90e5dbb15889b5bf.js",
   "service-worker.js": "/service-worker.js"
 }
