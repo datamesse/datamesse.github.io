@@ -26,6 +26,7 @@ import logo_excel from '../assets-theme/logo-excel.svg'
 import logo_github from '../assets-theme/logo-github.svg'
 import logo_html from '../assets-theme/logo-html.svg'
 import logo_javascript from '../assets-theme/logo-javascript.svg'
+import logo_json from '../assets-theme/logo-json.svg'
 import logo_linkedin from '../assets-theme/logo-linkedin.svg'
 import logo_mongodb from '../assets-theme/logo-mongodb.svg'
 import logo_nodejs from '../assets-theme/logo-nodejs.svg'
@@ -52,7 +53,7 @@ import logoblue_youtube from '../assets-theme/logoblue-youtube.svg'
 export { avatar, background,
          image_sentimentanalysis_animated, image_onthewaypana,
          icon_calendarlinespen, icon_charthistogram, icon_crosscircle, icon_diploma, icon_edit, icon_globe, icon_keyboard, icon_magicwand, icon_menuburger, icon_paperplane,
-         logo_aws, logo_azure, logo_css, logo_excel, logo_github, logo_html, logo_javascript,
+         logo_aws, logo_azure, logo_css, logo_excel, logo_github, logo_html, logo_javascript, logo_json,
          logo_linkedin, logo_mongodb, logo_nodejs, logo_photoshop, logo_powerbi, logo_python, logo_react, logo_r,
          logo_sqlserver, logo_tableau, logo_twitter, logo_typescript, logo_visualstudio, logo_xml, logo_youtube,
          logoblue_github, logoblue_linkedin , logoblue_powerbi, logoblue_tableau, logoblue_twitter, logoblue_youtube
