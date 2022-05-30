@@ -40,9 +40,9 @@ html {
 
 .site-letter {
     display: flex;
-    height: 10%;
+    height: 22px;
     width: auto;
-    margin-right: 4px;
+    margin-right: 6px;
 }
 
 .menu-icon {
