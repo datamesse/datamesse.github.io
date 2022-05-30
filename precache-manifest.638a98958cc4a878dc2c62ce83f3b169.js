@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "c46402092985dc81de4b",
-    "url": "/static/css/main.ac33ac66.chunk.css"
+    "revision": "26f4bedb62f572292632",
+    "url": "/static/css/main.9331d8a4.chunk.css"
   },
   {
-    "revision": "c46402092985dc81de4b",
-    "url": "/static/js/main.c4640209.chunk.js"
+    "revision": "26f4bedb62f572292632",
+    "url": "/static/js/main.26f4bedb.chunk.js"
   },
   {
-    "revision": "24fdb58a3e1ae7cf6c86",
-    "url": "/static/js/1.24fdb58a.chunk.js"
+    "revision": "94dc97e36775d9185613",
+    "url": "/static/js/1.94dc97e3.chunk.js"
   },
   {
-    "revision": "fbece9926d22983ac3fe",
-    "url": "/static/css/2.9225efd7.chunk.css"
+    "revision": "c86d49d4fc74582449b3",
+    "url": "/static/css/2.0e194801.chunk.css"
   },
   {
-    "revision": "fbece9926d22983ac3fe",
-    "url": "/static/js/2.fbece992.chunk.js"
+    "revision": "c86d49d4fc74582449b3",
+    "url": "/static/js/2.c86d49d4.chunk.js"
   },
   {
-    "revision": "6fcc63898e919ccdc972",
-    "url": "/static/js/runtime~main.6fcc6389.js"
+    "revision": "e125e2441cd44e850913",
+    "url": "/static/js/runtime~main.e125e244.js"
   },
   {
     "revision": "b90dc4f8343dbdd2563ac6b5cf5c9a93",
@@ -192,6 +192,42 @@ self.__precacheManifest = [
     "url": "/static/media/logoblue-youtube.90400f1e.svg"
   },
   {
+    "revision": "abb00cec20ba8b729fad36f56924ae73",
+    "url": "/static/media/letter-01.abb00cec.svg"
+  },
+  {
+    "revision": "2c69bf18a2f74f09c75713b0a47cd4e5",
+    "url": "/static/media/letter-08.2c69bf18.svg"
+  },
+  {
+    "revision": "46514193076a09bdc044e8a1dcbf99dc",
+    "url": "/static/media/letter-09.46514193.svg"
+  },
+  {
+    "revision": "85c8f9ad14875b387dcaecc65d0209a4",
+    "url": "/static/media/letter-10.85c8f9ad.svg"
+  },
+  {
+    "revision": "471a78f6a54c6b40cf71359aeaa5e1b4",
+    "url": "/static/media/letter-11.471a78f6.svg"
+  },
+  {
+    "revision": "ba044bd61090765c26c9df5a329eff87",
+    "url": "/static/media/letter-13.ba044bd6.svg"
+  },
+  {
+    "revision": "20d254da82f1bb3a81ae5cb68596b159",
+    "url": "/static/media/letter-14.20d254da.svg"
+  },
+  {
+    "revision": "9d8d20923785c26a0ccd2847f6945701",
+    "url": "/static/media/letter-18.9d8d2092.svg"
+  },
+  {
+    "revision": "5a0922de2069c6611ec628b51c1c94d6",
+    "url": "/static/media/letter-21.5a0922de.svg"
+  },
+  {
     "revision": "7aeab392a562f92819f37ba154f16b25",
     "url": "/static/media/img-2022-05-portfolio-website-react.7aeab392.png"
   },
@@ -212,7 +248,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-04-power-bi-international-marketplace-python-deneb.51bf9a11.png"
   },
   {
-    "revision": "4627fb99b288e5234e2f3ec5c7a012ed",
+    "revision": "68522a7c451818686504e1176b3639a7",
     "url": "/index.html"
   }
 ];
