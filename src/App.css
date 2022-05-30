@@ -34,6 +34,15 @@ html {
     font-size: 30px;
     color: #23a9f2;
     font-weight: 800;
+
+    flex-wrap: nowrap;
+}
+
+.site-letter {
+    display: flex;
+    height: 10%;
+    width: auto;
+    margin-right: 4px;
 }
 
 .menu-icon {
