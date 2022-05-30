@@ -24,6 +24,8 @@ Online CSS tool "Clippy" by [Bennett Feely](https://bennettfeely.com/clippy/) wa
 
 CSS glowing of aforementioned buttons taken from this [Stackoverflow post](https://stackoverflow.com/questions/34821217/easily-create-an-animated-glow).
 
+Site name was made using the Google font to SVG path creation tool by [Dan Marshall](https://danmarshall.github.io/google-font-to-svg-path).
+
 Refer to src/data/references.js file for other asset details considered during this site's design process.
 
 See below on how you get yourself started on your own GitHub Pages site.
