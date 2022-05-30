@@ -29,7 +29,7 @@ const [isOpen, setIsOpen] = useState(false)
             <div className="sitename" id="title">
                 <img className="site-letter" src={ letter_10 } />
                 <img className="site-letter" src={ letter_21 } />
-                <img className="site-letter" src={ letter_14 } />
+                <img className="site-letter site-letter-space" src={ letter_14 } />
                 <img className="site-letter" src={ letter_13 } />
                 <img className="site-letter" src={ letter_01 } />
                 <img className="site-letter" src={ letter_11 } />

@@ -42,7 +42,11 @@ html {
     display: flex;
     height: 22px;
     width: auto;
-    margin-right: 6px;
+    margin-right: 4px;
+}
+
+.site-letter-space {
+    margin-right: 13px;
 }
 
 .menu-icon {
