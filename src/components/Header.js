@@ -4,7 +4,7 @@ import MenuDesktop from './MenuDesktop';
 import MenuMobile from './MenuMobile';
 import { icon_menuburger, letter_01, letter_08, letter_09, letter_10, letter_11, letter_13, letter_14, letter_18, letter_21 } from '../data/assets';
 
-/*
+
 import { displayName, ascii2, ascii3, ascii4 } from '../data/data';
 
 var headings = [displayName, ascii2+ascii3+ascii4];
@@ -15,17 +15,11 @@ var intervalId = setInterval(function() {
     i = 0;
   }
 }, 1000)
-
+/*
             <div className="sitename" id="title"></div>
 */
 
-function Header() {
-
-const [isOpen, setIsOpen] = useState(false)
-
-    return (
-        <>
-            <div className="header">
+/*
             <div className="sitename" id="title">
                 <img className="site-letter" src={ letter_10 } />
                 <img className="site-letter" src={ letter_21 } />
@@ -39,6 +33,16 @@ const [isOpen, setIsOpen] = useState(false)
                 <img className="site-letter" src={ letter_18 } />
                 <img className="site-letter" src={ letter_09 } />
             </div>
+*/
+
+function Header() {
+
+const [isOpen, setIsOpen] = useState(false)
+
+    return (
+        <>
+            <div className="header">
+            <div className="sitename" id="title"></div>
                 <div className="menu">
                     <div className="menu-desktop">
                         <MenuDesktop />
