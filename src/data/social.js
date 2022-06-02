@@ -6,11 +6,12 @@ import { avatar, background,
 import { displayName, ascii0, ascii1, ascii2, ascii3, ascii4, bannerDescription, githubURL, powerbiURL, tableauURL, twitterURL } from '../data/data';
 
 export const SocialData=[
-    {
+/*    {
         platform: "LinkedIn",
         icon: logo_linkedin,
         link: ascii0 + ascii3 + ascii4
     },
+*/
     {
         platform: "GitHub",
         icon: logo_github,
