@@ -45,6 +45,14 @@ html {
     margin-right: 4px;
 }
 
+.site-title {
+    display: flex;
+    height: 22px;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
 .site-letter-space {
     margin-right: 13px;
 }

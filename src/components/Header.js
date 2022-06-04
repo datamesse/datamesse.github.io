@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import '../App.css';
 import MenuDesktop from './MenuDesktop';
 import MenuMobile from './MenuMobile';
-import { icon_menuburger, letter_01, letter_08, letter_09, letter_10, letter_11, letter_13, letter_14, letter_18, letter_21 } from '../data/assets';
-
-
+import { icon_menuburger, 
+         letter_01, letter_08, letter_09, letter_10, letter_11, letter_13, letter_14, letter_18, letter_21,
+         title_a, title_b, title_c, title_d, title_e
+} from '../data/assets';
 import { displayName, ascii2, ascii3, ascii4 } from '../data/data';
 
+/*
 var headings = [displayName, ascii2+ascii3+ascii4];
 var i = 0;
 var intervalId = setInterval(function() {
@@ -15,7 +17,7 @@ var intervalId = setInterval(function() {
     i = 0;
   }
 }, 1000)
-/*
+
             <div className="sitename" id="title"></div>
 */
 
@@ -42,7 +44,13 @@ const [isOpen, setIsOpen] = useState(false)
     return (
         <>
             <div className="header">
-            <div className="sitename" id="title"></div>
+            <div className="sitename" id="title">
+                <img className="site-title" src={ title_e } />
+                <img className="site-title" src={ title_d } />
+                <img className="site-title" src={ title_c } />
+                <img className="site-title" src={ title_b } />
+                <img className="site-title" src={ title_a } />
+            </div>
                 <div className="menu">
                     <div className="menu-desktop">
                         <MenuDesktop />

@@ -60,6 +60,12 @@ import letter_14 from '../assets-theme/letter-14.svg'
 import letter_18 from '../assets-theme/letter-18.svg'
 import letter_21 from '../assets-theme/letter-21.svg'
 
+import title_e from '../assets-theme/title-a.png'
+import title_d from '../assets-theme/title-b.png'
+import title_c from '../assets-theme/title-c.png'
+import title_b from '../assets-theme/title-d.png'
+import title_a from '../assets-theme/title-e.png'
+
 export { avatar, background,
          image_sentimentanalysis_animated, image_onthewaypana,
          icon_calendarlinespen, icon_charthistogram, icon_crosscircle, icon_diploma, icon_edit, icon_globe, icon_keyboard, icon_magicwand, icon_menuburger, icon_paperplane,
@@ -67,5 +73,6 @@ export { avatar, background,
          logo_linkedin, logo_mongodb, logo_nodejs, logo_photoshop, logo_powerbi, logo_python, logo_react, logo_r,
          logo_sqlserver, logo_tableau, logo_twitter, logo_typescript, logo_visualstudio, logo_xml, logo_youtube,
          logoblue_github, logoblue_linkedin , logoblue_powerbi, logoblue_tableau, logoblue_twitter, logoblue_youtube,
-         letter_01, letter_08, letter_09, letter_10, letter_11, letter_13, letter_14, letter_18, letter_21
+         letter_01, letter_08, letter_09, letter_10, letter_11, letter_13, letter_14, letter_18, letter_21,
+         title_e, title_d, title_c, title_b, title_a
        }
