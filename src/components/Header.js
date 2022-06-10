@@ -45,11 +45,13 @@ const [isOpen, setIsOpen] = useState(false)
         <>
             <div className="header">
             <div className="sitename" id="title">
-                <img className="site-title" src={ title_e } />
-                <img className="site-title" src={ title_d } />
-                <img className="site-title" src={ title_c } />
-                <img className="site-title" src={ title_b } />
-                <img className="site-title" src={ title_a } />
+                <a href='/'>
+                    <img className="site-title" src={ title_e } />
+                    <img className="site-title" src={ title_d } />
+                    <img className="site-title" src={ title_c } />
+                    <img className="site-title" src={ title_b } />
+                    <img className="site-title" src={ title_a } />
+                </a>
             </div>
                 <div className="menu">
                     <div className="menu-desktop">

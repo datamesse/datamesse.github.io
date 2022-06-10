@@ -34,8 +34,11 @@ html {
     font-size: 30px;
     color: #23a9f2;
     font-weight: 800;
-
     flex-wrap: nowrap;
+}
+
+.sitename a {
+    display: flex;
 }
 
 .site-letter {
@@ -185,11 +188,12 @@ html {
 }
 
 .about-quote {
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     margin-top: 7px;
+    margin-bottom: 15px;
 }
 
 .about a {
@@ -872,7 +876,13 @@ code {
     }
     .about-title h1 {
         padding-right: 15px;
+        margin-bottom: 10px;
     }
+    .about-quote {
+        justify-content:center;
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }    
     .about-image {
         height: 280px;
     }

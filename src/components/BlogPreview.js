@@ -51,9 +51,8 @@ export default function BlogPreview() {
                     }
                     </div>
 
-
             <Link to='/blog'>
-                Click here to see all { countAllPosts } blog posts
+                <h3>Click here to see all { countAllPosts } blog posts</h3>
             </Link>
         </div>
     );
