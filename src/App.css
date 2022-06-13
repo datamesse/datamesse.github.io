@@ -316,10 +316,13 @@ html {
     margin-bottom: 4px;
 }
 
-.project-photo {
-    width: 45%;
+.project-photo a {
+    width: 100%;
     margin: 0px;
     padding: 0px;
+}
+
+.project-photo {
     border: 1px solid rgba(60, 64, 67, 0.25);
     border-radius: 15px;
     box-shadow: 7px 7px rgba(60, 64, 67, 0.3);
@@ -863,6 +866,9 @@ code {
 @media only screen and (max-width: 1024px){
     .home {
         width: 90%;
+    }
+    .project-photo {
+        width: 50vw;
     }
 }
 

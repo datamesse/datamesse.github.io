@@ -35,7 +35,11 @@ function Project({ project }) {
                     })}
                 </div>
             </div>
-                <img src={project.photo} className='project-photo' />
+            <a href={project.siteURL} target='_blank'>
+                <center>
+                    <img src={project.photo} className='project-photo' />
+                </center>
+            </a>
         </div>
     );
 }
