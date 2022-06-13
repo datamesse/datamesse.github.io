@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "fa9478489a1af0fffd6a",
-    "url": "/static/css/main.b58a82f4.chunk.css"
+    "revision": "330024122f44d01d3380",
+    "url": "/static/css/main.31072be8.chunk.css"
   },
   {
-    "revision": "fa9478489a1af0fffd6a",
-    "url": "/static/js/main.fa947848.chunk.js"
+    "revision": "330024122f44d01d3380",
+    "url": "/static/js/main.33002412.chunk.js"
   },
   {
     "revision": "77dc0e096303baae4a30",
@@ -248,7 +248,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-04-power-bi-international-marketplace-python-deneb.51bf9a11.png"
   },
   {
-    "revision": "51ebae74f12eea6cba77ca71a2b4ca38",
+    "revision": "f34663ba77b31741b533f11c2de226b5",
     "url": "/index.html"
   }
 ];
