@@ -175,7 +175,11 @@ html {
   }
 
 .about-info {
-    font-size: 18px;
+    font-size: 19px;
+}
+
+.about-info p {
+    line-height: 1.45;
 }
 
 .about-title {
@@ -188,7 +192,7 @@ html {
 }
 
 .about-quote {
-    font-size: 12px;
+    font-size: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -200,7 +204,6 @@ html {
     text-decoration: none;
     color: #000;
 }
-
 
 .links {
     display: flex;
@@ -239,8 +242,13 @@ html {
     margin-right: 14px;
 }
 
+.project-info p {
+    font-size: 18px;
+    line-height: 1.45;
+}
+
 .project-title {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
 }
 
@@ -281,7 +289,7 @@ html {
 
 .project-date {
     font-family: 'Kanit', Helvetica;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     text-align: right;
     display: flex;
@@ -300,7 +308,7 @@ html {
 .project-tag {
     font-family: 'Kanit', Helvetica;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     padding: 4px 8px;
     background-color: #E9F6FE;
     border-radius: 4px;
@@ -310,6 +318,8 @@ html {
 
 .project-photo {
     width: 45%;
+    margin: 0px;
+    padding: 0px;
     border: 1px solid rgba(60, 64, 67, 0.25);
     border-radius: 15px;
     box-shadow: 7px 7px rgba(60, 64, 67, 0.3);
@@ -349,11 +359,14 @@ html {
 }
 
 .skills p {
+    font-size: 18px;
     margin-top: 8px;
     margin-bottom: 8px;
+    line-height: 1.45;
 }
 
 .skills ul li {
+    font-size: 18px;
     margin-bottom: 8px;
 }
 
@@ -424,6 +437,7 @@ html {
 }
 
 .contact p {
+    font-size: 19px;
     margin: auto;
     margin-bottom: 20px;
 }
@@ -433,7 +447,7 @@ html {
 .footer {
     font-family: 'Kanit', Helvetica;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     padding: 12px;
     display: flex;
@@ -488,7 +502,7 @@ html {
     margin-top: 0px;
     margin-bottom: 15px;
     padding: 0px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .blog-tile-preview a {
@@ -498,7 +512,7 @@ html {
 
 .blog-tile-header-preview {
     font-family: 'Ovo', Verdana;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     display: flex;
     margin-bottom: 10px;
@@ -521,7 +535,7 @@ html {
 
 .blog-meta-preview {
     font-family: 'Kanit', Helvetica;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     width: fit-content;
     white-space: nowrap;
@@ -533,7 +547,7 @@ html {
 }
 
 .blog-meta-preview a {
-    font-size: 16px;
+    font-size: 18px;
     color: #23a9f2;
 }
 
@@ -543,13 +557,14 @@ html {
 
 .blog-desc-preview {
     font-family: 'Ovo', Helvetica;
-    font-size: 16px;
+    font-size: 18px;
     text-align: left;
     background-color: white;
 }
 
 .blog-desc-preview p {
     margin: 0px;
+    line-height: 1.45;
 }
 
 
@@ -602,7 +617,7 @@ html {
 
 .blog-tile-header {
     font-family: 'Kanit', Helvetica;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 600;
     display: flex;
     text-align: center;
@@ -635,7 +650,7 @@ html {
 
 .blog-meta {
     font-family: 'Kanit', Helvetica;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     padding-right: 10px;
     padding-top: 5px;
@@ -646,7 +661,7 @@ html {
 }
 
 .blog-meta a {
-    font-size: 12px;
+    font-size: 16px;
     color: #23a9f2;
 }
 
@@ -656,7 +671,7 @@ html {
 
 .blog-desc {
     font-family: 'Ovo', Helvetica;
-    font-size: 14px;
+    font-size: 16px;
     text-align: left;
     padding-top: 8px;
     padding-left: 15px;
@@ -667,6 +682,7 @@ html {
 
 .blog-desc p {
     margin: 0px;
+    line-height: 1.45;
 }
 
 .blog-tile-footer {
@@ -715,11 +731,14 @@ html {
   
 .post-body p {
     font-family: 'Ovo', Verdana;
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 3px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 3px;
+    line-height: 1.65;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
   
 .post-body h1 {
@@ -735,18 +754,13 @@ html {
 }
   
 .post-body h4 {
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Kanit', Helvetica;
     font-weight: 600;
     text-align: right;
     margin-bottom: 10px;
     padding-top: 10px;
     padding-right: 20px;
-}
-
-.post-body p {
-    margin-top: 3px;
-    margin-bottom: 3px;
 }
   
 .post-body img {
@@ -762,9 +776,13 @@ html {
     margin-bottom: 16px;
     margin-left: 6px;
 }
+
+.post-body li {
+    line-height: 1.75;
+}
   
 code {
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'IBM Plex Mono', Courier;
     color: #d5d5d5;
     display: inline-block;
@@ -777,6 +795,7 @@ code {
     padding: 16px;
     border-radius: 10px;
     background-color: #333333;
+    line-height: 1.45;
 }
 
 
@@ -867,7 +886,7 @@ code {
         width: 120px;
     }
     .about-info {
-        font-size: 16px;
+        font-size: 18px;
     }
     .about-title {
         flex-direction: column;
@@ -896,14 +915,14 @@ code {
         margin-left: 0px;
         margin-top: 12px;
     }
-    .project-photo {
-        width: 90%;
-    }
     .project-title {
         display: flex;
         justify-content: center;
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+    .project-photo {
+        width: 90%
     }
     .project-links-date {
         flex-direction: column;
