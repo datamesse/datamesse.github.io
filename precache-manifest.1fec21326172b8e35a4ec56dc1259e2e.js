@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "330024122f44d01d3380",
-    "url": "/static/css/main.31072be8.chunk.css"
+    "revision": "c73341cc383f233cde2f",
+    "url": "/static/css/main.b161f65e.chunk.css"
   },
   {
-    "revision": "330024122f44d01d3380",
-    "url": "/static/js/main.33002412.chunk.js"
+    "revision": "c73341cc383f233cde2f",
+    "url": "/static/js/main.c73341cc.chunk.js"
   },
   {
-    "revision": "77dc0e096303baae4a30",
-    "url": "/static/js/1.77dc0e09.chunk.js"
+    "revision": "5968fd8d2c962fa30794",
+    "url": "/static/js/1.5968fd8d.chunk.js"
   },
   {
-    "revision": "e6b8a99bd97af403a47d",
-    "url": "/static/css/2.0985a96b.chunk.css"
+    "revision": "85efa66a91c4ddcc9c33",
+    "url": "/static/css/2.c28ca246.chunk.css"
   },
   {
-    "revision": "e6b8a99bd97af403a47d",
-    "url": "/static/js/2.e6b8a99b.chunk.js"
+    "revision": "85efa66a91c4ddcc9c33",
+    "url": "/static/js/2.85efa66a.chunk.js"
   },
   {
-    "revision": "84f3afebd83cd41dcb73",
-    "url": "/static/js/runtime~main.84f3afeb.js"
+    "revision": "b87019f15e125085e9ae",
+    "url": "/static/js/runtime~main.b87019f1.js"
   },
   {
     "revision": "b90dc4f8343dbdd2563ac6b5cf5c9a93",
@@ -248,7 +248,11 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-04-power-bi-international-marketplace-python-deneb.51bf9a11.png"
   },
   {
-    "revision": "f34663ba77b31741b533f11c2de226b5",
+    "revision": "193ac59888d109766fba2a0cf5caa1d4",
+    "url": "/static/media/img-2022-06-excel-customer-support-agent-performance.193ac598.png"
+  },
+  {
+    "revision": "d01dd95562b041eb841db8bdf8c1392b",
     "url": "/index.html"
   }
 ];
