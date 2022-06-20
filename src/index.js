@@ -8,6 +8,8 @@ import Blog from './components/Blog';
 import Post from './components/Post';
 import NotFound from './components/NotFound';
 
+import Project1 from './components-projects/ExcelCustomerSupportAgentPerformance';
+
 ReactDOM.render(
   <Router>
       <div>
@@ -15,6 +17,8 @@ ReactDOM.render(
         <Route exact path="/blog" component={Blog} />
         <Route exact path="/post/:id" render={props => <Post {...props} />} />
         <Route exact path="/404" component={NotFound} />
+
+        <Route exact path="/project/excelcustomersupportagentperformance" component={Project1} />
       </div>
   </Router>,
 

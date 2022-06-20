@@ -8,8 +8,20 @@ import img_singaporerentpowerbi from '../assets-portfolio/img-2021-10-power-bi-q
 import img_followthesunpowerbi from  '../assets-portfolio/img-2021-11-power-bi-follow-the-sun-customer-support.png';
 import img_internationalmarketplacessis from '../assets-portfolio/img-2022-01-sql-server-integration-services-international-marketplace.png';
 import img_internationalmarketplacepowerbi from '../assets-portfolio/img-2022-04-power-bi-international-marketplace-python-deneb.png';
+import img_customercupportagentperformance from '../assets-portfolio/img-2022-06-excel-customer-support-agent-performance.png';
 
 const portfolio = [
+   {
+      title: 'Customer support agent performance',
+      description: 'An Excel dashboard comparing overall team and individual staff KPIs. Inludes a cell filter into Power Query and dynamically displays photos.',
+      stamp: '2022-06',
+      shortdate: 'JUN 2022',
+      stack: logo_excel,
+      photo: img_customercupportagentperformance,
+      siteURL: 'https://datamesse.github.io/#/project/ExcelCustomerSupportAgentPerformance',
+      codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/Support%20ticket%20updates',
+      tags: ["Excel", "Power Query", "Power Pivot", "DAX"]
+   },
    {
       title: 'International marketplace report',
       description: 'A Power BI report incorporating Python profit predictions and custom Deneb (JSON-based) visualisations.',

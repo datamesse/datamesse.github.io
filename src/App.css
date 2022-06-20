@@ -824,6 +824,15 @@ code {
 
 
 
+.project-excelcustomersupportagentperformance {
+    display: flex;
+    width: (100vw) - 20px;
+    height: 950px;
+    margin-top: 40px;
+}
+
+
+
 @media only screen and (min-width: 520px) {
     .blog-set {
         margin-left: 10px;
