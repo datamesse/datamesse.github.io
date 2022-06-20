@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.b161f65e.chunk.css",
-  "main.js": "/static/js/main.c73341cc.chunk.js",
-  "main.js.map": "/static/js/main.c73341cc.chunk.js.map",
+  "main.js": "/static/js/main.3ae2836f.chunk.js",
+  "main.js.map": "/static/js/main.3ae2836f.chunk.js.map",
   "static/js/1.5968fd8d.chunk.js": "/static/js/1.5968fd8d.chunk.js",
   "static/js/1.5968fd8d.chunk.js.map": "/static/js/1.5968fd8d.chunk.js.map",
   "static/css/2.c28ca246.chunk.css": "/static/css/2.c28ca246.chunk.css",
@@ -66,9 +66,9 @@
   "static/media/img-2022-01-sql-server-integration-services-international-marketplace.png": "/static/media/img-2022-01-sql-server-integration-services-international-marketplace.29c82787.png",
   "static/media/img-2022-04-power-bi-international-marketplace-python-deneb.png": "/static/media/img-2022-04-power-bi-international-marketplace-python-deneb.51bf9a11.png",
   "static/media/img-2022-06-excel-customer-support-agent-performance.png": "/static/media/img-2022-06-excel-customer-support-agent-performance.193ac598.png",
-  "static/css/2.c28ca246.chunk.css.map": "/static/css/2.c28ca246.chunk.css.map",
   "static/css/main.b161f65e.chunk.css.map": "/static/css/main.b161f65e.chunk.css.map",
+  "static/css/2.c28ca246.chunk.css.map": "/static/css/2.c28ca246.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.1fec21326172b8e35a4ec56dc1259e2e.js": "/precache-manifest.1fec21326172b8e35a4ec56dc1259e2e.js",
+  "precache-manifest.afbf870c43785ebb742d775397a246a6.js": "/precache-manifest.afbf870c43785ebb742d775397a246a6.js",
   "service-worker.js": "/service-worker.js"
 }
