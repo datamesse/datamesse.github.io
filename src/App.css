@@ -5,6 +5,10 @@ html {
     scroll-behavior: smooth;
 }
 
+a {
+    word-wrap: break-word;
+}
+
 .body {
     font-family: 'Ovo', Verdana;
     color: #000;
