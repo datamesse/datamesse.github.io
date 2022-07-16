@@ -12,7 +12,7 @@ import img_customercupportagentperformance from '../assets-portfolio/img-2022-06
 
 const portfolio = [
    {
-      title: 'Customer support agent performance',
+      title: 'Customer support agent performance dashboard',
       description: 'An Excel dashboard comparing overall team and individual staff KPIs. Includes a cell filter into Power Query and dynamically displays photos.',
       stamp: '2022-06',
       shortdate: 'JUN 2022',
