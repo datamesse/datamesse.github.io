@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3dd5e098bdb23c56d049",
+    "revision": "000ac69253bb3fc47895",
     "url": "/static/css/main.6ba1d3a1.chunk.css"
   },
   {
-    "revision": "3dd5e098bdb23c56d049",
-    "url": "/static/js/main.3dd5e098.chunk.js"
+    "revision": "000ac69253bb3fc47895",
+    "url": "/static/js/main.000ac692.chunk.js"
   },
   {
     "revision": "5968fd8d2c962fa30794",
@@ -236,23 +236,23 @@ self.__precacheManifest = [
     "url": "/static/media/img-2021-10-power-bi-quarterly-singapore-rental-prices-by-currency.5e5019ff.png"
   },
   {
-    "revision": "5646c46ee62f3d09e21badeefe560999",
-    "url": "/static/media/img-2021-11-power-bi-follow-the-sun-customer-support.5646c46e.png"
+    "revision": "04103ee9464d15309119c2b6fe2ea28d",
+    "url": "/static/media/img-2021-11-power-bi-follow-the-sun-customer-support.04103ee9.png"
   },
   {
     "revision": "29c8278767a457c0a4d60a1e8e27ca5e",
     "url": "/static/media/img-2022-01-sql-server-integration-services-international-marketplace.29c82787.png"
   },
   {
-    "revision": "51bf9a11f8d2bdd7679daa149a5ec264",
-    "url": "/static/media/img-2022-04-power-bi-international-marketplace-python-deneb.51bf9a11.png"
+    "revision": "bf7099439404c45e8b7ecd886b6e516f",
+    "url": "/static/media/img-2022-04-power-bi-international-marketplace-python-deneb.bf709943.png"
   },
   {
     "revision": "193ac59888d109766fba2a0cf5caa1d4",
     "url": "/static/media/img-2022-06-excel-customer-support-agent-performance.193ac598.png"
   },
   {
-    "revision": "a81cec58532987071bef7360819fb850",
+    "revision": "cae436f44166fa0d8fb0a627c4c98d6e",
     "url": "/index.html"
   }
 ];
