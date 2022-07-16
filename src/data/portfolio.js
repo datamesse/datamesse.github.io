@@ -23,7 +23,7 @@ const portfolio = [
       tags: ["Excel", "Power Query", "Power Pivot", "DAX"]
    },
    {
-      title: 'International marketplace report',
+      title: 'International marketplace profit report',
       description: 'A Power BI report incorporating Python profit predictions and custom Deneb (JSON-based) visualisations.',
       stamp: '2022-04',
       shortdate: 'APR 2022',
@@ -53,7 +53,7 @@ const portfolio = [
       photo: img_followthesunpowerbi,
       siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/Follow-the-sun-customer-service-support/m-p/2168279',
       codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/Support%20ticket%20updates',
-      tags: ["Power BI", "Power Query", "DAX", "Excel"]
+      tags: ["Power BI", "Power Query", "DAX"]
    },
    {
       title: 'Singapore rental prices report',
@@ -68,7 +68,7 @@ const portfolio = [
    },
    {
       title: 'Website portfolio and blog',
-      description: 'My portfolio website coded using HTML, CSS, and JavaScript with React.js and GitHub Pages',
+      description: 'My portfolio website coded using HTML, CSS, and JavaScript with React.js and GitHub Pages.',
       stamp: '2021-09',
       shortdate: 'SEP 2021',
       stack: logo_html,
