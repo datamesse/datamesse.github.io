@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "10b6b2a911a53eb656a1",
+    "revision": "167d567d8f04499a5cd5",
     "url": "/static/css/main.6ba1d3a1.chunk.css"
   },
   {
-    "revision": "10b6b2a911a53eb656a1",
-    "url": "/static/js/main.10b6b2a9.chunk.js"
+    "revision": "167d567d8f04499a5cd5",
+    "url": "/static/js/main.167d567d.chunk.js"
   },
   {
     "revision": "5968fd8d2c962fa30794",
@@ -252,7 +252,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-06-excel-customer-support-agent-performance.193ac598.png"
   },
   {
-    "revision": "29075e4e2c1df377e1bd449d01c11cd2",
+    "revision": "46707f830b502f938b8dd344d18d53b6",
     "url": "/index.html"
   }
 ];
