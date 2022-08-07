@@ -21,22 +21,6 @@ var intervalId = setInterval(function() {
             <div className="sitename" id="title"></div>
 */
 
-/*
-            <div className="sitename" id="title">
-                <img className="site-letter" src={ letter_10 } />
-                <img className="site-letter" src={ letter_21 } />
-                <img className="site-letter site-letter-space" src={ letter_14 } />
-                <img className="site-letter" src={ letter_13 } />
-                <img className="site-letter" src={ letter_01 } />
-                <img className="site-letter" src={ letter_11 } />
-                <img className="site-letter" src={ letter_21 } />
-                <img className="site-letter" src={ letter_08 } />
-                <img className="site-letter" src={ letter_01 } />
-                <img className="site-letter" src={ letter_18 } />
-                <img className="site-letter" src={ letter_09 } />
-            </div>
-*/
-
 function Header() {
 
 const [isOpen, setIsOpen] = useState(false)
@@ -44,15 +28,7 @@ const [isOpen, setIsOpen] = useState(false)
     return (
         <>
             <div className="header">
-            <div className="sitename" id="title">
-                <a href='/'>
-                    <img className="site-title" src={ title_e } />
-                    <img className="site-title" src={ title_d } />
-                    <img className="site-title" src={ title_c } />
-                    <img className="site-title" src={ title_b } />
-                    <img className="site-title" src={ title_a } />
-                </a>
-            </div>
+                <h2>data messe</h2>
                 <div className="menu">
                     <div className="menu-desktop">
                         <MenuDesktop />

@@ -32,6 +32,13 @@ a {
     background-color: #fff;
 }
 
+.header h2 {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+    font-family: 'Kanit', Helvetica;
+}
+
 .sitename {
     display: flex;
     font-family: 'Kanit', Helvetica;
@@ -894,6 +901,7 @@ code {
     }
     .sitename {
         font-size: 24px;
+        margin-top: 10px;
     }
     .about-top {
         flex-direction: column;
