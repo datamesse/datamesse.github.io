@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "007002172fe0d1df8f11",
+    "revision": "486c2c30dc4b208309f5",
     "url": "/static/css/main.9feb8978.chunk.css"
   },
   {
-    "revision": "007002172fe0d1df8f11",
-    "url": "/static/js/main.00700217.chunk.js"
+    "revision": "486c2c30dc4b208309f5",
+    "url": "/static/js/main.486c2c30.chunk.js"
   },
   {
     "revision": "5968fd8d2c962fa30794",
@@ -36,44 +36,44 @@ self.__precacheManifest = [
     "url": "/static/media/storyset-on-the-way-pana.1ccac642.svg"
   },
   {
-    "revision": "71a753216f80935f4373216b1d594393",
-    "url": "/static/media/flaticon-calendar-lines-pen.71a75321.svg"
+    "revision": "f25f6194baf1145cc5675cd4863e0d5d",
+    "url": "/static/media/flaticon-calendar-lines-pen.f25f6194.svg"
   },
   {
-    "revision": "a6cf4ebf0fde33aed964c4ac38e4e2c4",
-    "url": "/static/media/flaticon-chart-histogram.a6cf4ebf.svg"
+    "revision": "e463e472140eb3905f18d7a8f7eb43cc",
+    "url": "/static/media/flaticon-chart-histogram.e463e472.svg"
   },
   {
-    "revision": "e2352a187163623009bb7d0d37603965",
-    "url": "/static/media/flaticon-cross-circle.e2352a18.svg"
+    "revision": "4d991c9b277af301baf42f8b6e25e473",
+    "url": "/static/media/flaticon-cross-circle.4d991c9b.svg"
   },
   {
     "revision": "71276228e5234c29f9e58d414fc17099",
     "url": "/static/media/flaticon-diploma.71276228.svg"
   },
   {
-    "revision": "756c3c9a683133196be655293f141fcf",
-    "url": "/static/media/flaticon-edit.756c3c9a.svg"
+    "revision": "ecaa1ace5df6e796067b9dbcf515c79a",
+    "url": "/static/media/flaticon-edit.ecaa1ace.svg"
   },
   {
-    "revision": "5eaa9781bb2960a529dfbbe5b03415bf",
-    "url": "/static/media/flaticon-globe.5eaa9781.svg"
+    "revision": "1f287fc592541eed40e1377e9386441f",
+    "url": "/static/media/flaticon-globe.1f287fc5.svg"
   },
   {
-    "revision": "5f0cf06621ce815403c7a115e8467976",
-    "url": "/static/media/flaticon-keyboard.5f0cf066.svg"
+    "revision": "ee60aa3861f483d34f15d2f56c9a1d6e",
+    "url": "/static/media/flaticon-keyboard.ee60aa38.svg"
   },
   {
-    "revision": "159c842761208d1656a662416e4c5df4",
-    "url": "/static/media/flaticon-magic-wand.159c8427.svg"
+    "revision": "b3dd9403739597c13361eb05012ba165",
+    "url": "/static/media/flaticon-magic-wand.b3dd9403.svg"
   },
   {
-    "revision": "f853f4d640ae055484f8eb4ea01bb301",
-    "url": "/static/media/flaticon-menu-burger.f853f4d6.svg"
+    "revision": "84fa164f896df0b14c6668eb9fa22961",
+    "url": "/static/media/flaticon-menu-burger.84fa164f.svg"
   },
   {
-    "revision": "896ea9e4bf900de2e14e0f528b87f2c0",
-    "url": "/static/media/flaticon-paper-plane.896ea9e4.svg"
+    "revision": "0489f57ec006cac99b1e75136f1bc4a0",
+    "url": "/static/media/flaticon-paper-plane.0489f57e.svg"
   },
   {
     "revision": "fdff4014b22f67787c176c6aa52890a7",
@@ -104,8 +104,8 @@ self.__precacheManifest = [
     "url": "/static/media/logo-javascript.f935b988.svg"
   },
   {
-    "revision": "61e21c2e976d26bb8b904c7e358bffe7",
-    "url": "/static/media/logo-json.61e21c2e.svg"
+    "revision": "e2d8a3286a1f4f932b57a2dce52c7e1f",
+    "url": "/static/media/logo-json.e2d8a328.svg"
   },
   {
     "revision": "5a996c66cbcea7fbbe3ce0fcfac739b7",
@@ -160,8 +160,8 @@ self.__precacheManifest = [
     "url": "/static/media/logo-visualstudiocode.e60fcd09.svg"
   },
   {
-    "revision": "928036dea3aa19c1652da717abdc6fdf",
-    "url": "/static/media/logo-xml.928036de.svg"
+    "revision": "100df9c53ca6734ad4f0d8ee4c4f4529",
+    "url": "/static/media/logo-xml.100df9c5.svg"
   },
   {
     "revision": "ee528d4fd418acd30f317e6a54404cd6",
@@ -252,7 +252,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-06-excel-customer-support-agent-performance.193ac598.png"
   },
   {
-    "revision": "c53d54f3d762f147496a2357f66fd26a",
+    "revision": "04e178b1115d95a4cbf60eef58bba6a7",
     "url": "/index.html"
   }
 ];
