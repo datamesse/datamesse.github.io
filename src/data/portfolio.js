@@ -19,7 +19,7 @@ const portfolio = [
       shortdate: 'AUG 2022',
       stack: logo_powerbi,
       photo: img_satellitelaunchoverview,
-      siteURL: 'https://app.powerbi.com/view?r=eyJrIjoiYzI0OWMwNTUtYWY3ZS00Nzg3LThlYzUtN2NiOTNkYzQ3MTM0IiwidCI6IjM5MTA5NGVmLTAxN2YtNGUwMy1hM2NjLTQ1OGQ3N2I1YjBjZSJ9',
+      siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/Satellite-launch-overview/m-p/2730077',
       codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/Satellite%20launch%20overview',
       tags: ["Power BI", "Deneb", "Vega-Lite", "Power Query", "DAX"]
    },
