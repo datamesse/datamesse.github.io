@@ -39,6 +39,11 @@ a {
     font-family: 'Kanit', Helvetica;
 }
 
+.header a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .sitename {
     display: flex;
     font-family: 'Kanit', Helvetica;
@@ -337,6 +342,7 @@ a {
     border: 1px solid rgba(60, 64, 67, 0.25);
     border-radius: 15px;
     box-shadow: 7px 7px rgba(60, 64, 67, 0.3);
+    width: 40vw;
 }
 
 .section-title {

@@ -3,14 +3,26 @@
 import { logo_aws, logo_azure, logo_css, logo_excel, logo_html, logo_javascript, logo_mongodb, logo_nodejs,
    logo_powerbi, logo_python, logo_react, logo_r, logo_sqlserver, logo_tableau,logo_typescript, logo_visualstudio
  } from '../data/assets';
-import img_portfoliowebsitereact from '../assets-portfolio/img-2022-05-portfolio-website-react.png';
-import img_singaporerentpowerbi from '../assets-portfolio/img-2021-10-power-bi-quarterly-singapore-rental-prices-by-currency.png';
-import img_followthesunpowerbi from  '../assets-portfolio/img-2021-11-power-bi-follow-the-sun-customer-support.png';
+import img_portfoliowebsitereact from '../assets-portfolio/img-2022-05-portfolio-website-react.gif';
+import img_singaporerentpowerbi from '../assets-portfolio/img-2021-10-power-bi-quarterly-singapore-rental-prices-by-currency.gif';
+import img_followthesunpowerbi from  '../assets-portfolio/img-2021-11-power-bi-follow-the-sun-customer-support.gif';
 import img_internationalmarketplacessis from '../assets-portfolio/img-2022-01-sql-server-integration-services-international-marketplace.png';
-import img_internationalmarketplacepowerbi from '../assets-portfolio/img-2022-04-power-bi-international-marketplace-python-deneb.png';
+import img_internationalmarketplacepowerbi from '../assets-portfolio/img-2022-04-power-bi-international-marketplace-python-deneb.gif';
 import img_customercupportagentperformance from '../assets-portfolio/img-2022-06-excel-customer-support-agent-performance.png';
+import img_satellitelaunchoverview from '../assets-portfolio/img-2022-08-satellite-launch-overview.gif';
 
 const portfolio = [
+   {
+      title: 'Satellite launch overview report',
+      description: 'A Power BI report showing actively monitored satellites using a custom Deneb scatterplot visual.',
+      stamp: '2022-08',
+      shortdate: 'AUG 2022',
+      stack: logo_powerbi,
+      photo: img_satellitelaunchoverview,
+      siteURL: 'https://app.powerbi.com/view?r=eyJrIjoiYzI0OWMwNTUtYWY3ZS00Nzg3LThlYzUtN2NiOTNkYzQ3MTM0IiwidCI6IjM5MTA5NGVmLTAxN2YtNGUwMy1hM2NjLTQ1OGQ3N2I1YjBjZSJ9',
+      codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/Satellite%20launch%20overview',
+      tags: ["Power BI", "Deneb", "Vega-Lite", "Power Query", "DAX"]
+   },
    {
       title: 'Customer support agent performance dashboard',
       description: 'An Excel dashboard comparing overall team and individual staff KPIs. Includes a cell filter into Power Query and dynamically displays photos.',
