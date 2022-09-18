@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "fb8aa8e2c952ea2bbcdd",
+    "revision": "e724a6b7c4f83adb39a7",
     "url": "/static/css/main.5c1cc7ed.chunk.css"
   },
   {
-    "revision": "fb8aa8e2c952ea2bbcdd",
-    "url": "/static/js/main.fb8aa8e2.chunk.js"
+    "revision": "e724a6b7c4f83adb39a7",
+    "url": "/static/js/main.e724a6b7.chunk.js"
   },
   {
     "revision": "14d3fc22121aa9f64b4d",
@@ -256,7 +256,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-08-satellite-launch-overview.30e65a6b.gif"
   },
   {
-    "revision": "89c1c5f86e523617a341576728873898",
+    "revision": "954dbf3559c0b7dc0b553a03297ac6fc",
     "url": "/index.html"
   }
 ];
