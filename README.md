@@ -192,6 +192,6 @@ import 'react-circular-progressbar/dist/styles.css';
 </CircularProgressbarWithChildren>
 ```
  
- ## Create animated gifs for portfolio
+## Create animated gifs for portfolio
 
 You can use the [https://www.screentogif.com/](https://www.screentogif.com/) website to create animated gif previews of your projects.
