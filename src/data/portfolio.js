@@ -8,7 +8,7 @@ import img_singaporerentpowerbi from '../assets-portfolio/img-2021-10-power-bi-q
 import img_followthesunpowerbi from  '../assets-portfolio/img-2021-11-power-bi-follow-the-sun-customer-support.gif';
 import img_internationalmarketplacessis from '../assets-portfolio/img-2022-01-sql-server-integration-services-international-marketplace.png';
 import img_internationalmarketplacepowerbi from '../assets-portfolio/img-2022-04-power-bi-international-marketplace-python-deneb.gif';
-import img_customercupportagentperformance from '../assets-portfolio/img-2022-06-excel-customer-support-agent-performance.png';
+import img_customercupportagentperformance from '../assets-portfolio/img-2022-06-excel-customer-support-agent-performance.gif';
 import img_satellitelaunchoverview from '../assets-portfolio/img-2022-08-satellite-launch-overview.gif';
 
 const portfolio = [
