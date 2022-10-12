@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e724a6b7c4f83adb39a7",
+    "revision": "dcb0d15bcdde60f0c522",
     "url": "/static/css/main.5c1cc7ed.chunk.css"
   },
   {
-    "revision": "e724a6b7c4f83adb39a7",
-    "url": "/static/js/main.e724a6b7.chunk.js"
+    "revision": "dcb0d15bcdde60f0c522",
+    "url": "/static/js/main.dcb0d15b.chunk.js"
   },
   {
     "revision": "14d3fc22121aa9f64b4d",
@@ -248,15 +248,15 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-04-power-bi-international-marketplace-python-deneb.fab78880.gif"
   },
   {
-    "revision": "193ac59888d109766fba2a0cf5caa1d4",
-    "url": "/static/media/img-2022-06-excel-customer-support-agent-performance.193ac598.png"
+    "revision": "785039de8a646390f2cc43986ef742dd",
+    "url": "/static/media/img-2022-06-excel-customer-support-agent-performance.785039de.gif"
   },
   {
     "revision": "30e65a6bbea09aca0d12cd9a2e476822",
     "url": "/static/media/img-2022-08-satellite-launch-overview.30e65a6b.gif"
   },
   {
-    "revision": "954dbf3559c0b7dc0b553a03297ac6fc",
+    "revision": "b371ba2c6a99a14b80e42980eb5261a9",
     "url": "/index.html"
   }
 ];
