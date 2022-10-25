@@ -10,8 +10,20 @@ import img_internationalmarketplacessis from '../assets-portfolio/img-2022-01-sq
 import img_internationalmarketplacepowerbi from '../assets-portfolio/img-2022-04-power-bi-international-marketplace-python-deneb.gif';
 import img_customercupportagentperformance from '../assets-portfolio/img-2022-06-excel-customer-support-agent-performance.gif';
 import img_satellitelaunchoverview from '../assets-portfolio/img-2022-08-satellite-launch-overview.gif';
+import img_internationalmarketplaceexcel from '../assets-portfolio/img-2022-10-excel-international-marketplace-profit-forecast.gif';
 
 const portfolio = [
+   {
+      title: 'International marketplace profit dashboard',
+      description: 'An Excel dashboard using an out-of-the-box exponential smoothing algorithm to forecast profit.',
+      stamp: '2022-10',
+      shortdate: 'OCT 2022',
+      stack: logo_excel,
+      photo: img_internationalmarketplaceexcel,
+      siteURL: '',
+      codeURL: '',
+      tags: ["Excel", "Power Pivot", "DAX", "Forecasting"]
+   },
    {
       title: 'Satellite launch overview report',
       description: 'A Power BI report showing actively monitored satellites using a custom Deneb scatterplot visual.',
@@ -43,7 +55,7 @@ const portfolio = [
       photo: img_internationalmarketplacepowerbi,
       siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/International-Marketplace-profit-report-using-Python-and-Deneb/m-p/2480550',
       codeURL: 'https://github.com/datamesse/data-visualisation-datasets/blob/main/International%20Marketplace%20sales/Power%20Query%20and%20Deneb%20code.md',
-      tags: ["Power BI", "Python", "Deneb", "Vega-Lite", "Power Query"]
+      tags: ["Power BI", "Python", "Deneb", "Vega-Lite", "Power Query", "Forecasting"]
    },
    {
       title: 'International marketplace dataset',
