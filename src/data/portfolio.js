@@ -20,7 +20,7 @@ const portfolio = [
       shortdate: 'OCT 2022',
       stack: logo_excel,
       photo: img_internationalmarketplaceexcel,
-      siteURL: '',
+      siteURL: 'https://datamesse.github.io/#/project/ExcelInternationalMarketplaceProfitForecast',
       codeURL: '',
       tags: ["Excel", "Power Pivot", "DAX", "Forecasting"]
    },

@@ -10,8 +10,8 @@ function Body() {
         <div className='body'>
             <About />
             <Portfolio />
-            <Skills />
             <BlogPreview />
+            <Skills />
             <Contact />
         </div>
     );

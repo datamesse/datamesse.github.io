@@ -9,6 +9,7 @@ import Post from './components/Post';
 import NotFound from './components/NotFound';
 
 import Project1 from './components-projects/ExcelCustomerSupportAgentPerformance';
+import Project2 from './components-projects/ExcelInternationalMarketplaceProfitForecast';
 
 ReactDOM.render(
   <Router>
@@ -19,6 +20,7 @@ ReactDOM.render(
         <Route exact path="/404" component={NotFound} />
 
         <Route exact path="/project/excelcustomersupportagentperformance" component={Project1} />
+        <Route exact path="/project/excelinternationalmarketplaceprofitforecast" component={Project2} />
       </div>
   </Router>,
 

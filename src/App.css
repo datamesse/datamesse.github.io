@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 
 html {
@@ -10,7 +9,7 @@ a {
 }
 
 .body {
-    font-family: 'Ovo', Verdana;
+    font-family: 'Segoe UI', Verdana;
     color: #000;
     background-color: #fff;
 }
@@ -531,7 +530,7 @@ a {
 }
 
 .blog-tile-header-preview {
-    font-family: 'Ovo', Verdana;
+    font-family: 'Segoe UI', Verdana;
     font-size: 22px;
     font-weight: 600;
     display: flex;
@@ -576,7 +575,7 @@ a {
 }
 
 .blog-desc-preview {
-    font-family: 'Ovo', Helvetica;
+    font-family: 'Segoe UI', Helvetica;
     font-size: 18px;
     text-align: left;
     background-color: white;
@@ -690,7 +689,7 @@ a {
 }
 
 .blog-desc {
-    font-family: 'Ovo', Helvetica;
+    font-family: 'Segoe UI', Helvetica;
     font-size: 16px;
     text-align: left;
     padding-top: 8px;
@@ -720,7 +719,7 @@ a {
 
 .post {
     color: black;
-    font-family: 'Ovo', Verdana;
+    font-family: 'Segoe UI', Verdana;
     position:relative;
     margin: 0px; 
     padding: 0px;
@@ -750,7 +749,7 @@ a {
 }
   
 .post-body p {
-    font-family: 'Ovo', Verdana;
+    font-family: 'Segoe UI', Verdana;
     font-size: 18px;
     padding-top: 3px;
     padding-left: 20px;
@@ -841,10 +840,18 @@ code {
 
 
 
+
 .project-excelcustomersupportagentperformance {
     display: flex;
-    width: (100vw) - 20px;
-    height: 950px;
+    width: 1475px;
+    height: 940px;
+    margin-top: 40px;
+}
+
+.project-excelinternationalmarketplaceprofit {
+    display: flex;
+    width: 1540px;
+    height: 1070px;
     margin-top: 40px;
 }
 
