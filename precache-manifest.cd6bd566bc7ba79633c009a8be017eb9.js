@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "dd00882b0dcc5f8ef88b",
+    "revision": "acc3116c15889113a7a5",
     "url": "/static/css/main.f6b3c8b6.chunk.css"
   },
   {
-    "revision": "dd00882b0dcc5f8ef88b",
-    "url": "/static/js/main.dd00882b.chunk.js"
+    "revision": "acc3116c15889113a7a5",
+    "url": "/static/js/main.acc3116c.chunk.js"
   },
   {
     "revision": "14d3fc22121aa9f64b4d",
@@ -260,7 +260,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-10-excel-international-marketplace-profit-forecast.3adfbfda.gif"
   },
   {
-    "revision": "05cc0dce3266e63f87d2fe1f5e20b86f",
+    "revision": "f8b6f4a60cb7a89c151ef271e55ebc0c",
     "url": "/index.html"
   }
 ];

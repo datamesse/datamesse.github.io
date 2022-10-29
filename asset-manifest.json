@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.f6b3c8b6.chunk.css",
-  "main.js": "/static/js/main.dd00882b.chunk.js",
-  "main.js.map": "/static/js/main.dd00882b.chunk.js.map",
+  "main.js": "/static/js/main.acc3116c.chunk.js",
+  "main.js.map": "/static/js/main.acc3116c.chunk.js.map",
   "static/js/1.14d3fc22.chunk.js": "/static/js/1.14d3fc22.chunk.js",
   "static/js/1.14d3fc22.chunk.js.map": "/static/js/1.14d3fc22.chunk.js.map",
   "static/css/2.0699ac0b.chunk.css": "/static/css/2.0699ac0b.chunk.css",
@@ -68,9 +68,9 @@
   "static/media/img-2022-06-excel-customer-support-agent-performance.gif": "/static/media/img-2022-06-excel-customer-support-agent-performance.785039de.gif",
   "static/media/img-2022-08-satellite-launch-overview.gif": "/static/media/img-2022-08-satellite-launch-overview.30e65a6b.gif",
   "static/media/img-2022-10-excel-international-marketplace-profit-forecast.gif": "/static/media/img-2022-10-excel-international-marketplace-profit-forecast.3adfbfda.gif",
-  "static/css/main.f6b3c8b6.chunk.css.map": "/static/css/main.f6b3c8b6.chunk.css.map",
   "static/css/2.0699ac0b.chunk.css.map": "/static/css/2.0699ac0b.chunk.css.map",
+  "static/css/main.f6b3c8b6.chunk.css.map": "/static/css/main.f6b3c8b6.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.5c8bafa40e95e1b0ce2ab02cca663ee3.js": "/precache-manifest.5c8bafa40e95e1b0ce2ab02cca663ee3.js",
+  "precache-manifest.cd6bd566bc7ba79633c009a8be017eb9.js": "/precache-manifest.cd6bd566bc7ba79633c009a8be017eb9.js",
   "service-worker.js": "/service-worker.js"
 }
