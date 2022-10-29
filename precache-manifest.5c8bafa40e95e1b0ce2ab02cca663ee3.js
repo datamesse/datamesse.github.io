@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "dcb0d15bcdde60f0c522",
-    "url": "/static/css/main.5c1cc7ed.chunk.css"
+    "revision": "dd00882b0dcc5f8ef88b",
+    "url": "/static/css/main.f6b3c8b6.chunk.css"
   },
   {
-    "revision": "dcb0d15bcdde60f0c522",
-    "url": "/static/js/main.dcb0d15b.chunk.js"
+    "revision": "dd00882b0dcc5f8ef88b",
+    "url": "/static/js/main.dd00882b.chunk.js"
   },
   {
     "revision": "14d3fc22121aa9f64b4d",
     "url": "/static/js/1.14d3fc22.chunk.js"
   },
   {
-    "revision": "b7514fc464b056fcd988",
+    "revision": "047fd3bd6e928ebdcdc4",
     "url": "/static/css/2.0699ac0b.chunk.css"
   },
   {
-    "revision": "b7514fc464b056fcd988",
-    "url": "/static/js/2.b7514fc4.chunk.js"
+    "revision": "047fd3bd6e928ebdcdc4",
+    "url": "/static/js/2.047fd3bd.chunk.js"
   },
   {
     "revision": "e4c15e667e9243a0bf86",
@@ -256,7 +256,11 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-08-satellite-launch-overview.30e65a6b.gif"
   },
   {
-    "revision": "b371ba2c6a99a14b80e42980eb5261a9",
+    "revision": "3adfbfdaa0a4532d9154687403a26df3",
+    "url": "/static/media/img-2022-10-excel-international-marketplace-profit-forecast.3adfbfda.gif"
+  },
+  {
+    "revision": "05cc0dce3266e63f87d2fe1f5e20b86f",
     "url": "/index.html"
   }
 ];
