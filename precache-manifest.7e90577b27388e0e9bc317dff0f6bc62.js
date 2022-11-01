@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "182454c1787a5930eae1",
-    "url": "/static/css/main.f6b3c8b6.chunk.css"
+    "revision": "952b82f071ebcd9ac19c",
+    "url": "/static/css/main.5c8befe9.chunk.css"
   },
   {
-    "revision": "182454c1787a5930eae1",
-    "url": "/static/js/main.182454c1.chunk.js"
+    "revision": "952b82f071ebcd9ac19c",
+    "url": "/static/js/main.952b82f0.chunk.js"
   },
   {
     "revision": "14d3fc22121aa9f64b4d",
@@ -40,20 +40,20 @@ self.__precacheManifest = [
     "url": "/static/media/flaticon-calendar-lines-pen.f25f6194.svg"
   },
   {
-    "revision": "e463e472140eb3905f18d7a8f7eb43cc",
-    "url": "/static/media/flaticon-chart-histogram.e463e472.svg"
+    "revision": "96e566614f78e929c709e2f7c45747d2",
+    "url": "/static/media/flaticon-chart-histogram-white.96e56661.svg"
   },
   {
-    "revision": "4d991c9b277af301baf42f8b6e25e473",
-    "url": "/static/media/flaticon-cross-circle.4d991c9b.svg"
+    "revision": "712ceeffd00147faea3b2d1aca92233d",
+    "url": "/static/media/flaticon-cross-circle-white.712ceeff.svg"
   },
   {
-    "revision": "71276228e5234c29f9e58d414fc17099",
-    "url": "/static/media/flaticon-diploma.71276228.svg"
+    "revision": "a5093c2aaf2b6d86afac90a2bd896aff",
+    "url": "/static/media/flaticon-diploma-white.a5093c2a.svg"
   },
   {
-    "revision": "ecaa1ace5df6e796067b9dbcf515c79a",
-    "url": "/static/media/flaticon-edit.ecaa1ace.svg"
+    "revision": "82f6939ca69155163cc8dcfe2c48b2db",
+    "url": "/static/media/flaticon-edit-white.82f6939c.svg"
   },
   {
     "revision": "1f287fc592541eed40e1377e9386441f",
@@ -68,12 +68,12 @@ self.__precacheManifest = [
     "url": "/static/media/flaticon-magic-wand.b3dd9403.svg"
   },
   {
-    "revision": "84fa164f896df0b14c6668eb9fa22961",
-    "url": "/static/media/flaticon-menu-burger.84fa164f.svg"
+    "revision": "c72a01cd9a0c868a479086d584a59dd7",
+    "url": "/static/media/flaticon-menu-burger-white.c72a01cd.svg"
   },
   {
-    "revision": "0489f57ec006cac99b1e75136f1bc4a0",
-    "url": "/static/media/flaticon-paper-plane.0489f57e.svg"
+    "revision": "5d14ae2efaa0b1d4dc9ee8309198c095",
+    "url": "/static/media/flaticon-paper-plane-white.5d14ae2e.svg"
   },
   {
     "revision": "fdff4014b22f67787c176c6aa52890a7",
@@ -260,7 +260,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-10-excel-international-marketplace-profit-forecast.3adfbfda.gif"
   },
   {
-    "revision": "831ca698615da3d34aedc83f3be784b5",
+    "revision": "317e5d4c1a1ae56ba711e4833dab2f34",
     "url": "/index.html"
   }
 ];
