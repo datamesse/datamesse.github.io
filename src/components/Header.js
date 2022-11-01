@@ -28,19 +28,27 @@ const [isOpen, setIsOpen] = useState(false)
     return (
         <>
             <div className="header">
-                <h2><a href='/'>data messe</a></h2>
-                <div className="menu">
-                    <div className="menu-desktop">
-                        <MenuDesktop />
-                    </div>
-                    <div className="menu-mobile">
-                        <div onClick={() => setIsOpen(!isOpen)}>
-                            <img className="menu-icon" src={ icon_menuburger } />
+                <div className="header-body">
+                    <h2><a href='/'>data messe</a></h2>
+                    <div className="menu">
+                        <div className="menu-desktop">
+                            <MenuDesktop />
                         </div>
-                        {isOpen && <MenuMobile isOpen={isOpen} setIsOpen={setIsOpen}/>}
+                        <div className="menu-mobile">
+                            <div onClick={() => setIsOpen(!isOpen)}>
+                                <img className="menu-icon" src={ icon_menuburger } />
+                            </div>
+                            {isOpen && <MenuMobile isOpen={isOpen} setIsOpen={setIsOpen}/>}
+                        </div>
                     </div>
                 </div>
             </div>
+            <div className="header-subtitle">
+                <div className="header-subtitle-line">
+                    <p>DATA ANALYSIS AND POWER BI ENTHUSIAST</p>
+                </div>
+            </div>
+
         </>
     )
 }

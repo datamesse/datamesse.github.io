@@ -22,21 +22,21 @@ function About() {
                     <div className='about-title'>
                         <img className='about-avatar' src={ avatar } />    
 
-
                         <div className="sitename" id="title">
-                <a href='/'>
-                    <img className="site-title" src={ title_e } />
-                    <img className="site-title" src={ title_d } />
-                    <img className="site-title" src={ title_c } />
-                    <img className="site-title" src={ title_b } />
-                    <img className="site-title" src={ title_a } />
-                </a>
-            </div>                
+                            <a href='/'>
+                                <img className="site-title" src={ title_e } />
+                                <img className="site-title" src={ title_d } />
+                                <img className="site-title" src={ title_c } />
+                                <img className="site-title" src={ title_b } />
+                                <img className="site-title" src={ title_a } />
+                            </a>
+                        </div>                
 
                     </div>
 
-                    <p>Hi, I'm a data analysis and visualisation enthusiast with over 8 years of customer service and technical troubleshooting experience.</p>
-                    <p>My goal is to help great clients solve problems and make the best decisions they can using data.</p>
+                        <p>I am a 9+ year customer service veteran with strong foundational data skills from SaaS support work and personal projects.</p>
+                        <p>My career goal is to constantly challenge myself learning data technologies and leveraging those skills to provide excellent solutions for clients.</p>
+
                 </div>
                 <div className='about-photo'>
                     <img className='about-image' src={ image_sentimentanalysis_animated } />

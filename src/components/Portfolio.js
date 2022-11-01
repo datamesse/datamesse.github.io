@@ -9,7 +9,7 @@ function Portfolio() {
     return (
         <div className='portfolio' id='portfolio'>
             <Separator />
-            <label className='section-title'>Portfolio</label>
+            <label className='section-title'>PORTFOLIO</label>
             <div>
                 {data.map((project)=>{
                     return <Project project={project} />;

@@ -19,7 +19,7 @@ export default function BlogPreview() {
     return (
         <div className='blog-preview' id='blog'>
             <Separator />
-            <label className='section-title'>Blog</label>
+            <label className='section-title'>RECENT BLOG POSTS</label>
 
 
             <div className='blog-set-preview'>

@@ -7,7 +7,7 @@ function Footer() {
 
     return (
         <div className='footer'>
-            <p>website coded by data messe | Ⓒ {year}</p>
+            <p>website happily coded by me using React.js | ⓒ {year}</p>
             <a href="https://www.flaticon.com/uicons" target='_blank'>User interface icons by Flaticon</a>
             <a href="https://storyset.com/data" target='_blank'>Data illustration by Storyset</a>
         </div>

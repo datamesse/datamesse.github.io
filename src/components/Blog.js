@@ -15,13 +15,11 @@ export default function Blog() {
     console.log(Posts)
     return (
         <>
-            <div className="home">
-                <Header />
-            </div>
+            <Header />
             <div className='blog'>
                 <center>
                 <div className='blog-header'>
-                    <label className='section-title'>Blog</label>
+                    <label className='section-title'>ALL BLOG POSTS</label>
                 </div>
                     <div className='blog-set'>
                     {

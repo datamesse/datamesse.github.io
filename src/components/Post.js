@@ -27,9 +27,9 @@ export default function Post(props) {
     }
     return (
         <>
-            <div className="home">
-                <Header />
-            </div>
+
+            <Header />
+
             <div className='post'>
                 <center>
                     <div className='post-body'>

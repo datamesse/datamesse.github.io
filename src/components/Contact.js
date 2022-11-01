@@ -7,8 +7,8 @@ function Contact() {
     return (
         <div className='contact' id='contact'>
             <Separator />
-            <label className='section-title'>Contact</label>
-            <p>Please feel free to contact me on any of the following platforms:</p>
+            <label className='section-title'>CONTACT</label>
+            <p>Please feel free to contact me on these platforms:</p>
             <Links />
         </div>
     );

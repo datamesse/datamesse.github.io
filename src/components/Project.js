@@ -25,7 +25,7 @@ function Project({ project }) {
                         )}
                     </div>
                     <div className='project-date'>
-                        <label>completed {project.shortdate}</label>
+                        <label>{project.shortdate}</label>
                     </div>
                 </div>
                 <p>{project.description}</p>

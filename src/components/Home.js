@@ -6,11 +6,17 @@ import Footer from './Footer';
 
 function Home() {
     return (
-        <div className="home">
+
+        <>
             <Header />
-            <Body />
+
+            <div className="home">
+                <Body />
+            </div>
+
             <Footer />
-        </div>
+
+        </>
     );
 }
 
