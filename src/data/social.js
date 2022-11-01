@@ -22,12 +22,12 @@ export const SocialData=[
         link: twitterURL
     },
     {
-        platform: "Power BI",
+        platform: "Power BI Community",
         icon: logo_powerbi,
         link: powerbiURL
     },
     {
-        platform: "Tableau",
+        platform: "Tableau Public",
         icon: logo_tableau,
         link: tableauURL
     }

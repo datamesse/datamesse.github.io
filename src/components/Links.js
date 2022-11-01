@@ -6,15 +6,24 @@ import { SocialData } from '../data/social';
     const data = SocialData;
     return (
         <div className='links'>
-            {data.map((item)=>{
-                return(
-                        <a href={item.link} target='_blank'>
-                            <div className='link'>
-                                <img src={item.icon} className='link-icon' />
-                            </div>
-                        </a>
-                )
-            })}
+            <ul>
+                {data.map((item)=>{
+                    return(
+                            <li>
+                                <a href={item.link} target='_blank'>
+                                    <div className='link'>
+                                        <div className='link-icon-container'>
+                                            <img src={item.icon} className='link-icon' />
+                                        </div>
+                                        <div className='link-text'>
+                                            {item.platform}
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                    )
+                })}
+            </ul>
         </div>);
 }
 
