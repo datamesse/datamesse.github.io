@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "952b82f071ebcd9ac19c",
-    "url": "/static/css/main.5c8befe9.chunk.css"
+    "revision": "423e24dd3872b7371615",
+    "url": "/static/css/main.c733a981.chunk.css"
   },
   {
-    "revision": "952b82f071ebcd9ac19c",
-    "url": "/static/js/main.952b82f0.chunk.js"
+    "revision": "423e24dd3872b7371615",
+    "url": "/static/js/main.423e24dd.chunk.js"
   },
   {
-    "revision": "14d3fc22121aa9f64b4d",
-    "url": "/static/js/1.14d3fc22.chunk.js"
+    "revision": "0f54f8cf35ea0ddbb18d",
+    "url": "/static/js/1.0f54f8cf.chunk.js"
   },
   {
-    "revision": "047fd3bd6e928ebdcdc4",
-    "url": "/static/css/2.0699ac0b.chunk.css"
+    "revision": "c137ab41e520554e7c9f",
+    "url": "/static/css/2.5468ec95.chunk.css"
   },
   {
-    "revision": "047fd3bd6e928ebdcdc4",
-    "url": "/static/js/2.047fd3bd.chunk.js"
+    "revision": "c137ab41e520554e7c9f",
+    "url": "/static/js/2.c137ab41.chunk.js"
   },
   {
-    "revision": "e4c15e667e9243a0bf86",
-    "url": "/static/js/runtime~main.e4c15e66.js"
+    "revision": "3e0eb4b8e2d2c4826673",
+    "url": "/static/js/runtime~main.3e0eb4b8.js"
   },
   {
     "revision": "b90dc4f8343dbdd2563ac6b5cf5c9a93",
@@ -192,42 +192,6 @@ self.__precacheManifest = [
     "url": "/static/media/logoblue-youtube.90400f1e.svg"
   },
   {
-    "revision": "abb00cec20ba8b729fad36f56924ae73",
-    "url": "/static/media/letter-01.abb00cec.svg"
-  },
-  {
-    "revision": "2c69bf18a2f74f09c75713b0a47cd4e5",
-    "url": "/static/media/letter-08.2c69bf18.svg"
-  },
-  {
-    "revision": "46514193076a09bdc044e8a1dcbf99dc",
-    "url": "/static/media/letter-09.46514193.svg"
-  },
-  {
-    "revision": "85c8f9ad14875b387dcaecc65d0209a4",
-    "url": "/static/media/letter-10.85c8f9ad.svg"
-  },
-  {
-    "revision": "471a78f6a54c6b40cf71359aeaa5e1b4",
-    "url": "/static/media/letter-11.471a78f6.svg"
-  },
-  {
-    "revision": "ba044bd61090765c26c9df5a329eff87",
-    "url": "/static/media/letter-13.ba044bd6.svg"
-  },
-  {
-    "revision": "20d254da82f1bb3a81ae5cb68596b159",
-    "url": "/static/media/letter-14.20d254da.svg"
-  },
-  {
-    "revision": "9d8d20923785c26a0ccd2847f6945701",
-    "url": "/static/media/letter-18.9d8d2092.svg"
-  },
-  {
-    "revision": "5a0922de2069c6611ec628b51c1c94d6",
-    "url": "/static/media/letter-21.5a0922de.svg"
-  },
-  {
     "revision": "961a1d5252282700c8bb636489796fd4",
     "url": "/static/media/img-2022-05-portfolio-website-react.961a1d52.gif"
   },
@@ -260,7 +224,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-10-excel-international-marketplace-profit-forecast.3adfbfda.gif"
   },
   {
-    "revision": "317e5d4c1a1ae56ba711e4833dab2f34",
+    "revision": "5b400f535156fddf82e5b1f95c600506",
     "url": "/index.html"
   }
 ];
