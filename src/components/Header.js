@@ -3,7 +3,6 @@ import '../App.css';
 import MenuDesktop from './MenuDesktop';
 import MenuMobile from './MenuMobile';
 import { icon_menuburger, 
-         letter_01, letter_08, letter_09, letter_10, letter_11, letter_13, letter_14, letter_18, letter_21,
          title_a, title_b, title_c, title_d, title_e
 } from '../data/assets';
 import { displayName, ascii2, ascii3, ascii4 } from '../data/data';
@@ -21,6 +20,13 @@ var intervalId = setInterval(function() {
             <div className="sitename" id="title"></div>
 */
 
+
+/*
+                <div className="header-body">
+
+                    <h2><a href='/'>data messe</a></h2>
+*/
+
 function Header() {
 
 const [isOpen, setIsOpen] = useState(false)
@@ -29,7 +35,17 @@ const [isOpen, setIsOpen] = useState(false)
         <>
             <div className="header">
                 <div className="header-body">
-                    <h2><a href='/'>data messe</a></h2>
+
+                    <div className="sitename" id="title">
+                            <a href='/'>
+                                <img className="site-title" src={ title_e } />
+                                <img className="site-title" src={ title_d } />
+                                <img className="site-title" src={ title_c } />
+                                <img className="site-title" src={ title_b } />
+                                <img className="site-title" src={ title_a } />
+                            </a>
+                        </div>         
+
                     <div className="menu">
                         <div className="menu-desktop">
                             <MenuDesktop />
@@ -45,7 +61,7 @@ const [isOpen, setIsOpen] = useState(false)
             </div>
             <div className="header-subtitle">
                 <div className="header-subtitle-line">
-                    <p>DATA ANALYSIS AND POWER BI ENTHUSIAST</p>
+                    <p>DATA ANALYTICS AND POWER BI ENTHUSIAST</p>
                 </div>
             </div>
 

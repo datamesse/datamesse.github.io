@@ -109,12 +109,12 @@ a {
 
 .site-title {
     display: flex;
-    height: 22px;
+    height: 30px;
     width: auto;
     margin: 0px;
     padding: 0px;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .site-letter-space {
@@ -213,7 +213,7 @@ a {
 .about-top {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
 }
 
 .about-photo {
@@ -225,14 +225,17 @@ a {
     width: 90px;
     margin-right: 15px;
     border-radius: 50%;
-    border: 2px solid #E9F6FE;
-    background-color: #E9F6FE;
+    border: 2px solid #24A9F2;
+    background-color: #24A9F2;
     left: 0px;
     float: left;
   }
 
 .about-info {
+    width: 70%;
+    border-top: 20px solid #E9F6FE;
     font-size: 20px;
+    padding: 20px 0px 0px 30px;
 }
 
 .about-info p {
@@ -247,7 +250,11 @@ a {
 }
 
 .about-image {
-    height: 420px;
+    height: 350px;
+}
+
+.about-title .section-title {
+    margin: 0px;
 }
 
 .about-quote {
@@ -264,20 +271,55 @@ a {
     color: #000;
 }
 
+.about-links {
+    height: auto;
+    width: 650px;
+    background-color: #F2F2F2;
+}
+
 .links {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
+.links ul {
+    list-style: none;
+    margin: 15px 20px 15px 15px;
+    padding: 0px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #24A9F2;
+}
+
 .link {
-    padding: 6px;
+    padding: 0px;
     cursor: pointer;
     margin: 6px;
+    display: flex;
+}
+
+.link-icon-container {
+    width: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.link-text {
+    font-family: 'Segoe UI', 'Kanit', Helvetica;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 3px 0px 0px 5px;
+    padding: 0px;
 }
 
 .link-icon {
-    height: 40px;
+    height: 30px;
 }
 
 
@@ -302,13 +344,14 @@ a {
 }
 
 .project-info p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.45;
 }
 
 .project-title {
-    font-size: 23px;
-    font-weight: 500;
+    font-family: 'Corbel', 'Kanit', Helvetica;
+    font-size: 24px;
+    font-weight: 600;
     color: #000;
 }
 
@@ -344,7 +387,7 @@ a {
     height: 30px;
     display: flex;
     align-items: center;
-    margin-right: 4px;
+    margin-right: 10px;
 }
 
 .project-date {
@@ -511,12 +554,32 @@ a {
 }
 
 .contact p {
-    font-size: 19px;
+    font-family: 'Corbel', 'Kanit', Helvetica;
+    font-size: 20px;
     margin: auto;
     margin-bottom: 20px;
 }
 
+.contact .links {
+    justify-content: center;
+}
 
+
+.contact .links ul {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+.contact .links a {
+    color: #000;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #24A9F2;
+}
 
 .footer {
     font-family: 'Kanit', Helvetica;
@@ -557,6 +620,12 @@ a {
     text-decoration: none;
     color: #23a9f2;
     margin: auto;
+}
+
+.blog-preview h3 {
+    font-size: 26px;
+    font-family: 'Corbel', 'Kanit', Helvetica;
+    font-weight: 500;
 }
 
 .blog-set-preview {
@@ -631,7 +700,7 @@ a {
 
 .blog-desc-preview {
     font-family: 'Corbel', Helvetica;
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
     background-color: white;
 }
@@ -840,6 +909,7 @@ a {
 .post-body img {
     max-width: 100%;
 }
+
 .post-body a {
     text-decoration: none;
     color: #23a9f2;
@@ -948,7 +1018,14 @@ code {
 
 /* ------------------------ */
 
-
+@media only screen and (max-width: 1500px){
+    .about-info {
+        width: 100%;
+    }
+    .about-photo {
+        display: none;
+    }
+}
 
 
 @media only screen and (max-width: 1024px){
@@ -982,12 +1059,18 @@ code {
         justify-content: center;
         align-items: center;
     }
+    .about-links {
+        width: 100%;
+        margin-bottom: 12px;
+    }
     .about-avatar {
         height: 120px;
         width: 120px;
+        margin-bottom: 12px;
     }
     .about-info {
         font-size: 18px;
+        border-top: none;
     }
     .about-title {
         flex-direction: column;
@@ -1005,6 +1088,9 @@ code {
     }    
     .about-image {
         height: 280px;
+    }
+    .about-photo {
+        border-top: none;
     }
     .link-icon {
         height: 32px;
@@ -1096,6 +1182,6 @@ code {
         width: 95%;
     }
     .body {
-        margin-top: 30px;
+        margin-top: 12px;
     }
 }

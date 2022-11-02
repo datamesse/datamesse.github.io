@@ -14,9 +14,7 @@ export default function InternationalMarketplaceProfitForecast() {
 
     return (
         <>
-            <div className="home">
-                <Header />
-            </div>
+            <Header />
             <div className='post'>
                 <center>
                     <div className='post-body'>

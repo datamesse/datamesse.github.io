@@ -2,7 +2,6 @@ import React from 'react';
 import '../App.css';
 import { avatar, image_sentimentanalysis_animated } from '../data/assets';
 import { icon_menuburger, 
-    letter_01, letter_08, letter_09, letter_10, letter_11, letter_13, letter_14, letter_18, letter_21,
     title_a, title_b, title_c, title_d, title_e
 } from '../data/assets';
 import Links from './Links';
@@ -13,29 +12,29 @@ import Links from './Links';
                     </div>
 */
 
+/*
+                        <h2><a href='/'>data messe</a></h2>      
+*/
+
 function About() {
     return (
         <div className='about'>
 
             <div className='about-top'>
+
+                <div className='about-links'>
+                    <Links />                    
+                </div>
+
+
                 <div className='about-info'>
+
                     <div className='about-title'>
-                        <img className='about-avatar' src={ avatar } />    
-
-                        <div className="sitename" id="title">
-                            <a href='/'>
-                                <img className="site-title" src={ title_e } />
-                                <img className="site-title" src={ title_d } />
-                                <img className="site-title" src={ title_c } />
-                                <img className="site-title" src={ title_b } />
-                                <img className="site-title" src={ title_a } />
-                            </a>
-                        </div>                
-
+                        <img className='about-avatar' src={ avatar } />
+                        <label className='section-title'>ABOUT ME</label>
                     </div>
-
-                        <p>I am a 9+ year customer service veteran with strong foundational data skills from SaaS support work and personal projects.</p>
-                        <p>My career goal is to constantly challenge myself learning data technologies and leveraging those skills to provide excellent solutions for clients.</p>
+                    <p>Customer service veteran with strong foundational data skills from SaaS support work and personal projects.</p>
+                    <p>My career goal is to constantly challenge myself learning data technologies and leveraging those skills to provide excellent solutions for clients.</p>
 
                 </div>
                 <div className='about-photo'>
@@ -44,7 +43,7 @@ function About() {
             </div>
 
             <div className='about-bottom'>
-                <Links />
+
             </div>
 
         </div>

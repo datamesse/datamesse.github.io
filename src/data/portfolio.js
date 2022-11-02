@@ -15,7 +15,7 @@ import img_internationalmarketplaceexcel from '../assets-portfolio/img-2022-10-e
 const portfolio = [
    {
       title: 'International marketplace profit dashboard',
-      description: 'An Excel dashboard using an out-of-the-box exponential smoothing algorithm to forecast profit.',
+      description: 'Excel dashboard using an out-of-the-box exponential smoothing algorithm to forecast profit.',
       stamp: '2022-10',
       shortdate: 'OCT 2022',
       stack: logo_excel,
@@ -26,7 +26,7 @@ const portfolio = [
    },
    {
       title: 'Satellite launch overview report',
-      description: 'A Power BI report showing actively monitored satellites using a custom Deneb scatterplot visual.',
+      description: 'Power BI report showing actively monitored satellites using a custom Deneb scatterplot visual.',
       stamp: '2022-08',
       shortdate: 'AUG 2022',
       stack: logo_powerbi,
@@ -37,7 +37,7 @@ const portfolio = [
    },
    {
       title: 'Customer support agent performance dashboard',
-      description: 'An Excel dashboard comparing overall team and individual staff KPIs. Includes a cell filter into Power Query and dynamically displays photos.',
+      description: 'Excel dashboard comparing overall team and individual staff KPIs. Includes a cell filter into Power Query and dynamically displays photos.',
       stamp: '2022-06',
       shortdate: 'JUN 2022',
       stack: logo_excel,
@@ -48,7 +48,7 @@ const portfolio = [
    },
    {
       title: 'International marketplace profit report',
-      description: 'A Power BI report incorporating Python profit predictions and custom Deneb (JSON-based) visualisations.',
+      description: 'Power BI report incorporating Python profit predictions and custom Deneb (JSON-based) visualisations.',
       stamp: '2022-04',
       shortdate: 'APR 2022',
       stack: logo_powerbi,
@@ -59,7 +59,7 @@ const portfolio = [
    },
    {
       title: 'International marketplace dataset',
-      description: 'An SQL Server Integration Services package that merges different Microsoft and Tableau sample sales datasets into a single data warehouse.',
+      description: 'SQL Server Integration Services package that merges different Microsoft and Tableau sample sales datasets into a single data warehouse.',
       stamp: '2022-01',
       shortdate: 'JAN 2022',
       stack: logo_sqlserver,
@@ -70,7 +70,7 @@ const portfolio = [
    },
    {
       title: 'Follow the sun customer support report',
-      description: 'A Power BI report showing teamwork and performance for global customer service. Incorporates dynamic daylight saving offsets, which are not inherent in Power BI time intelligence (at the time of writing).',
+      description: 'Power BI report showing teamwork and performance for global customer service. Incorporates dynamic daylight saving offsets, which are not inherent in Power BI time intelligence (at the time of writing).',
       stamp: '2021-11',
       shortdate: 'NOV 2021',
       stack: logo_powerbi,
@@ -81,7 +81,7 @@ const portfolio = [
    },
    {
       title: 'Singapore rental prices report',
-      description: 'A Power BI report showing trends of Singapore rent by quarter, flat type, and major currency conversions.',
+      description: 'Power BI report showing trends of Singapore rent by quarter, flat type, and major currency conversions.',
       stamp: '2021-10',
       shortdate: 'OCT 2021',
       stack: logo_powerbi,
@@ -92,7 +92,7 @@ const portfolio = [
    },
    {
       title: 'Website portfolio and blog',
-      description: 'My portfolio website coded using HTML, CSS, and JavaScript with React.js and GitHub Pages.',
+      description: 'Website coded using HTML, CSS, and JavaScript with React.js and GitHub Pages.',
       stamp: '2021-09',
       shortdate: 'SEP 2021',
       stack: logo_html,

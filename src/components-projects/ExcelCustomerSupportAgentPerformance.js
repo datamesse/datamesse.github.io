@@ -14,9 +14,7 @@ export default function ExcelCustomerSupportAgentPerformance() {
 
     return (
         <>
-            <div className="home">
-                <Header />
-            </div>
+            <Header />
             <div className='post'>
                 <center>
                     <div className='post-body'>
