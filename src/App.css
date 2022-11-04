@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -6,10 +7,11 @@ html {
 
 a {
     word-wrap: break-word;
+    font-weight: normal;
 }
 
 .body {
-    font-family: 'Corbel', Verdana;
+    font-family: 'Cambay', Verdana;
     color: #000;
     background-color: #fff;
     padding: 0px 12px 36px 12px;
@@ -146,6 +148,7 @@ a {
     color: #FFF;
     display: flex;
     align-items: center;
+    font-weight: bold;
 }
 
 .menu-desktop-option a:hover {
@@ -203,6 +206,7 @@ a {
     text-decoration: none;
     color: #FFF;
     display: flex;
+    font-weight: bold;
 }
 
 .menu-mobile-option a:hover {
@@ -241,7 +245,9 @@ a {
 .about-info p {
     line-height: 1.35;
     color: #1D3251;
-    font-family: 'Corbel';
+    font-family: 'Cambay', 'Corbel';
+    font-size: 22px;
+    font-weight: 500;
 }
 
 .about-title {
@@ -274,13 +280,13 @@ a {
 .about-links {
     height: auto;
     width: 650px;
-    background-color: #F2F2F2;
 }
 
 .links {
     display: flex;
     justify-content: left;
     align-items: center;
+    background-color: #F2F2F2;
 }
 
 .links ul {
@@ -344,14 +350,16 @@ a {
 }
 
 .project-info p {
-    font-size: 20px;
+    font-size: 19px;
     line-height: 1.45;
+    font-weight: 300;
+    color: #1D3251;
 }
 
 .project-title {
-    font-family: 'Corbel', 'Kanit', Helvetica;
-    font-size: 24px;
-    font-weight: 600;
+    font-family: 'Cambay', 'Kanit', Helvetica;
+    font-size: 26px;
+    font-weight: 500;
     color: #000;
 }
 
@@ -370,17 +378,22 @@ a {
     color: black;
 }
 
+.project-links a:hover {
+    color: #24A9F2;
+}
+
 .project-link-button {
-    font-family: 'Kanit', Helvetica;
-    font-weight: 700;
+    font-family: 'Segoe UI', Helvetica;
+    font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
     width: max-content;
     padding: 4px 8px;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 19px;
     margin-right: 6px;
+    letter-spacing: 0.1em;
 }
 
 .project-link-icon {
@@ -391,15 +404,16 @@ a {
 }
 
 .project-date {
-    font-family: 'Kanit', Helvetica;
-    font-size: 18px;
-    font-weight: 700;
+    font-family: 'Segoe UI', Helvetica;
+    font-size: 21px;
+    font-weight: 500;
     text-align: right;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     margin-top: 6px;
     margin-right: 15px;
+    color: #1D3251;
 }
 
 .project-tags {
@@ -495,8 +509,9 @@ a {
 }
 
 .skills-section-title {
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Cambay', 'Kanit', Helvetica;
 }
 
 .skills-list {
@@ -544,6 +559,104 @@ a {
     font-weight: 600;
     margin: 0px;
 }
+
+
+
+/* SKILL BAR version 2 */
+
+.skills2-full-list {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.skill2 {
+    width: 60%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    font-size: 18px;
+}
+
+.skills2-list {
+    margin-left: 20px;
+}
+
+.skill2-iconcontainer {
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+    width: 50px;
+    align-content: center;
+}
+
+.skill2 img {
+    margin: auto;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+.skill-icon2 {
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+    width: 50px;
+}
+
+.skill2-bar {
+    width: 100%;
+    margin: 7px 0px 30px 20px;
+    padding: 0px;
+}
+
+.skill2-progress-bar {
+    display: flex;
+    background-color: #E9F6FE;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.skill2-progress-bar-fill {
+    background-color: #24A9F2;
+    margin: 0px;
+    padding: 0px;
+    width: 70%;
+    color: #FFF;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.skill2-progress-bar-fill-end {
+    width: 0;
+    height: 0;
+    border-top: 100% solid transparent;
+    border-bottom: 100% solid transparent;
+    border-left: 100% solid #24A9F2;
+    display: none;
+}
+
+.skill2-subtext {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.skill2-name {
+    margin-right: 5px;
+}
+
+.skill2-people {
+    margin-left: auto;
+}
+
+
+
+/* SKILL BAR version 2 END */
 
 
 
@@ -654,9 +767,10 @@ a {
 }
 
 .blog-tile-header-preview {
-    font-family: 'Corbel', Verdana;
-    font-size: 22px;
-    font-weight: 600;
+    font-family: 'Cambay', 'Kanit', Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
     display: flex;
     margin-bottom: 10px;
     border-radius: 15px 15px 0 0;
@@ -692,6 +806,7 @@ a {
 .blog-meta-preview a {
     font-size: 18px;
     color: #23a9f2;
+    font-weight: bold;
 }
 
 .blog-meta-preview a:visited {
@@ -706,8 +821,14 @@ a {
 }
 
 .blog-desc-preview p {
-    margin: 0px;
+    font-size: 18px;
     line-height: 1.45;
+
+    color: #000;
+    font-family: 'Cambay', Verdana;
+
+    margin: 0px;
+
 }
 
 
@@ -776,6 +897,7 @@ a {
     margin-left: 7px;
     padding-right: 7px;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .blogstamp-overlay {
@@ -806,6 +928,7 @@ a {
 .blog-meta a {
     font-size: 16px;
     color: #23a9f2;
+    font-weight: bold;
 }
 
 .blog-meta a:visited {
@@ -813,7 +936,7 @@ a {
 }
 
 .blog-desc {
-    font-family: 'Corbel', Helvetica;
+    font-family: 'Cambay', Helvetica;
     font-size: 16px;
     text-align: left;
     padding-top: 8px;
@@ -873,7 +996,7 @@ a {
 }
   
 .post-body p {
-    font-family: 'Corbel', Verdana;
+    font-family: 'Cambay', Verdana;
     font-size: 18px;
     padding-top: 3px;
     padding-left: 20px;
@@ -923,6 +1046,8 @@ a {
 
 .post-body li {
     line-height: 1.75;
+    font-size: 18px;
+    font-family: 'Cambay';
 }
   
 code {
@@ -1025,6 +1150,9 @@ code {
     .about-photo {
         display: none;
     }
+    .skill2 {
+        width: 70%;
+    }
 }
 
 
@@ -1040,6 +1168,9 @@ code {
     }
     .project-photo {
         width: 50vw;
+    }
+    .skill2 {
+        width: 80%;
     }
 }
 
@@ -1169,6 +1300,9 @@ code {
     .body {
         margin-top: 30px;
     }
+    .skill2 {
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 512px){
@@ -1183,5 +1317,8 @@ code {
     }
     .body {
         margin-top: 12px;
+    }
+    .skill2 {
+        width: auto;
     }
 }

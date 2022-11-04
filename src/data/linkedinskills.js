@@ -7,22 +7,22 @@ export const LinkedInSkills = [
         type:"Business Skills",
         list: [
             {
-                name: "Microsoft Power BI",
-                shortname: "Power BI",
-                date: "27th August 2021",
-                shortdate: "AUG 2021",
-                score: 15,
-                taken: "699.9 k",
-                icon: logo_powerbi
-            },
-            {
                 name: "Microsoft Excel",
                 shortname: "Excel",
                 date: "30th October 2019",
                 shortdate: "OCT 2019",
                 score: 5,
-                taken: "25.7 M",
+                taken: "25.7 million",
                 icon: logo_excel
+            },
+            {
+                name: "Microsoft Power BI",
+                shortname: "Power BI",
+                date: "27th August 2021",
+                shortdate: "AUG 2021",
+                score: 15,
+                taken: "699.9 thousand",
+                icon: logo_powerbi
             }
         ]
     },
@@ -35,7 +35,7 @@ export const LinkedInSkills = [
                 date: "27th August 2021",
                 shortdate: "AUG 2021",
                 score: 30,
-                taken: "406.8 k",
+                taken: "406.8 thousand",
                 icon: logo_sqlserver
             },
             {
@@ -44,7 +44,7 @@ export const LinkedInSkills = [
                 date: "10th September 2020",
                 shortdate: "SEP 2020",
                 score: 30,
-                taken: "3.3 M",
+                taken: "3.3 million",
                 icon: logo_html
             },
             {
@@ -53,7 +53,7 @@ export const LinkedInSkills = [
                 date: "10th September 2020",
                 shortdate: "SEP 2020",
                 score: 15,
-                taken: "1.7 M",
+                taken: "1.7 million",
                 icon: logo_css
             },
             {
@@ -62,7 +62,7 @@ export const LinkedInSkills = [
                 date: "10th May 2020",
                 shortdate: "MAY 2020",
                 score: 5,
-                taken: "2.2 M",
+                taken: "2.2 million",
                 icon: logo_javascript
             },
             {
@@ -71,7 +71,7 @@ export const LinkedInSkills = [
                 date: "5th May 2022",
                 shortdate: "MAY 2022",
                 score: 15,
-                taken: "237.4 k",
+                taken: "237.4 thousand",
                 icon: logo_xml
             }
         ]
@@ -85,7 +85,7 @@ export const LinkedInSkills = [
                     date: "10th August 2020",
                     shortdate: "AUG 2020",
                     score: 30,
-                    taken: "3.1 M",
+                    taken: "3.1 million",
                     icon: logo_photoshop
                 }
             ]

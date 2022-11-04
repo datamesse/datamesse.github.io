@@ -70,7 +70,7 @@ const portfolio = [
    },
    {
       title: 'Follow the sun customer support report',
-      description: 'Power BI report showing teamwork and performance for global customer service. Incorporates dynamic daylight saving offsets, which are not inherent in Power BI time intelligence (at the time of writing).',
+      description: 'Power BI report showing teamwork and performance for global customer service. Incorporates dynamic daylight saving offsets not inherent in Power BI time intelligence.',
       stamp: '2021-11',
       shortdate: 'NOV 2021',
       stack: logo_powerbi,
