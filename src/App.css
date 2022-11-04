@@ -562,18 +562,18 @@ a {
 
 
 
-/* SKILL BAR version 2 */
 
 .skills2-full-list {
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px;
-    width: 100%;
-    height: 100%;
 }
 
+
+
+/* SKILL BAR version 2 */
+
 .skill2 {
-    width: 60%;
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -653,8 +653,6 @@ a {
 .skill2-people {
     margin-left: auto;
 }
-
-
 
 /* SKILL BAR version 2 END */
 
@@ -1150,9 +1148,6 @@ code {
     .about-photo {
         display: none;
     }
-    .skill2 {
-        width: 70%;
-    }
 }
 
 
@@ -1168,9 +1163,6 @@ code {
     }
     .project-photo {
         width: 50vw;
-    }
-    .skill2 {
-        width: 80%;
     }
 }
 
@@ -1300,9 +1292,6 @@ code {
     .body {
         margin-top: 30px;
     }
-    .skill2 {
-        width: 90%;
-    }
 }
 
 @media only screen and (max-width: 512px){
@@ -1317,8 +1306,5 @@ code {
     }
     .body {
         margin-top: 12px;
-    }
-    .skill2 {
-        width: auto;
     }
 }
