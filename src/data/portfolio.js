@@ -6,13 +6,24 @@ import { logo_aws, logo_azure, logo_css, logo_excel, logo_html, logo_javascript,
 import img_portfoliowebsitereact from '../assets-portfolio/img-2022-05-portfolio-website-react.gif';
 import img_singaporerentpowerbi from '../assets-portfolio/img-2021-10-power-bi-quarterly-singapore-rental-prices-by-currency.gif';
 import img_followthesunpowerbi from  '../assets-portfolio/img-2021-11-power-bi-follow-the-sun-customer-support.gif';
-import img_internationalmarketplacessis from '../assets-portfolio/img-2022-01-sql-server-integration-services-international-marketplace.png';
+import img_internationalmarketplacessis from '../assets-portfolio/img-2022-01-sql-server-integration-services-international-marketplace-trimmed.png';
 import img_internationalmarketplacepowerbi from '../assets-portfolio/img-2022-04-power-bi-international-marketplace-python-deneb.gif';
 import img_customercupportagentperformance from '../assets-portfolio/img-2022-06-excel-customer-support-agent-performance.gif';
 import img_satellitelaunchoverview from '../assets-portfolio/img-2022-08-satellite-launch-overview.gif';
 import img_internationalmarketplaceexcel from '../assets-portfolio/img-2022-10-excel-international-marketplace-profit-forecast.gif';
 
 const portfolio = [
+   {
+      title: 'AppSource Deneb maps report',
+      description: 'Power BI report demonstrating custom AppSource Deneb maps using embedded geometry JSON data.',
+      stamp: '2022-11',
+      shortdate: 'NOV 2022',
+      stack: logo_powerbi,
+      photo: img_internationalmarketplacepowerbi,
+      siteURL: 'test',
+      codeURL: 'https://datamesse.github.io/#/post/1669726800',
+      tags: ["Power BI", "Deneb", "Vega-Lite", "Vega"]
+   },
    {
       title: 'International marketplace profit dashboard',
       description: 'Excel dashboard using an out-of-the-box exponential smoothing algorithm to forecast profit.',
