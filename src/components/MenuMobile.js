@@ -13,12 +13,12 @@ function MenuMobile({isOpen, setIsOpen}) {
 
             <div className='menu-mobile-options'>
                <div className='menu-mobile-option'>
-                    <Link to="/#portfolio">
+                    <Link to="/portfolio">
                         <img className='menu-option' src={ icon_charthistogram } />PORTFOLIO
                   </Link>
                 </div>
                 <div className='menu-mobile-option'>
-                    <Link to="/#blog">
+                    <Link to="/blog">
                         <img className='menu-option' src={ icon_edit } />BLOG
                     </Link>
                 </div>

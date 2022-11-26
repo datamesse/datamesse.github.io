@@ -15,7 +15,9 @@ export default function Blog() {
     console.log(Posts)
     return (
         <>
+        
             <Header />
+
             <div className='blog'>
                 <center>
                 <div className='blog-header'>
@@ -50,7 +52,9 @@ export default function Blog() {
                     </div>
                 </center>
             </div>
+
             <Footer />
+
         </>
     )
 }

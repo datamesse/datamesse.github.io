@@ -446,6 +446,41 @@ a {
     width: 40vw;
 }
 
+
+/* ------- PORTFOLIO PREVIEW -------*/
+
+
+.portfolio-preview .project {
+    display: inline-flex;
+    margin-inline-start: 20px;
+}
+
+.portfolio-preview .project-info {
+    display: none;
+}
+
+.portfolio-preview .project-photo {
+    width: 21vw;
+}
+
+.portfolio a {
+    text-decoration: none;
+    color: #23a9f2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio h3 {
+    font-size: 26px;
+    font-family: 'Corbel', 'Kanit', Helvetica;
+    font-weight: 500;
+}
+
+/* ----------------------------*/
+
+
+
+
 .section-title {
     font-family: 'Corbel', 'Kanit', Helvetica;
     font-size: 36px;
@@ -1148,6 +1183,12 @@ code {
     .about-photo {
         display: none;
     }
+    .portfolio-preview .project {
+        margin-inline-start: 20px;
+    }
+    .portfolio-preview .project-photo {
+        width: 31vw;
+    }
 }
 
 
@@ -1163,6 +1204,12 @@ code {
     }
     .project-photo {
         width: 50vw;
+    }
+    .portfolio-preview .project {
+        margin-inline-start: 15px;
+    }
+    .portfolio-preview .project-photo {
+        width: 39vw;
     }
 }
 
@@ -1292,6 +1339,15 @@ code {
     .body {
         margin-top: 30px;
     }
+    .portfolio-preview .project {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        margin-inline-start: auto;
+    }
+    .portfolio-preview .project-photo {
+        width: 80vw;
+    }
 }
 
 @media only screen and (max-width: 512px){
@@ -1306,5 +1362,8 @@ code {
     }
     .body {
         margin-top: 12px;
+    }
+    .portfolio-preview .project-photo {
+        width: 85vw;
     }
 }

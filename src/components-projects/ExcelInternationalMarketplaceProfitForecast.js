@@ -18,7 +18,7 @@ export default function InternationalMarketplaceProfitForecast() {
             <div className='post'>
                 <center>
                     <div className='post-body'>
-                        <h4 className='post-meta'>October 26, 2022</h4>
+                        <h4 className='post-meta'>26 October 2022</h4>
                         <h1>Excel project: International Marketplace Profit Dashboard</h1>
                         <p>This is a single worksheet Excel redux of my "International marketplace profit" Power BI report.</p>
 

@@ -18,7 +18,7 @@ export default function ExcelCustomerSupportAgentPerformance() {
             <div className='post'>
                 <center>
                     <div className='post-body'>
-                        <h4 className='post-meta'>June 20, 2022</h4>
+                        <h4 className='post-meta'>20 June 2022</h4>
                         <h1>Excel project: Customer Support Agent Performance Dashboard</h1>
                         <p>This is a single worksheet Excel redux of my "Follow the sun customer support report" Power BI report.</p>
 

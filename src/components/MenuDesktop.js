@@ -8,12 +8,12 @@ function MenuDesktop() {
     return (
         <div className='menu-desktop'>
             <div className='menu-desktop-option'>
-                <Link to="/#portfolio">
+                <Link to="/portfolio">
                     <img className='menu-option' src={ icon_charthistogram } />PORTFOLIO
                 </Link>
             </div>
             <div className='menu-desktop-option'>
-                <Link to="/#blog">
+                <Link to="/blog">
                     <img className='menu-option' src={ icon_edit } />BLOG
                 </Link>
             </div>

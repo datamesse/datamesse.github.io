@@ -11,6 +11,7 @@ import img_internationalmarketplacepowerbi from '../assets-portfolio/img-2022-04
 import img_customercupportagentperformance from '../assets-portfolio/img-2022-06-excel-customer-support-agent-performance.gif';
 import img_satellitelaunchoverview from '../assets-portfolio/img-2022-08-satellite-launch-overview.gif';
 import img_internationalmarketplaceexcel from '../assets-portfolio/img-2022-10-excel-international-marketplace-profit-forecast.gif';
+import img_appsourcedenebmaps from '../assets-portfolio/img-2022-11-power-bi-appsource-deneb-maps.gif';
 
 const portfolio = [
    {
@@ -19,9 +20,9 @@ const portfolio = [
       stamp: '2022-11',
       shortdate: 'NOV 2022',
       stack: logo_powerbi,
-      photo: img_internationalmarketplacepowerbi,
-      siteURL: 'test',
-      codeURL: 'https://datamesse.github.io/#/post/1669726800',
+      photo: img_appsourcedenebmaps,
+      siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/AppSource-Deneb-Maps/m-p/2930366',
+      codeURL: 'https://datamesse.github.io/#/post/1669381200',
       tags: ["Power BI", "Deneb", "Vega-Lite", "Vega"]
    },
    {
