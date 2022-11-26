@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "fa0a463bb4aacd31113a",
-    "url": "/static/css/main.762bba47.chunk.css"
+    "revision": "093bc92a6fd9a4ec8116",
+    "url": "/static/css/main.4bd07735.chunk.css"
   },
   {
-    "revision": "fa0a463bb4aacd31113a",
-    "url": "/static/js/main.fa0a463b.chunk.js"
+    "revision": "093bc92a6fd9a4ec8116",
+    "url": "/static/js/main.093bc92a.chunk.js"
   },
   {
-    "revision": "3ea7ebafced22c64bcb5",
-    "url": "/static/js/1.3ea7ebaf.chunk.js"
+    "revision": "c1adf935bf4a79034630",
+    "url": "/static/js/1.c1adf935.chunk.js"
   },
   {
-    "revision": "48023239a30a6d8b5b26",
-    "url": "/static/js/2.48023239.chunk.js"
+    "revision": "dccac348f8400ddc178c",
+    "url": "/static/js/2.dccac348.chunk.js"
   },
   {
-    "revision": "70f0ea666a5b596fe667",
-    "url": "/static/js/runtime~main.70f0ea66.js"
+    "revision": "dc09516a8ac779c380e5",
+    "url": "/static/js/runtime~main.dc09516a.js"
   },
   {
     "revision": "b90dc4f8343dbdd2563ac6b5cf5c9a93",
@@ -200,8 +200,8 @@ self.__precacheManifest = [
     "url": "/static/media/img-2021-11-power-bi-follow-the-sun-customer-support.5d3b31d5.gif"
   },
   {
-    "revision": "29c8278767a457c0a4d60a1e8e27ca5e",
-    "url": "/static/media/img-2022-01-sql-server-integration-services-international-marketplace.29c82787.png"
+    "revision": "7971d43c7eeff01147d527db8e890396",
+    "url": "/static/media/img-2022-01-sql-server-integration-services-international-marketplace-trimmed.7971d43c.png"
   },
   {
     "revision": "fab788807da2ae6ca1ed7d8ab8a438e9",
@@ -220,7 +220,11 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-10-excel-international-marketplace-profit-forecast.3adfbfda.gif"
   },
   {
-    "revision": "59b5eeca68e17c39f7b384ebba33ef8f",
+    "revision": "f42b54e48e9c0f124f0af7a76ef9b6fe",
+    "url": "/static/media/img-2022-11-power-bi-appsource-deneb-maps.f42b54e4.gif"
+  },
+  {
+    "revision": "77a54e677846a14ab1a6e3d6082097b7",
     "url": "/index.html"
   }
 ];
