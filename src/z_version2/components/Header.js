@@ -31,11 +31,6 @@ function Header() {
 
 const [isOpen, setIsOpen] = useState(false)
 
-const script = document.createElement("script");
-script.src = "https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/banner-stars.js";
-script.async = true;
-document.body.appendChild(script);
-
     return (
         <>
             <div className="header">
@@ -72,9 +67,6 @@ document.body.appendChild(script);
 
         </>
     )
-
 }
-
-
 
 export default Header;

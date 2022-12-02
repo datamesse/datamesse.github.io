@@ -101,7 +101,10 @@ const portfolio = [
       siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/Quarterly-Singapore-median-rental-prices-by-currency/m-p/2125424',
       codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/Singapore%20rental%20prices',
       tags: ["Power BI", "Power Query", "DAX"]
-   },
+   }
+   
+   /*
+   ,
    {
       title: 'Website portfolio and blog',
       description: 'Website coded using HTML, CSS, and JavaScript with React.js and GitHub Pages.',
@@ -113,6 +116,7 @@ const portfolio = [
       codeURL: 'https://github.com/datamesse/datamesse.github.io/',
       tags: ["HTML","CSS","React.js"]
    }
+   */
 ]
 
 export default portfolio;

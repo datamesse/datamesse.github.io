@@ -81,11 +81,11 @@ a {
 
 .header-subtitle-line p {
     margin: 0px;
-    padding: 0px 0px 0px 7px;
+    padding: 2px 0px 0px 0px;
     color: #FFF;
     font-family: 'Corbel', 'Kanit', Helvetica;
     font-weight: 350;
-    font-size: 19px;
+    font-size: 20px;
     letter-spacing: 0.4em;
 }
 
@@ -229,8 +229,8 @@ a {
     width: 90px;
     margin-right: 15px;
     border-radius: 50%;
-    border: 3px solid #1D3251;
-    background-color: #1D3251;
+    border: 2px solid #24A9F2;
+    background-color: #24A9F2;
     left: 0px;
     float: left;
   }
@@ -341,7 +341,7 @@ a {
     flex: 1;
     justify-content: space-between;
     align-items: center;
-    margin: 4px 0px 4px;
+    margin: 16px 0px;
     padding: 8px 0px;
 }
 
@@ -442,7 +442,7 @@ a {
 .project-photo {
     border: 1px solid rgba(60, 64, 67, 0.25);
     border-radius: 15px;
-    box-shadow: 7px 7px rgba(60, 64, 67, 0.75);
+    box-shadow: 7px 7px rgba(60, 64, 67, 0.3);
     width: 40vw;
 }
 
@@ -471,10 +471,9 @@ a {
 }
 
 .portfolio h3 {
-    font-size: 20px;
+    font-size: 26px;
     font-family: 'Corbel', 'Kanit', Helvetica;
     font-weight: 500;
-    margin-bottom: 40px;
 }
 
 /* ----------------------------*/
@@ -770,10 +769,9 @@ a {
 }
 
 .blog-preview h3 {
-    font-size: 20px;
+    font-size: 26px;
     font-family: 'Corbel', 'Kanit', Helvetica;
     font-weight: 500;
-    margin-bottom: 40px;
 }
 
 .blog-set-preview {
@@ -1368,93 +1366,4 @@ code {
     .portfolio-preview .project-photo {
         width: 85vw;
     }
-}
-
-
-
-
-/* ---------------------------------  EXPERIMENT  --------------------------------- */
-
-/*
-
-.header {
-    background-color: #31102F; 
-    background: radial-gradient(ellipse at center, rgba(49,16,47,1) 0%, rgba(40,11,41,1) 100%);
-}
-  
-#stars {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 16rem;
-    height: 50vh;
-    z-index: 1;
-  }
-
-*/
-
-
-.site-title {
-    height: 15px;
-    margin-bottom: 7px;
-}
-
-.header {
-    padding-top: 0px;
-    height: 70px;
-    padding-bottom: 10px;
-}
-
-.header-body {
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-
-.menu-desktop-option {
-    font-size: 14px;
-    margin-right: 0px;
-    margin-left: 20px;
-    letter-spacing: 0.2em;
-}
-
-.menu-mobile-option {
-    letter-spacing: 0.2em;
-}
-
-.menu-desktop-option a:hover {
-    color: #24A9F2;
-    padding-bottom: 0px;
-    border-bottom: 0px solid #FFF;
-}
-
-.about-info p {
-    line-height: 1.35;
-    font-size: 18px;
- }
-
- .about-title .section-title {
-    font-size: 28px;
- }
-
- .separator {
-    margin: 0px 0px 40px;
-}
-
-.links {
- height: 100%;
-}
-
-.header-subtitle-line {
-    border-top: 1px #FFF solid;
-    padding-top: 5px;
-    padding-bottom: 30px;
-
-}
-
-.separator {
-    background-color: #879FBA;
-    height: 20px;
-    border-right: 1px solid #EDEDEB;
-    border-bottom: 1px solid #EDEDEB;
-    background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-tile.png");
 }
