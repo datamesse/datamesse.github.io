@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "c9ff1df12c9ae8cbccab",
-    "url": "/static/css/main.4bd07735.chunk.css"
+    "revision": "c955a8693a094b9b7ee8",
+    "url": "/static/css/main.4e24e842.chunk.css"
   },
   {
-    "revision": "c9ff1df12c9ae8cbccab",
-    "url": "/static/js/main.c9ff1df1.chunk.js"
+    "revision": "c955a8693a094b9b7ee8",
+    "url": "/static/js/main.c955a869.chunk.js"
   },
   {
     "revision": "c1adf935bf4a79034630",
     "url": "/static/js/1.c1adf935.chunk.js"
   },
   {
-    "revision": "dccac348f8400ddc178c",
-    "url": "/static/js/2.dccac348.chunk.js"
+    "revision": "e94fb5cb92e47a9bd9f8",
+    "url": "/static/js/2.e94fb5cb.chunk.js"
   },
   {
     "revision": "dc09516a8ac779c380e5",
@@ -188,10 +188,6 @@ self.__precacheManifest = [
     "url": "/static/media/logoblue-youtube.90400f1e.svg"
   },
   {
-    "revision": "961a1d5252282700c8bb636489796fd4",
-    "url": "/static/media/img-2022-05-portfolio-website-react.961a1d52.gif"
-  },
-  {
     "revision": "944dc5d6882fde310a4c02063d2005e8",
     "url": "/static/media/img-2021-10-power-bi-quarterly-singapore-rental-prices-by-currency.944dc5d6.gif"
   },
@@ -224,7 +220,11 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-11-power-bi-appsource-deneb-maps.f42b54e4.gif"
   },
   {
-    "revision": "25c6860587f7d6474ae5b795a186cb2f",
+    "revision": "961a1d5252282700c8bb636489796fd4",
+    "url": "/static/media/img-2022-05-portfolio-website-react.961a1d52.gif"
+  },
+  {
+    "revision": "2c198ef1d57f9341368e6b59e7f0e516",
     "url": "/index.html"
   }
 ];
