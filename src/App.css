@@ -27,20 +27,23 @@ a {
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
+    height: 220px;
     flex: 1;
-    padding: 12px 12px 0px 12px;
+    padding: 20px 12px 10px 12px;
     position: relative;
     align-items: center;
     background-color: #1D87C2;
-    padding-top: 70px;
+    background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/bannervideo-bluerectangles2-trimmed-7fps.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-body {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,10 +66,8 @@ a {
 .header-subtitle {
     height: auto;
     width: 100%;
-    background-color: #1D87C2;
-    margin: 0px;
+    margin: 150px 0px 0px 0px;
     padding: 0px;
-
 }
 
 .header-subtitle-line {
@@ -75,8 +76,8 @@ a {
     margin: 0px;
     margin-right: auto;
     margin-left: auto;
-    padding: 0px;
-    padding-bottom: 25px;
+    padding-top: 5px;
+    padding-bottom: 30px;
 }
 
 .header-subtitle-line p {
@@ -111,12 +112,13 @@ a {
 
 .site-title {
     display: flex;
-    height: 30px;
+    height: 15px;
     width: auto;
     margin: 0px;
     padding: 0px;
     margin-top: 5px;
-    margin-bottom: 15px;
+    margin-right: 4px;
+    margin-bottom: 5px;
 }
 
 .site-letter-space {
@@ -138,9 +140,11 @@ a {
 }
 
 .menu-desktop-option {
-    font-size: 16px;
-    margin-right: 16px;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 0px;
     font-weight: 700;
+    letter-spacing: 0.2em;
 }
 
 .menu-desktop-option a {
@@ -152,9 +156,7 @@ a {
 }
 
 .menu-desktop-option a:hover {
-    color: #FFF;
-    padding-bottom: 4px;
-    border-bottom: 3px solid #FFF;
+    color: #F2F2F2;
 }
 
 .menu-option {
@@ -200,6 +202,7 @@ a {
     font-weight: 700;
     margin: 12px 0px;
     display: flex;
+    letter-spacing: 0.2em;
 }
 
 .menu-mobile-option a {
@@ -246,7 +249,7 @@ a {
     line-height: 1.35;
     color: #1D3251;
     font-family: 'Cambay', 'Corbel';
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -255,12 +258,13 @@ a {
     align-items: center;
 }
 
-.about-image {
-    height: 350px;
+.about-title .section-title {
+    font-size: 28px;
+    margin: 0px;
 }
 
-.about-title .section-title {
-    margin: 0px;
+.about-image {
+    height: 350px;
 }
 
 .about-quote {
@@ -283,6 +287,7 @@ a {
 }
 
 .links {
+    height: 100%;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -493,11 +498,14 @@ a {
 }
 
 .separator {
-    background-color: #24A9F2;
-    height: 10px;
+    background-color: #879FBA;
+    height: 20px;
     width: 100%;
     align-items: center;
-    margin: 70px 0px 25px;
+    margin: 0px 0px 40px;
+    border-right: 1px solid #EDEDEB;
+    border-bottom: 1px solid #EDEDEB;
+    background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-tile.png");
 }
 
 .separator2 {
@@ -1226,6 +1234,9 @@ code {
         font-size: 24px;
         margin-top: 10px;
     }
+    .header-subtitle {
+        margin: 120px 0px 0px 0px;
+    }
     .about-top {
         flex-direction: column;
         justify-content: center;
@@ -1368,93 +1379,4 @@ code {
     .portfolio-preview .project-photo {
         width: 85vw;
     }
-}
-
-
-
-
-/* ---------------------------------  EXPERIMENT  --------------------------------- */
-
-/*
-
-.header {
-    background-color: #31102F; 
-    background: radial-gradient(ellipse at center, rgba(49,16,47,1) 0%, rgba(40,11,41,1) 100%);
-}
-  
-#stars {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 16rem;
-    height: 50vh;
-    z-index: 1;
-  }
-
-*/
-
-
-.site-title {
-    height: 15px;
-    margin-bottom: 7px;
-}
-
-.header {
-    padding-top: 0px;
-    height: 70px;
-    padding-bottom: 10px;
-}
-
-.header-body {
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-
-.menu-desktop-option {
-    font-size: 14px;
-    margin-right: 0px;
-    margin-left: 20px;
-    letter-spacing: 0.2em;
-}
-
-.menu-mobile-option {
-    letter-spacing: 0.2em;
-}
-
-.menu-desktop-option a:hover {
-    color: #24A9F2;
-    padding-bottom: 0px;
-    border-bottom: 0px solid #FFF;
-}
-
-.about-info p {
-    line-height: 1.35;
-    font-size: 18px;
- }
-
- .about-title .section-title {
-    font-size: 28px;
- }
-
- .separator {
-    margin: 0px 0px 40px;
-}
-
-.links {
- height: 100%;
-}
-
-.header-subtitle-line {
-    border-top: 1px #FFF solid;
-    padding-top: 5px;
-    padding-bottom: 30px;
-
-}
-
-.separator {
-    background-color: #879FBA;
-    height: 20px;
-    border-right: 1px solid #EDEDEB;
-    border-bottom: 1px solid #EDEDEB;
-    background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-tile.png");
 }

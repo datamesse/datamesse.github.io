@@ -63,13 +63,14 @@ document.body.appendChild(script);
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="header-subtitle">
-                <div className="header-subtitle-line">
-                    <p>DATA ANALYTICS AND POWER BI ENTHUSIAST</p>
-                </div>
-            </div>
 
+                <div className="header-subtitle">
+                    <div className="header-subtitle-line">
+                        <p>DATA ANALYTICS AND POWER BI ENTHUSIAST</p>
+                    </div>
+                </div>
+
+            </div>
         </>
     )
 
