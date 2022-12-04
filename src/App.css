@@ -3,7 +3,6 @@
 
 html {
     scroll-behavior: smooth;
-    border-left: 20px solid #000;
 }
 
 a {
@@ -1293,6 +1292,10 @@ code {
         width: 40px;
         height: 40px;
     }
+    .header-subtitle .links ul li {
+        margin-left: 6px;
+        margin-right: 6px;
+    }
     .header-subtitle {
         margin: 66px 0px 0px 0px;
     }
@@ -1432,6 +1435,10 @@ code {
     }
     .header-body {
         width: 100%;
+    }
+    .header-subtitle .links ul li {
+        margin-left: 3px;
+        margin-right: 3px;
     }
     .header-subtitle {
         margin: 49px 0px 0px 0px;
