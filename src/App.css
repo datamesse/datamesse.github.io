@@ -3,6 +3,7 @@
 
 html {
     scroll-behavior: smooth;
+    border-left: 20px solid #000;
 }
 
 a {
@@ -66,7 +67,7 @@ a {
 .header-subtitle {
     height: auto;
     width: 100%;
-    margin: 150px 0px 0px 0px;
+    margin: 90px 0px 0px 0px;
     padding: 0px;
 }
 
@@ -77,7 +78,6 @@ a {
     margin-right: auto;
     margin-left: auto;
     padding-top: 5px;
-    padding-bottom: 30px;
 }
 
 .header-subtitle-line p {
@@ -88,6 +88,7 @@ a {
     font-weight: 350;
     font-size: 19px;
     letter-spacing: 0.4em;
+    align-items: center;
 }
 
 .sitename {
@@ -331,6 +332,49 @@ a {
 
 .link-icon {
     height: 30px;
+}
+
+
+
+.header-subtitle .links {
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: none;
+    margin-bottom: 10px;
+}
+
+.header-subtitle .links a:hover {
+    color: #F2F2F2;
+}
+
+.header-subtitle .links ul {
+    margin: 0px;
+}
+
+.header-subtitle .links ul li {
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-subtitle .link-icon-container {
+    width: 28px;
+    height: 28px;
+    margin-right: 3px;
+    padding: 3px;
+    border: 1px #FFFFFF solid;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.header-subtitle .link-icon-container:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.header-subtitle .link-icon-container img {
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -1201,6 +1245,18 @@ code {
     }
 }
 
+@media only screen and (max-width: 1315px){
+    .header-subtitle .link-text {
+        display: none;
+    }
+    .header-subtitle {
+        margin: 84px 0px 0px 0px;
+    }
+    .header-subtitle .link-icon-container {
+        width: 35px;
+        height: 35px;
+    }
+}
 
 @media only screen and (max-width: 1024px){
     .home {
@@ -1223,19 +1279,26 @@ code {
     }
 }
 
-@media only screen and (max-width: 720px) {
-    .menu-mobile {
-        display: flex;
+@media only screen and (max-width: 830px) {
+    .header-subtitle {
+        margin: 80px 0px 0px 0px;
     }
-    .menu-desktop {
+}
+
+@media only screen and (max-width: 720px) {
+    .menu-desktop-option img {
         display: none;
+    }
+    .header-subtitle .link-icon-container {
+        width: 40px;
+        height: 40px;
+    }
+    .header-subtitle {
+        margin: 66px 0px 0px 0px;
     }
     .sitename {
         font-size: 24px;
-        margin-top: 10px;
-    }
-    .header-subtitle {
-        margin: 120px 0px 0px 0px;
+        margin-top: 0px;
     }
     .about-top {
         flex-direction: column;
@@ -1370,11 +1433,20 @@ code {
     .header-body {
         width: 100%;
     }
+    .header-subtitle {
+        margin: 49px 0px 0px 0px;
+    }
     .header-subtitle-line {
         width: 95%;
     }
     .body {
         margin-top: 12px;
+    }
+    .menu-mobile {
+        display: flex;
+    }
+    .menu-desktop {
+        display: none;
     }
     .portfolio-preview .project-photo {
         width: 85vw;

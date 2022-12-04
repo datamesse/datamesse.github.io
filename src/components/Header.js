@@ -5,6 +5,7 @@ import MenuMobile from './MenuMobile';
 import { icon_menuburger, 
          title_a, title_b, title_c, title_d, title_e
 } from '../data/assets';
+import Links from './Links';
 import { displayName, ascii2, ascii3, ascii4 } from '../data/data';
 
 /*
@@ -65,8 +66,11 @@ document.body.appendChild(script);
                 </div>
 
                 <div className="header-subtitle">
+                    <Links />
                     <div className="header-subtitle-line">
-                        <p>DATA ANALYTICS AND POWER BI ENTHUSIAST</p>
+                        <center>
+                            <p>DATA ANALYTICS AND POWER BI ENTHUSIAST</p>
+                        </center>
                     </div>
                 </div>
 

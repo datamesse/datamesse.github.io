@@ -16,15 +16,18 @@ import Links from './Links';
                         <h2><a href='/'>data messe</a></h2>      
 */
 
+/*
+                <div className='about-links'>
+                    <Links />                    
+                </div>
+*/
+
 function About() {
     return (
         <div className='about'>
 
             <div className='about-top'>
 
-                <div className='about-links'>
-                    <Links />                    
-                </div>
 
 
                 <div className='about-info'>
@@ -37,10 +40,13 @@ function About() {
                     <p>My career goal is to constantly challenge myself learning data technologies and leveraging those skills to provide excellent solutions for clients.</p>
 
                 </div>
+
                 <div className='about-photo'>
                     <img className='about-image' src={ image_sentimentanalysis_animated } />
                 </div>
+
             </div>
+
 
             <div className='about-bottom'>
 

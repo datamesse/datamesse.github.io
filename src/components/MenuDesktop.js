@@ -4,6 +4,14 @@ import { icon_charthistogram, icon_diploma, icon_edit, icon_paperplane
   } from '../data/assets';
 import { HashLink as Link } from 'react-router-hash-link';
 
+/*
+            <div className='menu-desktop-option'>
+                <Link to="/#contact">
+                    <img className='menu-option' src={ icon_paperplane } />CONTACT
+                </Link>
+            </div>
+*/
+
 function MenuDesktop() {
     return (
         <div className='menu-desktop'>
@@ -20,11 +28,6 @@ function MenuDesktop() {
             <div className='menu-desktop-option'>
                 <Link to="/#skills">
                     <img className='menu-option' src={ icon_diploma } />SKILLS
-                </Link>
-            </div>
-            <div className='menu-desktop-option'>
-                <Link to="/#contact">
-                    <img className='menu-option' src={ icon_paperplane } />CONTACT
                 </Link>
             </div>
         </div>

@@ -7,9 +7,9 @@ import { displayName, ascii0, ascii1, ascii2, ascii3, ascii4, bannerDescription,
 
 export const SocialData=[
     {
-        platform: "LinkedIn",
-        icon: logo_linkedin,
-        link: ascii0 + ascii3 + ascii4
+        platform: "Power BI Community",
+        icon: logo_powerbi,
+        link: powerbiURL
     },
     {
         platform: "GitHub",
@@ -22,10 +22,11 @@ export const SocialData=[
         link: twitterURL
     },
     {
-        platform: "Power BI Community",
-        icon: logo_powerbi,
-        link: powerbiURL
+        platform: "LinkedIn",
+        icon: logo_linkedin,
+        link: ascii0 + ascii3 + ascii4
     },
+
     {
         platform: "Tableau Public",
         icon: logo_tableau,
