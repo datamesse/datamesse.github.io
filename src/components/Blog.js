@@ -30,21 +30,36 @@ export default function Blog() {
                                 return (
                                     <div key={i} className='blog-tile'>
                                         <div className='blog-tile-header'>
-                                            <span className='blogstamp-overlay'>
-                                                <img src= {`${ assetURL }${post.tag}.svg`} alt=''/>
-                                            </span>
-                                            <Link to={`/post/${post.id}`}>{post.title}</Link>
+
+                                            <div className='blog-title-header-rectangle'>
+                                                <span className='blogstamp-overlay'>
+                                                    <img src= {`${ assetURL }${post.tag}.svg`} alt=''/>
+                                                </span>
+                                                <Link to={`/post/${post.id}`}>{post.tech}</Link>
+                                            </div>
+
+                                            <div className='blog-title-header-triangle-dashes'>
+                                                <div className='blog-title-header-triangle' />
+                                                <div className='blog-title-header-dash gradient-grey-dark' />
+                                                <div className='blog-title-header-dash gradient-grey-medium' />
+                                                <div className='blog-title-header-dash gradient-grey-light' />
+                                            </div>
+
                                         </div>
-                                        <div className='blog-meta'>
-                                            <small>{post.date}</small>
+
+                                        <div className='blog-meta-date'>
+                                            <p>{post.date}</p>
+                                        </div>
+
+                                        <div className='blog-title-text'>
+                                                <Link to={`/post/${post.id}`}>{post.title}</Link>
                                         </div>
                                         <ReactMarkdown className='blog-desc' escapeHtml={false}>{excerptList[i]}</ReactMarkdown>
-                                        <div className='blog-meta'>
+                                        <div className='blog-meta-footer'>
                                             <small>
                                                 <Link to={`/post/${post.id}`}>Read more...</Link>
                                             </small>
                                         </div>
-                                        <div className='blog-tile-footer'></div>
                                     </div>
                                 )
                             })

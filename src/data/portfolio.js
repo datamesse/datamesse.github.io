@@ -16,9 +16,10 @@ import img_appsourcedenebmaps from '../assets-portfolio/img-2022-11-power-bi-app
 const portfolio = [
    {
       title: 'AppSource Deneb maps report',
-      description: 'Power BI report demonstrating custom AppSource Deneb maps using embedded geometry JSON data.',
+      description: 'Power BI report demonstrates custom AppSource Deneb mapping using embedded geometry JSON data.',
       stamp: '2022-11',
       shortdate: 'NOV 2022',
+      tech: 'POWER BI',
       stack: logo_powerbi,
       photo: img_appsourcedenebmaps,
       siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/AppSource-Deneb-Maps/m-p/2930366',
@@ -27,9 +28,10 @@ const portfolio = [
    },
    {
       title: 'International marketplace profit dashboard',
-      description: 'Excel dashboard using an out-of-the-box exponential smoothing algorithm to forecast profit.',
+      description: 'Excel dashboard uses an exponential smoothing algorithm to forecast profit.',
       stamp: '2022-10',
       shortdate: 'OCT 2022',
+      tech: 'EXCEL',
       stack: logo_excel,
       photo: img_internationalmarketplaceexcel,
       siteURL: 'https://datamesse.github.io/#/project/ExcelInternationalMarketplaceProfitForecast',
@@ -38,9 +40,10 @@ const portfolio = [
    },
    {
       title: 'Satellite launch overview report',
-      description: 'Power BI report showing actively monitored satellites using a custom Deneb scatterplot visual.',
+      description: 'Power BI report shows actively monitored satellites using a custom Deneb scatterplot visual.',
       stamp: '2022-08',
       shortdate: 'AUG 2022',
+      tech: 'POWER BI',
       stack: logo_powerbi,
       photo: img_satellitelaunchoverview,
       siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/Satellite-launch-overview/m-p/2730077',
@@ -49,9 +52,10 @@ const portfolio = [
    },
    {
       title: 'Customer support agent performance dashboard',
-      description: 'Excel dashboard comparing overall team and individual staff KPIs. Includes a cell filter into Power Query and dynamically displays photos.',
+      description: 'Excel dashboard compares individual support staff KPIs. Includes a cell filter into Power Query to dynamically display photos.',
       stamp: '2022-06',
       shortdate: 'JUN 2022',
+      tech: 'EXCEL',
       stack: logo_excel,
       photo: img_customercupportagentperformance,
       siteURL: 'https://datamesse.github.io/#/project/ExcelCustomerSupportAgentPerformance',
@@ -60,9 +64,10 @@ const portfolio = [
    },
    {
       title: 'International marketplace profit report',
-      description: 'Power BI report incorporating Python profit predictions and custom Deneb (JSON-based) visualisations.',
+      description: 'Power BI report incorporates Python profit predictions and custom Deneb visualisations.',
       stamp: '2022-04',
       shortdate: 'APR 2022',
+      tech: 'POWER BI',
       stack: logo_powerbi,
       photo: img_internationalmarketplacepowerbi,
       siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/International-Marketplace-profit-report-using-Python-and-Deneb/m-p/2480550',
@@ -71,9 +76,10 @@ const portfolio = [
    },
    {
       title: 'International marketplace dataset',
-      description: 'SQL Server Integration Services package that merges different Microsoft and Tableau sample sales datasets into a single data warehouse.',
+      description: 'SQL Server Integration Services package that merges Microsoft and Tableau sample datasets into a single warehouse.',
       stamp: '2022-01',
       shortdate: 'JAN 2022',
+      tech: 'SQL SERVER',
       stack: logo_sqlserver,
       photo: img_internationalmarketplacessis,
       siteURL: 'https://datamesse.github.io/#/post/1641906000',
@@ -82,9 +88,10 @@ const portfolio = [
    },
    {
       title: 'Follow the sun customer support report',
-      description: 'Power BI report showing teamwork and performance for global customer service. Incorporates dynamic daylight saving offsets not inherent in Power BI time intelligence.',
+      description: 'Power BI report shows global customer service teamwork and performance. Incorporates non-Power BI-native dynamic daylight saving offsets.',
       stamp: '2021-11',
       shortdate: 'NOV 2021',
+      tech: 'POWER BI',
       stack: logo_powerbi,
       photo: img_followthesunpowerbi,
       siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/Follow-the-sun-customer-service-support/m-p/2168279',
@@ -93,30 +100,28 @@ const portfolio = [
    },
    {
       title: 'Singapore rental prices report',
-      description: 'Power BI report showing trends of Singapore rent by quarter, flat type, and major currency conversions.',
+      description: 'Power BI report shows trends of Singapore rent by quarter, flat type, and major currency conversions.',
       stamp: '2021-10',
       shortdate: 'OCT 2021',
+      tech: 'POWER BI',
       stack: logo_powerbi,
       photo: img_singaporerentpowerbi,
       siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/Quarterly-Singapore-median-rental-prices-by-currency/m-p/2125424',
       codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/Singapore%20rental%20prices',
       tags: ["Power BI", "Power Query", "DAX"]
-   }
-   
-   /*
-   ,
+   },
    {
       title: 'Website portfolio and blog',
       description: 'Website coded using HTML, CSS, and JavaScript with React.js and GitHub Pages.',
       stamp: '2021-09',
       shortdate: 'SEP 2021',
+      tech: 'REACT.JS',
       stack: logo_html,
       photo: img_portfoliowebsitereact,
       siteURL: 'https://datamesse.github.io/',
       codeURL: 'https://github.com/datamesse/datamesse.github.io/',
       tags: ["HTML","CSS","React.js"]
    }
-   */
 ]
 
 export default portfolio;

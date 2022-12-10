@@ -54,6 +54,7 @@ const getPosts = async () => {
                 post = {
                     id: timestamp,
                     title: metadata.title ? (metadata.title).substring(0,(metadata.title).length - 1) : "No title given",
+                    tech: metadata.tech ? (metadata.tech).substring(0,(metadata.tech).length - 1) : "No tech given",
                     tag: metadata.tag ? (metadata.tag).substring(0,(metadata.tag).length - 1) : "No tag given",
                     date: metadata.date ? (metadata.date).substring(0,(metadata.date).length - 1) : "No date given",
                     content: content ? content : "No content given",                   
