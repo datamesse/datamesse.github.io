@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "54bf999d48802f897b2f",
-    "url": "/static/css/main.fc9c3b26.chunk.css"
+    "revision": "5eda6cbdbfcb3b69b8ec",
+    "url": "/static/css/main.4a0c19fa.chunk.css"
   },
   {
-    "revision": "54bf999d48802f897b2f",
-    "url": "/static/js/main.54bf999d.chunk.js"
+    "revision": "5eda6cbdbfcb3b69b8ec",
+    "url": "/static/js/main.5eda6cbd.chunk.js"
   },
   {
     "revision": "c1adf935bf4a79034630",
     "url": "/static/js/1.c1adf935.chunk.js"
   },
   {
-    "revision": "e94fb5cb92e47a9bd9f8",
-    "url": "/static/js/2.e94fb5cb.chunk.js"
+    "revision": "dccac348f8400ddc178c",
+    "url": "/static/js/2.dccac348.chunk.js"
   },
   {
     "revision": "dc09516a8ac779c380e5",
@@ -128,8 +128,8 @@ self.__precacheManifest = [
     "url": "/static/media/logo-python.9ecfb672.svg"
   },
   {
-    "revision": "06e733283fa43d1dd57738cfc409adbd",
-    "url": "/static/media/logo-react.06e73328.svg"
+    "revision": "0f2b58066fd541028d785430be9498dd",
+    "url": "/static/media/logo-react.0f2b5806.svg"
   },
   {
     "revision": "ef95b59e766c1d5d3e7c5a461320836b",
@@ -188,6 +188,10 @@ self.__precacheManifest = [
     "url": "/static/media/logoblue-youtube.90400f1e.svg"
   },
   {
+    "revision": "961a1d5252282700c8bb636489796fd4",
+    "url": "/static/media/img-2022-05-portfolio-website-react.961a1d52.gif"
+  },
+  {
     "revision": "944dc5d6882fde310a4c02063d2005e8",
     "url": "/static/media/img-2021-10-power-bi-quarterly-singapore-rental-prices-by-currency.944dc5d6.gif"
   },
@@ -220,11 +224,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-11-power-bi-appsource-deneb-maps.f42b54e4.gif"
   },
   {
-    "revision": "961a1d5252282700c8bb636489796fd4",
-    "url": "/static/media/img-2022-05-portfolio-website-react.961a1d52.gif"
-  },
-  {
-    "revision": "43ca1652a47896ab488250fef41c2933",
+    "revision": "15b746a678ce1334f53efc6e7c00d6e8",
     "url": "/index.html"
   }
 ];
