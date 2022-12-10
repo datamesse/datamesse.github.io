@@ -5,6 +5,8 @@ import '../App.css';
 import Header from './Header';
 import Footer from './Footer';
 import postList from '../data/posts.json';
+import { Link } from 'react-router-dom';
+import { assetURL } from '../data/data';
 
 export default function Post(props) {
     const validId = parseInt(props.match.params.id)
@@ -15,7 +17,9 @@ export default function Post(props) {
     let postExists = false
     postList.forEach((post, i) => {
         if (validId === post.id) {
+            fetchedPost.id = post.id ? post.id : 'No ID given'
             fetchedPost.title = post.title ? post.title : 'No title given'
+            fetchedPost.tech = post.tech ? post.tech : 'No tech given'
             fetchedPost.tag = post.tag ? post.tag : 'No tag given'
             fetchedPost.date = post.date ? post.date : 'No date given'
             fetchedPost.content = post.content ? post.content : 'No content given'
@@ -31,11 +35,32 @@ export default function Post(props) {
             <Header />
 
             <div className='post'>
-                <center>
-                    <div className='post-body'>
-                        <h4 className='post-meta'>{fetchedPost.date}</h4>
-                        <h1>{fetchedPost.title}</h1>
-                        <ReactMarkdown escapeHtml={false}>{fetchedPost.content}</ReactMarkdown>
+                <center>            
+                    <div className='post-body'>                        
+                        
+                        <div className='blog-tile-header'>
+                            <div className='blog-title-header-rectangle'>
+                                <span className='blogstamp-overlay'>
+                                    <img src= {`${ assetURL }${fetchedPost.tag}.svg`} alt=''/>
+                                </span>
+                                <Link to={`/post/${fetchedPost.id}`}>{fetchedPost.tech}</Link>
+                            </div>
+
+                            <div className='blog-title-header-triangle-dashes'>
+                                <div className='blog-title-header-triangle' />
+                                <div className='blog-title-header-dash gradient-grey-dark' />
+                                <div className='blog-title-header-dash gradient-grey-medium' />
+                                <div className='blog-title-header-dash gradient-grey-light' />
+                            </div>
+                        </div>
+
+                        <div className='post-body-date'>
+                            <p>{fetchedPost.date}</p>
+                        </div>
+                        <div className='post-body-content'>
+                            <h1>{fetchedPost.title}</h1>
+                            <ReactMarkdown escapeHtml={false}>{fetchedPost.content}</ReactMarkdown>
+                        </div>
                     </div>
                 </center>
             </div>

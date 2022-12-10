@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
 
-/*
-
-.project img {
-    clip-path: polygon(0 0, 75% 0%, 100% 25%, 100% 100%, 25% 100%, 0 75%);
-}
-
-*/
-
-
 html {
     scroll-behavior: smooth;
 }
@@ -1181,11 +1172,41 @@ a {
     width: 90%;
     padding: 0px;
     padding-bottom: 30px;
-    background-color: white;
-    border-radius: 15px 15px 15px 15px;
-    box-shadow: 14px 14px rgba(60, 64, 67, 0.3);
 }
-  
+
+.post .blog-tile-header a {
+    color: white;
+}
+
+.post-body-date {
+    width: auto;
+    height: 17px;
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+    border-top: 11px solid rgba(60, 64, 67, 0);
+}
+
+.post-body-date p {
+    font-family: Arial, 'Kanit', Helvetica;
+    margin-top: 1004px;
+    background-color: white;
+    border-top: 2px solid #A2A2A2;
+    border-left: 2px solid #A2A2A2;
+    border-right: 2px solid #A2A2A2;
+}
+
+.post-body-content {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 14px;
+    background-color: white;
+    border-left: 2px solid #A2A2A2;
+    border-right: 2px solid #A2A2A2;
+    border-bottom: 2px solid #A2A2A2;
+    box-shadow: 14px 14px rgba(60, 64, 67, 0.15);
+}
+
 .post-body p {
     font-family: 'Cambay', Verdana;
     font-size: 18px;
@@ -1258,8 +1279,6 @@ code {
     line-height: 1.45;
 }
 
-
-
 .notfound {
     display: flex;
     flex-direction: column;
@@ -1299,16 +1318,25 @@ code {
 
 
 @media only screen and (min-width: 520px) {
+    .blog-meta-date {
+        padding-top: 20px;
+    }
     .blog-set {
         margin-left: 10px;
         margin-right: 10px;
-        grid-gap: 2%;
+        grid-gap: 0%;
         grid-template-rows: repeat(grid-auto-flow, 300px); /* Number of rows onscreen */
         grid-template-columns: repeat(2, 49%);
     }
     .blog-tile {
         margin-left: 10px;
         margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 620px) {
+    .blog-meta-date {
+        padding-top: 7px;
     }
 }
 
@@ -1562,5 +1590,11 @@ code {
     }
     .portfolio-preview .project-photo {
         width: 85vw;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .blog-meta-date {
+        padding-top: 20px;
     }
 }
