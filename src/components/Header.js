@@ -39,15 +39,7 @@ document.body.appendChild(script);
 
 
 /*
-                    <div className="sitename" id="title">
-                            <a href='/'>
-                                <img className="site-title" src={ title_e } />
-                                <img className="site-title" src={ title_d } />
-                                <img className="site-title" src={ title_c } />
-                                <img className="site-title" src={ title_b } />
-                                <img className="site-title" src={ title_a } />
-                            </a>
-                        </div>         
+
 */
 
     return (
@@ -55,13 +47,15 @@ document.body.appendChild(script);
             <div className="header">
                 <div className="header-body">
 
-
-
                     <div className="sitename" id="title">
-                        <a href='/'>data messe</a>
+                        <a href='/'>
+                            <img className="site-title" src={ title_e } />
+                            <img className="site-title" src={ title_d } />
+                            <img className="site-title" src={ title_c } />
+                            <img className="site-title" src={ title_b } />
+                            <img className="site-title" src={ title_a } />
+                        </a>
                     </div>
-
-
 
                     <div className="menu">
                         <div className="menu-desktop">
