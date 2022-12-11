@@ -3,6 +3,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-tile.png");
 }
 
 a {
@@ -13,11 +14,8 @@ a {
 .body {
     font-family: 'Cambay', Verdana;
     color: #000;
-    background-color: #fff;
     padding: 0px 12px 36px 12px;
 }
-
-
 
 .home {
     display: flex;
@@ -217,6 +215,10 @@ a {
 }
 
 
+.about {
+    background-color: white;
+}
+
 .about-top {
     display: flex;
     justify-content: space-between;
@@ -242,11 +244,23 @@ a {
     width: 70%;
     border-top: 20px solid #E9F6FE;
     font-size: 20px;
-    padding: 20px 0px 0px 30px;
+    padding: 20px 30px 0px 30px;
 }
 
 .about-info p {
     line-height: 1.35;
+    color: #1D3251;
+    font-family: 'Cambay', 'Corbel';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about-info ul {
+    margin-top: 0px;
+}
+
+.about-info ul li {
+    line-height: 1.75;
     color: #1D3251;
     font-family: 'Cambay', 'Corbel';
     font-size: 18px;
@@ -333,6 +347,10 @@ a {
     height: 30px;
 }
 
+.home .body .contact .links {
+    border: 2px solid #A2A2A2;
+    box-shadow: 7px 7px rgba(60, 64, 67, 0.15);
+}
 
 
 .header-subtitle .links {
@@ -384,16 +402,30 @@ a {
     flex: 1;
 }
 
+.portfolio a h3 {
+    color: #24A9F2;
+    padding-left: 0px;
+}
+
 .project {
     display: flex;
     flex: 1;
     justify-content: space-between;
     align-items: center;
-    margin: 4px 0px 4px;
-    padding: 8px 0px;
+}
+
+.project-body {
+    margin: 14px 0px 50px;
+    padding: 30px 15px 15px 15px;
+    background-color: white;
+    border: 2px solid #A2A2A2;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 7px 7px rgba(60, 64, 67, 0.15);
 }
 
 .project-info {
+    margin-top: 6px;
     margin-right: 14px;
 }
 
@@ -402,11 +434,14 @@ a {
     line-height: 1.45;
     font-weight: 300;
     color: #1D3251;
+    border-top: 1px solid #000000;
+    margin-top: 0px;
+    padding-top: 14px;
 }
 
 .project-title {
     font-family: 'Cambay', 'Kanit', Helvetica;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 500;
     color: #000;
 }
@@ -414,6 +449,7 @@ a {
 .project-links-date {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .project-links {
@@ -473,10 +509,9 @@ a {
 .project-tag {
     font-family: 'Kanit', Helvetica;
     font-weight: 600;
-    font-size: 16px;
-    padding: 4px 8px;
-    background-color: #E9F6FE;
-    border-radius: 4px;
+    font-size: 14px;
+    padding: 2px 10px 2px 10px;
+    background-color: #D7D8DA;
     margin-right: 6px;
     margin-bottom: 4px;
 }
@@ -488,32 +523,55 @@ a {
 }
 
 .project-photo {
-    border: 1px solid rgba(60, 64, 67, 0.25);
-    border-radius: 15px;
-    box-shadow: 7px 7px rgba(60, 64, 67, 0.75);
+    border: 1px solid rgba(60, 64, 67, 0.85);
     width: 40vw;
+    padding-left: auto;
+    Padding-right: auto;
 }
+
+.project .blog-tile-header {
+    margin: 0px;
+    padding: 0px;
+}
+
+
 
 
 /* ------- PORTFOLIO PREVIEW -------*/
 
+.portfolio .portfolio-preview {
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, auto);
+    margin-bottom: 30px;
+}
 
-.portfolio-preview .project {
-    display: inline-flex;
-    margin-inline-start: 20px;
+.portfolio .portfolio-preview .project-shell {
+    width: max-content;
+}
+
+.portfolio .portfolio-preview .project-shell .project {
+    width: fit-content;
+    margin-left: 0px;
 }
 
 .portfolio-preview .project-info {
     display: none;
 }
 
-.portfolio-preview .project-photo {
-    width: 21vw;
+.portfolio .portfolio-preview .project-shell .project a img {
+    width: 20vw;
+}
+
+.portfolio .portfolio-preview .project-shell .project .project-body {
+    margin-bottom: 15px;
+    padding: 25px 7px 0px 7px;
 }
 
 .portfolio a {
     text-decoration: none;
-    color: #23a9f2;
+    color: #000;
     margin-left: auto;
     margin-right: auto;
 }
@@ -536,7 +594,7 @@ a {
     letter-spacing: 0.3em;
     font-weight: 500;
     margin: auto;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     color: #1D3251;
 }
 
@@ -546,9 +604,14 @@ a {
     width: 100%;
     align-items: center;
     margin: 0px 0px 40px;
-    border-right: 1px solid #EDEDEB;
+/*  border-right: 1px solid #EDEDEB;
     border-bottom: 1px solid #EDEDEB;
     background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-tile.png");
+*/
+    background-color: #24A9F2;
+    background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/bannervideo-bluerectangles2-trimmed-7fps.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .separator2 {
@@ -563,12 +626,11 @@ a {
     align-items: center;
 }
 
-
-
 .skills {
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: white;
 }
 
 .skills a {
@@ -581,11 +643,15 @@ a {
     margin-top: 8px;
     margin-bottom: 8px;
     line-height: 1.45;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .skills ul li {
     font-size: 18px;
     margin-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .skills-section {
@@ -822,6 +888,10 @@ a {
     margin: auto;
 }
 
+.blog-preview a h3 {
+    padding-left: 0px;
+}
+
 .blog-preview h3 {
     font-size: 20px;
     font-family: 'Corbel', 'Kanit', Helvetica;
@@ -832,6 +902,7 @@ a {
 .blog-set-preview {
     margin: 0px;
     margin-top: 0px;
+    margin-bottom: 30px;
     padding: 0px;
     display: grid;
     grid-gap: 10px;
@@ -854,7 +925,7 @@ a {
     margin-right: 10px;
 }
 
-.blog-tile-header-preview {
+.blog-icon-title-preview {
     font-family: 'Cambay', 'Kanit', Helvetica;
     font-size: 24px;
     font-weight: 500;
@@ -865,7 +936,7 @@ a {
     justify-content: space-between;
 }
 
-.blog-tile-header-preview a {
+.blog-icon-title-preview a {
     color: #000;
     display: inline-block;
     margin-top: 5px;
@@ -874,8 +945,12 @@ a {
     margin-bottom: 5px;
 }
 
-.blog-icon-title-preview {
-    display: flex;
+.blog-tile-body-preview {
+    margin-top: 14px;
+    padding: 14px;
+    background-color: white;
+    border: 2px solid #A2A2A2;
+    box-shadow: 7px 7px rgba(60, 64, 67, 0.15);
 }
 
 .blog-meta-preview {
@@ -928,7 +1003,6 @@ a {
     padding: 0px;
     padding-bottom: 130px;
     left: 0px;
-    background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-tile.png");
 }
 
 .blog a {
@@ -943,7 +1017,7 @@ a {
 
 .blog-set {
     margin: 0px;
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 0px;
     display: grid;
     grid-gap: 10px;
@@ -1156,7 +1230,6 @@ a {
     padding-bottom: 45px;
     left: 0px;
     position: relative;
-    background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-tile.png");
 }
 
 .post h1 {
@@ -1302,14 +1375,14 @@ code {
 
 
 .project-excelcustomersupportagentperformance {
-    display: flex;
+    display: inline-block;
     width: 1475px;
     height: 940px;
     margin-top: 40px;
 }
 
 .project-excelinternationalmarketplaceprofit {
-    display: flex;
+    display: inline-block;
     width: 1540px;
     height: 1070px;
     margin-top: 40px;
@@ -1409,11 +1482,47 @@ code {
     .portfolio-preview .project-photo {
         width: 39vw;
     }
+    .portfolio .portfolio-preview {
+        grid-template-columns: repeat(2, auto);
+    }
+    .portfolio .portfolio-preview .project-shell .project a img {
+        width: 39vw;
+    }
 }
 
 @media only screen and (max-width: 830px) {
     .header-subtitle {
         margin: 80px 0px 0px 0px;
+    }
+    .project-info {
+        margin: 0px;
+    }
+    .project-body {
+        flex-direction: column;
+    }
+    .project {
+        flex-direction: column-reverse;
+    }
+    .project-title {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .project-photo {
+        width: 90%;
+    }
+    .project-links-date {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-links {
+        justify-content: center;
+    }
+    .project-tags {
+        max-width: 100%;
+        margin-bottom: 15px;
+        justify-content: center;
     }
 }
 
@@ -1453,6 +1562,12 @@ code {
     .about-info {
         font-size: 18px;
         border-top: none;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .about-info p {
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .about-title {
         flex-direction: column;
@@ -1476,33 +1591,6 @@ code {
     }
     .link-icon {
         height: 32px;
-    }
-    .project {
-        flex-direction: column-reverse;
-    }
-    .project-info {
-        margin-left: 0px;
-        margin-top: 12px;
-    }
-    .project-title {
-        display: flex;
-        justify-content: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    .project-photo {
-        width: 90%
-    }
-    .project-links-date {
-        flex-direction: column;
-        align-items: center;
-    }
-    .project-links {
-        justify-content: center;
-    }
-    .project-tags {
-        max-width: 100%;
-        justify-content: center;
     }
     .skills-list {
         max-width: 100%;
@@ -1544,8 +1632,17 @@ code {
     }
     .post-body {
         width: 100%;
+        margin-top: 30px;
         border-radius: 0px;
         border-radius: 0px;
+    }
+    .post-body-date p {
+        border-left: 0px solid white;
+        border-right: 0px solid white;
+    }
+    .post-body-content {
+        border-left: 0px solid #A2A2A2;
+        border-right: 0px solid #A2A2A2;
         box-shadow: 0px 0px rgba(0, 0, 0, 0.0);
     }
     .body {
@@ -1559,6 +1656,10 @@ code {
     }
     .portfolio-preview .project-photo {
         width: 80vw;
+    }
+    .blog-tile-header-preview {
+        display: block;
+        justify-content: center;
     }
 }
 
@@ -1589,6 +1690,34 @@ code {
         display: none;
     }
     .portfolio-preview .project-photo {
+        width: 85vw;
+    }
+    .project-body {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-left: 0px solid  rgba(0, 0, 0, 0);
+        border-right: 0px solid  rgba(0, 0, 0, 0);
+    }
+    .portfolio .blog-tile-header {
+        margin-left: -15px;
+    }
+    .portfolio .portfolio-preview {
+        grid-template-columns: repeat(1, auto);
+    }
+    .portfolio .portfolio-preview .project-shell .blog-tile-header {
+        margin-left: 0px;
+    }
+    .portfolio .portfolio-preview .project-shell .project .project-body {
+        width: 90vw;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        border: 2px solid #A2A2A2;
+        box-shadow: 0px 0px rgba(0, 0, 0, 0.0);
+    }
+    .portfolio .portfolio-preview .project-shell .project a img {
         width: 85vw;
     }
 }

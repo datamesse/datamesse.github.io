@@ -10,16 +10,17 @@ function PortfolioPreview() {
     return (
         <div className='portfolio' id='portfolio'>
             <Separator />
-            <label className='section-title'>PORTFOLIO</label>
+            <label className='section-title'>MY PORTFOLIO</label>
+
+            <Link to='/portfolio'>
+                <h3>Click here to see all projects with descriptions and code links</h3>
+            </Link>
+
             <div className='portfolio-preview'>
                 {data.map((project)=>{
                     return <Project project={project} />;
                 })}
             </div>
-
-            <Link to='/portfolio'>
-                <h3>Click here to see all projects with descriptions </h3>
-            </Link>
 
         </div>
     );

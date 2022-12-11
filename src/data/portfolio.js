@@ -116,7 +116,7 @@ const portfolio = [
       stamp: '2021-09',
       shortdate: 'SEP 2021',
       tech: 'REACT.JS',
-      stack: logo_html,
+      stack: logo_react,
       photo: img_portfoliowebsitereact,
       siteURL: 'https://datamesse.github.io/',
       codeURL: 'https://github.com/datamesse/datamesse.github.io/',

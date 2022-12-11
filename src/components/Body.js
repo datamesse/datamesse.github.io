@@ -1,7 +1,7 @@
 import React from 'react';
 import About from './About';
 import PortfolioPreview from './PortfolioPreview';
-import Skills from './Skills2';
+import Skills from './Skills';
 import BlogPreview from './BlogPreview';
 import Contact from './Contact';
 

@@ -21,7 +21,7 @@ export default function Blog() {
             <div className='blog'>
                 <center>
                 <div className='blog-header'>
-                    <label className='section-title'>ALL BLOG POSTS</label>
+                    <label className='section-title'>MY BLOG POSTS</label>
                 </div>
                     <div className='blog-set'>
                     {

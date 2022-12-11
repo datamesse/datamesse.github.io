@@ -2,9 +2,9 @@ import React from 'react';
 import '../App.css';
 import Separator from './Separator';
 import { LinkedInSkills } from '../data/linkedinskills';
-import Skill from './Skill2';
+import Skill from './Skill';
 
-function Skills2() {
+function Skills() {
     const data = LinkedInSkills
     return (
         <div className='skills' id='skills'>
@@ -57,4 +57,4 @@ function Skills2() {
     );
 }
 
-export default Skills2;
+export default Skills;

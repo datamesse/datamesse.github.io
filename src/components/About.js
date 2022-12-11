@@ -36,8 +36,22 @@ function About() {
                         <img className='about-avatar' src={ avatar } />
                         <label className='section-title'>ABOUT ME</label>
                     </div>
-                    <p>Customer service veteran with strong foundational data skills from SaaS support work and personal projects.</p>
-                    <p>My career goal is to constantly challenge myself learning data technologies and leveraging those skills to provide excellent solutions for clients.</p>
+                    <p>Technical customer service veteran with strong data analysis skills from SaaS support work and personal projects.</p>
+                    <p>My career goal is to become highly proficient with data technologies and provide excellent client solutions.</p>
+
+                </div>
+
+                <div className='about-info'>
+
+                    <p>My portfolio summary:</p>
+
+                    <ul>
+                        <li>5 x published Power BI projects</li>
+                        <li>2 x downloadable Excel projects</li>
+                        <li>1 x SQL Server project</li>
+                        <li>1 x this React.js site</li>
+                        <li>17 blog spots since Sep 2021</li>
+                    </ul>
 
                 </div>
 

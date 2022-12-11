@@ -19,8 +19,11 @@ export default function BlogPreview() {
     return (
         <div className='blog-preview' id='blog'>
             <Separator />
-            <label className='section-title'>RECENT BLOG POSTS</label>
+            <label className='section-title'>MY RECENT BLOG POSTS</label>
 
+            <Link to='/blog'>
+                <h3>Click here to see all { countAllPosts } blog posts</h3>
+            </Link>
 
             <div className='blog-set-preview'>
                     {
@@ -28,32 +31,48 @@ export default function BlogPreview() {
                             PostsPreview.map((post, i) => {
                                 return (
                                     <div key={i} className='blog-tile-preview'>
-                                        <div className='blog-tile-header-preview'>
-                                            <div className='blog-icon-title-preview'>
+
+                                        <div className='blog-tile-header'>
+
+                                            <div className='blog-title-header-rectangle'>
                                                 <span className='blogstamp-overlay'>
                                                     <img src= {`${ assetURL }${post.tag}.svg`} alt=''/>
                                                 </span>
-                                                <Link to={`/post/${post.id}`}>{post.title}</Link>
+                                                <Link to={`/post/${post.id}`}>{post.tech}</Link>
                                             </div>
+
+                                            <div className='blog-title-header-triangle-dashes'>
+                                                <div className='blog-title-header-triangle' />
+                                                <div className='blog-title-header-dash gradient-grey-dark' />
+                                                <div className='blog-title-header-dash gradient-grey-medium' />
+                                                <div className='blog-title-header-dash gradient-grey-light' />
+                                            </div>
+
+                                        </div>
+
+
+                                        <div className='blog-tile-body-preview'>
                                             <div className='blog-meta-preview'>
                                                 <small>{post.date}</small>
                                             </div>
+                                            <div className='blog-icon-title-preview'>
+                                                <Link to={`/post/${post.id}`}>{post.title}</Link>
+                                            </div>
+
+                                            <ReactMarkdown className='blog-desc-preview' escapeHtml={false}>{excerptList[i]}</ReactMarkdown>
+                                            <div className='blog-meta-preview'>
+                                                <small>
+                                                    <Link to={`/post/${post.id}`}>Read more...</Link>
+                                                </small>
+                                            </div>
                                         </div>
-                                        <ReactMarkdown className='blog-desc-preview' escapeHtml={false}>{excerptList[i]}</ReactMarkdown>
-                                        <div className='blog-meta-preview'>
-                                            <small>
-                                                <Link to={`/post/${post.id}`}>Read more...</Link>
-                                            </small>
-                                        </div>
+
                                     </div>
                                 )
                             })
                     }
                     </div>
 
-            <Link to='/blog'>
-                <h3>Click here to see all { countAllPosts } blog posts</h3>
-            </Link>
         </div>
     );
 }

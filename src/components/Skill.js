@@ -22,7 +22,7 @@ import '../App.css';
 */
 
 
-function Skill2({ skill }) {
+function Skill({ skill }) {
     let progress = 100 - skill.score;
 
     return (
@@ -60,4 +60,4 @@ function Skill2({ skill }) {
     )
 }
 
-export default Skill2;
+export default Skill;

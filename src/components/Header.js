@@ -37,11 +37,8 @@ script.src = "https://raw.githubusercontent.com/datamesse/datamesse.github.io/ma
 script.async = true;
 document.body.appendChild(script);
 
-    return (
-        <>
-            <div className="header">
-                <div className="header-body">
 
+/*
                     <div className="sitename" id="title">
                             <a href='/'>
                                 <img className="site-title" src={ title_e } />
@@ -51,6 +48,20 @@ document.body.appendChild(script);
                                 <img className="site-title" src={ title_a } />
                             </a>
                         </div>         
+*/
+
+    return (
+        <>
+            <div className="header">
+                <div className="header-body">
+
+
+
+                    <div className="sitename" id="title">
+                        <a href='/'>data messe</a>
+                    </div>
+
+
 
                     <div className="menu">
                         <div className="menu-desktop">
