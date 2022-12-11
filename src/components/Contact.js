@@ -1,13 +1,14 @@
 import React from 'react';
 import '../App.css';
-import Separator from './Separator';
 import Links from './Links';
 
 function Contact() {
     return (
         <div className='contact' id='contact'>
-            <Separator />
-            <label className='section-title'>CONTACT</label>
+            <div className='section-title'>
+                <div className='section-title-glow' />
+                <div className='section-title-text'>CONTACT</div>
+            </div>
             <p>Please feel free to contact me on these platforms:</p>
             <Links />
         </div>

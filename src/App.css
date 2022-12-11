@@ -273,8 +273,12 @@ a {
 }
 
 .about-title .section-title {
+    font-family: 'Kanit', Helvetica;
     font-size: 28px;
+    font-weight: bold;
     margin: 0px;
+    color: #1D3251;
+    background-color: white;
 }
 
 .about-image {
@@ -586,7 +590,7 @@ a {
 /* ----------------------------*/
 
 
-
+/*
 
 .section-title {
     font-family: 'Corbel', 'Kanit', Helvetica;
@@ -596,6 +600,56 @@ a {
     margin: auto;
     margin-bottom: 15px;
     color: #1D3251;
+}
+
+*/
+
+
+.section-title {
+    display: flex;
+    margin: 0px;
+    padding: 12px 10px 12px 10px;
+    background-color: #1F201E;
+}
+
+.section-title-glow {
+    width: 5px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 9px;
+    margin-right: 9px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #f3ffff;
+    display: inline-flex;
+    animation: glowmenu 2s infinite alternate;
+}
+
+@keyframes glowmenu {
+    from {
+      box-shadow:
+      0 0 1px 2px #c6ffff;
+    }
+    to {
+      box-shadow:  
+      0 0 1px 2px #acffff,
+      0 0 2px 3px #88e8ff;
+    }
+  }
+
+
+.section-title-text {
+    font-family: 'Kanit', Helvetica;
+    font-size: 24px;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    color: white;
+    margin: 0px 0px 0px 15px;
+    padding: 0px;
+}
+
+.portfolio .section-title {
+    margin-bottom: 50px;
 }
 
 .separator {
@@ -614,6 +668,7 @@ a {
     background-size: cover;
 }
 
+/*
 .separator2 {
     background-image: linear-gradient(to right top,
     #1e8bc7, #1f90cf, #2096d7, #219bdf, 
@@ -625,6 +680,7 @@ a {
     margin: 20px 0px 20px;
     align-items: center;
 }
+*/
 
 .skills {
     display: flex;
@@ -1555,6 +1611,7 @@ code {
         height: 120px;
         width: 120px;
         margin-bottom: 12px;
+        margin-right: 0px;
     }
     .about-info {
         font-size: 18px;

@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.css';
-import Separator from './Separator';
 import { LinkedInSkills } from '../data/linkedinskills';
 import Skill from './Skill';
 
@@ -8,8 +7,11 @@ function Skills() {
     const data = LinkedInSkills
     return (
         <div className='skills' id='skills'>
-            <Separator />
-            <label className='section-title'>SKILLS</label>
+
+            <div className='section-title'>
+                <div className='section-title-glow' />
+                <div className='section-title-text'>MY ASSESSED SKILLS</div>
+            </div>
 
                 <p>
                     These charts indicate my skill and rank among the number of people that took each LinkedIn Skills Assessment test.

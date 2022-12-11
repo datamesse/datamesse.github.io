@@ -15,7 +15,10 @@ function Portfolio() {
                 <div className='body'>
                     <div className='portfolio' id='portfolio'>
                         <br />
-                        <label className='section-title'>PORTFOLIO</label>
+                        <div className='section-title'>
+                            <div className='section-title-glow' />
+                            <div className='section-title-text'>MY PORTFOLIO</div>
+                        </div>
                         <div>
                             {data.map((project)=>{
                                 return <Project project={project} />;

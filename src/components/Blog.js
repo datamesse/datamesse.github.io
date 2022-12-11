@@ -20,9 +20,13 @@ export default function Blog() {
 
             <div className='blog'>
                 <center>
-                <div className='blog-header'>
-                    <label className='section-title'>MY BLOG POSTS</label>
-                </div>
+                    <div className='blog-header'>
+                        <div className='section-title'>
+                            <div className='section-title-glow' />
+                            <div className='section-title-text'>MY BLOG POSTS</div>
+                        </div>
+                    </div>
+
                     <div className='blog-set'>
                     {
                         Posts.length &&

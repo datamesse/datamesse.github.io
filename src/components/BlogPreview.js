@@ -1,5 +1,4 @@
 import React from 'react';
-import Separator from './Separator';
 import '../App.css';
 import { Link } from 'react-router-dom';
 import { assetURL } from '../data/data';
@@ -18,8 +17,11 @@ export default function BlogPreview() {
 
     return (
         <div className='blog-preview' id='blog'>
-            <Separator />
-            <label className='section-title'>MY RECENT BLOG POSTS</label>
+
+            <div className='section-title'>
+                <div className='section-title-glow' />
+                <div className='section-title-text'>MY RECENT BLOG POSTS</div>
+            </div>
 
             <Link to='/blog'>
                 <h3>Click here to see all { countAllPosts } blog posts</h3>
