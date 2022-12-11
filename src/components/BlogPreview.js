@@ -53,7 +53,7 @@ export default function BlogPreview() {
 
                                         <div className='blog-tile-body-preview'>
                                             <div className='blog-meta-preview'>
-                                                <small>{post.date}</small>
+                                                {post.date}
                                             </div>
                                             <div className='blog-icon-title-preview'>
                                                 <Link to={`/post/${post.id}`}>{post.title}</Link>
