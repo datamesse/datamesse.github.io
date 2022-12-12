@@ -26,16 +26,27 @@ function About() {
     return (
         <div className='about'>
 
+                <div className='section-title'>
+                    <div className='section-title-glow' />
+                    <div className='section-title-text'>ABOUT ME</div>
+                </div>
+
             <div className='about-top'>
-
-
 
                 <div className='about-info'>
 
                     <div className='about-title'>
-                        <img className='about-avatar' src={ avatar } />
-                        <label className='section-title'>ABOUT ME</label>
+
+                        <div className='about-avatar-outer-border'>
+                            <div className='about-avatar-mid-border'>
+                                <div className='about-avatar-inner-border'>
+                                    <img className='about-avatar' src={ avatar } />
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
+
                     <p>Technical customer service veteran with strong data analysis skills from SaaS support work and personal projects.</p>
                     <p>My career goal is to become highly proficient with data technologies and provide excellent client solutions.</p>
 

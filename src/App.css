@@ -216,40 +216,81 @@ a {
 
 
 .about {
-    background-color: white;
+    margin-bottom: 45px;
 }
 
 .about-top {
     display: flex;
     justify-content: space-between;
     align-items: top;
+    margin-top: 15px;
+    letter-spacing: 0.04em;
+    background-color: rgba(60, 64, 67, 0.7);
+    clip-path: polygon(99% 0, 100% 3%, 100% 100%, 96% 100%, 95% 97%, 88% 97%, 87% 100%, 1% 100%, 0 97%, 0 0);
 }
 
-.about-photo {
-    border-top: 20px solid #E9F6FE;
+.about-avatar-outer-border {
+    width: 156px;
+    height: 156px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #1F201E;
+    clip-path: polygon(0 0, 70% 0, 100% 30%, 100% 100%, 30% 100%, 0 70%);
+}
+
+.about-avatar-mid-border {
+    width: 154px;
+    height: 154px;
+    margin: 1px;
+    padding: 0px;
+    padding-top: 0.25px;
+    background-color: white;
+    clip-path: polygon(0 0, 70% 0, 100% 30%, 100% 100%, 30% 100%, 0 70%);
+}
+
+.about-avatar-inner-border {
+    width: 152px;
+    height: 152px;
+    margin: 1px;
+    padding: 0px;
+    background-color: #1F201E;
+    clip-path: polygon(0 0, 70% 0, 100% 30%, 100% 100%, 30% 100%, 0 70%);
 }
 
 .about-avatar {
-    height: 90px;
-    width: 90px;
-    margin-right: 15px;
-    border-radius: 50%;
-    border: 3px solid #1D3251;
-    background-color: #1D3251;
-    left: 0px;
-    float: left;
-  }
+    width: 150px;
+    height: 150px;
+    margin: 1px;
+    padding: 0px;
+    clip-path: polygon(0 0, 70% 0, 100% 30%, 100% 100%, 30% 100%, 0 70%);
+}
+
+.about-avatar-inner-border:hover {
+    background-color: #24A9F2;
+    background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/bannervideo-bluerectangles2-trimmed-7fps.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-avatar-mid-border:hover {
+    background-color: #88e8ff;
+}
+
+.about-avatar-outer-border:hover {
+    background-color: #c6ffff;
+}
+
+
 
 .about-info {
     width: 70%;
-    border-top: 20px solid #E9F6FE;
     font-size: 20px;
     padding: 20px 30px 0px 30px;
 }
 
 .about-info p {
     line-height: 1.35;
-    color: #1D3251;
+    color: white;
     font-family: 'Cambay', 'Corbel';
     font-size: 18px;
     font-weight: 500;
@@ -261,7 +302,7 @@ a {
 
 .about-info ul li {
     line-height: 1.75;
-    color: #1D3251;
+    color: white;
     font-family: 'Cambay', 'Corbel';
     font-size: 18px;
     font-weight: 500;
@@ -270,15 +311,7 @@ a {
 .about-title {
     display: flex;
     align-items: center;
-}
-
-.about-title .section-title {
-    font-family: 'Kanit', Helvetica;
-    font-size: 28px;
-    font-weight: bold;
-    margin: 0px;
-    color: #1D3251;
-    background-color: white;
+    justify-content: center;
 }
 
 .about-image {
@@ -428,6 +461,35 @@ a {
     box-shadow: 7px 7px rgba(60, 64, 67, 0.15);
 }
 
+.portfolio .portfolio-preview .project-shell .project .project-body:hover {
+    background-color: #24A9F2;
+    background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/bannervideo-bluerectangles2-trimmed-7fps.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #24A9F2;
+    animation: glowproject 1s infinite alternate;
+}
+
+@keyframes glowproject {
+    from {
+      box-shadow:
+      0 0 1px 1px #c6ffff;
+    }
+    to {
+      box-shadow:  
+      0 0 1px 2px #acffff,
+      0 0 1px 2px #88e8ff;
+    }
+}
+
+.portfolio .portfolio-preview .project-shell .blog-tile-header .blog-title-header-rectangle a:hover {
+    color: #24A9F2;
+}
+
+.portfolio .project-shell .blog-tile-header .blog-title-header-rectangle a:hover {
+    color: #24A9F2;
+}
+
 .project-info {
     margin-top: 6px;
     margin-right: 14px;
@@ -493,7 +555,7 @@ a {
 
 .project-date {
     font-family: 'Segoe UI', Helvetica;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 500;
     text-align: right;
     display: flex;
@@ -589,22 +651,6 @@ a {
 
 /* ----------------------------*/
 
-
-/*
-
-.section-title {
-    font-family: 'Corbel', 'Kanit', Helvetica;
-    font-size: 36px;
-    letter-spacing: 0.3em;
-    font-weight: 500;
-    margin: auto;
-    margin-bottom: 15px;
-    color: #1D3251;
-}
-
-*/
-
-
 .section-title {
     display: flex;
     margin: 0px;
@@ -622,10 +668,10 @@ a {
     padding-bottom: 15px;
     background-color: #f3ffff;
     display: inline-flex;
-    animation: glowmenu 2s infinite alternate;
+    animation: glowtitle 2s infinite alternate;
 }
 
-@keyframes glowmenu {
+@keyframes glowtitle {
     from {
       box-shadow:
       0 0 1px 2px #c6ffff;
@@ -650,6 +696,10 @@ a {
 
 .portfolio .section-title {
     margin-bottom: 50px;
+}
+
+.about .section-title {
+    margin-top: 30px;
 }
 
 .separator {
@@ -967,6 +1017,10 @@ a {
     grid-template-columns: repeat(1, auto);
 }
 
+.blog-preview .blog-set-preview .blog-tile-preview .blog-tile-header .blog-title-header-rectangle a:hover {
+    color: #24A9F2;
+}
+
 .blog-tile-preview {
     color: black;
     text-decoration: none;
@@ -1114,6 +1168,10 @@ a {
     padding-right: 10px;
     padding-left: 0px;
     border-right: 2px solid #1f201e;;
+}
+
+.blog .blog-set .blog-tile .blog-tile-header .blog-title-header-rectangle a:hover {
+    color: #24A9F2;
 }
 
 .blog-title-header-triangle-dashes {
@@ -1602,16 +1660,11 @@ code {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        clip-path: polygon(98% 0, 100% 2%, 100% 100%, 92% 100%, 90% 98%, 80% 98%, 78% 100%, 2% 100%, 0 98%, 0 0);
     }
     .about-links {
         width: 100%;
         margin-bottom: 12px;
-    }
-    .about-avatar {
-        height: 120px;
-        width: 120px;
-        margin-bottom: 12px;
-        margin-right: 0px;
     }
     .about-info {
         font-size: 18px;
@@ -1699,9 +1752,6 @@ code {
         border-right: 0px solid #A2A2A2;
         box-shadow: 0px 0px rgba(0, 0, 0, 0.0);
     }
-    .body {
-        margin-top: 30px;
-    }
     .portfolio-preview .project {
         display: flex;
         flex-direction: column;
@@ -1733,9 +1783,6 @@ code {
     }
     .header-subtitle-line {
         width: 95%;
-    }
-    .body {
-        margin-top: 12px;
     }
     .menu-mobile {
         display: flex;
