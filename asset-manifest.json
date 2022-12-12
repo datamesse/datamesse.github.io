@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.c952abbd.chunk.css",
-  "main.js": "/static/js/main.cc61ba0f.chunk.js",
-  "main.js.map": "/static/js/main.cc61ba0f.chunk.js.map",
+  "main.css": "/static/css/main.f5849390.chunk.css",
+  "main.js": "/static/js/main.d9f5c224.chunk.js",
+  "main.js.map": "/static/js/main.d9f5c224.chunk.js.map",
   "static/js/1.c1adf935.chunk.js": "/static/js/1.c1adf935.chunk.js",
   "static/js/1.c1adf935.chunk.js.map": "/static/js/1.c1adf935.chunk.js.map",
   "static/js/2.f741e14d.chunk.js": "/static/js/2.f741e14d.chunk.js",
@@ -59,8 +59,8 @@
   "static/media/img-2022-08-satellite-launch-overview.gif": "/static/media/img-2022-08-satellite-launch-overview.30e65a6b.gif",
   "static/media/img-2022-10-excel-international-marketplace-profit-forecast.gif": "/static/media/img-2022-10-excel-international-marketplace-profit-forecast.3adfbfda.gif",
   "static/media/img-2022-11-power-bi-appsource-deneb-maps.gif": "/static/media/img-2022-11-power-bi-appsource-deneb-maps.f42b54e4.gif",
-  "static/css/main.c952abbd.chunk.css.map": "/static/css/main.c952abbd.chunk.css.map",
+  "static/css/main.f5849390.chunk.css.map": "/static/css/main.f5849390.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.a68d3cc97400a0f9c28921b43e813c8d.js": "/precache-manifest.a68d3cc97400a0f9c28921b43e813c8d.js",
+  "precache-manifest.cacba3eade042a2be203d17a4dd38d3e.js": "/precache-manifest.cacba3eade042a2be203d17a4dd38d3e.js",
   "service-worker.js": "/service-worker.js"
 }
