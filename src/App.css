@@ -182,10 +182,10 @@ a {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: #3C474D;
+    background-color: #1F201E;
     justify-content: center;
     align-items: center;
-    height: 55vh;
+    height: 35vh;
     width: 55vw;
     position: absolute;
     right: 0px;
@@ -769,8 +769,19 @@ a .section-button:hover {
     width: 100%;
 }
 
+.skills-body {
+    color: white;
+    padding: 20px 20px 20px 10px;
+    background-color: rgba(60, 64, 67, 0.7);
+    box-shadow: 7px 7px rgb(60, 64, 67, 0.15);
+}
+
 .skills a {
+    color: white;
     text-decoration: none;
+}
+
+.skills a:hover {
     color: #23a9f2;
 }
 
@@ -1566,6 +1577,9 @@ code {
     .blog-set {
         width: 1070px;
     }
+    .blog-header .section-title {
+        width: 1070px;
+    }
 }
 
 @media only screen and (min-width: 1280px) {  
@@ -1854,10 +1868,19 @@ code {
     .portfolio .portfolio-preview .project-shell .project a img {
         width: 85vw;
     }
+    .skills-body {
+        padding: 10px 5px 5px 0px;
+    }
 }
 
 @media only screen and (max-width: 320px){
     .blog-meta-date {
         padding-top: 20px;
     }
+}
+
+@media only screen and (max-height: 890px){
+    .menu-mobile-options {
+        height: 90vh;
+    }    
 }

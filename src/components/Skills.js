@@ -13,6 +13,7 @@ function Skills() {
                 <div className='section-title-text'>MY ASSESSED SKILLS</div>
             </div>
 
+            <div className='skills-body'>
                 <p>
                     These charts indicate my skill and rank among the number of people that took each LinkedIn Skills Assessment test.
                 </p>
@@ -53,7 +54,7 @@ function Skills() {
                         <a href="https://www.linkedin.com/help/linkedin/answer/a507734" target='_blank'>What are the available LinkedIn Skill Assessments?</a>
                     </li>
                 </ul>
-
+            </div>
 
         </div>
     );
