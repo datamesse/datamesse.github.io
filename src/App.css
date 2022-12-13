@@ -610,7 +610,7 @@ a {
     grid-gap: 10px;
     grid-auto-flow: row;
     grid-template-columns: repeat(3, auto);
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .portfolio .portfolio-preview .project-shell {
@@ -695,48 +695,78 @@ a {
 }
 
 .portfolio .section-title {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 
 .about .section-title {
     margin-top: 30px;
 }
 
-.separator {
-    background-color: #879FBA;
-    height: 20px;
-    width: 100%;
-    align-items: center;
-    margin: 0px 0px 40px;
-/*  border-right: 1px solid #EDEDEB;
-    border-bottom: 1px solid #EDEDEB;
-    background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-tile.png");
-*/
+.blog-preview .section-title {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.skills .section-title {
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
+.contact .section-title {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+
+
+
+.section-button {
+    width: auto;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    border-radius: 10px;
     background-color: #24A9F2;
     background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/bannervideo-bluerectangles2-trimmed-7fps.gif");
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1px solid rgba(60, 64, 67, 0.8);
+
+    -webkit-box-shadow: inset 0 0 6px #c6ffff;
+    -moz-box-shadow: inset 0 0 6px #c6ffff;
+    box-shadow: inset 0 0 6px #c6ffff;
 }
 
-/*
-.separator2 {
-    background-image: linear-gradient(to right top,
-    #1e8bc7, #1f90cf, #2096d7, #219bdf, 
-    #22a1e7, #2da7eb, #37acef, #40b2f3, 
-    #51b8f4, #60bff5, #6ec5f6, #7bcbf7);
-    height: 5px;
-    width: 85%;
-    border-radius: 3px;
-    margin: 20px 0px 20px;
-    align-items: center;
+a .section-button {
+    color: white;
+    font-family: 'Kanit', Helvetica;
+    font-size: 16px;
+    letter-spacing: 0.075em;
+    font-weight: bolder;
+    padding: 0px 20px 0px 20px;
+    text-shadow:
+        -1px -1px 0 #2E3639,  
+         1px -1px 0 #2E3639,
+        -1px  1px 0 #2E3639,
+         1px  1px 0 #2E3639;
 }
-*/
+
+.section-button:hover {
+    border: 1px solid #24A9F2;
+
+    -webkit-box-shadow: offset 0 0 15px #FFF;
+    -moz-box-shadow: offset 0 0 15px #FFF;
+    box-shadow: offset 0 0 15px #FFF;
+}
+
+a .section-button:hover {
+    text-shadow: none;
+}
+
 
 .skills {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: white;
 }
 
 .skills a {
@@ -1008,7 +1038,7 @@ a {
 .blog-set-preview {
     margin: 0px;
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     padding: 0px;
     display: grid;
     grid-gap: 10px;
@@ -1634,6 +1664,9 @@ code {
         max-width: 100%;
         margin-bottom: 15px;
         justify-content: center;
+    }
+    .about-top {
+        clip-path: polygon(98% 0, 100% 3%, 100% 100%, 96% 100%, 95% 97%, 88% 97%, 87% 100%, 2% 100%, 0 97%, 0 0);
     }
 }
 

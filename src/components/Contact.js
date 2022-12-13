@@ -9,7 +9,7 @@ function Contact() {
                 <div className='section-title-glow' />
                 <div className='section-title-text'>CONTACT</div>
             </div>
-            <p>Please feel free to contact me on these platforms:</p>
+
             <Links />
         </div>
     );

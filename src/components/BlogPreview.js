@@ -23,9 +23,6 @@ export default function BlogPreview() {
                 <div className='section-title-text'>MY RECENT BLOG POSTS</div>
             </div>
 
-            <Link to='/blog'>
-                <h3>Click here to see all { countAllPosts } blog posts</h3>
-            </Link>
 
             <div className='blog-set-preview'>
                     {
@@ -73,7 +70,14 @@ export default function BlogPreview() {
                                 )
                             })
                     }
-                    </div>
+            </div>
+
+
+            <Link to='/blog'>
+                <div className='section-button'>
+                    <p>Click here for all { countAllPosts } blog posts</p>
+                </div>
+            </Link>
 
         </div>
     );
