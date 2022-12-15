@@ -4,6 +4,7 @@
 html {
     scroll-behavior: smooth;
     background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-tile.png");
+    background-attachment: fixed;
 }
 
 a {
