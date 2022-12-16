@@ -23,7 +23,7 @@ The video banner background ["Communication Line Technology"](https://pixabay.co
 
 I updated the layout to be minimalistic with new sections including recent blog post preview, skills assessment, and contacts sextions. The style is based on a [YouTube tutorial by Shuvam Kumar a.k.a Overreacted](https://www.youtube.com/watch?v=j0yZc2yfa7o).
 
-![Site version 2](https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2022-05-portfolio-website-react.gif?raw=true)
+![Site version 2](https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2022-05-portfolio-website-react-original.png?raw=true)
 
 The JavaScript title switch animation code was by [Ajay Narain Mathur on Stack Overflow](https://stackoverflow.com/questions/40878859/changing-a-heading-every-few-seconds-with-an-array-and-a-loop).
 
