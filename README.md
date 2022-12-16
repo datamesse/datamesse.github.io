@@ -1,18 +1,54 @@
 # @data_messe React.js portfolio and blog site
 
-This is my personal website, designed and coded using HTML, CSS, Markdown, and JavaScript with React.js and GitHub Pages.
+This is my personal website, designed and coded by me using HTML, CSS, Markdown, and JavaScript with React.js and GitHub Pages. No boiler site templates like Jekyll are used.
 
-My previous blog used a Jekyll boiler template and kept triggering failed deployment errors, so I decided to stop using such templates, and I coded the site from scratch to make it easier to troubleshoot.
 
-The recent update to my site is based on a [YouTube tutorial by Shuvam Kumar a.k.a Overreacted](https://www.youtube.com/watch?v=j0yZc2yfa7o).
 
-The underlying code for rendering blog post data (as the alternative for using Jekyll) was from following a [YouTube tutorial by Will Ward](https://www.youtube.com/watch?v=gT1v33oA1gI&list=PLASldBPN_pkBfRXOkBOaeCJYzCnISw5-Z).
+### Evolution of my site's design
 
-The code to animate the title switch was by [Ajay Narain Mathur on Stack Overflow](https://stackoverflow.com/questions/40878859/changing-a-heading-every-few-seconds-with-an-array-and-a-loop).
+#### September 2021 (Version 1)
 
-That code implementation is only used for the blog component. The project portfolio component simply renders raw JSON data, because unlike the blog, the portfolio does not need to render markdown as separate pages.
+My initial design was a basic 2 page layout for a project portfolio and my blog.
+For each project I displayed a year-month label and the logo of the technology used.
+
+**Credit:** The JavaScript code that renders blog post data from markdown to separate pages was from a [YouTube tutorial by Will Ward](https://www.youtube.com/watch?v=gT1v33oA1gI&list=PLASldBPN_pkBfRXOkBOaeCJYzCnISw5-Z).
+
+I wanted a clean and easy to look at light-blue and light-grey technical but smooth-edged design.
+
+![Site version 1](https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2021-09-portfolio-website-react-original.png?raw=true)
 
 The video banner background ["Communication Line Technology"](https://pixabay.com/videos/communication-line-technology-45902/') is used free from [pixabay.com](https://www.pixabay.com) by [ArtDio2020](https://pixabay.com/users/artdio2020-8194567/?tab=videos).
+
+#### May 2022 (Version 2)
+
+I updated the layout to be minimalistic with new sections including recent blog post preview, skills assessment, and contacts sextions. The style is based on a [YouTube tutorial by Shuvam Kumar a.k.a Overreacted](https://www.youtube.com/watch?v=j0yZc2yfa7o).
+
+![Site version 2](https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2022-05-portfolio-website-react.gif?raw=true)
+
+The JavaScript title switch animation code was by [Ajay Narain Mathur on Stack Overflow](https://stackoverflow.com/questions/40878859/changing-a-heading-every-few-seconds-with-an-array-and-a-loop).
+
+#### December 2022 (Version 3)
+
+I merged the technical style and colour scheme from Version 1 with Version 2's layout.
+On the front page, each project has the name and logo of the main technology used.
+It is re-designed as a compact portfolio preview gallery.
+
+![Site version 3](https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2022-12-portfolio-website-react.gif?raw=true)
+
+
+
+##### Other useful tools and references
+
+CSS clip-path polygon creation tool by Bennett Feely
+ * [https://bennettfeely.com/clippy/](https://bennettfeely.com/clippy/)
+
+CSS glowing of aforementioned buttons taken from this [Stackoverflow post](https://stackoverflow.com/questions/34821217/easily-create-an-animated-glow).
+
+Animated gif creation by recording screen
+ * [https://www.screentogif.com/](https://www.screentogif.com/)
+
+Font to SVG path creation tool by Dan Marshall
+ * [https://danmarshall.github.io/google-font-to-svg-path](https://danmarshall.github.io/google-font-to-svg-path)
 
 Software logos and other art were used from:
  * [Flaticon.com](https://www.flaticon.com/uicons)
@@ -20,15 +56,9 @@ Software logos and other art were used from:
  * [Wikimedia.org](https://upload.wikimedia.org/)
  * [WorldVectorLogo.com](https://worldvectorlogo.com/)
 
-Online CSS tool "Clippy" by [Bennett Feely](https://bennettfeely.com/clippy/) was used to help design CSS path for Blog and Projects buttons.
 
-CSS glowing of aforementioned buttons taken from this [Stackoverflow post](https://stackoverflow.com/questions/34821217/easily-create-an-animated-glow).
 
-Site name was made using the Google font to SVG path creation tool by [Dan Marshall](https://danmarshall.github.io/google-font-to-svg-path).
-
-Refer to src/data/references.js file for other asset details considered during this site's design process.
-
-See below on how you get yourself started on your own GitHub Pages site.
+See instructions below on how to create your own GitHub Pages site.
 
 # How to create React.js site and deploy to GitHub pages
 Based on post by [Ibrahim Ragab](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f).
@@ -191,12 +221,3 @@ import 'react-circular-progressbar/dist/styles.css';
     <label className='skill-date'>{skill.shortdate}</label>
 </CircularProgressbarWithChildren>
 ```
- 
-## Create animated gifs for portfolio
-
-You can use the [https://www.screentogif.com/](https://www.screentogif.com/) website to create animated gif previews of your projects.
-
-
-## CSS polygon creation
-
-You can design custom div styles with CSS using [https://bennettfeely.com/clippy/](https://bennettfeely.com/clippy/).
