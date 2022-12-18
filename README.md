@@ -21,7 +21,7 @@ The video banner background ["Communication Line Technology"](https://pixabay.co
 
 #### May 2022 (Version 2)
 
-I updated the layout to be minimalistic with new sections including recent blog post preview, skills assessment, and contacts sextions. The style is based on a [YouTube tutorial by Shuvam Kumar a.k.a Overreacted](https://www.youtube.com/watch?v=j0yZc2yfa7o).
+I updated the layout to be minimalistic with new sections including recent blog post preview, skills assessment, and contacts sections. The style is based on a [YouTube tutorial by Shuvam Kumar a.k.a Overreacted](https://www.youtube.com/watch?v=j0yZc2yfa7o).
 
 ![Site version 2](https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2022-05-portfolio-website-react-original.png?raw=true)
 
