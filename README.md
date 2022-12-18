@@ -6,6 +6,7 @@ This is my personal website, designed and coded by me using HTML, CSS, Markdown,
 
 ### Evolution of my site's design
 
+
 #### September 2021 (Version 1)
 
 My initial design was a basic 2 page layout for a project portfolio and my blog.
@@ -19,6 +20,9 @@ I wanted a clean and easy to look at light-blue and light-grey technical but smo
 
 The video banner background ["Communication Line Technology"](https://pixabay.com/videos/communication-line-technology-45902/') is used free from [pixabay.com](https://www.pixabay.com) by [ArtDio2020](https://pixabay.com/users/artdio2020-8194567/?tab=videos).
 
+The archived source files are available here (https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version1)[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version1]
+
+
 #### May 2022 (Version 2)
 
 I updated the layout to be minimalistic with new sections including recent blog post preview, skills assessment, and contacts sections. The style is based on a [YouTube tutorial by Shuvam Kumar a.k.a Overreacted](https://www.youtube.com/watch?v=j0yZc2yfa7o).
@@ -26,6 +30,9 @@ I updated the layout to be minimalistic with new sections including recent blog 
 ![Site version 2](https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2022-05-portfolio-website-react-original.png?raw=true)
 
 The JavaScript title switch animation code was by [Ajay Narain Mathur on Stack Overflow](https://stackoverflow.com/questions/40878859/changing-a-heading-every-few-seconds-with-an-array-and-a-loop).
+
+The archived source files are available here (https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version2)[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version2]
+
 
 #### December 2022 (Version 3)
 
