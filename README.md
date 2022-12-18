@@ -44,18 +44,19 @@ It is re-designed as a compact portfolio preview gallery.
 
 
 
-##### Other useful tools and references
+#### Other useful tools and references
 
 CSS clip-path polygon creation tool by Bennett Feely
- * [https://bennettfeely.com/clippy/](https://bennettfeely.com/clippy/)
+ * [BennettFeely.com/clippy/](https://bennettfeely.com/clippy/)
 
-CSS glowing of aforementioned buttons taken from this [Stackoverflow post](https://stackoverflow.com/questions/34821217/easily-create-an-animated-glow).
+CSS glowing of div elements taken from this Stackoverflow post
+ * [https://stackoverflow.com/questions/34821217/easily-create-an-animated-glow](https://stackoverflow.com/questions/34821217/easily-create-an-animated-glow)
 
 Animated gif creation by recording screen
- * [https://www.screentogif.com/](https://www.screentogif.com/)
+ * [ScreenToGif.com](https://www.screentogif.com/)
 
 Font to SVG path creation tool by Dan Marshall
- * [https://danmarshall.github.io/google-font-to-svg-path](https://danmarshall.github.io/google-font-to-svg-path)
+ * [DanMarshall.github.io/google-font-to-svg-path](https://danmarshall.github.io/google-font-to-svg-path)
 
 Software logos and other art were used from:
  * [Flaticon.com](https://www.flaticon.com/uicons)
@@ -68,7 +69,9 @@ Software logos and other art were used from:
 See instructions below on how to create your own GitHub Pages site.
 
 # How to create React.js site and deploy to GitHub pages
-Based on post by [Ibrahim Ragab](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f).
+
+Based on a post by Ibrahim Ragab
+ * [https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)
 
 ## Initial set up
 Requirement: Install Node.js on your machine, and install React as a local dependency
@@ -81,19 +84,23 @@ npm install -g create-react-app
 From the Repository's Settings, scroll to the bottom, click GitHub Pages and publish the site to https://datamesse.github.io/.
 
 2. From Command Prompt, navigate to the parent directory of the empty folder.
+
 ```
 create-react-app datamesse.github.io
 cd datamesse.github.io
 npm start
 ```
+
 3. From Visual Studio Code, start building the app, and watch it render via http://localhost:3000/.
 
 4. Install additional dependencies needed for the blog post component.
+
 ```
 npm i react-router-dom react-markdown
 ```
 
 5. Update package.json with
+
 ```
   "scripts": {
     "server": "node src/scripts/main.js"
@@ -103,11 +110,13 @@ npm i react-router-dom react-markdown
 ## Initial push to GitHub Pages
 
 1. From Visual Studio Code's terminal, install GitHub Pages.
+
 ```
 npm install gh-pages --save-dev
 ```
 
 2. From Visual Studio Code, add homepage, predeploy, and deploy attributes to the package.json file.
+
 ```
 {
   "homepage": "http://datamesse.github.io/"
@@ -120,11 +129,13 @@ npm install gh-pages --save-dev
 ```
 
 3. Parse the files in the pages and post data so they can be used as a data source from the data/ folder.
+
 ```
 npm run server
 ```
 
 4. From Visual Studio Code, build the deployment. Patiently wait until the last line of code "Published" appears.
+
 ```
 npm run deploy
 ```
@@ -142,11 +153,13 @@ npm run deploy
 ## Subsequent changes and new blog posts then pushing updates
 
 1. It isn't mandatory, but it may be helpful to empty out the src/data/posts.json and pages.json files, then run the following to repopulate them afresh.
+
 ```
 npm run server
 ```
 
 2. From Visual Studio Code, rebuild for gh-pages.
+
 ```
 npm run deploy
 ```
@@ -187,10 +200,11 @@ import { HashLink as Link } from 'react-router-hash-link';
 </div>
 ```
 
-## Adding donut charts for skill sets
+## Adding donut charts for skill sets (used in design version 2)
 
 Based on this [Youtube tutorial by Rizwan Khan](https://youtu.be/RUx1Zvv1qQU?t=3260).
-Other important links are below:
+
+Other important links below:
 
 * [Official website for React Circular Progressbar](npmjs.com/package/react-circular-progressbar)
 
