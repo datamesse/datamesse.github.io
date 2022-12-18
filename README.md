@@ -20,7 +20,7 @@ I wanted a clean and easy to look at light-blue and light-grey technical but smo
 
 The video banner background ["Communication Line Technology"](https://pixabay.com/videos/communication-line-technology-45902/') is used free from [pixabay.com](https://www.pixabay.com) by [ArtDio2020](https://pixabay.com/users/artdio2020-8194567/?tab=videos).
 
-The archived source files are available here (https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version1)[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version1]
+Archived source files are here: **(https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version1)[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version1]**
 
 
 #### May 2022 (Version 2)
@@ -31,7 +31,7 @@ I updated the layout to be minimalistic with new sections including recent blog 
 
 The JavaScript title switch animation code was by [Ajay Narain Mathur on Stack Overflow](https://stackoverflow.com/questions/40878859/changing-a-heading-every-few-seconds-with-an-array-and-a-loop).
 
-The archived source files are available here (https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version2)[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version2]
+Archived source files are here: **(https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version2)[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version2]**
 
 
 #### December 2022 (Version 3)
