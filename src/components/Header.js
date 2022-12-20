@@ -28,6 +28,18 @@ var intervalId = setInterval(function() {
                     <h2><a href='/'>data messe</a></h2>
 */
 
+/*
+                    <div className="sitename" id="title">
+                        <a href='/'>
+                            <img className="site-title" src={ title_e } />
+                            <img className="site-title" src={ title_d } />
+                            <img className="site-title" src={ title_c } />
+                            <img className="site-title" src={ title_b } />
+                            <img className="site-title" src={ title_a } />
+                        </a>
+                    </div>
+*/
+
 function Header() {
 
 const [isOpen, setIsOpen] = useState(false)
@@ -49,11 +61,7 @@ document.body.appendChild(script);
 
                     <div className="sitename" id="title">
                         <a href='/'>
-                            <img className="site-title" src={ title_e } />
-                            <img className="site-title" src={ title_d } />
-                            <img className="site-title" src={ title_c } />
-                            <img className="site-title" src={ title_b } />
-                            <img className="site-title" src={ title_a } />
+                            data messe
                         </a>
                     </div>
 
