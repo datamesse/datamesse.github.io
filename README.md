@@ -40,7 +40,7 @@ I merged the technical style and colour scheme from Version 1 with Version 2's l
 On the front page, each project has the name and logo of the main technology used.
 It is re-designed as a compact portfolio preview gallery.
 
-![Site version 3](https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2022-12-portfolio-website-react.gif?raw=true)
+![Site version 3](https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2022-12-portfolio-website-react-v3.gif?raw=true)
 
 
 
