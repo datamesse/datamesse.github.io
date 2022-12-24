@@ -623,13 +623,42 @@ a {
     margin-left: 0px;
 }
 
-.portfolio-preview .project-info {
-    display: none;
-}
 
 .portfolio .portfolio-preview .project-shell .project a img {
     width: 20vw;
 }
+
+.portfolio .portfolio-preview .project-shell .project .project-body a {
+    z-index: 9999;
+}
+
+.portfolio .portfolio-preview .project-shell .project .project-body .project-info {
+    width: 20vw;
+    position: absolute;
+}
+
+.portfolio .portfolio-preview .project-shell .project .project-body .project-info .project-title {
+    color: white;
+}
+
+.portfolio .portfolio-preview .project-shell .project .project-body .project-info p {
+    color: white;
+    border: none;
+}
+
+.portfolio .portfolio-preview .project-shell .project .project-body .project-info .project-links-date {
+    display: none;
+}
+
+.portfolio .portfolio-preview .project-shell .project .project-body .project-info .project-tags {
+    display: none;
+}
+
+.portfolio .portfolio-preview .project-shell .project .project-body a .project-photo:hover {
+    opacity: 0;
+}
+
+
 
 .portfolio .portfolio-preview .project-shell .project .project-body {
     margin-bottom: 15px;
@@ -649,6 +678,7 @@ a {
     font-weight: 500;
     margin-bottom: 40px;
 }
+
 
 /* ----------------------------*/
 
@@ -1591,6 +1621,13 @@ code {
 
 /* ------------------------ */
 
+@media only screen and (max-width: 1670px){
+    .portfolio .portfolio-preview .project-shell .project .project-body .project-info p {
+        font-size: 16px;
+    }
+}
+
+
 @media only screen and (max-width: 1500px){
     .about-info {
         width: 100%;
@@ -1606,6 +1643,12 @@ code {
     }
 }
 
+@media only screen and (max-width: 1400px){
+    .portfolio .portfolio-preview .project-shell .project .project-body .project-info p {
+        font-size: 14px;
+    }
+}
+
 @media only screen and (max-width: 1315px){
     .header-subtitle .link-text {
         display: none;
@@ -1616,6 +1659,21 @@ code {
     .header-subtitle .link-icon-container {
         width: 35px;
         height: 35px;
+    }
+    .portfolio .portfolio-preview .project-shell .project .project-body .project-info .project-title {
+        font-size: 15px;
+    }
+    .portfolio .portfolio-preview .project-shell .project .project-body .project-info p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .portfolio .portfolio-preview .project-shell .project .project-body .project-info .project-title {
+        font-size: 14px;
+    }
+    .portfolio .portfolio-preview .project-shell .project .project-body .project-info p {
+        font-size: 12px;
     }
 }
 
@@ -1643,6 +1701,15 @@ code {
     }
     .portfolio .portfolio-preview .project-shell .project a img {
         width: 39vw;
+    }
+    .portfolio .portfolio-preview .project-shell .project .project-body .project-info {
+        width: 39vw;
+    }
+    .portfolio .portfolio-preview .project-shell .project .project-body .project-info .project-title {
+        font-size: 20px;
+    }
+    .portfolio .portfolio-preview .project-shell .project .project-body .project-info p {
+        font-size: 16px;
     }
 }
 
@@ -1813,6 +1880,12 @@ code {
         display: block;
         justify-content: center;
     }
+    .portfolio .portfolio-preview .project-shell .project .project-body .project-info .project-title {
+        font-size: 16px;
+    }
+    .portfolio .portfolio-preview .project-shell .project .project-body .project-info p {
+        font-size: 12px;
+    }
 }
 
 @media only screen and (max-width: 512px){
@@ -1866,17 +1939,38 @@ code {
         border: 2px solid #A2A2A2;
         box-shadow: 0px 0px rgba(0, 0, 0, 0.0);
     }
+    .portfolio .portfolio-preview .project-shell .project .project-body .project-info {
+        width: 85vw;
+        padding-left: 20px;
+    }
     .portfolio .portfolio-preview .project-shell .project a img {
         width: 85vw;
     }
     .skills-body {
         padding: 10px 5px 5px 0px;
     }
+    .portfolio .portfolio-preview .project-shell .project .project-body .project-info .project-title {
+        font-size: 22px;
+    }
+    .portfolio .portfolio-preview .project-shell .project .project-body .project-info p {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 320px){
     .blog-meta-date {
         padding-top: 20px;
+    }
+    .portfolio .portfolio-preview .project-shell .project .project-body .project-info {
+        width: 80vw;
+        padding-left: 10px;
+    }
+    .portfolio .portfolio-preview .project-shell .project .project-body .project-info .project-title {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .portfolio .portfolio-preview .project-shell .project .project-body .project-info p {
+        font-size: 14px;
     }
 }
 
