@@ -761,17 +761,20 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid rgba(60, 64, 67, 0.8);
-
     -webkit-box-shadow: inset 0 0 6px #c6ffff;
     -moz-box-shadow: inset 0 0 6px #c6ffff;
     box-shadow: inset 0 0 6px #c6ffff;
 }
 
+.section-button img {
+    opacity: 1;
+}
+
 a .section-button {
     color: white;
     font-family: 'Kanit', Helvetica;
-    font-size: 16px;
-    letter-spacing: 0.075em;
+    font-size: 18px;
+    letter-spacing: 0.20em;
     font-weight: bolder;
     padding: 0px 20px 0px 20px;
     text-shadow:

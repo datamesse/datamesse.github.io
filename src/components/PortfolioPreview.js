@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 function PortfolioPreview() {
     const data = portfolio;
+    const countAllProjects = data.length;
     return (
         <div className='portfolio' id='portfolio'>
 
@@ -20,11 +21,11 @@ function PortfolioPreview() {
                 })}
             </div>
 
-                <Link to='/portfolio'>
-                    <div className='section-button'>
-                        <p>Click here for all projects with descriptions and code links</p>
-                    </div>
-                </Link>
+            <Link to='/portfolio'>
+                <div className='section-button'>
+                    <p>CLICK HERE FOR ALL { countAllProjects } PROJECTS WITH CODE LINKS</p>
+                </div>
+            </Link>
 
         </div>
     );

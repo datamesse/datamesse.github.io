@@ -47,8 +47,7 @@ function About() {
 
                     </div>
 
-                    <p>Technical customer service veteran with strong data analysis skills from SaaS support work and personal projects.</p>
-                    <p>My career goal is to become highly proficient with data technologies and provide excellent client solutions.</p>
+                    <p>Software support veteran with data analytics skills from troubleshooting work experience and personal projects.</p>
 
                 </div>
 

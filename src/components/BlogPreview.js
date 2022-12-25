@@ -75,7 +75,7 @@ export default function BlogPreview() {
 
             <Link to='/blog'>
                 <div className='section-button'>
-                    <p>Click here for all { countAllPosts } blog posts</p>
+                    <p>CLICK HERE FOR ALL { countAllPosts } BLOG POSTS</p>
                 </div>
             </Link>
 
