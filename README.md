@@ -4,10 +4,10 @@ This is the code for my personal website **[https://datamesse.github.io](https:/
 
 
 
-### Evolution of my site's design
+## Evolution of my site's design
 
 
-#### September 2021 (Version 1)
+### September 2021 (Version 1)
 
 My initial design was a basic 2 page layout for a project portfolio and my blog.
 For each project I displayed a year-month label and the logo of the technology used.
@@ -23,7 +23,7 @@ The video banner background ["Communication Line Technology"](https://pixabay.co
 Archived source files are here: **[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version1](https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version1)**
 
 
-#### May 2022 (Version 2)
+### May 2022 (Version 2)
 
 I updated the layout to be minimalistic with new sections including recent blog post preview, skills assessment, and contacts sections. The style is based on a [YouTube tutorial by Shuvam Kumar a.k.a Overreacted](https://www.youtube.com/watch?v=j0yZc2yfa7o).
 
@@ -34,7 +34,7 @@ The JavaScript title switch animation code was by [Ajay Narain Mathur on Stack O
 Archived source files are here: **[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version2](https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version2)**
 
 
-#### December 2022 (Version 3)
+### December 2022 (Version 3)
 
 I merged the technical style and colour scheme from Version 1 with Version 2's layout.
 On the front page, each project has the name and logo of the main technology used.
