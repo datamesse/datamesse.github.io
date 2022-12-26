@@ -45,7 +45,7 @@ It is re-designed as a compact portfolio preview gallery, but has a button to a 
 Source files are here: **[https://github.com/datamesse/datamesse.github.io/tree/main/src](https://github.com/datamesse/datamesse.github.io/tree/main/src)**
 
 
-## Useful tools and references
+# Useful tools and references
 
 CSS clip-path polygon creation tool by Bennett Feely
  * [BennettFeely.com/clippy/](https://bennettfeely.com/clippy/)
