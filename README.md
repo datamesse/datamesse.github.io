@@ -42,6 +42,7 @@ It is re-designed as a compact portfolio preview gallery.
 
 ![Site version 3](https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2022-12-portfolio-website-react-v3.gif?raw=true)
 
+Source files are here: **[https://github.com/datamesse/datamesse.github.io/tree/main/src](https://github.com/datamesse/datamesse.github.io/tree/main/src)**
 
 
 #### Other useful tools and references
