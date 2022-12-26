@@ -12,9 +12,9 @@ This is the code for my personal website **[https://datamesse.github.io/](https:
 My initial design was a basic 2 page layout for a project portfolio and my blog.
 For each project I displayed a year-month label and the logo of the technology used.
 
-**Credit:** The JavaScript code that renders blog post data from markdown to separate pages was from a [YouTube tutorial by Will Ward](https://www.youtube.com/watch?v=gT1v33oA1gI&list=PLASldBPN_pkBfRXOkBOaeCJYzCnISw5-Z).
+**Credit:** The JavaScript code that renders blog post data from markdown to "separate" web pages was from a [YouTube tutorial by Will Ward](https://www.youtube.com/watch?v=gT1v33oA1gI&list=PLASldBPN_pkBfRXOkBOaeCJYzCnISw5-Z).
 
-I wanted a clean and easy to look at light-blue and light-grey technical but smooth-edged design.
+I wanted a clean and easy to look at light-blue and light-grey smooth-edged design.
 
 ![Site version 1](https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2021-09-portfolio-website-react-original.png?raw=true)
 
@@ -38,7 +38,7 @@ Archived source files are here: **(https://github.com/datamesse/datamesse.github
 
 I merged the technical style and colour scheme from Version 1 with Version 2's layout.
 On the front page, each project has the name and logo of the main technology used.
-It is re-designed as a compact portfolio preview gallery.
+It is re-designed as a compact portfolio preview gallery, but has a button to a full portfolio page with code links.
 
 ![Site version 3](https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2022-12-portfolio-website-react-v3.gif?raw=true)
 
