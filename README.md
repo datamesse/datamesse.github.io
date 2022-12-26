@@ -1,6 +1,6 @@
 # @data_messe React.js portfolio and blog site
 
-This is the code for my personal website **[https://datamesse.github.io/](https://datamesse.github.io/)**, designed and coded by me using HTML, CSS, Markdown, and JavaScript with React.js and GitHub Pages. No boiler site templates like Jekyll are used.
+This is the code for my personal website **[https://datamesse.github.io/](https://datamesse.github.io/)**, designed by me using HTML, CSS, Markdown, and JavaScript with React.js and GitHub Pages. No boiler site templates like Jekyll are used.
 
 
 
