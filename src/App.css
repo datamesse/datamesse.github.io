@@ -777,11 +777,11 @@ a .section-button {
     letter-spacing: 0.20em;
     font-weight: bolder;
     padding: 0px 20px 0px 20px;
-    text-shadow:
+/*    text-shadow:
         -1px -1px 0 #2E3639,  
          1px -1px 0 #2E3639,
         -1px  1px 0 #2E3639,
-         1px  1px 0 #2E3639;
+         1px  1px 0 #2E3639;  */
 }
 
 .section-button:hover {
