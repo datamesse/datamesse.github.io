@@ -31,7 +31,7 @@ I updated the layout to be minimalistic with new sections including recent blog 
 
 The JavaScript title switch animation code was by [Ajay Narain Mathur on Stack Overflow](https://stackoverflow.com/questions/40878859/changing-a-heading-every-few-seconds-with-an-array-and-a-loop).
 
-Archived source files are here: **(https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version2)[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version2]**
+Archived source files are here: **[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version2](https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version2)**
 
 
 #### December 2022 (Version 3)
