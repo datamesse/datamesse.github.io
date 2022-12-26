@@ -69,7 +69,7 @@ Software logos and other art were used from:
 
 See instructions below on how to create your own GitHub Pages site.
 
-# How to create React.js site and deploy to GitHub pages
+# How to create a React.js site and deploy to GitHub pages
 
 Based on a post by Ibrahim Ragab
  * [https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)
