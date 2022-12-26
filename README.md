@@ -1,6 +1,6 @@
 # @data_messe React.js portfolio and blog site
 
-This is my personal website, designed and coded by me using HTML, CSS, Markdown, and JavaScript with React.js and GitHub Pages. No boiler site templates like Jekyll are used.
+This is the code for my personal website **[https://datamesse.github.io/](https://datamesse.github.io/]**, designed and coded by me using HTML, CSS, Markdown, and JavaScript with React.js and GitHub Pages. No boiler site templates like Jekyll are used.
 
 
 
@@ -20,7 +20,7 @@ I wanted a clean and easy to look at light-blue and light-grey technical but smo
 
 The video banner background ["Communication Line Technology"](https://pixabay.com/videos/communication-line-technology-45902/') is used free from [pixabay.com](https://www.pixabay.com) by [ArtDio2020](https://pixabay.com/users/artdio2020-8194567/?tab=videos).
 
-Archived source files are here: **(https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version1)[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version1]**
+Archived source files are here: **[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version1](https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version1)**
 
 
 #### May 2022 (Version 2)
