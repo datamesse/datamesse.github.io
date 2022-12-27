@@ -16,7 +16,7 @@ import img_appsourcedenebmaps from '../assets-portfolio/img-2022-11-power-bi-app
 const portfolio = [
    {
       title: 'AppSource Deneb maps report',
-      description: 'Power BI report demonstrates custom AppSource Deneb mapping using embedded geometry JSON data.',
+      description: 'Power BI report that demonstrates custom AppSource Deneb mapping using embedded geometry JSON data.',
       stamp: '2022-11',
       shortdate: 'NOV 2022',
       tech: 'POWER BI',
@@ -28,7 +28,7 @@ const portfolio = [
    },
    {
       title: 'International marketplace profit dashboard',
-      description: 'Excel dashboard uses an exponential smoothing algorithm to forecast profit.',
+      description: 'Excel dashboard that uses an OOTB exponential smoothing algorithm to forecast profit.',
       stamp: '2022-10',
       shortdate: 'OCT 2022',
       tech: 'EXCEL',
@@ -40,7 +40,7 @@ const portfolio = [
    },
    {
       title: 'Satellite launch overview report',
-      description: 'Power BI report shows actively monitored satellites using a custom Deneb scatterplot visual.',
+      description: 'Power BI report showing actively monitored satellites using a custom Deneb scatterplot visual.',
       stamp: '2022-08',
       shortdate: 'AUG 2022',
       tech: 'POWER BI',
@@ -52,7 +52,7 @@ const portfolio = [
    },
    {
       title: 'Customer support agent performance dashboard',
-      description: 'Excel dashboard compares individual support staff KPIs. Includes a cell filter into Power Query to dynamically display photos.',
+      description: 'Excel dashboard that compares individual support staff KPIs. Includes a cell filter into Power Query to dynamically display photos.',
       stamp: '2022-06',
       shortdate: 'JUN 2022',
       tech: 'EXCEL',
@@ -64,7 +64,7 @@ const portfolio = [
    },
    {
       title: 'International marketplace profit report',
-      description: 'Power BI report incorporates Python profit predictions and custom Deneb visualisations.',
+      description: 'Power BI report that incorporates Python profit predictions and custom Deneb visualisations.',
       stamp: '2022-04',
       shortdate: 'APR 2022',
       tech: 'POWER BI',
@@ -100,7 +100,7 @@ const portfolio = [
    },
    {
       title: 'Singapore rental prices report',
-      description: 'Power BI report shows trends of Singapore rent by quarter, flat type, and major currency conversions.',
+      description: 'Power BI report that shows trends of Singapore rent by quarter, flat type, and major currency conversions.',
       stamp: '2021-10',
       shortdate: 'OCT 2021',
       tech: 'POWER BI',
@@ -112,13 +112,13 @@ const portfolio = [
    },
    {
       title: 'Website portfolio and blog',
-      description: 'Website coded using HTML, CSS, and JavaScript with React.js and GitHub Pages.',
+      description: 'This website is coded from scratch using HTML, CSS, React.js and GitHub Pages.',
       stamp: '2021-09',
       shortdate: 'SEP 2021',
       tech: 'REACT.JS',
       stack: logo_react,
       photo: img_portfoliowebsitereact,
-      siteURL: 'https://datamesse.github.io/',
+      siteURL: '',
       codeURL: 'https://github.com/datamesse/datamesse.github.io/',
       tags: ["HTML","CSS","React.js"]
    }
