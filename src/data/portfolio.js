@@ -35,7 +35,7 @@ const portfolio = [
       stack: logo_excel,
       photo: img_internationalmarketplaceexcel,
       siteURL: 'https://datamesse.github.io/#/project/ExcelInternationalMarketplaceProfitForecast',
-      codeURL: '',
+      codeURL: 'https://github.com/datamesse/data-visualisation-datasets/blob/main/International%20Marketplace%20sales/Power%20Query%20and%20Deneb%20code.md',
       tags: ["Excel", "Power Pivot", "DAX", "Forecasting"]
    },
    {
