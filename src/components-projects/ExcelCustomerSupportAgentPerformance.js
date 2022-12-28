@@ -43,15 +43,8 @@ export default function ExcelCustomerSupportAgentPerformance() {
                         <div className='post-body-content'>
 
                             <h1>Excel project: Customer Support Agent Performance Dashboard</h1>
-                            <p>This is a single worksheet Excel redux of my "Follow the sun customer support report" Power BI report.</p>
 
-                            <br></br>
-                            <p>
-                                <img src='https://github.com/datamesse/datamesse.github.io/raw/main/src/assets-portfolio/img-2022-06-excel-customer-support-agent-performance-original.png'></img>
-                            </p>
-                            <br></br>
-
-                            <p>You can find a copy of this Excel dashboard to download here:</p>
+                            <p>You can download this Excel report from here:</p>
                             <ul>
                                 <li>
                                     <a href='https://github.com/datamesse/data-visualisation-datasets/raw/main/Support%20ticket%20updates/Customer%20Support%20Agent%20Performance%20Dashboard.xlsx?raw=true'>
@@ -59,25 +52,47 @@ export default function ExcelCustomerSupportAgentPerformance() {
                                     </a>
                                 </li>
                             </ul>
-                            <p>Note: This Excel file makes a connection to my GitHub repository where the data is stored, and may require you to "Enable content" when you open the file to access the External Data Connection.</p>
+
+                            <p>It connects to my GitHub repository data, so please click "Enable content" to access that External Data Connection.</p>
+
+                            <p>
+                                <img src='https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2022-06-excel-customer-support-agent-performance.gif?raw=true'></img>
+                            </p>
+
+                            <p>This Excel report is a redux of my "Follow the sun customer support" Power BI report, the latter you can find here:</p>
+
+                            <ul>
+                                <li>
+                                    <a href='https://community.powerbi.com/t5/Data-Stories-Gallery/Follow-the-sun-customer-service-support/m-p/2168279'>
+                                    https://community.powerbi.com/t5/Data-Stories-Gallery/Follow-the-sun-customer-service-support/m-p/2168279
+                                    </a>
+                                </li>
+                            </ul>
 
                             <br></br>
 
-                            <p>Most of the Power Query and DAX code used in this Excel dashboard is similar to the code used in my Power BI report, except most of the DAX measures now include USERELATIONSHIP due to a data model improvement.</p>
+                            <p>Most of the code used is similar to my Power BI report, except most of the DAX measures now include USERELATIONSHIP due to a data model improvement. You can find some of that code in my Github here:</p>
+
+                            <ul>
+                                <li>
+                                    <a href='https://github.com/datamesse/data-visualisation-datasets/tree/main/Support%20ticket%20updates#excel-report-model'>
+                                    https://github.com/datamesse/data-visualisation-datasets/tree/main/Support%20ticket%20updates#excel-report-model
+                                    </a>
+                                </li>
+                            </ul>
 
                             <br></br>
-                            <br></br>
 
-                            <p>The Excel dashboard is also embedded below using the OneDrive free version. 
-                            Due to OneDrive's restrictions with External Data Connections and Camera Tools, the dashboard cannot dynamically display support agent images nor refresh its data connection.
-                            So it is recommended you download the Excel file from the link above and open it from a desktop version of Excel.
+                            <p>The Excel report is also embedded below using the OneDrive free version.</p>
+                            <p>Due to OneDrive's restrictions with External Data Connections and Camera Tools, the report cannot dynamically display support agent images nor refresh its data connection.
+                            So it is recommended you download the file and open it from a desktop version of Excel.
                             </p>
 
                             <br></br>
                             <br></br>
 
                             <p><b>References</b></p>
-                            <p>These resources were used to create this Excel dashboard:</p>
+                            <p>These resources were used to create this Excel report:</p>
                             <ul>
                                 <li>
                                     <a href='https://www.youtube.com/watch?v=gK2yBpiITvI'>YouTube Tutorial on how to map an Excel cell value as an input parameter for Power Query by ExcelIsFun</a>
@@ -95,6 +110,8 @@ export default function ExcelCustomerSupportAgentPerformance() {
                                     <a href='https://stackoverflow.com/questions/34424845/adding-script-tag-to-react-jsx'>Stackoverflow Question on how to run HTML script tag equivalents inside a React component</a>
                                 </li>
                             </ul>
+
+                            <br></br>
 
                         </div>
 

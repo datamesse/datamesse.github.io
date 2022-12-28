@@ -687,6 +687,7 @@ a {
     margin: 0px;
     padding: 12px 10px 12px 10px;
     background-color: #1F201E;
+    box-shadow: 7px 7px rgb(60, 64, 67, 0.15);
 }
 
 .section-title-glow {
@@ -726,26 +727,27 @@ a {
 }
 
 .portfolio .section-title {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .about .section-title {
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .blog-preview .section-title {
     margin-top: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .skills .section-title {
     margin-top: 45px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .contact .section-title {
     margin-top: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 

@@ -44,15 +44,8 @@ export default function InternationalMarketplaceProfitForecast() {
                         <div className='post-body-content'>
 
                             <h1>Excel project: International Marketplace Profit Dashboard</h1>
-                            <p>This is a single worksheet Excel redux of my "International marketplace profit" Power BI report.</p>
 
-                            <br></br>
-                            <p>
-                                <img src='https://github.com/datamesse/datamesse.github.io/raw/main/src/assets-portfolio/img-2022-10-excel-international-marketplace-profit-forecast-original.png'></img>
-                            </p>
-                            <br></br>
-
-                            <p>You can find a copy of this Excel dashboard to download here:</p>
+                            <p>You can download this Excel report from here:</p>
                             <ul>
                                 <li>
                                     <a href='https://github.com/datamesse/data-visualisation-datasets/raw/main/International%20Marketplace%20sales/International%20Marketplace%20Profit%20Dashboard.xlsx?raw=true'>
@@ -60,13 +53,37 @@ export default function InternationalMarketplaceProfitForecast() {
                                     </a>
                                 </li>
                             </ul>
-                            <p>Note: This Excel file makes a connection to my GitHub repository where the data is stored, and may require you to "Enable content" when you open the file to access the External Data Connection.</p>
+
+                            <p>It connects to my GitHub repository data, so please click "Enable content" to access that External Data Connection.</p>
+
+                            <p>
+                                <img src='https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2022-10-excel-international-marketplace-profit-forecast.gif?raw=true'></img>
+                            </p>
+
+                            <p>This Excel report is a redux of my "International marketplace profit" Power BI report, the latter you can find here:</p>
+
+                            <ul>
+                                <li>
+                                    <a href='https://community.powerbi.com/t5/Data-Stories-Gallery/International-Marketplace-profit-report-using-Python-and-Deneb/m-p/2480550'>
+                                    https://community.powerbi.com/t5/Data-Stories-Gallery/International-Marketplace-profit-report-using-Python-and-Deneb/m-p/2480550
+                                    </a>
+                                </li>
+                            </ul>
 
                             <br></br>
                             
-                            <p>Some of the DAX code used in this Excel dashboard is similar to the DAX used in my Power BI report.</p>
 
-                            <p>I used Excel's out-of-the-box FORECAST.ETS function to create the monthly profit forecasting. You can find more information on my exploration of this feature in this blog post:</p>
+                            <p>Most of the DAX code used is similar to my Power BI report. You can find some of that code in my Github here:</p>
+
+                            <ul>
+                                <li>
+                                    <a href='https://github.com/datamesse/data-visualisation-datasets/blob/main/International%20Marketplace%20sales/Power%20Query%20and%20Deneb%20code.md#excel-report-model'>
+                                    https://github.com/datamesse/data-visualisation-datasets/blob/main/International%20Marketplace%20sales/Power%20Query%20and%20Deneb%20code.md#excel-report-model
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <p> I also used Excel's out-of-the-box FORECAST.ETS function to create the monthly profit forecasting. You can find more information on my exploration of this feature in this blog post:</p>
 
                             <ul>
                                 <li>
@@ -75,12 +92,12 @@ export default function InternationalMarketplaceProfitForecast() {
                             </ul>
 
                             <br></br>
-                            <br></br>
 
-                            <p>The Excel dashboard is also embedded below using the OneDrive free version.</p>
-                            <p>Note my OneDrive version has no support for mapping nor interactivity for external data connections, so I would recommend you download a copy from the link above.</p>
+                            <p>The Excel report is also embedded below using the OneDrive free version.</p>
+                            <p>Due to OneDrive's restrictions with External Data Connections and Camera Tools, the report cannot dynamically display support agent images nor refresh its data connection.
+                            So it is recommended you download the file and open it from a desktop version of Excel.
+                            </p>
 
-                            <br></br>
                             <br></br>
 
                         </div>
