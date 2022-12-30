@@ -12,7 +12,7 @@ export const LinkedInSkills = [
                 date: "30th October 2019",
                 shortdate: "OCT 2019",
                 score: 5,
-                taken: "25.7 million",
+                taken: "26.4 million",
                 icon: logo_excel
             },
             {
@@ -21,7 +21,7 @@ export const LinkedInSkills = [
                 date: "27th August 2021",
                 shortdate: "AUG 2021",
                 score: 15,
-                taken: "699.9 thousand",
+                taken: "740.6 thousand",
                 icon: logo_powerbi
             }
         ]
@@ -35,7 +35,7 @@ export const LinkedInSkills = [
                 date: "27th August 2021",
                 shortdate: "AUG 2021",
                 score: 30,
-                taken: "406.8 thousand",
+                taken: "426.5 thousand",
                 icon: logo_sqlserver
             },
             {
@@ -44,7 +44,7 @@ export const LinkedInSkills = [
                 date: "10th September 2020",
                 shortdate: "SEP 2020",
                 score: 30,
-                taken: "3.3 million",
+                taken: "3.4 million",
                 icon: logo_html
             },
             {
@@ -53,7 +53,7 @@ export const LinkedInSkills = [
                 date: "10th September 2020",
                 shortdate: "SEP 2020",
                 score: 15,
-                taken: "1.7 million",
+                taken: "1.8 million",
                 icon: logo_css
             },
             {
@@ -62,7 +62,7 @@ export const LinkedInSkills = [
                 date: "10th May 2020",
                 shortdate: "MAY 2020",
                 score: 5,
-                taken: "2.2 million",
+                taken: "2.3 million",
                 icon: logo_javascript
             },
             {
@@ -71,7 +71,7 @@ export const LinkedInSkills = [
                 date: "5th May 2022",
                 shortdate: "MAY 2022",
                 score: 15,
-                taken: "237.4 thousand",
+                taken: "243.3 thousand",
                 icon: logo_xml
             }
         ]
@@ -85,7 +85,7 @@ export const LinkedInSkills = [
                     date: "10th August 2020",
                     shortdate: "AUG 2020",
                     score: 30,
-                    taken: "3.1 million",
+                    taken: "3.2 million",
                     icon: logo_photoshop
                 }
             ]
