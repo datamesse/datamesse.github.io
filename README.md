@@ -215,7 +215,7 @@ index.html
 </head>
 ```
 
-Then from LinkedIn, go to your Featured section > + button > Add a link > then provide your site URL without adding a Preview image. The image you embedded in index.html will be rendered upon saving.
+Then from LinkedIn, go to your Featured section > + button > Add a link > and provide your site URL without adding a Preview image. The image you embedded in index.html will be rendered upon saving.
 
 ## ARCHIVED: Adding donut charts for skill sets (used in design version 2)
 
