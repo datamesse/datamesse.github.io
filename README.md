@@ -201,7 +201,23 @@ import { HashLink as Link } from 'react-router-hash-link';
 </div>
 ```
 
-## Adding donut charts for skill sets (used in design version 2)
+## Adding site preview image in head tag
+
+Some social sites like LinkedIn can display preview images (including gifs) just by providing them your site's URL. They retrieve the image information from the head tag of your site. In my case, I defined this from the index.html file.
+
+index.html
+```
+<head>
+  <meta content="1264" property="og:image:width"/>
+  <meta content="https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-portfolio/img-2022-12-portfolio-website-react-v3-fast.gif" property="og:image"/>
+  <meta content="799" property="og:image:height"/>
+  <meta content="https://datamesse.github.io/#/" property="og:url"/>
+</head>
+```
+
+Then from LinkedIn, go to your Featured section > + button > Add a link > then provide your site URL without adding a Preview image. The image you embedded in index.html will be rendered upon saving.
+
+## ARCHIVED: Adding donut charts for skill sets (used in design version 2)
 
 Based on this [Youtube tutorial by Rizwan Khan](https://youtu.be/RUx1Zvv1qQU?t=3260).
 
