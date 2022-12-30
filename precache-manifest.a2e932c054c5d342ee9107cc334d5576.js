@@ -224,7 +224,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-11-power-bi-appsource-deneb-maps.f42b54e4.gif"
   },
   {
-    "revision": "1e6b1b51eff17bd4a9f2425354260d6b",
+    "revision": "2769dcb44a6ae568a036cde6fa64e073",
     "url": "/index.html"
   }
 ];
