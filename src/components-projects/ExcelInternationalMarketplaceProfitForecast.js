@@ -13,11 +13,6 @@ export default function InternationalMarketplaceProfitForecast() {
 
     document.body.appendChild(script);
 
-    imgAdd = "https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2022-10-excel-international-marketplace-profit-forecast.gif";
-
-    Response.Write("<meta property='og:image' content='" + imgAdd + "' itemprop='image'>");
-    Response.Write("<meta property='og:image:secure_url' content='" + imgAdd + "' itemprop='image'>");
-
     return (
         <>
             <Header />
