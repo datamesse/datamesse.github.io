@@ -61,7 +61,7 @@ function About() {
                         <li>2 x downloadable Excel projects</li>
                         <li>1 x SQL Server project</li>
                         <li>1 x this React.js site</li>
-                        <li>17 blog spots since Sep 2021</li>
+                        <li>18 blog spots since Sep 2021</li>
                     </ul>
 
                 </div>
