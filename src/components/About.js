@@ -47,7 +47,7 @@ function About() {
 
                     </div>
 
-                    <p>Software support veteran with data and technical analysis skills based in Sydney.</p>
+                    <p>Software support veteran with data analysis skills.</p>
                     <p>| Excel | Power BI | SQL |</p>
 
                 </div>

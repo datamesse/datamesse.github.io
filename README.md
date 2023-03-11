@@ -61,6 +61,7 @@ Font to SVG path creation tool by Dan Marshall
 
 Software logos and other art were used from:
  * [Flaticon.com](https://www.flaticon.com/uicons)
+ * [Icons8.com](https://icons8.com/)
  * [StorySet.com](https://storyset.com/data)
  * [Wikimedia.org](https://upload.wikimedia.org/)
  * [WorldVectorLogo.com](https://worldvectorlogo.com/)
