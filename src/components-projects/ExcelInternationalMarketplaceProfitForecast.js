@@ -94,7 +94,7 @@ export default function InternationalMarketplaceProfitForecast() {
                             <br></br>
 
                             <p>The Excel report is also embedded below using the OneDrive free version.</p>
-                            <p>Due to OneDrive's restrictions with External Data Connections and Camera Tools, the report cannot dynamically display support agent images nor refresh its data connection.
+                            <p>Due to OneDrive's restrictions with External Data Connections, the report cannot dynamically refresh its data connection.
                             So it is recommended you download the file and open it from a desktop version of Excel.
                             </p>
 
