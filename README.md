@@ -66,6 +66,8 @@ Software logos and other art were used from:
  * [Wikimedia.org](https://upload.wikimedia.org/)
  * [WorldVectorLogo.com](https://worldvectorlogo.com/)
 
+Screen resolution emulator to test website design
+* [Screen Emulator by Elizabeth Mitchell](https://emitche.github.io/screenemulator/index.html#basic)
 
 
 See instructions below on how to create your own GitHub Pages site.
