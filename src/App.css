@@ -1,11 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
 
+
+
+@-webkit-keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  @-moz-keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  @-o-keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  @keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  @-webkit-keyframes bg-scrolling {
+    0% {
+      background-position: 50px 50px;
+    }
+  }
+  @-moz-keyframes bg-scrolling {
+    0% {
+      background-position: 50px 50px;
+    }
+  }
+  @-o-keyframes bg-scrolling {
+    0% {
+      background-position: 50px 50px;
+    }
+  }
+  @keyframes bg-scrolling {
+    0% {
+      background-position: 50px 50px;
+    }
+  }
+
+
 html {
     scroll-behavior: smooth;
     background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-tile.png");
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    -webkit-animation: bg-scrolling 12.32s infinite;
+    /* Safari 4+ */
+    -moz-animation: bg-scrolling 2.32s infinite;
+    /* Fx 5+ */
+    -o-animation: bg-scrolling 2.32s infinite;
+    /* Opera 12+ */
+    animation: bg-scrolling 2.32s infinite;
+    /* IE 10+ */
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
 }
+
+/* Code above taken from: https://alvarotrigo.com/blog/animated-backgrounds-css/ */
 
 a {
     word-wrap: break-word;
@@ -35,6 +93,7 @@ a {
     background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/bannervideo-bluerectangles2-trimmed-7fps.gif");
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 2px #747779 solid;
 }
 
 .header-body {
