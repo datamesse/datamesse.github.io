@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512" style="fill:#ffffff">
     <defs>
         <filter id="white-shadow">
-            <feDropShadow dx="0" dy="0" stdDeviation="0.5" flood-color="#ffffff"/>
+            <feDropShadow dx="0" dy="0" stdDeviation="0.75" flood-color="#ffffff"/>
         </filter>
     </defs>
     <g filter="url(#white-shadow)">
