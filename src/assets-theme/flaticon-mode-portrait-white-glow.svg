@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="512" height="512">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="512" height="512" style="fill:#ffffff">
     <defs>
         <filter id="white-glow">
             <feGaussianBlur in="SourceAlpha" stdDeviation="0.5"/>
