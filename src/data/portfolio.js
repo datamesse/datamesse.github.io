@@ -112,7 +112,7 @@ const portfolio = [
    },
    {
       title: 'Website portfolio and blog',
-      description: 'This website is coded from scratch using HTML, CSS, React.js and GitHub Pages.',
+      description: 'This website is coded from scratch using HTML, CSS, React.js and GitHub Pages. The most recent is the 4th version, completed in July 2023.',
       stamp: '2021-09',
       shortdate: 'SEP 2021',
       tech: 'REACT.JS',

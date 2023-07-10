@@ -1,29 +1,24 @@
 import React from 'react';
 import '../App.css';
-import { SocialData } from '../data/social';
+import { LinkData } from '../data/links';
 
-  function Links() {
-    const data = SocialData;
+function Links() {
+    const data = LinkData;
     return (
         <div className='links'>
-            <ul>
+
                 {data.map((item)=>{
                     return(
                             <li>
                                 <a href={item.link} target='_blank'>
-                                    <div className='link'>
-                                        <div className='link-icon-container'>
-                                            <img src={item.icon} className='link-icon' />
-                                        </div>
-                                        <div className='link-text'>
-                                            {item.platform}
-                                        </div>
-                                    </div>
+                                    <img src={item.icon} className='link-icon' />
                                 </a>
+                                <div className='link-gradient'></div>
+                                <div className='link-border'></div>
                             </li>
                     )
                 })}
-            </ul>
+
         </div>);
 }
 

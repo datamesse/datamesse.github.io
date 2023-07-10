@@ -1,11 +1,16 @@
 import React from 'react';
 import '../App.css';
 
-function Separator() {
+/* Example use in other components <Separator text="Hello, world!" /> */
+
+function Separator(props) {
     return (
-            <center>
-                <div className='separator'></div>
-            </center>
+            <>
+                <div className='separator'>
+                    <div className='separator-glow'></div>
+                    <p>{props.text}</p>
+                </div>
+            </>
         );
 }
 

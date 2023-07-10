@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { logo_excel } from '../data/assets';
 
-export default function ExcelCustomerSupportAgentPerformance() {
+export default function InternationalMarketplaceProfitForecast() {
 
     const script = document.createElement("script");
 
@@ -14,27 +14,38 @@ export default function ExcelCustomerSupportAgentPerformance() {
     document.body.appendChild(script);
 
     return (
-        <div className='container'>
-       
-            <div className="interface">
-                <Header mp3credit='♪♪♪ Now playing: Time Flows by Evgeny_Bardyuzha @ pixabay.com' mp3='https://github.com/datamesse/datamesse.github.io/raw/main/src/assets-theme/music-evgeny-bardyuzha-time-flows.mp3' />
+        <>
+            <Header />
+            <div className='post'>
+                <center>
+                    <div className='post-body'>
 
-                <div className='post'>
-                    <div className='post-panel'>
-                        <div className='post-overlay'></div>
-                        <div className='post-title-banner'></div>
-                        <div className='post-title'>
-                            <p>Excel project: International Marketplace Profit Dashboard</p>
+                        <div className='blog-tile-header'>
+                            <div className='blog-title-header-rectangle'>
+                                <span className='blogstamp-overlay'>
+                                    <img src= { logo_excel } alt=''/>
+                                </span>
+                                <a>EXCEL</a>
+                            </div>
+
+                            <div className='blog-title-header-triangle-dashes'>
+                                <div className='blog-title-header-triangle' />
+                                <div className='blog-title-header-dash gradient-grey-dark' />
+                                <div className='blog-title-header-dash gradient-grey-medium' />
+                                <div className='blog-title-header-dash gradient-grey-light' />
+                            </div>
                         </div>
-                        <div className='separator-glow'></div>
-                        <div className='post-date'>
+
+
+                        <div className='post-body-date'>
                             <p>26 October 2022</p>
                         </div>
-                        <div className='post-body'>
 
+                        <div className='post-body-content'>
 
+                            <h1>Excel project: International Marketplace Profit Dashboard</h1>
 
-                        <p>You can download this Excel report from here:</p>
+                            <p>You can download this Excel report from here:</p>
                             <ul>
                                 <li>
                                     <a href='https://github.com/datamesse/data-visualisation-datasets/raw/main/International%20Marketplace%20sales/International%20Marketplace%20Profit%20Dashboard.xlsx?raw=true'>
@@ -89,26 +100,16 @@ export default function ExcelCustomerSupportAgentPerformance() {
 
                             <br></br>
 
-                            <div id="myExcelDiv" className='embedded-excel'></div>
-
-
-
                         </div>
+
                     </div>
-                </div>
 
-                <Footer />
+                    <div id="myExcelDiv" className='project-excelinternationalmarketplaceprofit'></div>
+
+                </center>
             </div>
-
-            <div className="bg-beige">
-                <div className="bg-beige-tiles">
-                    <center>
-                        <div className='gear-beige-1 gear-1-spin'></div>
-                        <div className='gear-beige-2 gear-2-spin'></div>
-                    </center>
-                </div>
-            </div>
-
-        </div>
+            <Footer />
+        </>
     )
+
 }

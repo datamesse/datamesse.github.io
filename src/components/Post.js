@@ -1,12 +1,10 @@
 import React from 'react';
+import '../App.css';
 import { Redirect } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
-import '../App.css';
 import Header from './Header';
 import Footer from './Footer';
 import postList from '../data/posts.json';
-import { Link } from 'react-router-dom';
-import { assetURL } from '../data/data';
 
 export default function Post(props) {
     const validId = parseInt(props.match.params.id)
@@ -30,42 +28,40 @@ export default function Post(props) {
         return <Redirect to='/404' />
     }
     return (
-        <>
+        <div className='container'>
+       
+            <div className="interface">
+                <Header mp3credit='♪♪♪ Now playing: Small Discoveries by Evgeny_Bardyuzha @ pixabay.com' mp3='https://github.com/datamesse/datamesse.github.io/raw/main/src/assets-theme/music-evgeny-bardyuzha-small-discoveries.mp3' />
 
-            <Header />
-
-            <div className='post'>
-                <center>            
-                    <div className='post-body'>                        
-                        
-                        <div className='blog-tile-header'>
-                            <div className='blog-title-header-rectangle'>
-                                <span className='blogstamp-overlay'>
-                                    <img src= {`${ assetURL }${fetchedPost.tag}.svg`} alt=''/>
-                                </span>
-                                <Link to={`/post/${fetchedPost.id}`}>{fetchedPost.tech}</Link>
-                            </div>
-
-                            <div className='blog-title-header-triangle-dashes'>
-                                <div className='blog-title-header-triangle' />
-                                <div className='blog-title-header-dash gradient-grey-dark' />
-                                <div className='blog-title-header-dash gradient-grey-medium' />
-                                <div className='blog-title-header-dash gradient-grey-light' />
-                            </div>
+                <div className='post'>
+                    <div className='post-panel'>
+                        <div className='post-overlay'></div>
+                        <div className='post-title-banner'></div>
+                        <div className='post-title'>
+                            <p>{fetchedPost.title}</p>
                         </div>
-
-                        <div className='post-body-date'>
+                        <div className='separator-glow'></div>
+                        <div className='post-date'>
                             <p>{fetchedPost.date}</p>
                         </div>
-                        <div className='post-body-content'>
-                            <h1>{fetchedPost.title}</h1>
+                        <div className='post-body'>
                             <ReactMarkdown escapeHtml={false}>{fetchedPost.content}</ReactMarkdown>
                         </div>
                     </div>
-                </center>
-            </div>
-            <Footer />
+                </div>
 
-        </>
+                <Footer />
+            </div>
+
+            <div className="bg-beige">
+                <div className="bg-beige-tiles">
+                    <center>
+                        <div className='gear-beige-1 gear-1-spin'></div>
+                        <div className='gear-beige-2 gear-2-spin'></div>
+                    </center>
+                </div>
+            </div>
+
+        </div>
     )
 }

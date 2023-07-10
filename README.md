@@ -42,7 +42,31 @@ It is re-designed as a compact portfolio preview gallery, but has a button to a 
 
 ![Site version 3](https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2022-12-portfolio-website-react-v3.gif?raw=true)
 
+Source files are here: **[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version3](https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version3)**
+
+
+### July 2023 (Version 4)
+
+My previous design (Version 3) did not fully accommodate for landscape and higher desktop resolutions. So I redid my entire site's CSS code from scratch using a more responsive design with prolific use of vh and vw for visual scaling, and adopting display: grid and z-index attributes to better overlay div elements. The end result is cleaner code for a futuristic tech-styled mobile design that retains its simple vertical layout even when viewed on a landscaped desktop.
+
+![Site version 4](https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2023-07-portfolio-website-react-v4.gif?raw=true)
+
 Source files are here: **[https://github.com/datamesse/datamesse.github.io/tree/main/src](https://github.com/datamesse/datamesse.github.io/tree/main/src)**
+
+Here are some asset references for this version:
+
+* Gear used in the background by TheDigitalArtist from Pixabay **[https://pixabay.com/vectors/art-circle-design-pattern-science-7147602/](https://pixabay.com/vectors/art-circle-design-pattern-science-7147602/)**
+
+* Another gear used in the background by TheDigitalArtist from Pixabay **[https://pixabay.com/vectors/cyber-tech-circle-rings-pattern-7153617/](https://pixabay.com/vectors/cyber-tech-circle-rings-pattern-7153617/)**
+
+* Polygon world map used in the background by GDJ from Pixabay **[https://pixabay.com/vectors/triangles-triangular-low-poly-1289379/](https://pixabay.com/vectors/triangles-triangular-low-poly-1289379/)**
+
+* Patawan Island beach photo used in the background by Kris Guico from Unsplash **[https://unsplash.com/photos/rsB-he-ye7w](https://unsplash.com/photos/rsB-he-ye7w)**
+
+* mp3 tracks "*Time Flows*", "*Small Discoveries*", and "*Good Mood For No Reason*" by Evgeny_Bardyuzha from Pixabay **[https://pixabay.com/users/evgeny_bardyuzha-25235210/](https://pixabay.com/users/evgeny_bardyuzha-25235210/)**
+
+
+
 
 
 # Useful tools and references
@@ -62,13 +86,20 @@ Font to SVG path creation tool by Dan Marshall
 Software logos and other art were used from:
  * [Flaticon.com](https://www.flaticon.com/uicons)
  * [Icons8.com](https://icons8.com/)
+ * [IconsScout.com](https://iconscout.com/)
  * [StorySet.com](https://storyset.com/data)
  * [Wikimedia.org](https://upload.wikimedia.org/)
  * [WorldVectorLogo.com](https://worldvectorlogo.com/)
+ * [FreeSVG.org/full-moon](https://freesvg.org/full-moon)
 
 Screen resolution emulator to test website design
 * [Screen Emulator by Elizabeth Mitchell](https://emitche.github.io/screenemulator/index.html#basic)
 
+SVG creation tool:
+* [https://yqnn.github.io/svg-path-editor](https://yqnn.github.io/svg-path-editor)
+
+Text to PNG:
+* [https://www.coolgenerator.com/png-text-generator](https://www.coolgenerator.com/png-text-generator)
 
 See instructions below on how to create your own GitHub Pages site.
 
@@ -220,6 +251,9 @@ index.html
 
 Then from LinkedIn, go to your Featured section > + button > Add a link > and provide your site URL without adding a Preview image. The image you embedded in index.html will be rendered upon saving.
 
+## Adding a carousel
+
+I used this YouTube video [How to make horizontal scroll item - CSS Tricks by Laravel Article](https://www.youtube.com/watch?v=2_E5uoiLCLY) as a guide to help me create a vertical carousel design for my portfolio and blog components (rather than a horizontal one which felt less natural to navigate).
 
 
 ## ARCHIVED: Adding donut charts for skill sets (used in design version 2)

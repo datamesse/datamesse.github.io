@@ -2,35 +2,39 @@ import React from 'react';
 import '../App.css';
 import Header from './Header';
 import Footer from './Footer';
-import Project from './Project';
-import Separator from './Separator';
-import portfolio from '../data/portfolio';
+import ProjectPreviews from './ProjectPreviews';
+
+import { useRef } from "react";
+import { useClickRipple } from '../assets-style/useClickRipple';
 
 function Portfolio() {
-    const data = portfolio;
-    return (
-        <>
-            <Header />
-            <div className='home'>
-                <div className='body'>
-                    <div className='portfolio' id='portfolio'>
-                        <br />
-                        <div className='section-title'>
-                            <div className='section-title-glow' />
-                            <div className='section-title-text'>MY PORTFOLIO</div>
-                        </div>
-                        <div>
-                            {data.map((project)=>{
-                                return <Project project={project} />;
-                            })}
-                        </div>
 
+    const screenRef = useRef();
+
+    /* Reminder: 2nd argument to useClickRipple is optional, can just be {} */
+    useClickRipple(screenRef,{duration: 800});
+
+    return (
+        <div className='container' ref={screenRef}>
+        
+            <div className="interface">
+                <Header mp3credit='♪♪♪ Now playing: Time Flows by Evgeny_Bardyuzha @ pixabay.com' mp3='https://github.com/datamesse/datamesse.github.io/raw/main/src/assets-theme/music-evgeny-bardyuzha-time-flows.mp3' />
+                <ProjectPreviews />
+                <Footer />
+            </div>
+
+            <div className="bg-blue">
+                <div lassName="bg-blue-map">
+                    <div className="bg-blue-tiles">
+                        <center>
+                            <div className='gear-blue-1 gear-1-spin'></div>
+                            <div className='gear-blue-2 gear-2-spin'></div>
+                        </center>
                     </div>
                 </div>
             </div>
-            <br /><br /><br /><br />
-            <Footer />
-        </>
+
+        </div>
     );
 }
 

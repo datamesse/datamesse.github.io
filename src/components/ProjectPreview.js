@@ -1,0 +1,49 @@
+import React from 'react';
+import '../App.css';
+import { icon_circleright, logo_github } from '../data/assets';
+
+/*
+Add above project-preview-blurb div, css is already done for portrait and landscape.
+Decided not to include since it looks too "busy".
+            <div className='project-tags'>
+                {project.tags.map((tag) => {
+                    return <label className='project-tag'>{tag}</label>;
+                })}
+            </div>
+*/
+
+function ProjectPreview({ project }) {
+    return (
+
+        <div className='project-preview'>
+
+            <div className='project-preview-header'>{project.title}</div>
+            <div className='project-preview-tab-container'>
+                <div className='separator-glow'></div>
+                <div className='project-preview-tab'>
+                    <p>{project.shortdate}</p>
+                </div>
+            </div>
+            <div className='project-preview-background'></div>
+            <div className='project-preview-photo'>
+                <img src={project.photo} />
+            </div>
+            <div className='project-preview-blurb'><p>{project.description}</p></div>
+            <div className='project-preview-footer'>
+                <a className='code-link-button' href={project.codeURL} target='_blank'></a>
+                <p className='code-link-label-position'>CODE</p>
+                <div className='code-link-icon-container'>
+                    <img className='code-link-icon' src={ logo_github } />
+                </div>
+                <a className='project-link-button' href={project.siteURL} target='_blank'></a>
+                <p className='project-link-label-position'>ENTER</p>
+                <div className='project-link-icon-container'>
+                    <img className='project-link-icon' src={ icon_circleright } />
+                </div>
+            </div>
+        </div>
+
+    );
+}
+
+export default ProjectPreview;
