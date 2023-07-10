@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "8bf1d3d422787a8274d3",
-    "url": "/static/css/main.cad47105.chunk.css"
+    "revision": "75aa933f92619d9b95d3",
+    "url": "/static/css/main.46be0301.chunk.css"
   },
   {
-    "revision": "8bf1d3d422787a8274d3",
-    "url": "/static/js/main.8bf1d3d4.chunk.js"
+    "revision": "75aa933f92619d9b95d3",
+    "url": "/static/js/main.75aa933f.chunk.js"
   },
   {
     "revision": "c1adf935bf4a79034630",
     "url": "/static/js/1.c1adf935.chunk.js"
   },
   {
-    "revision": "f741e14d8375f54859b6",
-    "url": "/static/js/2.f741e14d.chunk.js"
+    "revision": "4d0ef84fd4346cfb27d5",
+    "url": "/static/js/2.4d0ef84f.chunk.js"
   },
   {
     "revision": "dc09516a8ac779c380e5",
@@ -36,8 +36,12 @@ self.__precacheManifest = [
     "url": "/static/media/flaticon-calendar-lines-pen.f25f6194.svg"
   },
   {
-    "revision": "96e566614f78e929c709e2f7c45747d2",
-    "url": "/static/media/flaticon-chart-histogram-white.96e56661.svg"
+    "revision": "bad7d04c729cc981237dc940512552db",
+    "url": "/static/media/flaticon-chart-histogram-white-glow.bad7d04c.svg"
+  },
+  {
+    "revision": "2d3d864bd4cbab0ad585b77cc0ded6a5",
+    "url": "/static/media/flaticon-circle-right-pink.2d3d864b.svg"
   },
   {
     "revision": "712ceeffd00147faea3b2d1aca92233d",
@@ -48,12 +52,12 @@ self.__precacheManifest = [
     "url": "/static/media/flaticon-diploma-white.a5093c2a.svg"
   },
   {
-    "revision": "82f6939ca69155163cc8dcfe2c48b2db",
-    "url": "/static/media/flaticon-edit-white.82f6939c.svg"
+    "revision": "07969b468b656ee0e1a9f18cb1f5a755",
+    "url": "/static/media/flaticon-edit-white-glow.07969b46.svg"
   },
   {
-    "revision": "1f287fc592541eed40e1377e9386441f",
-    "url": "/static/media/flaticon-globe.1f287fc5.svg"
+    "revision": "b076d4e92ff74dee423da6f56f802e26",
+    "url": "/static/media/flaticon-globe-orange.b076d4e9.svg"
   },
   {
     "revision": "ee60aa3861f483d34f15d2f56c9a1d6e",
@@ -66,6 +70,10 @@ self.__precacheManifest = [
   {
     "revision": "c72a01cd9a0c868a479086d584a59dd7",
     "url": "/static/media/flaticon-menu-burger-white.c72a01cd.svg"
+  },
+  {
+    "revision": "30f02fe025a3718e69baead791a5b6a9",
+    "url": "/static/media/flaticon-mode-portrait-white-glow.30f02fe0.svg"
   },
   {
     "revision": "5d14ae2efaa0b1d4dc9ee8309198c095",
@@ -224,7 +232,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-11-power-bi-appsource-deneb-maps.f42b54e4.gif"
   },
   {
-    "revision": "ca7903518bee5b5b9292f1bf7494e4d7",
+    "revision": "65f4b17a91f097120ac66643821482ee",
     "url": "/index.html"
   }
 ];
