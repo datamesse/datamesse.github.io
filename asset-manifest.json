@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.46be0301.chunk.css",
-  "main.js": "/static/js/main.75aa933f.chunk.js",
-  "main.js.map": "/static/js/main.75aa933f.chunk.js.map",
+  "main.js": "/static/js/main.e26a9bef.chunk.js",
+  "main.js.map": "/static/js/main.e26a9bef.chunk.js.map",
   "static/js/1.c1adf935.chunk.js": "/static/js/1.c1adf935.chunk.js",
   "static/js/1.c1adf935.chunk.js.map": "/static/js/1.c1adf935.chunk.js.map",
   "static/js/2.4d0ef84f.chunk.js": "/static/js/2.4d0ef84f.chunk.js",
@@ -52,7 +52,7 @@
   "static/media/logoblue-tableau.svg": "/static/media/logoblue-tableau.b8ed4136.svg",
   "static/media/logoblue-twitter.svg": "/static/media/logoblue-twitter.f75474f0.svg",
   "static/media/logoblue-youtube.svg": "/static/media/logoblue-youtube.90400f1e.svg",
-  "static/media/img-2022-12-portfolio-website-react-v3.gif": "/static/media/img-2022-12-portfolio-website-react-v3.e8f268bf.gif",
+  "static/media/img-2023-07-portfolio-website-react-v4.gif": "/static/media/img-2023-07-portfolio-website-react-v4.d02c8985.gif",
   "static/media/img-2021-10-power-bi-quarterly-singapore-rental-prices-by-currency.gif": "/static/media/img-2021-10-power-bi-quarterly-singapore-rental-prices-by-currency.944dc5d6.gif",
   "static/media/img-2021-11-power-bi-follow-the-sun-customer-support.gif": "/static/media/img-2021-11-power-bi-follow-the-sun-customer-support.5d3b31d5.gif",
   "static/media/img-2022-01-sql-server-integration-services-international-marketplace-trimmed.png": "/static/media/img-2022-01-sql-server-integration-services-international-marketplace-trimmed.7971d43c.png",
@@ -63,6 +63,6 @@
   "static/media/img-2022-11-power-bi-appsource-deneb-maps.gif": "/static/media/img-2022-11-power-bi-appsource-deneb-maps.f42b54e4.gif",
   "static/css/main.46be0301.chunk.css.map": "/static/css/main.46be0301.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.99b2da88a25966732ea993ab24cf3df3.js": "/precache-manifest.99b2da88a25966732ea993ab24cf3df3.js",
+  "precache-manifest.4aabac617c379e7b5eb3c916aa2b1a3f.js": "/precache-manifest.4aabac617c379e7b5eb3c916aa2b1a3f.js",
   "service-worker.js": "/service-worker.js"
 }
