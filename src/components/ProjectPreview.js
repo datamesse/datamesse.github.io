@@ -13,6 +13,12 @@ Decided not to include since it looks too "busy".
 */
 
 function ProjectPreview({ project }) {
+
+    let soundEffect = new Audio('https://github.com/datamesse/datamesse.github.io/raw/main/src/assets-theme/mixkit-technology-notification-3123.wav')
+    const start = () => {
+        soundEffect.play()
+      }
+
     return (
 
         <div className='project-preview'>
@@ -35,7 +41,7 @@ function ProjectPreview({ project }) {
                 <div className='code-link-icon-container'>
                     <img className='code-link-icon' src={ logo_github } />
                 </div>
-                <a className='project-link-button' href={project.siteURL} target='_blank'></a>
+                <a className='project-link-button' href={project.siteURL} target='_blank' onClick={start}></a>
                 <p className='project-link-label-position'>ENTER</p>
                 <div className='project-link-icon-container'>
                     <img className='project-link-icon' src={ icon_circleright } />
