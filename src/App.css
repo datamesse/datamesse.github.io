@@ -238,8 +238,6 @@ body a, p, ul, li {
   border-left: 2px solid #8A8A86;
   border-right: 2px solid #8A8A86;
   border-bottom: 2px solid #8A8A86;
-  grid-template-columns: 3.33% 28.93% 1.33% 15.77% 15.77% 15.77% 15.77% 3.33%;
-  grid-template-rows: 8.84% 3.33% 58.56% 1.5% 15.77% 1.5% 10.5%;
   background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-tile-beige-grey.svg");
 }
 
@@ -1599,6 +1597,8 @@ body a, p, ul, li {
   .about-panel {
     max-height: 100vw;
     background-size: 7vw 7vw;
+    grid-template-columns: 3.33vw 28.93vw 1.33vw 15.77vw 15.77vw 15.77vw 15.77vw 3.33vw;
+    grid-template-rows: 8.84vw 3.33vw 58.56vw 1.5vw 15.77vw 1.5vw 10.5vw;
   }
 
   .about-blue-dash {
@@ -2094,6 +2094,8 @@ body a, p, ul, li {
   .about-panel {
     height: 40vw;
     background-size: 4vh 4vh;
+    grid-template-columns: 1.332vw 11.572vw 0.532vw 6.308vw 6.308vw 6.308vw 6.308vw 1.332vw;
+    grid-template-rows: 3.536vw 1.332vw 23.424vw 0.6vw 6.308vw 0.6vw 4.2vw;
   }
 
   .about-blue-dash {
