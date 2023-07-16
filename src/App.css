@@ -406,7 +406,6 @@ body a, p, ul, li {
   line-height: 2;
 }
 
-
 .links {
   margin: 0px;
   padding: 0px;
@@ -427,6 +426,10 @@ body a, p, ul, li {
   grid-template-columns: 100%;
 }
 
+.links li:hover {
+  transform: scale(0.85);
+}
+
 .links li a {
     display: flex;
     align-items: center;
@@ -440,7 +443,6 @@ body a, p, ul, li {
     grid-column-start: 1;
     grid-column-end: 2;
     z-index: 5011;
-
 }
 
 .link-gradient {
@@ -500,6 +502,10 @@ body a, p, ul, li {
   display: grid;
   grid-template-rows: 100%;
   grid-template-columns: 100%;
+}
+
+.socials li:hover {
+  transform: scale(0.9);
 }
 
 .socials li a {
@@ -1222,6 +1228,10 @@ body a, p, ul, li {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.6fr 0.2fr;
+}
+
+.menu-buttons-container a:hover {
+  transform: scale(0.85);
 }
 
 .menu-button-icon {
