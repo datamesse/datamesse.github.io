@@ -18,6 +18,19 @@ function Header({mp3credit, mp3}) {
                 </div>
 
                 <div className='mp3-player'>
+                    <div class='mp3-bars'>
+                        <span />
+                        <span />
+                        <span />
+                        <span />
+                        <span />
+                        <span />
+                        <span />
+                        <span />
+                        <span />
+                        <span />
+                        <span />
+                    </div>
                     <p>{mp3credit}</p>
                     <Music audioFile={mp3} />
                 </div>

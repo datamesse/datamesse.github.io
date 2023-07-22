@@ -1177,31 +1177,88 @@ body a, p, ul, li {
 }
 
 .mp3-player {
+  top: 0.5vh;
+  right: 0px;
   margin: 0px;
   padding: 0px;
-  height: auto;
+  height: 3.01vh;
   overflow: hidden;
   box-sizing: border-box;
-  background-color: #FDFEFC;
-  /*  background-color: #F1F3F4; */
+  justify-content: space-between;
   position: absolute;
-  top: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.7vh 1.3vh 0.01vh;
+  clip-path: polygon(100% 0, 100% 100%, 1.301vh 100%, 0 calc(100% - 1.301vh), 0 0);
+}
 
+.mp3-bars {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.mp3-bars span {
+  padding: 0px;
+  content: '';
+  background: linear-gradient(to top, #FDFEFC 10%, #CFD0CE 80%);
+  transform-origin: bottom;
+  animation: mp3-bounce 7.2s ease infinite alternate;
+  &:nth-of-type(2) { animation-delay: -0.5s; }
+  &:nth-of-type(3) { animation-delay: -1.2s; }
+  &:nth-of-type(4) { animation-delay: -1.6s; }
+  &:nth-of-type(5) { animation-delay: -2.1s; }
+  &:nth-of-type(6) { animation-delay: -2.4s; }
+  &:nth-of-type(7) { animation-delay: -2.7s; }
+  &:nth-of-type(8) { animation-delay: -3.3s; }
+  &:nth-of-type(9) { animation-delay: -3.8s; }
+  &:nth-of-type(10) { animation-delay: -4.2s; }
+  &:nth-of-type(11) { animation-delay: -4.6s; }
+}
+
+@keyframes mp3-bounce {
+  10% { transform: scaleY(0.1); }
+  30% { transform: scaleY(0.8); }
+  50% { transform: scaleY(0.3); }
+  70% { transform: scaleY(0.65); }
+  90% { transform: scaleY(0.4); }
 }
 
 .mp3-player p {
-  color: #C0C1BF;
+  margin: 0px;
+  padding: 0px;
+  height: max-content;
+  font-size: 1vh;
+  color: #CFD0CE;
+  line-height: 1.5;
   white-space: nowrap;
-  animation: scroll-left-right 15s linear infinite;
+  animation: scroll-left-right 25s linear infinite;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 @keyframes scroll-left-right {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-250%);
-  }
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-250%); }
+}
+
+.mp3-player div audio {
+  margin: 0px;
+  padding: 0px;
+  width: 0px;
+  height: 0.01vh;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .bg-footer {
@@ -1426,58 +1483,6 @@ body a, p, ul, li {
 
 
 
-/* INTERFACE ANIMATIONS */
-/* based on https://www.youtube.com/watch?v=ZGD0RJrf7CI */
-/* and https://dev.to/leonardoschmittk/how-to-make-a-mouse-ripple-click-effect-with-css-js-and-html-in-2-steps-2fcf */
-/*
-.ripple-effect {
-  position: relative;
-  overflow: hidden;
-
-  --effect-name: ripple;
-  --effect-duration: 1000ms;
-  --effect-top: 0px;
-  --effect-left: 0px;
-  --effect-height: 20vw;
-  --effect-width: 20vw;
-  --effect-color: white;
-  z-index: 9999;
-
-}
-
-.ripple-effect::before {
-  content: "";
-  position: absolute;
-  opacity: 0.7;
-
-  top: calc(var(--effect-top) + 10vw);
-  left: var(--effect-left);
-  height: var(--effect-height);
-  width: var(--effect-width);
-  border-radius: 50%;
-  transform: scale(0);
-  background: var(--effect-color);
-  z-index: 9999;
-}
-
-.ripple-effect.active::before {
-  border-radius: 50%;
-  animation: ripple var(--effect-duration) linear forwards;
-  z-index: 9999;
-}
-
-@keyframes ripple {
-  from {
-    transform: scale(0);
-  }
-
-  to {
-    transform: scale(6);
-    opacity: 0;
-  }
-
-}
-*/
 
 
 
@@ -1930,12 +1935,13 @@ body a, p, ul, li {
   }
 
   .mp3-player {
-    width: 25vw;
-    font-size: 1.5vw;
-    /* border: 0.5vw solid #F1F3F4; */
-    border: 0.5vw solid #FDFEFC;
-    clip-path: polygon(100% 0, 100% 100%, 2vw 100%, 0 calc(100% - 2vw), 0 0);
-    right: 0px;
+    width: 10vw;
+  }
+  
+  .mp3-bars span {
+    margin: 0px 0px 0px 0.3vw;
+    width: 0.5vw;
+    border-radius: 0 0 0.25vw 0.25vw;
   }
 
   .separator {
@@ -2424,15 +2430,15 @@ body a, p, ul, li {
     padding: 2vw;
     font-size: 1vw;
   }
-  
 
   .mp3-player {
-    width: 17.5vh;
-    font-size: 1.05vh;
-    border: 0.35vh solid #FDFEFC;
-    /* border: 0.35vh solid #F1F3F4; */
-    clip-path: polygon(100% 0, 100% 100%, 1.8vh 100%, 0 calc(100% - 1.8vh), 0 0);
-    left: calc(40vw - 17.5vh);
+    width: 4vw;
+  }
+  
+  .mp3-bars span {
+    margin: 0px 0px 0px 0.18vw;
+    width: 0.2vw;
+    border-radius: 0 0 0.1vw 0.1vw;
   }
 
   .separator {

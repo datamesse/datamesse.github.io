@@ -256,6 +256,11 @@ Then from LinkedIn, go to your Featured section > + button > Add a link > and pr
 I used this YouTube video [How to make horizontal scroll item - CSS Tricks by Laravel Article](https://www.youtube.com/watch?v=2_E5uoiLCLY) as a guide to help me create a vertical carousel design for my portfolio and blog components (rather than a horizontal one which felt less natural to navigate).
 
 
+## Adding music bar animation
+
+I used this ["Animated music bar with CSS blog post by Samuel Kraft](https://samuelkraft.com/blog/animated-music-bars) to add a subtle music bar mini-animation to the site's header.
+
+
 ## ARCHIVED: Adding donut charts for skill sets (used in design version 2)
 
 Based on this [Youtube tutorial by Rizwan Khan](https://youtu.be/RUx1Zvv1qQU?t=3260).
