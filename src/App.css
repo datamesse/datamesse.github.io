@@ -873,7 +873,7 @@ body a, p, ul, li {
   grid-column-start: 3;
   grid-column-end: 4;
   display: flex;
-  align-items: center;
+  align-items:last baseline;
   justify-content: end;
   z-index: 5103;
 }
@@ -1270,21 +1270,34 @@ body a, p, ul, li {
   z-index: 9000;
 }
 
-.menu-buttons-container {
+.menu-container {
   margin: 0px;
   padding: 0px;
   width: inherit;
   height: auto;
   display: grid;
+  grid-template-columns: 1fr;
+  background-color: transparent;
+}
+
+.menu-buttons-container {
+  margin: 0px;
+  padding: 0px;
+  width: inherit;
+  height: auto;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  background-color: transparent;
 }
 
 .menu-buttons-container a {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.6fr 0.2fr;
+  grid-template-rows: 1fr;
 }
 
 .menu-buttons-container a:hover {
@@ -1386,12 +1399,32 @@ body a, p, ul, li {
   border-radius: 50%;
 }
 
-.menu-button-light {
+.menu-labels-container {
+  margin: 0px;
+  padding: 0px;
+  width: inherit;
+  height: auto;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.menu-label {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.15fr 0.15fr 0.7fr;
+}
+
+.menu-label-light {
   padding: 0px;
   width: 58%;
   height: inherit;
-  grid-row-start: 5;
-  grid-row-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
   grid-column-start: 1;
   grid-column-end: 2;
   background-image: 
@@ -1408,7 +1441,7 @@ body a, p, ul, li {
   100% {   background-size: 10% 100%, 100% 100%; }
 }
 
-.menu-buttons-container p {
+.menu-label p {
   width: 90%;
   margin: auto;
   text-align: center;
@@ -1418,8 +1451,8 @@ body a, p, ul, li {
   font-weight: bolder;
   border-collapse: separate;
   background-color: rgba(0, 0, 0, 0.7);
-  grid-row-start: 6;
-  grid-row-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 3;
   grid-column-start: 1;
   grid-column-end: 2;
 }
@@ -1481,6 +1514,73 @@ body a, p, ul, li {
 
 
 
+
+
+
+/* INTERFACE ANIMATIONS */
+
+/* https://www.youtube.com/watch?v=rfpRZ2t_BrQ */
+
+/* https://www.youtube.com/results?search_query=how+to+create+cursor+animation+follow+effect+in+react */
+
+/*
+
+body {
+  cursor:cell;
+}
+*/
+
+/* based on https://www.youtube.com/watch?v=ZGD0RJrf7CI */
+/* and https://dev.to/leonardoschmittk/how-to-make-a-mouse-ripple-click-effect-with-css-js-and-html-in-2-steps-2fcf */
+/*
+.ripple-effect {
+  position: relative;
+  overflow: hidden;
+
+  --effect-name: ripple;
+  --effect-duration: 1000ms;
+  --effect-top: 0px;
+  --effect-left: 0px;
+  --effect-height: 20vw;
+  --effect-width: 20vw;
+  --effect-color: white;
+  z-index: 9999;
+
+}
+
+.ripple-effect::before {
+  content: "";
+  position: absolute;
+  opacity: 0.7;
+
+  top: calc(var(--effect-top) + 10vw);
+  left: var(--effect-left);
+  height: var(--effect-height);
+  width: var(--effect-width);
+  border-radius: 50%;
+  transform: scale(0);
+  background: var(--effect-color);
+  z-index: 9999;
+}
+
+.ripple-effect.active::before {
+  border-radius: 50%;
+  animation: ripple var(--effect-duration) linear forwards;
+  z-index: 9999;
+}
+
+@keyframes ripple {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(6);
+    opacity: 0;
+  }
+
+}
+*/
 
 
 
@@ -1680,11 +1780,6 @@ body a, p, ul, li {
       height: 10vw;
   }
 
-  .menu-button-icon {
-    width: 7vw;
-    height: 7vw;
-  }
-
   .socials li {
     height: 7vw;
     width: 30vw;
@@ -1829,7 +1924,7 @@ body a, p, ul, li {
   }
 
   .post-preview-date p {
-    margin: 0px 1vw 0px 0px;
+    margin: 0px 1.5vw 0.2vw 0px;
     font-size: 1.5vw;
   }
   
@@ -1952,6 +2047,10 @@ body a, p, ul, li {
     width: 0.5vw;
   }
 
+  .menu-container {
+    grid-template-rows: 16.6666vw auto;
+  }
+
   .menu-button-border {
     height: 12vw;
     width: 12vw;
@@ -1969,16 +2068,20 @@ body a, p, ul, li {
     width: 10.5vw;
   }
   
-  .menu-button-light {
-    margin: 0.05vw auto 0.05vw auto;
+  .menu-button-icon {
+    width: 7vw;
+    height: 7vw;
   }
-  
-  .menu-buttons-container p {
+
+  .menu-label-light {
+    margin: 0.05vw auto 0.05vw auto;
+    height: 0.5vw;
+  }
+    
+  .menu-label p {
     padding: 0.4vw 0px 0.45vw 0px;
     font-size: 1.75vw;
   }
-
-
 
 }
 
@@ -2326,7 +2429,7 @@ body a, p, ul, li {
   }
 
   .post-preview-date p {
-    margin: 0px 1.7vh 0px 0px;
+    margin: 0px 1.5vh 0.05vh 0px;
     font-size: 1.05vh;
   }
   
@@ -2449,9 +2552,8 @@ body a, p, ul, li {
     width: 0.2625vh;
   }
 
-  .menu-button-icon {
-    width: 3.25vw;
-    height: 3.25vw;
+  .menu-container {
+    grid-template-rows: 6.6666vw auto;
   }
 
   .menu-button-border {
@@ -2472,15 +2574,19 @@ body a, p, ul, li {
     width: 4.7vw;
   }
   
-  .menu-button-light {
+  .menu-button-icon {
+    width: 3.25vw;
+    height: 3.25vw;
+  }
+
+  .menu-label-light {
     margin: 0.0005vw auto 0.0005vw auto;
+    height: 0.2vw;
   }
   
-  .menu-buttons-container p {
+  .menu-label-container p {
     padding: 0.3vw 0px 0.2025vw 0px;
     font-size: 0.85vw;
   }
-
-
 
 }
