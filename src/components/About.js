@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import '../App.css';
 import Separator from './Separator';
 import { avatar } from '../data/assets';
@@ -6,6 +6,23 @@ import Links from './Links';
 import Socials from './Socials';
 
 function About() {
+
+    const myDiv = useRef(null);
+    const [showTriangle, setShowTriangle] = useState(true);
+
+    useEffect(() => {
+        const div = myDiv.current;
+        if (div) {
+            div.onscroll = function() {
+                if(div.scrollTop + div.clientHeight >= div.scrollHeight) {
+                    setShowTriangle(false);
+                } else {
+                    setShowTriangle(true);
+                }
+            }
+        }
+    }, []);
+
     return (
 
             <div className='about'>
@@ -37,8 +54,9 @@ function About() {
                         <img src={ avatar } />
                     </div>
 
+                    {showTriangle && <div className='about-scroll-triangle'>SCROLL ▼</div>}
 
-                    <div className='about-description'>
+                    <div className='about-description' ref={myDiv}>
 
                         <p>Software support veteran sharing his experiences in data analysis and technology.</p>
                         <p className='about-description-darken'>Specialising in Excel, Power BI, and SQL</p>

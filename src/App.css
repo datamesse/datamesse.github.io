@@ -239,6 +239,7 @@ body a, p, ul, li {
   border-right: 2px solid #8A8A86;
   border-bottom: 2px solid #8A8A86;
   background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-tile-beige-grey.svg");
+  position: relative; /* only used to put about-triangle at the bottom */
 }
 
 .about-blue-dash {
@@ -370,6 +371,20 @@ body a, p, ul, li {
   width: 100%;
   box-sizing: border-box;
   border: 3px solid #8D8E8C;
+}
+
+.about-scroll-triangle {
+  padding: 0px;
+  right: 0px;
+  bottom: 0px;
+  color: #CBCCC9;
+  font-family: 'Saira', 'Cambay', 'Kanit', 'Segoe UI', Helvetica;
+  line-height: 1;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  position: absolute;
 }
 
 .about-description {
@@ -1747,6 +1762,11 @@ body {
     border-radius: 1.5vw;
   }
 
+  .about-scroll-triangle {
+    margin: 0px 0px 1vw 0px;
+    font-size: 1.5vw;
+  }
+
   .about-description {
     font-size: 2.5vw;
     padding: 0.75vw 0px 0px 0.75vw;
@@ -2247,6 +2267,11 @@ body {
   .about-avatar img {
     border-radius: 1vh;
   }
+
+  .about-scroll-triangle {
+    margin: 0px 0px 0.8vh 0px;
+    font-size: 1.2vh;
+  }  
 
   .about-description {
     font-size: 1vw;
