@@ -30,6 +30,10 @@ html {
   display: none;
 }
 
+.post-body pre code::-webkit-scrollbar {
+  display: block;
+}
+
 body a, p, ul, li {
     margin: 0px;
     padding: 0px;
@@ -1041,9 +1045,10 @@ body a, p, ul, li {
 
 .post-body pre code {
   width: 100%;
-  white-space: pre-wrap;
+  display: block;
   word-break: break-all; 
   word-wrap: normal;
+  overflow-x: auto;
   font-family: 'Consolas', 'Segoe UI', Helvetica;
   line-height: 1.5;
   grid-row-start: 3;
@@ -1051,6 +1056,14 @@ body a, p, ul, li {
   grid-column-start: 2;
   grid-column-end: 3;
   z-index: 5103;
+}
+
+code::-webkit-scrollbar-thumb {
+  background-color: #05A3FF;
+}
+
+code::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
 }
 
 .post-body p {
@@ -2010,6 +2023,7 @@ body {
   .post-body pre {
     margin: 0px 0px 2vw 0px;
     padding: 2vw;
+    font-size: 2.2vw;
     clip-path: polygon(100% 0, 100% calc(100% - 2vw), calc(100% - 2vw) 100%, 0 100%, 0 0);
   }
   
@@ -2520,6 +2534,7 @@ body {
   .post-body pre {
     margin: 0px 0px 1.4vh 0px;
     padding: 1.4vh;
+    font-size: 1.54vh;
     clip-path: polygon(100% 0, 100% calc(100% - 1.4vh), calc(100% - 1.4vh) 100%, 0 100%, 0 0);
   }
   
