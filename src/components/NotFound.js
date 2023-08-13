@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 function NotFound() {
     return (
-        <div className='container'>
+        <div className='container page'>
         
             <div className="interface">
                 <Header mp3credit='♪♪♪ Now playing: Time Flows by Evgeny_Bardyuzha @ pixabay.com' mp3='https://github.com/datamesse/datamesse.github.io/raw/main/src/assets-theme/music-evgeny-bardyuzha-time-flows.mp3' />

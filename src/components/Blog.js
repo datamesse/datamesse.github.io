@@ -15,7 +15,7 @@ function Blog() {
     useClickRipple(screenRef,{duration: 800});
 
     return (
-        <div className='container' ref={screenRef}>
+        <div className='container page' ref={screenRef}>
        
             <div className="interface">
                 <Header mp3credit='♪♪♪ Now playing: Small Discoveries by Evgeny_Bardyuzha @ pixabay.com' mp3='https://github.com/datamesse/datamesse.github.io/raw/main/src/assets-theme/music-evgeny-bardyuzha-small-discoveries.mp3' />

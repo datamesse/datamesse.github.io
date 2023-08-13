@@ -15,7 +15,7 @@ function Home() {
 
     return (
 
-        <div className='container' ref={screenRef}>
+        <div className='container page' ref={screenRef}>
 
             <div className="interface">
 
@@ -35,11 +35,5 @@ function Home() {
 
     );
 }
-
-
-
-
-
-
 
 export default Home;

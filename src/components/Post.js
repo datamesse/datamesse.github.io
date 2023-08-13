@@ -33,7 +33,7 @@ class Post extends React.Component {
       return <Redirect to="/404" />;
     }
     return (
-      <div className="container">
+      <div className="container page">
         <div className="interface">
           <Header
             mp3credit="♪♪♪ Now playing: Small Discoveries by Evgeny_Bardyuzha @ pixabay.com"

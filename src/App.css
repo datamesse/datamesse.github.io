@@ -16,12 +16,16 @@ z-index order of elements
 */
 
 
+@keyframes page-fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
 html {
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
-    background-color: #FFF;
+    background-color: #000;
     position: relative;
     font-family: 'Saira', 'Cambay', 'Kanit', 'Segoe UI', Helvetica;
 }
@@ -222,6 +226,10 @@ body a, p, ul, li {
 
 
 /* PAGES */
+
+.page {
+  animation: page-fade 2.5s;
+}
 
 .about {
   margin: 0px;
@@ -1608,7 +1616,37 @@ body {
   }
 
 }
+
+====================
+
+.star {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.star:before, .star:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '\2726';
+  font-size: 9px;
+}
+
+.star:before {
+  color: transparent;
+  text-shadow: 0 0 3px rgb(250, 250, 174);
+}
+
+.star:after {
+  background: yellow;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 */
+
+
 
 
 
