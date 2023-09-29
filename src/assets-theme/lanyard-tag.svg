@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Created with svg_stack (http://github.com/astraw/svg_stack) -->
-<svg xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" version="1.1" width="290.0" height="48.0">
+<svg xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%">
   <defs/>
   <g id="id0:id0" transform="matrix(1.25,0,0,1.25,0.0,0.0)"><g transform="translate(0.000000,38.400000) scale(0.040000,-0.040000)" fill="#8c8a8a" stroke="none">
 <path d="M120 945 c0 -13 210 -15 1774 -15 993 0 1785 -4 1798 -9 29 -11 70 -51 88 -88 47 -91 101 -140 145 -131 17 3 16 6 -10 19 -18 8 -53 48 -88 99 -31 47 -71 97 -87 113 l-29 27 -1795 0 c-1584 0 -1796 -2 -1796 -15z"/>
