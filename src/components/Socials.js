@@ -11,8 +11,8 @@ function Socials() {
                     return(
                             <li>
                                 <a href={item.link} target='_blank'>{item.name}</a>
-                                <div className='social-highlight'></div>
                                 <div className='social-gradient'></div>
+                                <div className='social-border'></div>
                             </li>
                     )
                 })}

@@ -1,7 +1,7 @@
 /* ASSET FILES FOR SITE THEME */
 
 /* Theme */
-import avatar from '../assets-theme/avatar-vertical.jpg';
+import avatar from '../assets-theme/avatar-vertical-transparent-bg.png';
 import background from '../assets-theme/bannervideo-bluerectangles2.mp4';
 import image_sentimentanalysis_animated from '../assets-theme/storyset-sentiment-analysis-rafiki-animated.svg';
 import image_onthewaypana from '../assets-theme/storyset-on-the-way-pana.svg';

@@ -13,8 +13,8 @@ function Links() {
                                 <a href={item.link} target='_blank'>
                                     <img src={item.icon} className='link-icon' />
                                 </a>
-                                <div className='link-gradient'></div>
-                                <div className='link-border'></div>
+                                <div className="link-gradient"></div>
+                                <div className="link-border"></div>
                             </li>
                     )
                 })}

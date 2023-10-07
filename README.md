@@ -65,7 +65,7 @@ Here are some asset references for this version:
 
 * mp3 tracks "*Time Flows*", "*Small Discoveries*", and "*Good Mood For No Reason*" by Evgeny_Bardyuzha from Pixabay **[https://pixabay.com/users/evgeny_bardyuzha-25235210/](https://pixabay.com/users/evgeny_bardyuzha-25235210/)**
 
-* Button sound effects are from **[https://mixkit.co/free-sound-effects/](https://mixkit.co/free-sound-effects/)
+* Button sound effects are from **[https://mixkit.co/free-sound-effects/](https://mixkit.co/free-sound-effects/)**
 
 
 
@@ -95,7 +95,8 @@ Software logos and other art were used from:
 Screen resolution emulator to test website design
 * [Screen Emulator by Elizabeth Mitchell](https://emitche.github.io/screenemulator/index.html#basic)
 
-SVG creation tool:
+SVG creation tools:
+* [https://boxy-svg.com/](https://boxy-svg.com/app/)
 * [https://yqnn.github.io/svg-path-editor](https://yqnn.github.io/svg-path-editor)
 
 Text to PNG:

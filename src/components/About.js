@@ -31,6 +31,10 @@ function About() {
                 
                 <div className='about-panel'>
 
+                    <div className='about-background-top'></div>
+
+                    <div className='about-background-right'></div>
+
                     <div className='about-blue-dash'></div>
 
                     <div className='about-name'>data messe</div>
@@ -50,9 +54,23 @@ function About() {
                         <div className='about-subtext'>GEAR</div>
                     </div>
 
+                    <div className='about-lanyard-clip'></div>
+
+                    <div className='about-lanyard-tag'></div>
+
+                    <div className='about-lanyard-text'>PICTURE ID</div>
+
                     <div className='about-avatar'>
                         <img src={ avatar } />
                     </div>
+
+                    <div className='about-avatar about-avatar-shadow'>
+                        <img src={ avatar } />
+                    </div>
+
+                    <div className='about-avatar-border'></div>
+
+                    <div className='about-avatar-highlight'></div>
 
                     {showTriangle && <div className='about-scroll-triangle'>SCROLL ▼</div>}
 
@@ -69,8 +87,8 @@ function About() {
                             <li>5 x published Power BI projects</li>
                             <li className='about-description-darken'>2 x downloadable Excel projects</li>
                             <li>1 x SQL Server project</li>
-                            <li className='about-description-darken'>1 x this React.js + GitHub Pages site (4 versions)</li>
-                            <li>18 blog spots since Sep 2021</li>
+                            <li className='about-description-darken'>1 x this React.js + GitHub Pages site</li>
+                            <li>19 blog spots since Sep 2021</li>
                         </ul>
 
                         <br />
