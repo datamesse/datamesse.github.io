@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "202478b4bd9bf783e3c7",
-    "url": "/static/css/main.9db0e06b.chunk.css"
+    "revision": "fcea41ec6f859d24fbf2",
+    "url": "/static/css/main.ff4fa46a.chunk.css"
   },
   {
-    "revision": "202478b4bd9bf783e3c7",
-    "url": "/static/js/main.202478b4.chunk.js"
+    "revision": "fcea41ec6f859d24fbf2",
+    "url": "/static/js/main.fcea41ec.chunk.js"
   },
   {
-    "revision": "14d3fc22121aa9f64b4d",
-    "url": "/static/js/1.14d3fc22.chunk.js"
+    "revision": "74322c653c631200edf7",
+    "url": "/static/js/1.74322c65.chunk.js"
   },
   {
-    "revision": "60e350ab51172362ff4d",
-    "url": "/static/js/2.60e350ab.chunk.js"
+    "revision": "45915570c73f39a9837f",
+    "url": "/static/js/2.45915570.chunk.js"
   },
   {
-    "revision": "e4c15e667e9243a0bf86",
-    "url": "/static/js/runtime~main.e4c15e66.js"
+    "revision": "3f75da968a1937c89b2e",
+    "url": "/static/js/runtime~main.3f75da96.js"
+  },
+  {
+    "revision": "2a0b694aa164f4639de93ee9fa38d011",
+    "url": "/static/media/avatar-vertical-transparent-bg.2a0b694a.png"
   },
   {
     "revision": "b90dc4f8343dbdd2563ac6b5cf5c9a93",
@@ -232,7 +236,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-11-power-bi-appsource-deneb-maps.f42b54e4.gif"
   },
   {
-    "revision": "501c2a311f4ffb3dfe81f01c81a49988",
+    "revision": "1c4f84bbc92d5c2001595a6a6775e2a2",
     "url": "/index.html"
   }
 ];
