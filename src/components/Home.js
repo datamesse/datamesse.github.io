@@ -1,7 +1,8 @@
 import React from 'react';
 import '../App.css';
-import About from './About';
 import Header from './Header';
+import About from './About';
+import Awards from './Awards';
 import Footer from './Footer';
 import { useRef } from "react";
 import { useClickRipple } from '../assets-style/useClickRipple';
@@ -21,6 +22,9 @@ function Home() {
 
                 <Header mp3credit='♪♪♪ Now playing: Good Mood For No Reason by Evgeny_Bardyuzha @ pixabay.com' mp3='https://github.com/datamesse/datamesse.github.io/raw/main/src/assets-theme/music-evgeny-bardyuzha-good-mood-for-no-reason.mp3' />
                 <About />
+                <br /><br />
+                <Awards />
+                <br /><br /><br /><br /><br /><br />
                 <Footer />
 
             </div>
