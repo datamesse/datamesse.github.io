@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "fcea41ec6f859d24fbf2",
-    "url": "/static/css/main.ff4fa46a.chunk.css"
+    "revision": "1419b548ce82a137f356",
+    "url": "/static/css/main.2f00f111.chunk.css"
   },
   {
-    "revision": "fcea41ec6f859d24fbf2",
-    "url": "/static/js/main.fcea41ec.chunk.js"
+    "revision": "1419b548ce82a137f356",
+    "url": "/static/js/main.1419b548.chunk.js"
   },
   {
-    "revision": "74322c653c631200edf7",
-    "url": "/static/js/1.74322c65.chunk.js"
+    "revision": "5a4149186b08a3dc2692",
+    "url": "/static/js/1.5a414918.chunk.js"
   },
   {
-    "revision": "45915570c73f39a9837f",
-    "url": "/static/js/2.45915570.chunk.js"
+    "revision": "7a027fb370ca4b17fb8a",
+    "url": "/static/js/2.7a027fb3.chunk.js"
   },
   {
-    "revision": "3f75da968a1937c89b2e",
-    "url": "/static/js/runtime~main.3f75da96.js"
+    "revision": "dbaa45ae52599149e6b2",
+    "url": "/static/js/runtime~main.dbaa45ae.js"
   },
   {
     "revision": "2a0b694aa164f4639de93ee9fa38d011",
@@ -122,6 +122,10 @@ self.__precacheManifest = [
   {
     "revision": "c2a864c96dbfc449ec45dd7ac4438628",
     "url": "/static/media/logo-mongodb.c2a864c9.svg"
+  },
+  {
+    "revision": "0ef9c0bdb75408e4ff3ce82bb320b11c",
+    "url": "/static/media/logo-neo4j.0ef9c0bd.svg"
   },
   {
     "revision": "a123152868245dee71c441124a98ac3e",
@@ -236,7 +240,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-11-power-bi-appsource-deneb-maps.f42b54e4.gif"
   },
   {
-    "revision": "1c4f84bbc92d5c2001595a6a6775e2a2",
+    "revision": "ad9471ab6925d7f482ff5dfa8bfc844b",
     "url": "/index.html"
   }
 ];
