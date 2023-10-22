@@ -716,6 +716,7 @@ div { margin: 0px; padding: 0px; }
 }
 
 .award-id p {
+  text-align: center;
   line-height: 1.2;
 }
 
@@ -970,8 +971,16 @@ div { margin: 0px; padding: 0px; }
   display: grid;
 }
 
+.post-preview:hover {
+  transform: scale(0.9);
+}
+
 .post-preview a {
-  color: #05A3FF
+  grid-row-start: 1;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  z-index: 5105;
 }
 
 .post-preview-background {
@@ -1053,22 +1062,6 @@ div { margin: 0px; padding: 0px; }
 }
 
 .post-preview-excerpt p {
-  font-family: 'Cambay', 'Kanit', 'Segoe UI', Helvetica;
-}
-
-.post-preview-link {
-  grid-row-start: 4;
-  grid-row-end: 5;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  display: flex;
-  align-items: end;
-  justify-content: end;
-  z-index: 5104;
-}
-
-.post-preview-link a {
-  font-weight: 500;
   font-family: 'Cambay', 'Kanit', 'Segoe UI', Helvetica;
 }
 
@@ -2125,14 +2118,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.025vw;
   }
-  
-  .post-preview-link {
-    margin: 0px 2.5vw 2vw 0px;
-  }
-  
-  .post-preview-link a {
-    font-size: 2vw;
-  }
 
   .post {
     margin: 7vw 0px 0px 0px;
@@ -2665,14 +2650,6 @@ body {
     font-size: 1.4vh;
     line-height: 1.25;
     letter-spacing: 0.0175vh;
-  }
-  
-  .post-preview-link {
-    margin: 0px 1.75vh 0.7vh 0px;
-  }
-  
-  .post-preview-link a {
-    font-size: 1.4vh;
   }
   
   .post {

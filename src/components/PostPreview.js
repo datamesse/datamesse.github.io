@@ -30,9 +30,7 @@ function PostPreview({ post }) {
             <div className='post-preview-excerpt'>
                 <p><ReactMarkdown className='blog-desc-preview' escapeHtml={false}>{post.excerpt}</ReactMarkdown></p>
             </div>
-            <div className='post-preview-link'>
-                <Link to={`/post/${post.id}`}>Read more...</Link>
-            </div>
+            <Link to={`/post/${post.id}`}></Link>
 
         </div>
 
