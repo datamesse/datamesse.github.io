@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1419b548ce82a137f356",
-    "url": "/static/css/main.2f00f111.chunk.css"
+    "revision": "3bc6fbe317be0a4d77d2",
+    "url": "/static/css/main.1569c632.chunk.css"
   },
   {
-    "revision": "1419b548ce82a137f356",
-    "url": "/static/js/main.1419b548.chunk.js"
+    "revision": "3bc6fbe317be0a4d77d2",
+    "url": "/static/js/main.3bc6fbe3.chunk.js"
   },
   {
     "revision": "5a4149186b08a3dc2692",
@@ -124,8 +124,8 @@ self.__precacheManifest = [
     "url": "/static/media/logo-mongodb.c2a864c9.svg"
   },
   {
-    "revision": "0ef9c0bdb75408e4ff3ce82bb320b11c",
-    "url": "/static/media/logo-neo4j.0ef9c0bd.svg"
+    "revision": "76679d48aa0e13ca38a6a9def6464aa3",
+    "url": "/static/media/logo-neo4j.76679d48.svg"
   },
   {
     "revision": "a123152868245dee71c441124a98ac3e",
@@ -240,7 +240,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-11-power-bi-appsource-deneb-maps.f42b54e4.gif"
   },
   {
-    "revision": "ad9471ab6925d7f482ff5dfa8bfc844b",
+    "revision": "a9a81cb8f23b1afde8ccbb86dbbed575",
     "url": "/index.html"
   }
 ];
