@@ -58,6 +58,8 @@ function Menu() {
 
             </div>
 
+            <div className='menu-shade-background'></div>
+
         </div>
 
     )
