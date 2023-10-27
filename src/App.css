@@ -1978,7 +1978,7 @@ body {
   .award {
     width: 95vw;
     height: 17.5vw;
-    margin: 3vw 2.5vw 0px 2.5vw;
+    margin: 3vw auto 0px auto;
     grid-template-columns: auto 2.1vw 17.5vw;
     grid-template-rows: 0.7777vw 2.1vw 6.37vw auto;
   }
@@ -2511,7 +2511,7 @@ body {
   .award {
     width: calc(40vw - 2.8vh);
     height: 9.8vh;
-    margin: 2.4vh 2vh 0px 2vh;
+    margin: 2.4vh auto 0px auto;
     grid-template-columns: auto 1.26vh 9.8vh;
     grid-template-rows: 0.525vh 1.26vh 3.64vh auto;
   }
