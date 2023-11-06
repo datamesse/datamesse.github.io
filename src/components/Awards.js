@@ -12,7 +12,7 @@ function Awards() {
 
         <div className='awards' id='awards'>
 
-            <Separator text="CERTIFICATION" />
+            <Separator text="CERTIFICATION LINKS" />
 
             <div className='awards-carousel'>
                 {data.map((award)=>{

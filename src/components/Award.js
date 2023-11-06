@@ -16,7 +16,7 @@ function Award({ award }) {
                 </div>
                 <div className='award-panel'></div>
                 <div className='award-title'><p>{award.name}</p></div>
-                <div className='award-id'><p>Credential ID: {award.awardid}</p></div>
+                <div className='award-id'><p>CERTIFICATION ID: {award.awardid}</p></div>
 
             </div>
 
