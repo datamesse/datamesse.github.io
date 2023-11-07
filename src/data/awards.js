@@ -5,7 +5,17 @@ import { logo_aws, logo_azure, logo_css, logo_excel, logo_html, logo_javascript,
   } from '../data/assets';
  
  const awards = [
-    {
+   {
+      name: 'Neo4j Graph Data Science',
+      stamp: '2023-11',
+      issuedate: 'NOV 2023',
+      tech: 'Neo4j',
+      stack: logo_neo4j,
+      awardid: 'C70E7300-B94F-4E92-9AE1-989E41CB42A8',
+      awardurl: 'https://graphacademy.neo4j.com/c/c70e7300-b94f-4e92-9ae1-989e41cb42a8/',
+      status: 'COMPLETE'
+   },
+   {
        name: 'Neo4j Certified Professional',
        stamp: '2023-10',
        issuedate: 'OCT 2023',
