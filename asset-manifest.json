@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.27384077.chunk.css",
-  "main.js": "/static/js/main.da6c246c.chunk.js",
-  "main.js.map": "/static/js/main.da6c246c.chunk.js.map",
+  "main.js": "/static/js/main.8d7b8321.chunk.js",
+  "main.js.map": "/static/js/main.8d7b8321.chunk.js.map",
   "static/js/1.5a414918.chunk.js": "/static/js/1.5a414918.chunk.js",
   "static/js/1.5a414918.chunk.js.map": "/static/js/1.5a414918.chunk.js.map",
   "static/js/2.7a027fb3.chunk.js": "/static/js/2.7a027fb3.chunk.js",
@@ -65,6 +65,6 @@
   "static/media/img-2022-11-power-bi-appsource-deneb-maps.gif": "/static/media/img-2022-11-power-bi-appsource-deneb-maps.f42b54e4.gif",
   "static/css/main.27384077.chunk.css.map": "/static/css/main.27384077.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.a31ee29fdf6e3281ae1c0778e758230b.js": "/precache-manifest.a31ee29fdf6e3281ae1c0778e758230b.js",
+  "precache-manifest.0f4de6f14e93829109fb6176d13c48ed.js": "/precache-manifest.0f4de6f14e93829109fb6176d13c48ed.js",
   "service-worker.js": "/service-worker.js"
 }
