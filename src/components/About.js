@@ -88,7 +88,7 @@ function About() {
                             <li className='about-description-darken'>2 x downloadable Excel projects</li>
                             <li>1 x SQL Server project</li>
                             <li className='about-description-darken'>1 x this React.js + GitHub Pages site</li>
-                            <li>19 blog spots since Sep 2021</li>
+                            <li>20 blog spots since Sep 2021</li>
                         </ul>
 
                         <br />
