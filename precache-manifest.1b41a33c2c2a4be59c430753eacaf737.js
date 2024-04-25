@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1ff4a3634a0a070ad2a4",
-    "url": "/static/css/main.27384077.chunk.css"
+    "revision": "97e0faac326b1d24ded6",
+    "url": "/static/css/main.dd2f1536.chunk.css"
   },
   {
-    "revision": "1ff4a3634a0a070ad2a4",
-    "url": "/static/js/main.1ff4a363.chunk.js"
+    "revision": "97e0faac326b1d24ded6",
+    "url": "/static/js/main.97e0faac.chunk.js"
   },
   {
     "revision": "5a4149186b08a3dc2692",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/flaticon-chart-histogram-white-glow.bad7d04c.svg"
   },
   {
-    "revision": "2d3d864bd4cbab0ad585b77cc0ded6a5",
-    "url": "/static/media/flaticon-circle-right-pink.2d3d864b.svg"
+    "revision": "04bc70bb4c2f363b28fa41475e3be70a",
+    "url": "/static/media/flaticon-circle-right-orange.04bc70bb.svg"
   },
   {
     "revision": "712ceeffd00147faea3b2d1aca92233d",
@@ -240,7 +240,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-11-power-bi-appsource-deneb-maps.f42b54e4.gif"
   },
   {
-    "revision": "ef82c48150ce104165bbf0612d7e17f8",
+    "revision": "2509966cd9e3232b1f70b2f380132fcb",
     "url": "/index.html"
   }
 ];
