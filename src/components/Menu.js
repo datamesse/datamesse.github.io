@@ -16,6 +16,13 @@ function Menu() {
 
             <div className='menu-buttons-container'>
 
+                <Link to="/" onClick={start}>
+                    <div className='menu-button-border menu-button-border-square'></div>
+                    <div className='menu-button-highlight menu-button-highlight-square menu-button-highlight-orange'></div>
+                    <div className='menu-button-gradient menu-button-gradient-square menu-button-gradient-orange'></div>
+                    <img className='menu-button-icon' src={ icon_modeportrait } />
+                </Link>
+
                 <Link to="/portfolio" onClick={start}>
                     <div className='menu-button-border menu-button-border-square'></div>
                     <div className='menu-button-highlight menu-button-highlight-square menu-button-highlight-blue'></div>
@@ -24,22 +31,20 @@ function Menu() {
                 </Link>
 
                 <Link to="/blog" onClick={start}>
-                    <div className='menu-button-border menu-button-border-circle'></div>
-                    <div className='menu-button-highlight menu-button-highlight-circle menu-button-highlight-teal'></div>
-                    <div className='menu-button-gradient menu-button-gradient-circle menu-button-gradient-teal'></div>
-                    <img className='menu-button-icon' src={ icon_edit } />
-                </Link>
-
-                <Link to="/" onClick={start}>
                     <div className='menu-button-border menu-button-border-square'></div>
-                    <div className='menu-button-highlight menu-button-highlight-square menu-button-highlight-pink'></div>
-                    <div className='menu-button-gradient menu-button-gradient-square menu-button-gradient-pink'></div>
-                    <img className='menu-button-icon' src={ icon_modeportrait } />
+                    <div className='menu-button-highlight menu-button-highlight-square menu-button-highlight-teal'></div>
+                    <div className='menu-button-gradient menu-button-gradient-square menu-button-gradient-teal'></div>
+                    <img className='menu-button-icon' src={ icon_edit } />
                 </Link>
 
             </div>
 
             <div className='menu-labels-container'>
+
+                <div className='menu-label'>
+                    <div className='menu-label-light'></div>
+                    <p>PROFILE</p>
+                </div>
 
                 <div className='menu-label'>
                     <div className='menu-label-light'></div>
@@ -49,11 +54,6 @@ function Menu() {
                 <div className='menu-label'>
                     <div className='menu-label-light'></div>
                     <p>BLOG</p>
-                </div>
-
-                <div className='menu-label'>
-                    <div className='menu-label-light'></div>
-                    <p>PROFILE</p>
                 </div>
 
             </div>

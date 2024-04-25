@@ -9,7 +9,7 @@ import image_onthewaypana from '../assets-theme/storyset-on-the-way-pana.svg';
 /* Icons */
 import icon_calendarlinespen from '../assets-theme/flaticon-calendar-lines-pen.svg';
 import icon_charthistogram from '../assets-theme/flaticon-chart-histogram-white-glow.svg';
-import icon_circleright from '../assets-theme/flaticon-circle-right-pink.svg';
+import icon_circleright from '../assets-theme/flaticon-circle-right-orange.svg';
 import icon_crosscircle from '../assets-theme/flaticon-cross-circle-white.svg';
 import icon_diploma from '../assets-theme/flaticon-diploma-white.svg';
 import icon_edit from '../assets-theme/flaticon-edit-white-glow.svg';

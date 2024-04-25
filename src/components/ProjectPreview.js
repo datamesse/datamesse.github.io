@@ -42,7 +42,7 @@ function ProjectPreview({ project }) {
                     <img className='code-link-icon' src={ logo_github } />
                 </div>
                 <a className='project-link-button' href={project.siteURL} target='_blank' onClick={start}></a>
-                <p className='project-link-label-position'>ENTER</p>
+                <p className='project-link-label-position'>OPEN</p>
                 <div className='project-link-icon-container'>
                     <img className='project-link-icon' src={ icon_circleright } />
                 </div>

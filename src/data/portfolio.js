@@ -15,7 +15,7 @@ import img_appsourcedenebmaps from '../assets-portfolio/img-2022-11-power-bi-app
 
 const portfolio = [
    {
-      title: 'AppSource Deneb maps report',
+      title: 'AppSource Deneb maps',
       description: 'Power BI report that demonstrates custom AppSource Deneb mapping using embedded geometry JSON data.',
       stamp: '2022-11',
       shortdate: 'NOV 2022',
@@ -27,7 +27,7 @@ const portfolio = [
       tags: ["Power BI", "Deneb", "Vega-Lite", "Vega"]
    },
    {
-      title: 'International marketplace profit dashboard',
+      title: 'International marketplace profit',
       description: 'Excel dashboard that uses an OOTB exponential smoothing algorithm to forecast profit.',
       stamp: '2022-10',
       shortdate: 'OCT 2022',
@@ -39,7 +39,7 @@ const portfolio = [
       tags: ["Excel", "Power Pivot", "DAX", "Forecasting"]
    },
    {
-      title: 'Satellite launch overview report',
+      title: 'Satellite launch overview',
       description: 'Power BI report showing actively monitored satellites using a custom Deneb scatterplot visual.',
       stamp: '2022-08',
       shortdate: 'AUG 2022',
@@ -51,7 +51,7 @@ const portfolio = [
       tags: ["Power BI", "Deneb", "Vega-Lite", "Power Query", "DAX"]
    },
    {
-      title: 'Customer support agent performance dashboard',
+      title: 'Customer support agent performance',
       description: 'Excel dashboard that compares individual support staff KPIs. Includes a cell filter into Power Query to dynamically display photos.',
       stamp: '2022-06',
       shortdate: 'JUN 2022',
@@ -63,7 +63,7 @@ const portfolio = [
       tags: ["Excel", "Power Query", "Power Pivot", "DAX"]
    },
    {
-      title: 'International marketplace profit report',
+      title: 'International marketplace profit',
       description: 'Power BI report that incorporates Python profit predictions and custom Deneb visualisations.',
       stamp: '2022-04',
       shortdate: 'APR 2022',
@@ -87,7 +87,7 @@ const portfolio = [
       tags: ["T-SQL", "ETL", "SQL Server Integration Services"]
    },
    {
-      title: 'Follow the sun customer support report',
+      title: 'Follow the sun customer support',
       description: 'Power BI report that summarises global customer service teamwork and performance. Incorporates dynamic daylight saving offsets.',
       stamp: '2021-11',
       shortdate: 'NOV 2021',
@@ -99,7 +99,7 @@ const portfolio = [
       tags: ["Power BI", "Power Query", "DAX"]
    },
    {
-      title: 'Singapore rental prices report',
+      title: 'Singapore rental prices',
       description: 'Power BI report that shows trends of Singapore rent by quarter, flat type, and major currency conversions.',
       stamp: '2021-10',
       shortdate: 'OCT 2021',
