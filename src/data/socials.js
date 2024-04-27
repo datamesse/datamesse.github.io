@@ -8,7 +8,7 @@ export const SocialData=[
         link: ascii0 + ascii3 + ascii4
     },
     {
-        name: '𝕏 TWITTER',
+        name: '𝕏',
         icon: logo_twitter,
         link: twitterURL
     }

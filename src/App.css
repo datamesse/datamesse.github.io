@@ -1287,10 +1287,10 @@ code::-webkit-scrollbar-track {
 .sitename {
   display: flex;
   flex-wrap: nowrap;
-  grid-row-start: 3;
+  grid-row-start: 2;
   grid-row-end: 4;
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 4;
   margin-left: 1vw;
 }
 
@@ -1300,7 +1300,7 @@ code::-webkit-scrollbar-track {
 
 .site-title {
   width: auto;
-  height: 1.3vh;
+  height: 2.5vh;
 }
 
 .mp3-player {
@@ -3550,10 +3550,15 @@ code::-webkit-scrollbar-track {
   }
 
   .interface {
-    width: 40vw;
+    width: 100vw;
     padding-bottom: 15vh;
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .about {
+    width: 40vw;
+    margin: 0px auto 0px auto;
   }
 
   .about-panel {
@@ -3649,6 +3654,11 @@ code::-webkit-scrollbar-track {
     border-radius: 0.4vw;
   }
 
+  .awards {
+    width: 40vw;
+    margin: 0px auto 0px auto;
+  } 
+
   .award {
     width: calc(40vw - 2.8vh);
     height: 9.8vh;
@@ -3686,18 +3696,24 @@ code::-webkit-scrollbar-track {
     letter-spacing: 0.07vh;
   }
 
-  .portfolio {
-    width: 40vw;
+  .portfolio { /* REFACTORED */
+    width: 100vw;
   }
 
-  .project-preview {
-    width: calc(40vw - 4vh);
-    height: calc(40vw - 4vh);
-    margin: 8vh 2vh 0px 2vh;
+  .project-preview-carousel {   /* REFACTORED */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow-y: auto;
+  }
+
+  .project-preview { /* REFACTORED */
+    width: calc(25vw - 4vh);
+    height: calc(25vw - 4vh);
+    margin: 6vh 2vh 0px 2vh;
   }
   
   .project-preview:first-child {
-    margin-top: 5vh;
+    margin-top: 6vh;
   }
   
   .project-preview:last-child {
@@ -3705,24 +3721,25 @@ code::-webkit-scrollbar-track {
   }
   
   .project-preview-header {
-    letter-spacing: 0.16vh;
-    font-size: 2.4vh;
+    letter-spacing: 0.012vh;
+    font-size: 1.5vh;
   }
   
   .project-preview-tab-container {
-    border-radius: 1.2vh 1.2vh 0px 0px;
+    border-radius: 0.8vh 0.8vh 0px 0px;
     box-shadow: 0px -0.28vh 0.16vh #ECFDFD, 0px -0.28vh 0.24vh #8FCDD3, 0px -0.28vh 0.24vh #5CAFBB;
     grid-template-columns: 3.2vh 13.34vh auto;
+    padding: 0.75vh 0vh 0vh 0.1vh;
   }
   
   .project-preview-tab p {
-    font-size: 2vh;
+    font-size: 1.4vh;
     letter-spacing: 0.08vh;
   }
   
   .project-preview-background {
-    border-radius: 1.2vh;
-    border: 0.4vh solid rgba(0, 35, 52, 0.9);
+    border-radius: 0.8vh;
+    border: 0.16vh solid rgba(0, 35, 52, 0.9);
     box-shadow: 0px 0.28vh 0.24vh #ECFDFD, 0px 0.28vh 0.48vh #8FCDD3, 0px 0.28vh 0.48vh #5CAFBB;
   }
   
@@ -3739,36 +3756,43 @@ code::-webkit-scrollbar-track {
   }
   
   .project-preview-blurb {
-    border-radius: 0.6vh;
+    border-radius: 0.4vh;
     font-size: 1.6vh;
   }
   
   .project-preview-blurb p {
-    padding: 1.6vh;
-    font-size: 2.4vh;
-    letter-spacing: 0.08vh;
+    padding: 1.06vh;
+    font-size: 1.28vh;
+    letter-spacing: 0.053vh;
   }
   
   .project-preview-footer {
-    border: 0.4vh solid rgba(0, 35, 52, 0.9);
-    border-radius: 0px 0px 1.2vh 1.2vh;
-    grid-template-columns: 4.8vh 9.6vh auto 11.2vh 4.8vh;
+    border: 0.16vh solid rgba(0, 35, 52, 0.9);
+    border-radius: 0px 0px 0.8vh 0.8vh;
+    grid-template-columns: 2.4vh 4.6vh auto 4.6vh 2.4vh;
   }
   
   .project-preview-footer p {
-    font-size: 2.8vh;
+    font-size: 1.4vh;
   }
   
   .project-link-icon {
-    width: 3.2vh;
+    width: 1.7vh;
   }
   
   .code-link-icon {
-    width: 3.2vh;
+    width: 1.7vh;
   }
 
   .blog {
-    width: 40vw;
+    width: 80vw;
+    margin: 0px auto 0px auto;
+  }
+
+  .blog-preview-carousel { /* REFACTORED */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow-y: auto;
   }
 
   .post-preview {
@@ -3780,7 +3804,7 @@ code::-webkit-scrollbar-track {
   }
 
   .post-preview:first-child {
-    margin-top: 5vh;
+    margin-top: 3vh;
   }
   
   .post-preview:last-child {
@@ -3829,8 +3853,9 @@ code::-webkit-scrollbar-track {
     letter-spacing: 0.0175vh;
   }
   
-  .post {
-    margin: 4.9vh 0px 0px 0px;
+  .post { /* REFACTORED */
+    width: 40vw;
+    margin: 4.9vh auto 13vh auto;
   }
   
   .post-panel {
@@ -3926,6 +3951,12 @@ code::-webkit-scrollbar-track {
 
   .separator-glow {
     width: 0.2625vh;
+  }
+
+  .bg-footer { /* REFACTORED */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40vw;
   }
 
   .menu-container {
