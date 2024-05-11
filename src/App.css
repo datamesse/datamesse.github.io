@@ -98,19 +98,20 @@ div { margin: 0px; padding: 0px; }
 }
 
 .loading-bar {
-  width: 200px;
-  height: 20px;
-  background-color: white;
-  margin-bottom: 20px;
+  width: 70vw;
+  height: 5vw;
+  background-color: rgb(120, 120, 120);
+  margin: 2.5vw auto auto auto;
 }
 
 .loading-progress {
   height: 100%;
-  background-color: green;
+  background-color: white;
 }
 
 .loading-percentage {
-  font-size: 24px;
+  font-size: 10vw;
+  margin-top: auto;
 }
 
 
