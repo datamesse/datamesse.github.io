@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "19a6cc51f4dfb3d2523e",
-    "url": "/static/css/main.04b80333.chunk.css"
+    "revision": "49dbb188eadcb66bb674",
+    "url": "/static/css/main.782fa116.chunk.css"
   },
   {
-    "revision": "19a6cc51f4dfb3d2523e",
-    "url": "/static/js/main.19a6cc51.chunk.js"
+    "revision": "49dbb188eadcb66bb674",
+    "url": "/static/js/main.49dbb188.chunk.js"
   },
   {
     "revision": "4927455309981692546f",
@@ -136,7 +136,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-11-power-bi-appsource-deneb-maps.f42b54e4.gif"
   },
   {
-    "revision": "6f7a2c0bf4364cb971a6a2621485eabd",
+    "revision": "a2220f364366a56d3ade8dc7eb699edb",
     "url": "/index.html"
   }
 ];
