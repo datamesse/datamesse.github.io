@@ -1,8 +1,6 @@
 import React from 'react';
 import '../App.css';
-import assets from '../data/assets';
-
-const { icon_circleright, logo_github, sound_projectlink } = assets;
+import { icon_circleright, logo_github, sound_projectlink } from '../data/assets';
 
 /*
 Add above project-preview-blurb div, css is already done for portrait and landscape.

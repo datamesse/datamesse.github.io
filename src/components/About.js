@@ -1,11 +1,9 @@
 import React, { useRef, useEffect, useState } from 'react';
 import '../App.css';
 import Separator from './Separator';
-import assets from '../data/assets';
+import { avatar } from '../data/assets';
 import Links from './Links';
 import Socials from './Socials';
-
-const { avatar } = assets;
 
 function About() {
 

@@ -1,9 +1,7 @@
 /* CERTIFICATION DATA FOR AWARDS.JS TILES */
 
-import assets from '../data/assets';
+import { logo_neo4j } from '../data/assets';
 
-const { logo_neo4j } = assets;
- 
  const awards = [
    {
       name: 'Neo4j Graph Data Science',

@@ -4,12 +4,10 @@ import Header from './Header';
 import About from './About';
 import Awards from './Awards';
 import Footer from './Footer';
-import assets from '../data/assets';
+import { music_home } from '../data/assets';
 
 import { useRef } from "react";
 import { useClickRipple } from '../assets-style/useClickRipple';
-
-const { music_home } = assets;
 
 function Home() {
 

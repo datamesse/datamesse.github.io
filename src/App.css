@@ -81,46 +81,6 @@ div { margin: 0px; padding: 0px; }
 
 
 
-/* LOADING PAGE */
-/* App.css */
-.loading-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.loading-logo-container {
-  width: 20vw;
-  height: 20vw;
-  background-color: white;
-}
-
-.loading-progress-container {
-  width: 66vw;
-  height: 20vw;
-  margin: 0 auto;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-}
-
-.loading-progress-bar {
-  height: 100%;
-  background-color: white;
-  color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-
 
 
 /* BACKGROUND */
@@ -274,11 +234,11 @@ div { margin: 0px; padding: 0px; }
 
 /* PAGES */
 
-/*
+
 .page {
-  animation: page-fade 2.5s;
+  animation: page-fade 4s;
 }
-*/
+
 
 .about {
   width: inherit;

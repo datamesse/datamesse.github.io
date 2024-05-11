@@ -1,7 +1,5 @@
-import assets from '../data/assets';
+import { logo_github, logo_powerbi, logo_tableau } from '../data/assets';
 import { githubURL, powerbiURL, tableauURL } from './data';
-
-const { logo_github, logo_powerbi, logo_tableau } = assets;
 
 export const LinkData=[
     {
