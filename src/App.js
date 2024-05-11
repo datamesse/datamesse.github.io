@@ -1,18 +1,24 @@
-// App.js
 import React, { useState, useEffect } from 'react';
 import Home from './components/Home';
-import preloadAssets from './assets'; // Import the function to preload assets
+import preloadAssets from './data/assets';
+import Loading from './Loading';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
+  const [progress, setProgress] = useState(0);
 
   useEffect(() => {
     const loadAssets = () => {
       preloadAssets();
-      // Simulating delay for demonstration purposes
-      setTimeout(() => {
-        setLoading(false);
-      }, 2000);
+      let currentProgress = 0;
+      const interval = setInterval(() => {
+        currentProgress += 10; // Increase progress by 10% in each interval
+        setProgress(currentProgress);
+        if (currentProgress >= 100) {
+          clearInterval(interval);
+          setLoading(false); // Hide loading screen when progress reaches 100%
+        }
+      }, 200); // Adjust the interval timing as needed
     };
 
     loadAssets();
@@ -20,17 +26,8 @@ const App = () => {
 
   return (
     <div>
-      {loading ? (
-        <div className="loading-screen">
-          <div className="loading-bar">
-            <div className="progress"></div>
-          </div>
-        </div>
-      ) : (
-        <FadeOut>
-          <Home />
-        </FadeOut>
-      )}
+      <Loading loading={loading} progress={progress} />
+      {!loading && <FadeOut><Home /></FadeOut>}
     </div>
   );
 };
