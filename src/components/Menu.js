@@ -1,11 +1,11 @@
 import React from 'react';
 import '../App.css';
-import { icon_charthistogram, icon_edit, icon_modeportrait } from '../data/assets';
+import { icon_charthistogram, icon_edit, icon_modeportrait, sound_menubutton } from '../data/assets';
 import { HashLink as Link } from 'react-router-hash-link';
 
 function Menu() {
 
-    let soundEffect = new Audio('https://github.com/datamesse/datamesse.github.io/raw/main/src/assets-theme/mixkit-high-tech-bleep-confirmation-2520.wav')
+    let soundEffect = new Audio(sound_menubutton)
     const start = () => {
         soundEffect.play()
       }

@@ -3,6 +3,7 @@ import '../App.css';
 import Header from './Header';
 import Footer from './Footer';
 import ProjectPreviews from './ProjectPreviews';
+import {music_portfolio} from '../data/assets';
 
 import { useRef } from "react";
 import { useClickRipple } from '../assets-style/useClickRipple';
@@ -18,7 +19,7 @@ function Portfolio() {
         <div className='container page' ref={screenRef}>
         
             <div className="interface">
-                <Header mp3credit='♪♪♪ Now playing: Time Flows by Evgeny_Bardyuzha @ pixabay.com' mp3='https://github.com/datamesse/datamesse.github.io/raw/main/src/assets-theme/music-evgeny-bardyuzha-time-flows.mp3' />
+                <Header mp3credit='♪♪♪ Now playing: Time Flows by Evgeny_Bardyuzha @ pixabay.com' mp3={music_portfolio} />
                 <ProjectPreviews />
                 <Footer />
             </div>

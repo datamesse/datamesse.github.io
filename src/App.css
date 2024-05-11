@@ -31,9 +31,30 @@ html {
     font-family: 'Saira', 'Cambay', 'Kanit', 'Segoe UI', Helvetica;
 }
 
+/*
+::-webkit-scrollbar {
+  width: 0.25vw;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(120 75% 50% / 1);
+  border-radius: 0.025vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(120 100% 20% / 1);
+  border-radius: 0.025vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(120 100% 10% / 1);
+} */
+
+
 ::-webkit-scrollbar {
   display: none;
 }
+
 
 .post-body pre code::-webkit-scrollbar {
   display: block;
@@ -59,6 +80,38 @@ div { margin: 0px; padding: 0px; }
 }
 
 
+
+/* LOADING SCREEN */
+
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-bar {
+  width: 200px;
+  height: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.loading-progress {
+  height: 100%;
+  background-color: green;
+}
+
+.loading-percentage {
+  font-size: 24px;
+}
 
 
 

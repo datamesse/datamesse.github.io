@@ -3,6 +3,7 @@ import '../App.css';
 import Header from './Header';
 import Footer from './Footer';
 import PostPreviews from './PostPreviews';
+import {music_blog} from '../data/assets';
 
 import { useRef } from "react";
 import { useClickRipple } from '../assets-style/useClickRipple';
@@ -18,7 +19,7 @@ function Blog() {
         <div className='container page' ref={screenRef}>
        
             <div className="interface">
-                <Header mp3credit='♪♪♪ Now playing: Small Discoveries by Evgeny_Bardyuzha @ pixabay.com' mp3='https://github.com/datamesse/datamesse.github.io/raw/main/src/assets-theme/music-evgeny-bardyuzha-small-discoveries.mp3' />
+                <Header mp3credit='♪♪♪ Now playing: Small Discoveries by Evgeny_Bardyuzha @ pixabay.com' mp3={music_blog} />
                 <PostPreviews />
                 <Footer />
             </div>

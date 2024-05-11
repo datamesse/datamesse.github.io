@@ -1,17 +1,8 @@
 /* PROJECT DATA FOR PORTFOLIO.JS TILES */
 
-import { logo_aws, logo_azure, logo_css, logo_excel, logo_html, logo_javascript, logo_mongodb, logo_nodejs,
-   logo_powerbi, logo_python, logo_react, logo_r, logo_sqlserver, logo_tableau,logo_typescript, logo_visualstudio
- } from '../data/assets';
-import img_portfoliowebsitereact from '../assets-portfolio/img-2023-07-portfolio-website-react-v4.gif';
-import img_singaporerentpowerbi from '../assets-portfolio/img-2021-10-power-bi-quarterly-singapore-rental-prices-by-currency.gif';
-import img_followthesunpowerbi from  '../assets-portfolio/img-2021-11-power-bi-follow-the-sun-customer-support.gif';
-import img_internationalmarketplacessis from '../assets-portfolio/img-2022-01-sql-server-integration-services-international-marketplace-trimmed.png';
-import img_internationalmarketplacepowerbi from '../assets-portfolio/img-2022-04-power-bi-international-marketplace-python-deneb.gif';
-import img_customercupportagentperformance from '../assets-portfolio/img-2022-06-excel-customer-support-agent-performance.gif';
-import img_satellitelaunchoverview from '../assets-portfolio/img-2022-08-satellite-launch-overview.gif';
-import img_internationalmarketplaceexcel from '../assets-portfolio/img-2022-10-excel-international-marketplace-profit-forecast.gif';
-import img_appsourcedenebmaps from '../assets-portfolio/img-2022-11-power-bi-appsource-deneb-maps.gif';
+import { img_portfoliowebsitereact, img_singaporerentpowerbi, img_followthesunpowerbi, img_internationalmarketplacessis,
+   img_internationalmarketplacepowerbi, img_customersupportagentperformance, img_satellitelaunchoverview, 
+   img_internationalmarketplaceexcel, img_appsourcedenebmaps } from '../data/assets';
 
 const portfolio = [
    {
@@ -20,7 +11,6 @@ const portfolio = [
       stamp: '2022-11',
       shortdate: 'NOV 2022',
       tech: 'POWER BI',
-      stack: logo_powerbi,
       photo: img_appsourcedenebmaps,
       siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/AppSource-Deneb-Maps/m-p/2930366',
       codeURL: 'https://datamesse.github.io/#/post/1669381200',
@@ -32,7 +22,6 @@ const portfolio = [
       stamp: '2022-10',
       shortdate: 'OCT 2022',
       tech: 'EXCEL',
-      stack: logo_excel,
       photo: img_internationalmarketplaceexcel,
       siteURL: 'https://datamesse.github.io/#/project/ExcelInternationalMarketplaceProfitForecast',
       codeURL: 'https://github.com/datamesse/data-visualisation-datasets/blob/main/International%20Marketplace%20sales/Power%20Query%20and%20Deneb%20code.md',
@@ -44,7 +33,6 @@ const portfolio = [
       stamp: '2022-08',
       shortdate: 'AUG 2022',
       tech: 'POWER BI',
-      stack: logo_powerbi,
       photo: img_satellitelaunchoverview,
       siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/Satellite-launch-overview/m-p/2730077',
       codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/Satellite%20launch%20overview',
@@ -56,8 +44,7 @@ const portfolio = [
       stamp: '2022-06',
       shortdate: 'JUN 2022',
       tech: 'EXCEL',
-      stack: logo_excel,
-      photo: img_customercupportagentperformance,
+      photo: img_customersupportagentperformance,
       siteURL: 'https://datamesse.github.io/#/project/ExcelCustomerSupportAgentPerformance',
       codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/Support%20ticket%20updates',
       tags: ["Excel", "Power Query", "Power Pivot", "DAX"]
@@ -68,7 +55,6 @@ const portfolio = [
       stamp: '2022-04',
       shortdate: 'APR 2022',
       tech: 'POWER BI',
-      stack: logo_powerbi,
       photo: img_internationalmarketplacepowerbi,
       siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/International-Marketplace-profit-report-using-Python-and-Deneb/m-p/2480550',
       codeURL: 'https://github.com/datamesse/data-visualisation-datasets/blob/main/International%20Marketplace%20sales/Power%20Query%20and%20Deneb%20code.md',
@@ -80,7 +66,6 @@ const portfolio = [
       stamp: '2022-01',
       shortdate: 'JAN 2022',
       tech: 'SQL SERVER',
-      stack: logo_sqlserver,
       photo: img_internationalmarketplacessis,
       siteURL: 'https://datamesse.github.io/#/post/1641906000',
       codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/International%20Marketplace%20sales',
@@ -92,7 +77,6 @@ const portfolio = [
       stamp: '2021-11',
       shortdate: 'NOV 2021',
       tech: 'POWER BI',
-      stack: logo_powerbi,
       photo: img_followthesunpowerbi,
       siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/Follow-the-sun-customer-service-support/m-p/2168279',
       codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/Support%20ticket%20updates',
@@ -104,7 +88,6 @@ const portfolio = [
       stamp: '2021-10',
       shortdate: 'OCT 2021',
       tech: 'POWER BI',
-      stack: logo_powerbi,
       photo: img_singaporerentpowerbi,
       siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/Quarterly-Singapore-median-rental-prices-by-currency/m-p/2125424',
       codeURL: 'https://github.com/datamesse/data-visualisation-datasets/tree/main/Singapore%20rental%20prices',
@@ -116,7 +99,6 @@ const portfolio = [
       stamp: '2021-09',
       shortdate: 'SEP 2021',
       tech: 'REACT.JS',
-      stack: logo_react,
       photo: img_portfoliowebsitereact,
       siteURL: '',
       codeURL: 'https://github.com/datamesse/datamesse.github.io/',

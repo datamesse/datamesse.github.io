@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { icon_circleright, logo_github } from '../data/assets';
+import { icon_circleright, logo_github, sound_projectlink } from '../data/assets';
 
 /*
 Add above project-preview-blurb div, css is already done for portrait and landscape.
@@ -14,7 +14,7 @@ Decided not to include since it looks too "busy".
 
 function ProjectPreview({ project }) {
 
-    let soundEffect = new Audio('https://github.com/datamesse/datamesse.github.io/raw/main/src/assets-theme/mixkit-technology-notification-3123.wav')
+    let soundEffect = new Audio(sound_projectlink)
     const start = () => {
         soundEffect.play()
       }
