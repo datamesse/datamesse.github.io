@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import '../App.css';
-import { title_c, title_d, title_e } from '../data/assets';
+import assets from '../data/assets';
 import Music from './Music';
+
+const { title_c, title_d, title_e } = assets;
 
 function Header({mp3credit, mp3}) {
 

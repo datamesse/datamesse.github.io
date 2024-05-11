@@ -1,8 +1,8 @@
 /* CERTIFICATION DATA FOR AWARDS.JS TILES */
 
-import { logo_aws, logo_azure, logo_css, logo_excel, logo_html, logo_javascript, logo_mongodb, logo_neo4j, logo_nodejs,
-    logo_powerbi, logo_python, logo_react, logo_r, logo_sqlserver, logo_tableau,logo_typescript, logo_visualstudio
-  } from '../data/assets';
+import assets from '../data/assets';
+
+const { logo_neo4j } = assets;
  
  const awards = [
    {

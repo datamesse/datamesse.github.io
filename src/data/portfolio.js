@@ -1,8 +1,10 @@
 /* PROJECT DATA FOR PORTFOLIO.JS TILES */
 
-import { img_portfoliowebsitereact, img_singaporerentpowerbi, img_followthesunpowerbi, img_internationalmarketplacessis,
+import assets from '../data/assets';
+
+const { img_portfoliowebsitereact, img_singaporerentpowerbi, img_followthesunpowerbi, img_internationalmarketplacessis,
    img_internationalmarketplacepowerbi, img_customersupportagentperformance, img_satellitelaunchoverview, 
-   img_internationalmarketplaceexcel, img_appsourcedenebmaps } from '../data/assets';
+   img_internationalmarketplaceexcel, img_appsourcedenebmaps } = assets;
 
 const portfolio = [
    {

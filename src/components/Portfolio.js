@@ -3,10 +3,12 @@ import '../App.css';
 import Header from './Header';
 import Footer from './Footer';
 import ProjectPreviews from './ProjectPreviews';
-import {music_portfolio} from '../data/assets';
+import assets from '../data/assets';
 
 import { useRef } from "react";
 import { useClickRipple } from '../assets-style/useClickRipple';
+
+const { music_portfolio } = assets;
 
 function Portfolio() {
 

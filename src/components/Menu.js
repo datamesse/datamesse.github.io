@@ -1,7 +1,9 @@
 import React from 'react';
 import '../App.css';
-import { icon_charthistogram, icon_edit, icon_modeportrait, sound_menubutton } from '../data/assets';
+import assets from '../data/assets';
 import { HashLink as Link } from 'react-router-hash-link';
+
+const { icon_charthistogram, icon_edit, icon_modeportrait, sound_menubutton } = assets;
 
 function Menu() {
 

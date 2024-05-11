@@ -3,10 +3,12 @@ import '../App.css';
 import Header from './Header';
 import Footer from './Footer';
 import PostPreviews from './PostPreviews';
-import {music_blog} from '../data/assets';
+import assets from '../data/assets';
 
 import { useRef } from "react";
 import { useClickRipple } from '../assets-style/useClickRipple';
+
+const { music_blog } = assets;
 
 function Blog() {
 
