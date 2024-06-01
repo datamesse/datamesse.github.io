@@ -33,7 +33,8 @@ function Home() {
 
             <div className="bg-home">
 
-                <div className='bg-home-dots'></div>
+                <div class="bg-home-map-1"></div>
+                <div class="bg-home-map-2"></div>
 
             </div>
 

@@ -88,23 +88,37 @@ div { margin: 0px; padding: 0px; }
 .bg-home {
   top: 0px;
   left: 0px;
-  width: 100%;
-  height: 100vh;
   border: 0px;
   z-index: 1;
   opacity: 1;
   position: fixed;
-  background-size: auto 120vh;
-  background-repeat: repeat-x;
-  background-position: -450vw 0vh;
-  background-image: url("https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-theme/background-panorama-beach.png?raw=true");
+  scroll-behavior: smooth;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto 100vh;
 }
 
-.bg-home-dots {
-  width: auto;
-  height: 100vh;
-  opacity: 1;
-  background-image: url("https://github.com/datamesse/datamesse.github.io/raw/main/src/assets-theme/background-square-main.svg");
+.bg-home-map-1, .bg-home-map-2 {
+  background-image: url("https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-theme/background-hokkaido-geolocalisation.svg?raw=true");
+  background-size: contain; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  position: absolute;
+  transform: perspective(1000px) rotateX(-40deg) rotateY(-320deg); /* Tilt */
+  animation: mapBackgroundSpin 22s linear infinite reverse; /* Counter-clockwise motion */
+  transform-origin: 20% 35%; /* Set rotation pivot point to center */
+}
+
+.bg-home-map-2 {
+  opacity: 0.4;
+}
+
+@keyframes mapBackgroundSpin {
+  0%   { transform: perspective(1000px) rotateX(20deg) rotateY(-30deg) rotateZ(0deg); }
+  25%  { transform: perspective(1000px) rotateX(15deg) rotateY(-35deg) rotateZ(-90deg); }
+  50%  { transform: perspective(1000px) rotateX(10deg) rotateY(-40deg) rotateZ(-180deg); }
+  75%  { transform: perspective(1000px) rotateX(15deg) rotateY(-35deg) rotateZ(-270deg); }
+  100% { transform: perspective(1000px) rotateX(20deg) rotateY(-30deg) rotateZ(-360deg); }
 }
 
 .bg-blue {
@@ -493,7 +507,7 @@ div { margin: 0px; padding: 0px; }
 }
 
 .about-description {
-  color: #4F4F50;
+  color: #FFF;
   font-family: 'Saira', 'Cambay', 'Kanit', 'Segoe UI', Helvetica;
   box-sizing: border-box;
   grid-row-start: 3;
@@ -503,10 +517,6 @@ div { margin: 0px; padding: 0px; }
   overflow-wrap: break-word;
   overflow-y:scroll;
   z-index: 5002;
-}
-
-.about-description-darken {
-  background: rgba(215, 215, 222, 0.55);
 }
 
 .about-description p {
@@ -1726,13 +1736,20 @@ code::-webkit-scrollbar-track {
 
 @media (max-aspect-ratio: 12/21) {
 
-  .bg-home-dots {
-    background-size: 3vw 3vw;
-  }
-
   .bg-home {
     animation: bg-auto-scrolling 800.32s infinite; /* IE 10+ */
     animation-timing-function: linear;
+  }
+
+  .bg-home-map-1, .bg-home-map-2 {
+    width: 100vw;
+    height: 92.65vw; /* Hokkaido map's height is .9265 of its width */
+    top: 32.5vh;
+  }
+  
+  .bg-home-map-2 {
+    top: 32.5vh + 10vw;
+    left: 10vw;
   }
 
   .bg-blue {
@@ -2289,14 +2306,21 @@ code::-webkit-scrollbar-track {
 
 @media (min-aspect-ratio: 12/21) and (max-aspect-ratio: 1/1) {
 
-
-  .bg-home-dots {
-    background-size: 3vw 3vw;
-  }
-
   .bg-home {
     animation: bg-auto-scrolling 800.32s infinite; /* IE 10+ */
     animation-timing-function: linear;
+  }
+
+  .bg-home-map-1, .bg-home-map-2 {
+    width: 85vw;
+    height: 78.7525vw; /* Hokkaido map's height is .9265 of its width */
+    top: 35vh;
+    left: 12.5vh;
+  }
+  
+  .bg-home-map-2 {
+    top: 37.5vh;
+    left: 15vh;
   }
 
   .bg-blue {
@@ -2874,13 +2898,21 @@ code::-webkit-scrollbar-track {
 
 @media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 16/10) {
 
-  .bg-home-dots {
-    background-size: 3vw 3vw;
-  }
-
   .bg-home {
     animation: bg-auto-scrolling 800.32s infinite; /* IE 10+ */
     animation-timing-function: linear;
+  }
+
+  .bg-home-map-1, .bg-home-map-2 {
+    width: 85vw;
+    height: 78.7525vw; /* Hokkaido map's height is .9265 of its width */
+    top: 32.5vh;
+    left: 17.5vh;
+  }
+  
+  .bg-home-map-2 {
+    top: 35.5vh;
+    left: 20.5vh;
   }
 
   .bg-blue {
@@ -3469,8 +3501,16 @@ code::-webkit-scrollbar-track {
     animation-timing-function: linear;
   }
 
-  .bg-home-dots {
-    background-size: 2vh 2vh;
+  .bg-home-map-1, .bg-home-map-2 {
+    width: 65vw;
+    height: 60.2225vw; /* Hokkaido map's height is .9265 of its width */
+    top: 30vh;
+    left: 25vh;
+  }
+  
+  .bg-home-map-2 {
+    top: 34vh;
+    left: 29vh;
   }
 
   .bg-blue {

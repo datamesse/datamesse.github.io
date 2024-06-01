@@ -76,24 +76,24 @@ function About() {
 
                     <div className='about-description' ref={myDiv}>
 
-                        <p className='about-description-darken'>A data tech enthusiast with over 7 years extensive work experience using SQL tools, Power BI, and Excel on software problems like a seasoned 19th century detective wielding their magnifying glass on a case.</p>
+                        <p>A data tech enthusiast with over 7 years extensive work experience using SQL tools, Power BI, and Excel on software problems like a seasoned 19th century detective wielding their magnifying glass on a case.</p>
 
                         <br />
 
-                        <p className='about-description-darken'>My personal portfolio:</p>
+                        <p>My personal portfolio:</p>
 
                         <ul>
                             <li>5 reports in Power BI Community Gallery</li>
-                            <li className='about-description-darken'>2 downloadable Excel projects</li>
+                            <li>2 downloadable Excel projects</li>
                             <li>1 SQL Server project</li>
-                            <li className='about-description-darken'>20 blog posts since Sep 2021</li>
+                            <li>20 blog posts since Sep 2021</li>
                             <li>1 this React.js + GitHub Pages site</li>
                         </ul>
 
                         <br />
 
-                        <p className='about-description-darken'>"messe" is a German word for trade fair.</p>
-                        <p className='about-description-darken'>For that namesake, I hope to showcase my fun works in data and tech to help inspire others.</p>
+                        <p>"messe" is a German word for trade fair.</p>
+                        <p>For that namesake, I hope to showcase my fun works in data and tech to help inspire others.</p>
 
                         <br />
 
