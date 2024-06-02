@@ -36,6 +36,9 @@ function Home() {
                 <div class="bg-home-map-1"></div>
                 <div class="bg-home-map-2"></div>
 
+                <div class="bg-home-gear-1"></div>
+                <div class="bg-home-gear-2"></div>
+
             </div>
 
         </div>
