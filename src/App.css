@@ -97,14 +97,41 @@ div { margin: 0px; padding: 0px; }
   background-attachment: fixed;
 }
 
+.bg-home-lines-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200vw;
+  height: 200vh;
+  transform: perspective(800px) rotateX(30deg) rotateY(0deg) rotate(0deg);
+  transform-origin: calc(100vw + 30vw) calc(-30vw);
+  animation: linesRotate 540s linear infinite;
+}
+
+.bg-home-line {
+  position: absolute;
+  background-color: #C0EAFF;
+  width: 1px;
+  height: 200vh;
+  opacity: 0.15;
+  transform: scaleX(0.4) scaleY(200);
+  transform-origin: left;
+}
+
+@keyframes linesRotate {
+  from { transform: perspective(800px) rotateX(30deg) rotateY(0deg) rotate(0deg); }
+  to { transform: perspective(800px) rotateX(30deg) rotateY(0deg) rotate(360deg); }
+}
+
 .bg-home-map-1, .bg-home-map-2 {
   background-image: url("https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-theme/background-hokkaido-geolocalisation-blue-light.svg?raw=true");
   background-size: contain; 
   background-position: center; 
   background-repeat: no-repeat;
   position: absolute;
+  z-index: 3;
   transform: perspective(1000px) rotateX(-40deg) rotateY(-320deg); /* Tilt */
-  animation: mapBackgroundSpin 25s linear infinite reverse; /* Counter-clockwise motion */
+  animation: mapBackgroundSpin 35s linear infinite reverse; /* Counter-clockwise motion */
   transform-origin: 20% 35%; /* Set rotation pivot point to center */
 }
 
@@ -119,6 +146,7 @@ div { margin: 0px; padding: 0px; }
   75%  { transform: perspective(1000px) rotateX(15deg) rotateY(-35deg) rotateZ(-270deg); }
   100% { transform: perspective(1000px) rotateX(20deg) rotateY(-30deg) rotateZ(-360deg); }
 }
+
 
 .bg-blue {
   top: 0px;
@@ -1746,6 +1774,10 @@ code::-webkit-scrollbar-track {
     left: 10vw;
   }
 
+  .bg-home-line {
+    left: calc(50vw + 3.75vw * var(--i));
+  }
+
   .bg-blue {
     background: linear-gradient(115deg, #006EEA 0%, #0054B3 2%, #014CA1 5%, #003775 9%, #00234C 15%, #001E40 21%, #001228 27%, #010407 35%, #010208 50%, #01162E 70%, #002044 78%, #013772 89%, #004899 95%, #005FCB 99%, #0077FF 100%); /* W3C */
   }
@@ -2310,6 +2342,10 @@ code::-webkit-scrollbar-track {
   .bg-home-map-2 {
     top: 37.5vh;
     left: 15vh;
+  }
+
+  .bg-home-line {
+    left: calc(50vw + 2vw * var(--i));
   }
 
   .bg-blue {
@@ -2897,6 +2933,10 @@ code::-webkit-scrollbar-track {
   .bg-home-map-2 {
     top: 35.5vh;
     left: 20.5vh;
+  }
+
+  .bg-home-line {
+    left: calc(50vw + 1.5vw * var(--i));
   }
 
   .bg-blue {
@@ -3490,6 +3530,10 @@ code::-webkit-scrollbar-track {
   .bg-home-map-2 {
     top: 34vh;
     left: 29vh;
+  }
+
+  .bg-home-line {
+    left: calc(50vw + 1.2vw * var(--i));
   }
 
   .bg-blue {

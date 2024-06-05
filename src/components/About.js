@@ -92,11 +92,6 @@ function About() {
 
                         <br />
 
-                        <p>"messe" is a German word for trade fair.</p>
-                        <p>For that namesake, I hope to showcase my fun works in data and tech to help inspire others.</p>
-
-                        <br />
-
                     </div>
 
                     <Links />
