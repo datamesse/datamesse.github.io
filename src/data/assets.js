@@ -29,7 +29,7 @@ import title_b from '../assets-theme/title-z-d.png';
 import title_a from '../assets-theme/title-z-e.png';
 
 /* Music */
-import music_home from '../assets-theme/music-evgeny-bardyuzha-good-mood-for-no-reason.mp3'
+import music_home from '../assets-theme/music-evgeny-bardyuzha-dreamy-inspiring-electronic.mp3';
 import music_portfolio from '../assets-theme/music-evgeny-bardyuzha-time-flows.mp3';
 import music_blog from '../assets-theme/music-evgeny-bardyuzha-small-discoveries.mp3';
 

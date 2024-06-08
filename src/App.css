@@ -124,7 +124,7 @@ div { margin: 0px; padding: 0px; }
   background-color: #C0EAFF;
   width: 1px;
   height: 200vh;
-  opacity: 0.175;
+  opacity: 0.15;
   z-index: 3;
   transform: scaleX(0.4) scaleY(200);
   transform-origin: left;
@@ -531,6 +531,7 @@ div { margin: 0px; padding: 0px; }
   grid-column-start: 2;
   grid-column-end: 5;
   z-index: 5002;
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 .about-avatar img {
@@ -2777,7 +2778,7 @@ code::-webkit-scrollbar-track {
   }
 
   .post-preview-background {
-    border-radius: 1.5vw;
+    border-radius: 1.2vw;
     border: 0.2vw solid rgba(145, 145, 145, 0.9);
     box-shadow: 0px 0.35vw 0.3vw rgba(88, 86, 85, 0.95), 0px 0.35vw 0.6vw rgba(190, 190, 190, 0.9), 0px 0.35vw 0.6vw rgba(200, 200, 200, 0.85);
   }
@@ -2795,7 +2796,7 @@ code::-webkit-scrollbar-track {
   }
 
   .post-preview-panel {
-    border-radius: 0 0 1.5vw 0;
+    border-radius: 0 0 1.2nvw 0;
     border: 0.3vw solid rgba(68, 66, 64, 0.9);
     clip-path: polygon(3vw 0, 100% 0, 100% 100%, 0 100%, 0 3vw);
   }
@@ -3235,7 +3236,7 @@ code::-webkit-scrollbar-track {
   .award-tech-icon-container {
     width: 5vw;
     height: 5vw;
-    border-radius: 0.75vw;
+    border-radius: 0.6vw;
     box-shadow: 0px 0.21vw 0.24vw rgba(56, 56, 56, 0.95), 0px 0.21vw 0.24vw rgba(56, 56, 56, 0.90), 0px 0.21vw 0.48vw rgba(56, 56, 56, 0.85);
   }
 
@@ -3377,9 +3378,9 @@ code::-webkit-scrollbar-track {
   }
 
   .post-preview-background {
-    border-radius: 1.1vw;
+    border-radius: 0.9vw;
     border: 0.1vw solid rgba(145, 145, 145, 0.9);
-    box-shadow: 0px 0.35vw 0.3vw rgba(88, 86, 85, 0.95), 0px 0.35vw 0.6vw rgba(190, 190, 190, 0.9), 0px 0.35vw 0.6vw rgba(200, 200, 200, 0.85);
+    box-shadow: 0px 0.35vw 0.3vw rgba(88, 86, 85, 0.95), 0px 0.35vw 0.3vw rgba(190, 190, 190, 0.9), 0px 0.35vw 0.3vw rgba(200, 200, 200, 0.85);
   }
   
   .post-preview-tech-icon-container { /* REFACTORED */
@@ -3395,7 +3396,7 @@ code::-webkit-scrollbar-track {
   }
 
   .post-preview-panel {
-    border-radius: 0 0 1.1vw 0;
+    border-radius: 0 0 0.9vw 0;
     border: 0.25vw solid rgba(68, 66, 64, 0.9);
     clip-path: polygon(2vw 0, 100% 0, 100% 100%, 0 100%, 0 2vw);
   }

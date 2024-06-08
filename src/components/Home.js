@@ -60,7 +60,7 @@ function Home() {
     // Start the wave initially and repeat every 30 seconds
     const startWave = () => {
       generateWave();
-      setInterval(generateWave, 15000); // 30 seconds for the wave + 15 seconds wait
+      setInterval(generateWave, 15000); // 15 second wait
     };
 
     startWave(); // Start the wave animation
@@ -75,7 +75,7 @@ function Home() {
   return (
     <div className='container page' ref={screenRef}>
       <div className="interface">
-        <Header mp3credit='♪♪♪ Now playing: Good Mood For No Reason by Evgeny_Bardyuzha @ pixabay.com' mp3={music_home} />
+        <Header mp3credit='♪♪♪ Now playing: Dreamy Inspiring Electronic by Evgeny_Bardyuzha @ pixabay.com' mp3={music_home} />
         <About />
         <br /><br />
         <Awards />
