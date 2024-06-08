@@ -86,14 +86,12 @@ div { margin: 0px; padding: 0px; }
 /* BACKGROUND */
 
 .bg-home {
-  /* width and height are needed for the squares effects */
-  /* temporary removal to test mobile browser app */
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  top: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 1;
   opacity: 1;
+  pointer-events: none;
 }
 
 .bg-home-background {
@@ -130,6 +128,7 @@ div { margin: 0px; padding: 0px; }
   z-index: 3;
   transform: scaleX(0.4) scaleY(200);
   transform-origin: left;
+  left: calc(50vw + 1.2vw * var(--i));
 }
 
 @keyframes linesRotate {
@@ -139,7 +138,6 @@ div { margin: 0px; padding: 0px; }
 
 .bg-home-square {
   position: absolute;
-  bottom: 0;
   width: 3vw;
   height: 3vw;
   background: linear-gradient(to right, rgba(192, 234, 255, 0.85) 5%, rgba(255, 255, 255, 0));
@@ -147,6 +145,7 @@ div { margin: 0px; padding: 0px; }
   border-color: rgba(192, 234, 255, 1) rgba(192, 234, 255, 0.25);
   opacity: 0.8;
   z-index: 4;
+  bottom: 0;
 }
 
 @keyframes square-rise {
