@@ -87,8 +87,9 @@ div { margin: 0px; padding: 0px; }
 
 .bg-home {
   /* width and height are needed for the squares effects */
-  width: 100vw;
-  height: 100vh;
+  /* temporary removal to test mobile browser app */
+  /* width: 100vw;
+  height: 100vh; */
   position: absolute;
   top: 0px;
   z-index: 1;
