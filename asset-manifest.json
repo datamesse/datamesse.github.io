@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.7853f0b7.chunk.css",
-  "main.js": "/static/js/main.e34a683c.chunk.js",
-  "main.js.map": "/static/js/main.e34a683c.chunk.js.map",
+  "main.js": "/static/js/main.b6d60384.chunk.js",
+  "main.js.map": "/static/js/main.b6d60384.chunk.js.map",
   "static/js/1.49274553.chunk.js": "/static/js/1.49274553.chunk.js",
   "static/js/1.49274553.chunk.js.map": "/static/js/1.49274553.chunk.js.map",
   "static/js/2.8ea896f2.chunk.js": "/static/js/2.8ea896f2.chunk.js",
@@ -23,7 +23,7 @@
   "static/media/logo-python.svg": "/static/media/logo-python.9ecfb672.svg",
   "static/media/logo-sqlserver.svg": "/static/media/logo-sqlserver.7afc51d3.svg",
   "static/media/logo-tableau.svg": "/static/media/logo-tableau.148cae2e.svg",
-  "static/media/music-evgeny-bardyuzha-good-mood-for-no-reason.mp3": "/static/media/music-evgeny-bardyuzha-good-mood-for-no-reason.15692e05.mp3",
+  "static/media/music-evgeny-bardyuzha-dreamy-inspiring-electronic.mp3": "/static/media/music-evgeny-bardyuzha-dreamy-inspiring-electronic.b1f4a3cf.mp3",
   "static/media/music-evgeny-bardyuzha-time-flows.mp3": "/static/media/music-evgeny-bardyuzha-time-flows.d8518d80.mp3",
   "static/media/music-evgeny-bardyuzha-small-discoveries.mp3": "/static/media/music-evgeny-bardyuzha-small-discoveries.fde51714.mp3",
   "static/media/mixkit-high-tech-bleep-confirmation-2520.wav": "/static/media/mixkit-high-tech-bleep-confirmation-2520.a62086ef.wav",
@@ -39,6 +39,6 @@
   "static/media/img-2022-11-power-bi-appsource-deneb-maps.gif": "/static/media/img-2022-11-power-bi-appsource-deneb-maps.f42b54e4.gif",
   "static/css/main.7853f0b7.chunk.css.map": "/static/css/main.7853f0b7.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.0fa984347a40532597ce85208c62ce75.js": "/precache-manifest.0fa984347a40532597ce85208c62ce75.js",
+  "precache-manifest.86bba43a89c897cb4a50a5c8d9cb5312.js": "/precache-manifest.86bba43a89c897cb4a50a5c8d9cb5312.js",
   "service-worker.js": "/service-worker.js"
 }

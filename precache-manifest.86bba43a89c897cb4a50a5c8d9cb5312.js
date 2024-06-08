@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e34a683c8fb215b0b826",
+    "revision": "b6d603847483a7a25a19",
     "url": "/static/css/main.7853f0b7.chunk.css"
   },
   {
-    "revision": "e34a683c8fb215b0b826",
-    "url": "/static/js/main.e34a683c.chunk.js"
+    "revision": "b6d603847483a7a25a19",
+    "url": "/static/js/main.b6d60384.chunk.js"
   },
   {
     "revision": "4927455309981692546f",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/static/media/logo-tableau.148cae2e.svg"
   },
   {
-    "revision": "15692e0565847af35414895193e85d8b",
-    "url": "/static/media/music-evgeny-bardyuzha-good-mood-for-no-reason.15692e05.mp3"
+    "revision": "b1f4a3cff943a54c028099ac21e92826",
+    "url": "/static/media/music-evgeny-bardyuzha-dreamy-inspiring-electronic.b1f4a3cf.mp3"
   },
   {
     "revision": "d8518d8031e3dec251d27f234a8c6a62",
@@ -136,7 +136,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-11-power-bi-appsource-deneb-maps.f42b54e4.gif"
   },
   {
-    "revision": "bfcdf67b86f6b548b36168dd5f9aea26",
+    "revision": "0660aa31e01fdb61ac2005ae216d1971",
     "url": "/index.html"
   }
 ];
