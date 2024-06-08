@@ -85,25 +85,21 @@ div { margin: 0px; padding: 0px; }
 
 /* BACKGROUND */
 
-/*
 .bg-home {
+  /* width and height are needed for the squares effects */
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
   top: 0px;
-  left: 0px;
-  border: 0px;
   z-index: 1;
   opacity: 1;
-  position: fixed;
-  scroll-behavior: smooth;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-} 
-*/
+}
 
-.bg-home {
+.bg-home-background {
   bottom: 0px;
   left: 0px;
   border: 0px;
-  z-index: 1;
+  z-index: 2;
   opacity: 0.55;
   position: fixed;
   scroll-behavior: smooth;
@@ -128,8 +124,8 @@ div { margin: 0px; padding: 0px; }
   background-color: #C0EAFF;
   width: 1px;
   height: 200vh;
-  opacity: 0.15;
-  z-index: 2;
+  opacity: 0.175;
+  z-index: 3;
   transform: scaleX(0.4) scaleY(200);
   transform-origin: left;
 }
@@ -139,13 +135,53 @@ div { margin: 0px; padding: 0px; }
   to { transform: perspective(800px) rotateX(30deg) rotateY(0deg) rotate(360deg); }
 }
 
+.bg-home-square {
+  position: absolute;
+  bottom: 0;
+  width: 3vw;
+  height: 3vw;
+  background: linear-gradient(to right, rgba(192, 234, 255, 0.85) 5%, rgba(255, 255, 255, 0));
+  border: 1px solid;
+  border-color: rgba(192, 234, 255, 1) rgba(192, 234, 255, 0.25);
+  opacity: 0.8;
+  z-index: 4;
+}
+
+@keyframes square-rise {
+  0% { bottom: 0; opacity: 1; }
+  20% { bottom: 20vh; opacity: 1; }
+  66% { bottom: 66vh; opacity: 0; }
+  100% { bottom: 100vh; opacity: 0; }
+}
+
+@keyframes square-sway {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(2vw); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes square-spin1 {
+  0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+  100% { transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg); }
+}
+
+@keyframes square-spin2 {
+  0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+  100% { transform: rotateX(-360deg) rotateY(360deg) rotateZ(-360deg); }
+}
+
+@keyframes square-spin3 {
+  0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+  100% { transform: rotateX(360deg) rotateY(-360deg) rotateZ(360deg); }
+}
+
 .bg-home-map-1, .bg-home-map-2 {
   background-image: url("https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-theme/background-hokkaido-geolocalisation-blue-light.svg?raw=true");
   background-size: contain; 
   background-position: center; 
   background-repeat: no-repeat;
   position: absolute;
-  z-index: 3;
+  z-index: 5;
   transform: perspective(1000px) rotateX(-40deg) rotateY(-320deg); /* Tilt */
   animation: mapBackgroundSpin 35s linear infinite reverse; /* Counter-clockwise motion */
   transform-origin: 20% 35%; /* Set rotation pivot point to center */
@@ -1779,7 +1815,7 @@ code::-webkit-scrollbar-track {
 
 @media (max-aspect-ratio: 12/21) {
 
-  .bg-home {
+  .bg-home-background {
     width: 100vw;
     height: 100%;
     background-size: auto 100vh;
@@ -2356,7 +2392,7 @@ code::-webkit-scrollbar-track {
 
 @media (min-aspect-ratio: 12/21) and (max-aspect-ratio: 1/1) {
 
-  .bg-home {
+  .bg-home-background {
     width: 100vw;
     height: 100%;
     background-size: auto 100vh;
@@ -2955,7 +2991,7 @@ code::-webkit-scrollbar-track {
 
 @media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 16/10) {
 
-  .bg-home {
+  .bg-home-background {
     width: 100%;
     height: 100vh;
     background-size: 100vw auto;
@@ -3560,7 +3596,7 @@ code::-webkit-scrollbar-track {
 
 @media (min-aspect-ratio: 16/10) {
 
-  .bg-home {
+  .bg-home-background {
     width: 100%;
     height: 100vh;
     background-size: 100vw auto;
