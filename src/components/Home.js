@@ -38,9 +38,11 @@ function Home() {
                 <br /><br /><br /><br /><br /><br />
                 <Footer />
             </div>
+
+            <div className="bg-home-map-1"></div>
+            <div className="bg-home-map-2"></div>
+
             <div className="bg-home">
-                <div className="bg-home-map-1"></div>
-                <div className="bg-home-map-2"></div>
                 <div className="bg-home-lines-container" id="bg-home-lines-container"></div>
             </div>
         </div>

@@ -85,6 +85,7 @@ div { margin: 0px; padding: 0px; }
 
 /* BACKGROUND */
 
+/*
 .bg-home {
   top: 0px;
   left: 0px;
@@ -95,6 +96,20 @@ div { margin: 0px; padding: 0px; }
   scroll-behavior: smooth;
   background-repeat: no-repeat;
   background-attachment: fixed;
+} 
+*/
+
+.bg-home {
+  bottom: 0px;
+  left: 0px;
+  border: 0px;
+  z-index: 1;
+  opacity: 0.55;
+  position: fixed;
+  scroll-behavior: smooth;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-image: url("https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-theme/background-japan-location-map-blue-dark.svg?raw=true");
 }
 
 .bg-home-lines-container {
@@ -114,6 +129,7 @@ div { margin: 0px; padding: 0px; }
   width: 1px;
   height: 200vh;
   opacity: 0.15;
+  z-index: 2;
   transform: scaleX(0.4) scaleY(200);
   transform-origin: left;
 }
@@ -1763,6 +1779,14 @@ code::-webkit-scrollbar-track {
 
 @media (max-aspect-ratio: 12/21) {
 
+  .bg-home {
+    width: 100vw;
+    height: 100%;
+    background-size: auto 100vh;
+    animation: bg-auto-scrolling 800.32s infinite; /* IE 10+ */
+    animation-timing-function: linear;
+  }
+
   .bg-home-map-1, .bg-home-map-2 {
     width: 100vw;
     height: 92.65vw; /* Hokkaido map's height is .9265 of its width */
@@ -2331,6 +2355,14 @@ code::-webkit-scrollbar-track {
 
 
 @media (min-aspect-ratio: 12/21) and (max-aspect-ratio: 1/1) {
+
+  .bg-home {
+    width: 100vw;
+    height: 100%;
+    background-size: auto 100vh;
+    animation: bg-auto-scrolling 800.32s infinite; /* IE 10+ */
+    animation-timing-function: linear;
+  }
 
   .bg-home-map-1, .bg-home-map-2 {
     width: 85vw;
@@ -2922,6 +2954,14 @@ code::-webkit-scrollbar-track {
 
 
 @media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 16/10) {
+
+  .bg-home {
+    width: 100%;
+    height: 100vh;
+    background-size: 100vw auto;
+    animation: bg-auto-scrolling 800.32s infinite; /* IE 10+ */
+    animation-timing-function: linear;
+  }
 
   .bg-home-map-1, .bg-home-map-2 {
     width: 85vw;
@@ -3519,6 +3559,14 @@ code::-webkit-scrollbar-track {
 
 
 @media (min-aspect-ratio: 16/10) {
+
+  .bg-home {
+    width: 100%;
+    height: 100vh;
+    background-size: 100vw auto;
+    animation: bg-auto-scrolling 3000.32s infinite; /* IE 10+ */
+    animation-timing-function: linear;
+  }
 
   .bg-home-map-1, .bg-home-map-2 {
     width: 65vw;
