@@ -88,8 +88,8 @@ div { margin: 0px; padding: 0px; }
 .bg-home {
   /* width and height are needed for the squares effects */
   /* temporary removal to test mobile browser app */
-  /* width: 100vw;
-  height: 100vh; */
+  width: 100vw;
+  height: 100vh;
   position: absolute;
   top: 0px;
   z-index: 1;
@@ -97,6 +97,7 @@ div { margin: 0px; padding: 0px; }
 }
 
 .bg-home-background {
+  position: absolute;
   bottom: 0px;
   left: 0px;
   border: 0px;
@@ -177,11 +178,11 @@ div { margin: 0px; padding: 0px; }
 }
 
 .bg-home-map-1, .bg-home-map-2 {
+  position: absolute;
   background-image: url("https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-theme/background-hokkaido-geolocalisation-blue-light.svg?raw=true");
   background-size: contain; 
   background-position: center; 
   background-repeat: no-repeat;
-  position: absolute;
   z-index: 5;
   transform: perspective(1000px) rotateX(-40deg) rotateY(-320deg); /* Tilt */
   animation: mapBackgroundSpin 35s linear infinite reverse; /* Counter-clockwise motion */
