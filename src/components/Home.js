@@ -86,6 +86,9 @@ function Home() {
       <div className="bg-home">
         <div className="bg-home-map-1"></div>
         <div className="bg-home-map-2"></div>
+        <div className="bg-home-gear-orbit-container">
+          <div className="bg-home-gear-orbit-gear-1"></div>
+        </div>
         <div className="bg-home-lines-container" id="bg-home-lines-container"></div>
         <div className="bg-home-background"></div>
       </div>

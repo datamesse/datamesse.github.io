@@ -184,7 +184,7 @@ div { margin: 0px; padding: 0px; }
   background-repeat: no-repeat;
   z-index: 5;
   transform: perspective(1000px) rotateX(-40deg) rotateY(-320deg); /* Tilt */
-  animation: mapBackgroundSpin 35s linear infinite reverse; /* Counter-clockwise motion */
+  animation: mapBackgroundSpin 35s linear infinite reverse;
   transform-origin: 20% 35%; /* Set rotation pivot point to center */
 }
 
@@ -200,6 +200,25 @@ div { margin: 0px; padding: 0px; }
   100% { transform: perspective(1000px) rotateX(20deg) rotateY(-30deg) rotateZ(-360deg); }
 }
 
+.bg-home-gear-orbit-container {
+  border-radius: 50%;
+  animation: mapBackgroundSpin 35s linear infinite reverse; 
+  position: absolute;
+  z-index: 6;
+}
+
+.bg-home-gear-orbit-gear-1 {
+  background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-gear-blue-light-7147640.svg?raw=true");
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 6;
+  animation: bg-home-gear-orbit 7s linear infinite;
+}
+
+@keyframes bg-home-gear-orbit {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0); }
+}
 
 .bg-blue {
   top: 0px;
@@ -1840,6 +1859,18 @@ code::-webkit-scrollbar-track {
     left: calc(50vw + 3.75vw * var(--i));
   }
 
+  .bg-home-gear-orbit-container {
+    width: 140vw;
+    height: 140vw;
+    top: 10vh;
+    left: -30vw;
+  }	
+  
+  .bg-home-gear-orbit-gear-1 {
+    width: 70vw;
+    height: 70vw;
+  }
+
   .bg-blue {
     background: linear-gradient(115deg, #006EEA 0%, #0054B3 2%, #014CA1 5%, #003775 9%, #00234C 15%, #001E40 21%, #001228 27%, #010407 35%, #010208 50%, #01162E 70%, #002044 78%, #013772 89%, #004899 95%, #005FCB 99%, #0077FF 100%); /* W3C */
   }
@@ -2416,6 +2447,18 @@ code::-webkit-scrollbar-track {
 
   .bg-home-line {
     left: calc(50vw + 2vw * var(--i));
+  }
+
+  .bg-home-gear-orbit-container {
+    width: 115vw;
+    height: 115vw;
+    top: 0;
+    left: -20vw;
+  }	
+  
+  .bg-home-gear-orbit-gear-1 {
+    width: 45vw;
+    height: 45vw;
   }
 
   .bg-blue {
@@ -3015,6 +3058,18 @@ code::-webkit-scrollbar-track {
 
   .bg-home-line {
     left: calc(50vw + 1.5vw * var(--i));
+  }
+
+  .bg-home-gear-orbit-container {
+    width: 120vh;
+    height: 120vh;
+    top: 2vh;
+    left: -20vh;
+  }	
+  
+  .bg-home-gear-orbit-gear-1 {
+    width: 40vh;
+    height: 40vh;
   }
 
   .bg-blue {
@@ -3620,6 +3675,18 @@ code::-webkit-scrollbar-track {
 
   .bg-home-line {
     left: calc(50vw + 1.2vw * var(--i));
+  }
+
+  .bg-home-gear-orbit-container {
+    width: 100vh;
+    height: 100vh;
+    top: 0vh;
+    left: 10vh;
+  }	
+  
+  .bg-home-gear-orbit-gear-1 {
+    width: 20vh;
+    height: 20vh;
   }
 
   .bg-blue {
