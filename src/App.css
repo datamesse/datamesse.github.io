@@ -213,6 +213,7 @@ div { margin: 0px; padding: 0px; }
   border-radius: 50%;
   z-index: 6;
   animation: bg-home-gear-orbit 7s linear infinite;
+  opacity: 1;
 }
 
 @keyframes bg-home-gear-orbit {
