@@ -201,33 +201,56 @@ div { margin: 0px; padding: 0px; }
 }
 
 .bg-home-gear-orbit-container {
+  position: relative;
   border-radius: 50%;
   animation: mapBackgroundSpin 35s linear infinite reverse; 
-  position: absolute;
   z-index: 6;
 }
 
-.bg-home-gear-orbit-gear-1, .bg-home-gear-orbit-gear-2 {
-  background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-gear-blue-light-7147647.svg?raw=true");
+.bg-home-sphere {
+  display: none;
+}
+
+/* TODO
+.bg-home-sphere {
+  background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-sphere-blue-light-5337556.svg?raw=true");
   background-repeat: no-repeat;
-  border-radius: 50%;
-  z-index: 6;
-  animation: bg-home-gear-orbit-clockwise 7s linear infinite;
+  position: absolute;  
+  width: 5vw;
+  height: 5vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+*/
+
+.bg-home-gear-orbit-gear {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 7;
+}
+
+.bg-home-gear-orbit-gear-1 {
+  background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-gear-blue-light-7147647-circle.svg?raw=true");
+  animation: bg-home-gear-orbit-clockwise 6s linear infinite;
 }
 
 .bg-home-gear-orbit-gear-2 {
-  background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-gear-blue-light-7147647.svg?raw=true");
-  animation: bg-home-gear-orbit-anticlockwise 7s linear infinite;
+  background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-gear-blue-light-7147647-line.svg?raw=true");
+  animation: bg-home-gear-orbit-anticlockwise 10s linear infinite;
 }
 
 @keyframes bg-home-gear-orbit-clockwise {
-  from { transform: rotate(360deg); }
-  to { transform: rotate(0); }
+  from { transform: rotate(0); }
+  to { transform: rotate(360deg); }
 }
 
 @keyframes bg-home-gear-orbit-anticlockwise {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0); }
 }
 
 .bg-blue {
@@ -1876,7 +1899,7 @@ code::-webkit-scrollbar-track {
     left: -30vw;
   }	
   
-  .bg-home-gear-orbit-gear-1 {
+  .bg-home-gear-orbit-gear {
     width: 70vw;
     height: 70vw;
   }
@@ -2466,7 +2489,7 @@ code::-webkit-scrollbar-track {
     left: -20vw;
   }	
   
-  .bg-home-gear-orbit-gear-1 {
+  .bg-home-gear-orbit-gear {
     width: 45vw;
     height: 45vw;
   }
@@ -3077,7 +3100,7 @@ code::-webkit-scrollbar-track {
     left: -20vh;
   }	
   
-  .bg-home-gear-orbit-gear-1 {
+  .bg-home-gear-orbit-gear {
     width: 40vh;
     height: 40vh;
   }
@@ -3694,7 +3717,7 @@ code::-webkit-scrollbar-track {
     left: 10vh;
   }	
   
-  .bg-home-gear-orbit-gear-1 {
+  .bg-home-gear-orbit-gear {
     width: 20vh;
     height: 20vh;
   }
