@@ -207,17 +207,27 @@ div { margin: 0px; padding: 0px; }
   z-index: 6;
 }
 
-.bg-home-gear-orbit-gear-1 {
+.bg-home-gear-orbit-gear-1, .bg-home-gear-orbit-gear-2 {
   background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-gear-blue-light-7147647.svg?raw=true");
   background-repeat: no-repeat;
   border-radius: 50%;
   z-index: 6;
-  animation: bg-home-gear-orbit 7s linear infinite;
+  animation: bg-home-gear-orbit-clockwise 7s linear infinite;
 }
 
-@keyframes bg-home-gear-orbit {
+.bg-home-gear-orbit-gear-2 {
+  background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-gear-blue-light-7147647.svg?raw=true");
+  animation: bg-home-gear-orbit-anticlockwise 7s linear infinite;
+}
+
+@keyframes bg-home-gear-orbit-clockwise {
   from { transform: rotate(360deg); }
   to { transform: rotate(0); }
+}
+
+@keyframes bg-home-gear-orbit-anticlockwise {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 .bg-blue {
