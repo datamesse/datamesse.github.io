@@ -179,8 +179,8 @@ div { margin: 0px; padding: 0px; }
 .bg-home-map-1, .bg-home-map-2 {
   position: absolute;
   background-image: url("https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-theme/background-hokkaido-geolocalisation-blue-light.svg?raw=true");
-  background-size: contain; 
-  background-position: center; 
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   z-index: 5;
   transform: perspective(1000px) rotateX(-40deg) rotateY(-320deg); /* Tilt */
@@ -203,25 +203,9 @@ div { margin: 0px; padding: 0px; }
 .bg-home-gear-orbit-container {
   position: relative;
   border-radius: 50%;
-  animation: mapBackgroundSpin 35s linear infinite reverse; 
-  z-index: 6;
+  animation: mapBackgroundSpin 35s linear infinite reverse;
+  z-index: 5;
 }
-
-.bg-home-sphere {
-  display: none;
-}
-
-/* TODO
-.bg-home-sphere {
-  background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-sphere-blue-light-5337556.svg?raw=true");
-  background-repeat: no-repeat;
-  position: absolute;  
-  width: 5vw;
-  height: 5vw;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-*/
 
 .bg-home-gear-orbit-gear {
   width: 100%;
@@ -249,8 +233,34 @@ div { margin: 0px; padding: 0px; }
 }
 
 @keyframes bg-home-gear-orbit-anticlockwise {
-  from { transform: rotate(360deg); }
-  to { transform: rotate(0); }
+  from { transform: rotate(0); }
+  to { transform: rotate(-360deg); }
+}
+
+.bg-home-sphere-1 {
+  width: 5vw;
+  height: 5vw;
+  background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-sphere-blue-light-5337556-sparse.svg?raw=true");
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 6;
+  animation: bg-home-sphereOrbit 35s linear infinite, bg-home-glowSphere 3s infinite alternate;
+}
+
+@keyframes bg-home-sphereOrbit {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(-360deg); }
+}
+
+@keyframes bg-home-glowSphere {
+  from { box-shadow: 0 0 0.175vw 0.25vw rgba(198, 255, 255, 0.75); }
+  to { box-shadow: 0 0 0.175vw 0.374vw rgba(0, 152, 230, 0.6),
+                   0 0 0.375vw 0.74vw rgba(78, 221, 255, 0.45),
+                   0 0 0.75vw 3.5vw rgba(78, 221, 255, 0.1);
+  }
 }
 
 .bg-blue {
