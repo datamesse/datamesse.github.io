@@ -22,7 +22,7 @@ function PostPreview({ post }) {
             
             <div className='post-preview-background'></div>
             <div className='post-preview-tech-icon-container'>
-                <img src= {`${ assetURL }${post.tag}.svg`} alt=''/>
+                <img src= {`${ assetURL }${post.tag}.svg`} alt='' loading='lazy'/>
             </div>
             <div className='post-preview-panel'></div>
             <div className='post-preview-date'><p>{post.date}</p></div>

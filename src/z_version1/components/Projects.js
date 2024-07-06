@@ -15,10 +15,10 @@ export default function Projects() {
                         portfolio.map(function(port, index){
                             return (
                                 <div key={index} className='project-tile'>
-                                    <span className='stack-overlay'><img src={ port.stack } alt=''/></span>
+                                    <span className='stack-overlay'><img src={ port.stack } alt='' loading='lazy'/></span>
                                         <div className='stamp-overlay'>{ port.stamp }</div>
                                         <div className='stack-overlaybg'></div>
-                                    <img src={ port.photo } alt=''/>
+                                    <img src={ port.photo } alt='' loading='lazy'/>
                                     <div className='project-desc'>
                                         <p className='project-title'>{port.title}</p>
                                         <p>{port.description}</p>

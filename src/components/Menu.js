@@ -20,21 +20,21 @@ function Menu() {
                     <div className='menu-button-border menu-button-border-square'></div>
                     <div className='menu-button-highlight menu-button-highlight-square menu-button-highlight-orange'></div>
                     <div className='menu-button-gradient menu-button-gradient-square menu-button-gradient-orange'></div>
-                    <img className='menu-button-icon' src={ icon_modeportrait } />
+                    <img className='menu-button-icon' src={ icon_modeportrait } loading='lazy'/>
                 </Link>
 
                 <Link to="/portfolio" onClick={start}>
                     <div className='menu-button-border menu-button-border-square'></div>
                     <div className='menu-button-highlight menu-button-highlight-square menu-button-highlight-blue'></div>
                     <div className='menu-button-gradient menu-button-gradient-square menu-button-gradient-blue'></div>
-                    <img className='menu-button-icon' src={ icon_charthistogram } />
+                    <img className='menu-button-icon' src={ icon_charthistogram } loading='lazy'/>
                 </Link>
 
                 <Link to="/blog" onClick={start}>
                     <div className='menu-button-border menu-button-border-square'></div>
                     <div className='menu-button-highlight menu-button-highlight-square menu-button-highlight-teal'></div>
                     <div className='menu-button-gradient menu-button-gradient-square menu-button-gradient-teal'></div>
-                    <img className='menu-button-icon' src={ icon_edit } />
+                    <img className='menu-button-icon' src={ icon_edit } loading='lazy'/>
                 </Link>
 
             </div>

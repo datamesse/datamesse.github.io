@@ -11,7 +11,7 @@ function Project({ project }) {
             <div className='blog-tile-header'>
                 <div className='blog-title-header-rectangle'>
                     <span className='blogstamp-overlay'>
-                        <img src= {`${project.stack}`} alt=''/>
+                        <img src= {`${project.stack}`} alt='' loading='lazy'/>
                     </span>
                     <a href={project.siteURL}>{project.tech}</a>
                 </div>
@@ -37,14 +37,14 @@ function Project({ project }) {
                                 {project.siteURL && (
                                     <a href={project.siteURL} target='_blank'>
                                         <div className='project-link-button'>
-                                            <img className='project-link-icon' src={ icon_globe } />SITE
+                                            <img className='project-link-icon' src={ icon_globe } loading='lazy'/>SITE
                                         </div>
                                     </a>
                                 )}
                                 {project.codeURL && (
                                     <a href={project.codeURL} target='_blank'>
                                         <div className='project-link-button'>
-                                            <img className='project-link-icon' src={ logo_github } />CODE
+                                            <img className='project-link-icon' src={ logo_github } loading='lazy'/>CODE
                                         </div>
                                     </a>
                                 )}
@@ -63,7 +63,7 @@ function Project({ project }) {
 
                     <a href={project.siteURL} target='_blank'>
                         <center>
-                            <img src={project.photo} className='project-photo' />
+                            <img src={project.photo} className='project-photo' loading='lazy'/>
                         </center>
                     </a>
 

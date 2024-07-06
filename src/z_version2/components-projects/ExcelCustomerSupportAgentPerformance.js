@@ -24,7 +24,7 @@ export default function ExcelCustomerSupportAgentPerformance() {
 
                         <br></br>
                         <p>
-                            <img src='https://github.com/datamesse/datamesse.github.io/raw/main/src/assets-portfolio/img-2022-06-excel-customer-support-agent-performance-original.png'></img>
+                            <img src='https://github.com/datamesse/datamesse.github.io/raw/main/src/assets-portfolio/img-2022-06-excel-customer-support-agent-performance-original.png' loading='lazy'></img>
                         </p>
                         <br></br>
 

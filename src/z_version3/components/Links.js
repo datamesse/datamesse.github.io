@@ -13,7 +13,7 @@ import { SocialData } from '../data/social';
                                 <a href={item.link} target='_blank'>
                                     <div className='link'>
                                         <div className='link-icon-container'>
-                                            <img src={item.icon} className='link-icon' />
+                                            <img src={item.icon} className='link-icon' loading='lazy'/>
                                         </div>
                                         <div className='link-text'>
                                             {item.platform}

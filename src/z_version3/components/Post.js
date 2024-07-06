@@ -41,7 +41,7 @@ export default function Post(props) {
                         <div className='blog-tile-header'>
                             <div className='blog-title-header-rectangle'>
                                 <span className='blogstamp-overlay'>
-                                    <img src= {`${ assetURL }${fetchedPost.tag}.svg`} alt=''/>
+                                    <img src= {`${ assetURL }${fetchedPost.tag}.svg`} alt='' loading='lazy'/>
                                 </span>
                                 <Link to={`/post/${fetchedPost.id}`}>{fetchedPost.tech}</Link>
                             </div>

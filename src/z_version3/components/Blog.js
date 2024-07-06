@@ -37,7 +37,7 @@ export default function Blog() {
 
                                             <div className='blog-title-header-rectangle'>
                                                 <span className='blogstamp-overlay'>
-                                                    <img src= {`${ assetURL }${post.tag}.svg`} alt=''/>
+                                                    <img src= {`${ assetURL }${post.tag}.svg`} alt='' loading='lazy'/>
                                                 </span>
                                                 <Link to={`/post/${post.id}`}>{post.tech}</Link>
                                             </div>

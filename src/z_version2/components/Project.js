@@ -12,14 +12,14 @@ function Project({ project }) {
                         {project.siteURL && (
                             <a href={project.siteURL} target='_blank'>
                                 <div className='project-link-button'>
-                                    <img className='project-link-icon' src={ icon_globe } />SITE
+                                    <img className='project-link-icon' src={ icon_globe } loading='lazy'/>SITE
                                 </div>
                             </a>
                         )}
                         {project.codeURL && (
                             <a href={project.codeURL} target='_blank'>
                                 <div className='project-link-button'>
-                                    <img className='project-link-icon' src={ logo_github } />CODE
+                                    <img className='project-link-icon' src={ logo_github } loading='lazy'/>CODE
                                 </div>
                             </a>
                         )}
@@ -37,7 +37,7 @@ function Project({ project }) {
             </div>
             <a href={project.siteURL} target='_blank'>
                 <center>
-                    <img src={project.photo} className='project-photo' />
+                    <img src={project.photo} className='project-photo' loading='lazy'/>
                 </center>
             </a>
         </div>

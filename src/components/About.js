@@ -61,11 +61,11 @@ function About() {
                     <div className='about-lanyard-text'>PICTURE ID</div>
 
                     <div className='about-avatar'>
-                        <img src={ avatar } />
+                        <img src={ avatar } loading='lazy'/>
                     </div>
 
                     <div className='about-avatar about-avatar-shadow'>
-                        <img src={ avatar } />
+                        <img src={ avatar } loading='lazy'/>
                     </div>
 
                     <div className='about-avatar-border'></div>

@@ -11,9 +11,9 @@ function Header({mp3credit, mp3}) {
       
                 <div className="sitename">
                     <a href='/'>
-                        <img className="site-title" src={ title_e } />
-                        <img className="site-title" src={ title_d } />
-                        <img className="site-title" src={ title_c } />
+                        <img className="site-title" src={ title_e } loading='lazy'/>
+                        <img className="site-title" src={ title_d } loading='lazy'/>
+                        <img className="site-title" src={ title_c } loading='lazy'/>
                     </a>
                 </div>
 

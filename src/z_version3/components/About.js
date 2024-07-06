@@ -40,7 +40,7 @@ function About() {
                         <div className='about-avatar-outer-border'>
                             <div className='about-avatar-mid-border'>
                                 <div className='about-avatar-inner-border'>
-                                    <img className='about-avatar' src={ avatar } />
+                                    <img className='about-avatar' src={ avatar } loading='lazy'/>
                                 </div>
                             </div>
                         </div>
@@ -67,7 +67,7 @@ function About() {
                 </div>
 
                 <div className='about-photo'>
-                    <img className='about-image' src={ image_sentimentanalysis_animated } />
+                    <img className='about-image' src={ image_sentimentanalysis_animated } loading='lazy'/>
                 </div>
 
             </div>

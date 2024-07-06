@@ -38,11 +38,11 @@ const [isOpen, setIsOpen] = useState(false)
 
                     <div className="sitename" id="title">
                             <a href='/'>
-                                <img className="site-title" src={ title_e } />
-                                <img className="site-title" src={ title_d } />
-                                <img className="site-title" src={ title_c } />
-                                <img className="site-title" src={ title_b } />
-                                <img className="site-title" src={ title_a } />
+                                <img className="site-title" src={ title_e } loading='lazy'/>
+                                <img className="site-title" src={ title_d } loading='lazy'/>
+                                <img className="site-title" src={ title_c } loading='lazy'/>
+                                <img className="site-title" src={ title_b } loading='lazy'/>
+                                <img className="site-title" src={ title_a } loading='lazy'/>
                             </a>
                         </div>         
 
@@ -52,7 +52,7 @@ const [isOpen, setIsOpen] = useState(false)
                         </div>
                         <div className="menu-mobile">
                             <div onClick={() => setIsOpen(!isOpen)}>
-                                <img className="menu-icon" src={ icon_menuburger } />
+                                <img className="menu-icon" src={ icon_menuburger } loading='lazy'/>
                             </div>
                             {isOpen && <MenuMobile isOpen={isOpen} setIsOpen={setIsOpen}/>}
                         </div>

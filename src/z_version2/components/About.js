@@ -30,7 +30,7 @@ function About() {
                 <div className='about-info'>
 
                     <div className='about-title'>
-                        <img className='about-avatar' src={ avatar } />
+                        <img className='about-avatar' src={ avatar } loading='lazy'/>
                         <label className='section-title'>ABOUT ME</label>
                     </div>
                     <p>Customer service veteran with strong foundational data skills from SaaS support work and personal projects.</p>
@@ -38,7 +38,7 @@ function About() {
 
                 </div>
                 <div className='about-photo'>
-                    <img className='about-image' src={ image_sentimentanalysis_animated } />
+                    <img className='about-image' src={ image_sentimentanalysis_animated } loading='lazy'/>
                 </div>
             </div>
 

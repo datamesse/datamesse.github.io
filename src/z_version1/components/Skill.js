@@ -18,6 +18,7 @@ function Skill({ skill }) {
                 <img className='skill-icon'
                   src={ skill.icon }
                   alt={ skill.name }
+                  loading='lazy'
                 />
                 <label className='skill-score'>Top {`${ skill.score }%`} of {skill.taken}</label>
                 <label className='skill-date'>{skill.shortdate}</label>

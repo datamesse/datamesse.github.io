@@ -26,7 +26,7 @@ export default function Blog() {
                                     <div key={i} className='blog-tile'>
                                         <div className='blog-tile-header'>
                                             <span className='blogstamp-overlay'>
-                                                <img src= {`${ assetURL }${post.tag}.svg`} alt=''/>
+                                                <img src= {`${ assetURL }${post.tag}.svg`} alt='' loading='lazy'/>
                                             </span>
                                             <Link to={`/post/${post.id}`}>{post.title}</Link>
                                         </div>

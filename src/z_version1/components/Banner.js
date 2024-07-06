@@ -52,13 +52,13 @@ export default function Banner() {
                         <p>{ bannerDescription }</p>
                     </div>
                     <div className='banner-elements'>
-                        <img src={ avatar } class='banner-avatar'/>
+                        <img src={ avatar } class='banner-avatar' loading='lazy'/>
                             <ul className='banner-button-list'>
                                 <li>
                                     <a href={ githubURL } target='_blank'>
                                         <span className='banner-icon'>
-                                            <img src={ logoblue_github } />
-                                            <img src={ logo_github } />
+                                            <img src={ logoblue_github } loading='lazy'/>
+                                            <img src={ logo_github } loading='lazy'/>
                                         </span>
                                         <span className='banner-label'>GitHub</span>
                                     </a>
@@ -66,8 +66,8 @@ export default function Banner() {
                                 <li>
                                     <a href={ powerbiURL } target='_blank'>
                                         <span className='banner-icon'>
-                                            <img src={ logoblue_powerbi } />
-                                            <img src={ logo_powerbi } />
+                                            <img src={ logoblue_powerbi } loading='lazy'/>
+                                            <img src={ logo_powerbi } loading='lazy'/>
                                         </span>
                                         <span className='banner-label'>Power BI</span>
                                     </a>
@@ -75,8 +75,8 @@ export default function Banner() {
                                 <li>
                                     <a href={ tableauURL } target='_blank'>
                                         <span className='banner-icon'>
-                                            <img src={ logoblue_tableau } />
-                                            <img src={ logo_tableau } />
+                                            <img src={ logoblue_tableau } loading='lazy'/>
+                                            <img src={ logo_tableau } loading='lazy'/>
                                         </span>
                                         <span className='banner-label'>Tableau</span>
                                     </a>
@@ -84,8 +84,8 @@ export default function Banner() {
                                 <li>
                                     <a href={ twitterURL } target='_blank'>
                                         <span className='banner-icon'>
-                                            <img src={ logoblue_twitter } />
-                                            <img src={ logo_twitter } />
+                                            <img src={ logoblue_twitter } loading='lazy'/>
+                                            <img src={ logo_twitter } loading='lazy'/>
                                         </span>
                                         <span className='banner-label'>Twitter</span>
                                     </a>
@@ -93,8 +93,8 @@ export default function Banner() {
                                 <li>
                                     <a href={ ascii0 + ascii2 + ascii3 } target='_blank'>
                                         <span className='banner-icon'>
-                                            <img src={ logoblue_linkedin } />
-                                            <img src={ logo_linkedin } />
+                                            <img src={ logoblue_linkedin } loading='lazy'/>
+                                            <img src={ logo_linkedin } loading='lazy'/>
                                         </span>
                                         <span className='banner-label'>LinkedIn</span>
                                     </a>

@@ -23,7 +23,7 @@ export default function ExcelCustomerSupportAgentPerformance() {
                         <div className='blog-tile-header'>
                             <div className='blog-title-header-rectangle'>
                                 <span className='blogstamp-overlay'>
-                                <img src= { logo_excel } alt=''/>
+                                <img src= { logo_excel } alt='' loading='lazy'/>
                                 </span>
                                 <a>EXCEL</a>
                             </div>
@@ -56,7 +56,7 @@ export default function ExcelCustomerSupportAgentPerformance() {
                             <p>It connects to my GitHub repository data, so please click "Enable content" to access that External Data Connection.</p>
 
                             <p>
-                                <img src='https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2022-06-excel-customer-support-agent-performance.gif?raw=true'></img>
+                                <img src='https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2022-06-excel-customer-support-agent-performance.gif?raw=true' loading='lazy'></img>
                             </p>
 
                             <p>This Excel report is a redux of my "Follow the sun customer support" Power BI report, the latter you can find here:</p>

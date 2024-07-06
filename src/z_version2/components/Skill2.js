@@ -32,6 +32,7 @@ function Skill2({ skill }) {
                 <img className='skill2-icon'
                     src={ skill.icon }
                     alt={ skill.name }
+                    loading='lazy'
                 />
             </div>
 

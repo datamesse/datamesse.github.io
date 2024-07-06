@@ -17,17 +17,17 @@ function MenuDesktop() {
         <div className='menu-desktop'>
             <div className='menu-desktop-option'>
                 <Link to="/portfolio">
-                    <img className='menu-option' src={ icon_charthistogram } />PORTFOLIO
+                    <img className='menu-option' src={ icon_charthistogram } loading='lazy'/>PORTFOLIO
                 </Link>
             </div>
             <div className='menu-desktop-option'>
                 <Link to="/blog">
-                    <img className='menu-option' src={ icon_edit } />BLOG
+                    <img className='menu-option' src={ icon_edit } loading='lazy'/>BLOG
                 </Link>
             </div>
             <div className='menu-desktop-option'>
                 <Link to="/#skills">
-                    <img className='menu-option' src={ icon_diploma } />SKILLS
+                    <img className='menu-option' src={ icon_diploma } loading='lazy'/>SKILLS
                 </Link>
             </div>
         </div>

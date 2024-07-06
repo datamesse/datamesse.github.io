@@ -24,7 +24,7 @@ export default function InternationalMarketplaceProfitForecast() {
 
                         <br></br>
                         <p>
-                            <img src='https://github.com/datamesse/datamesse.github.io/raw/main/src/assets-portfolio/img-2022-10-excel-international-marketplace-profit-forecast-original.png'></img>
+                            <img src='https://github.com/datamesse/datamesse.github.io/raw/main/src/assets-portfolio/img-2022-10-excel-international-marketplace-profit-forecast-original.png' loading='lazy'></img>
                         </p>
                         <br></br>
 

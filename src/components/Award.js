@@ -12,7 +12,7 @@ function Award({ award }) {
 
                 <div className='post-preview-background'></div>
                 <div className='award-tech-icon-container'>
-                    <img src= { award.stack} alt=''/>
+                    <img src= { award.stack} alt='' loading='lazy'/>
                 </div>
                 <div className='award-panel'></div>
                 <div className='award-title'><p>{award.name}</p></div>
