@@ -240,7 +240,7 @@ div { margin: 0px; padding: 0px; }
 .bg-home-sphere-container {
   border-radius: 50%;
   position: absolute;
-  animation: bg-home-sphereOrbit 40s linear infinite;
+  animation: bg-home-sphereOrbit 130s linear infinite;
   z-index: 8;
 }
 
@@ -252,7 +252,7 @@ div { margin: 0px; padding: 0px; }
   top: 0;
   left: 50%;
   z-index: 9;
-  animation: bg-home-sphereSpin 40s linear infinite, bg-home-glowSphere 3s infinite alternate;
+  animation: bg-home-sphereSpin 130s linear infinite, bg-home-glowSphere 3s infinite alternate;
 }
 
 @keyframes bg-home-sphereOrbit {
@@ -3198,6 +3198,15 @@ code::-webkit-scrollbar-track {
     height: 3.5vw;
   }
 
+  @keyframes bg-home-glowSphere {
+    from { box-shadow: 0 0 0.2vw 0.2vw rgba(255, 255, 255, 0.85); }
+    to { box-shadow: 0 0 0.25vw 0.25vw rgba(200, 255, 255, 0.5),
+                     0 0 0.175vw 0.374vw rgba(0, 152, 230, 0.36),
+                     0 0 0.375vw 0.74vw rgba(78, 221, 255, 0.25),
+                     0 0 0.65vw 2.25vw rgba(78, 221, 255, 0.1);
+    }
+  }
+
   .bg-blue {
     background: linear-gradient(115deg, #006EEA 0%, #0054B3 2%, #014CA1 5%, #003775 9%, #00234C 15%, #001E40 21%, #001228 27%, #010407 35%, #010208 50%, #01162E 70%, #002044 78%, #013772 89%, #004899 95%, #005FCB 99%, #0077FF 100%); /* W3C */
   }
@@ -3837,6 +3846,15 @@ code::-webkit-scrollbar-track {
   .bg-home-sphere-2 {
     width: 1.75vw;
     height: 1.75vw;
+  }
+
+  @keyframes bg-home-glowSphere {
+    from { box-shadow: 0 0 0.2vw 0.2vw rgba(255, 255, 255, 0.85); }
+    to { box-shadow: 0 0 0.25vw 0.25vw rgba(200, 255, 255, 0.5),
+                     0 0 0.175vw 0.374vw rgba(0, 152, 230, 0.36),
+                     0 0 0.375vw 0.74vw rgba(78, 221, 255, 0.25),
+                     0 0 0.55vw 1.5vw rgba(78, 221, 255, 0.1);
+    }
   }
 
   .bg-blue {
