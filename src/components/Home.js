@@ -84,17 +84,27 @@ function Home() {
       </div>
 
       <div className="bg-home">
+
+        <div className="bg-home-sphere-container bg-home-sphere-container-1">
+          <div class="bg-home-sphere bg-home-sphere-1"></div>
+        </div>
+
+        <div className="bg-home-sphere-container bg-home-sphere-container-2">
+          <div class="bg-home-sphere bg-home-sphere-2"></div>
+        </div>
+
         <div className="bg-home-map-1"></div>
         <div className="bg-home-map-2"></div>
 
         <div className="bg-home-gear-orbit-container">
-          <div class="bg-home-sphere-1"></div>
           <div className="bg-home-gear-orbit-gear bg-home-gear-orbit-gear-1"></div>
           <div className="bg-home-gear-orbit-gear bg-home-gear-orbit-gear-2"></div>
         </div>
+
         <div className="bg-home-lines-container" id="bg-home-lines-container"></div>
         <div className="bg-home-background"></div>
       </div>
+
     </div>
   );
 }

@@ -237,28 +237,39 @@ div { margin: 0px; padding: 0px; }
   to { transform: rotate(-360deg); }
 }
 
-.bg-home-sphere-1 {
-  width: 5vw;
-  height: 5vw;
+.bg-home-sphere-container {
+  border-radius: 50%;
+  position: absolute;
+  animation: bg-home-sphereOrbit 40s linear infinite;
+  z-index: 8;
+}
+
+.bg-home-sphere {
   background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-sphere-blue-light-5337556-sparse.svg?raw=true");
   border-radius: 50%;
   background-repeat: no-repeat;
   position: absolute;
   top: 0;
   left: 50%;
-  z-index: 6;
-  animation: bg-home-sphereOrbit 35s linear infinite, bg-home-glowSphere 3s infinite alternate;
+  z-index: 9;
+  animation: bg-home-sphereSpin 40s linear infinite, bg-home-glowSphere 3s infinite alternate;
 }
 
 @keyframes bg-home-sphereOrbit {
+  from { transform: rotate(0); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes bg-home-sphereSpin {
   0% { transform: translate(-50%, -50%) rotate(0deg); }
   100% { transform: translate(-50%, -50%) rotate(-360deg); }
 }
 
 @keyframes bg-home-glowSphere {
-  from { box-shadow: 0 0 0.175vw 0.25vw rgba(198, 255, 255, 0.75); }
-  to { box-shadow: 0 0 0.175vw 0.374vw rgba(0, 152, 230, 0.6),
-                   0 0 0.375vw 0.74vw rgba(78, 221, 255, 0.45),
+  from { box-shadow: 0 0 0.2vw 0.2vw rgba(255, 255, 255, 0.85); }
+  to { box-shadow: 0 0 0.25vw 0.25vw rgba(200, 255, 255, 0.5),
+                   0 0 0.175vw 0.374vw rgba(0, 152, 230, 0.36),
+                   0 0 0.375vw 0.74vw rgba(78, 221, 255, 0.25),
                    0 0 0.75vw 3.5vw rgba(78, 221, 255, 0.1);
   }
 }
@@ -1914,6 +1925,30 @@ code::-webkit-scrollbar-track {
     height: 70vw;
   }
 
+  .bg-home-sphere-container-1 {
+    top: calc(50vh - 35vh);
+    left: calc(50vw - 35vh);
+    width: 70vh;
+    height: 70vh;
+  }
+
+  .bg-home-sphere-1 {
+    width: 6.5vw;
+    height: 6.5vw;
+  }
+
+  .bg-home-sphere-container-2 {
+    top: calc(50vh - 22.5vh);
+    left: calc(50vw - 22.5vh);
+    width: 45vh;
+    height: 45vh;
+  }
+
+  .bg-home-sphere-2 {
+    width: 4.5vw;
+    height: 4.5vw;
+  }
+
   .bg-blue {
     background: linear-gradient(115deg, #006EEA 0%, #0054B3 2%, #014CA1 5%, #003775 9%, #00234C 15%, #001E40 21%, #001228 27%, #010407 35%, #010208 50%, #01162E 70%, #002044 78%, #013772 89%, #004899 95%, #005FCB 99%, #0077FF 100%); /* W3C */
   }
@@ -2502,6 +2537,30 @@ code::-webkit-scrollbar-track {
   .bg-home-gear-orbit-gear {
     width: 45vw;
     height: 45vw;
+  }
+
+  .bg-home-sphere-container-1 {
+    top: calc(50vh - 42.5vh);
+    left: calc(50vw - 42.5vh);
+    width: 85vh;
+    height: 85vh;
+  }
+
+  .bg-home-sphere-1 {
+    width: 5vw;
+    height: 5vw;
+  }
+
+  .bg-home-sphere-container-2 {
+    top: calc(50vh - 17.5vh);
+    left: calc(50vw - 17.5vh);
+    width: 35vh;
+    height: 35vh;
+  }
+
+  .bg-home-sphere-2 {
+    width: 3.5vw;
+    height: 3.5vw;
   }
 
   .bg-blue {
@@ -3113,6 +3172,30 @@ code::-webkit-scrollbar-track {
   .bg-home-gear-orbit-gear {
     width: 40vh;
     height: 40vh;
+  }
+
+  .bg-home-sphere-container-1 {
+    top: calc(50vh - 42.5vw);
+    left: calc(50vw - 42.5vw);
+    width: 85vw;
+    height: 85vw;
+  }
+
+  .bg-home-sphere-1 {
+    width: 4vw;
+    height: 4vw;
+  }  
+
+  .bg-home-sphere-container-2 {
+    top: calc(50vh - 17.5vw);
+    left: calc(50vw - 17.5vw);
+    width: 35vw;
+    height: 35vw;
+  }
+
+  .bg-home-sphere-2 {
+    width: 3.5vw;
+    height: 3.5vw;
   }
 
   .bg-blue {
@@ -3730,6 +3813,30 @@ code::-webkit-scrollbar-track {
   .bg-home-gear-orbit-gear {
     width: 20vh;
     height: 20vh;
+  }
+
+  .bg-home-sphere-container-1 {
+    top: calc(50vh - 45vw);
+    left: calc(50vw - 45vw);
+    width: 90vw;
+    height: 90vw;
+  }
+
+  .bg-home-sphere-1 {
+    width: 3vw;
+    height: 3vw;
+  }  
+
+  .bg-home-sphere-container-2 {
+    top: calc(50vh - 20vw);
+    left: calc(50vw - 20vw);
+    width: 40vw;
+    height: 40vw;
+  }
+
+  .bg-home-sphere-2 {
+    width: 1.75vw;
+    height: 1.75vw;
   }
 
   .bg-blue {
