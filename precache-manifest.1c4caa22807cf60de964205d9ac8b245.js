@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "bd7fab8f829bdc700188",
-    "url": "/static/css/main.0adc1f3e.chunk.css"
+    "revision": "e066e9765e207e7fda4c",
+    "url": "/static/css/main.8c261b6e.chunk.css"
   },
   {
-    "revision": "bd7fab8f829bdc700188",
-    "url": "/static/js/main.bd7fab8f.chunk.js"
+    "revision": "e066e9765e207e7fda4c",
+    "url": "/static/js/main.e066e976.chunk.js"
   },
   {
-    "revision": "4927455309981692546f",
-    "url": "/static/js/1.49274553.chunk.js"
+    "revision": "a0ff59809693b5f97b88",
+    "url": "/static/js/1.a0ff5980.chunk.js"
   },
   {
-    "revision": "8ea896f2677a51df8b11",
-    "url": "/static/js/2.8ea896f2.chunk.js"
+    "revision": "31bd0f65332c4af50fdd",
+    "url": "/static/js/2.31bd0f65.chunk.js"
   },
   {
-    "revision": "d8b21ae57e91e2f65ec3",
-    "url": "/static/js/runtime~main.d8b21ae5.js"
+    "revision": "cf735f7ce889e0895c24",
+    "url": "/static/js/runtime~main.cf735f7c.js"
   },
   {
     "revision": "2a0b694aa164f4639de93ee9fa38d011",
@@ -38,6 +38,10 @@ self.__precacheManifest = [
   {
     "revision": "30f02fe025a3718e69baead791a5b6a9",
     "url": "/static/media/flaticon-mode-portrait-white-glow.30f02fe0.svg"
+  },
+  {
+    "revision": "5764ba965a34ef39fc3d53b6412f46c9",
+    "url": "/static/media/flaticon-mode-joystick-white-glow.5764ba96.svg"
   },
   {
     "revision": "fdff4014b22f67787c176c6aa52890a7",
@@ -136,7 +140,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-11-power-bi-appsource-deneb-maps.f42b54e4.gif"
   },
   {
-    "revision": "99ff878e5452046beb4646750bad1d5d",
+    "revision": "1c79bd91f5e3ec321ed418341a510a61",
     "url": "/index.html"
   }
 ];
