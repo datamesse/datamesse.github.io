@@ -8,6 +8,7 @@ import icon_charthistogram from '../assets-theme/flaticon-chart-histogram-white-
 import icon_circleright from '../assets-theme/flaticon-circle-right-orange.svg';
 import icon_edit from '../assets-theme/flaticon-edit-white-glow.svg';
 import icon_modeportrait from '../assets-theme/flaticon-mode-portrait-white-glow.svg';
+import icon_joystick from '../assets-theme/flaticon-mode-joystick-white-glow.svg';
 
 /* Logos */
 import logo_aws from '../assets-theme/logo-aws.svg';
@@ -49,7 +50,7 @@ import img_internationalmarketplaceexcel from '../assets-portfolio/img-2022-10-e
 import img_appsourcedenebmaps from '../assets-portfolio/img-2022-11-power-bi-appsource-deneb-maps.gif';
 
 
-export { avatar, icon_charthistogram, icon_circleright, icon_edit, icon_modeportrait,
+export { avatar, icon_charthistogram, icon_circleright, icon_edit, icon_modeportrait, icon_joystick,
          logo_aws, logo_azure, logo_css, logo_excel, logo_github, logo_neo4j, logo_powerbi, logo_python, logo_sqlserver, logo_tableau,
          title_e, title_d, title_c, title_b, title_a,
          sound_menubutton, sound_projectlink,

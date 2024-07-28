@@ -178,7 +178,7 @@ div { margin: 0px; padding: 0px; }
 
 .bg-home-map-1, .bg-home-map-2 {
   position: absolute;
-  background-image: url("https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-theme/background-hokkaido-geolocalisation-blue-light.svg?raw=true");
+  background-image: url("https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-theme/background-hokkaido-geolocalisation-teal-light.svg?raw=true");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
