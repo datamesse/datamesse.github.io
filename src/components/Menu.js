@@ -45,17 +45,17 @@ function Menu() {
 
             <div className='menu-labels-container'>
                 <div className='menu-label'>
-                    <div className='menu-label-light'></div>
+                    <div className={`menu-label-light ${currentPath === '/' ? 'menu-label-light-orange' : 'menu-label-light-blue'}`}></div>
                     <p>PROFILE</p>
                 </div>
 
                 <div className='menu-label'>
-                    <div className='menu-label-light'></div>
+                    <div className={`menu-label-light ${currentPath === '/portfolio' ? 'menu-label-light-orange' : 'menu-label-light-blue'}`}></div>
                     <p>PORTFOLIO</p>
                 </div>
 
                 <div className='menu-label'>
-                    <div className='menu-label-light'></div>
+                    <div className={`menu-label-light ${currentPath === '/blog' ? 'menu-label-light-orange' : 'menu-label-light-blue'}`}></div>
                     <p>BLOG</p>
                 </div>
             </div>
