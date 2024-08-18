@@ -50,12 +50,12 @@ function Menu() {
                 </div>
 
                 <div className='menu-label'>
-                    <div className={`menu-label-light ${currentPath === '/portfolio' ? 'menu-label-light-orange' : 'menu-label-light-blue'}`}></div>
+                    <div className={`menu-label-light ${(currentPath.includes('/portfolio') || currentPath.includes('/project')) ? 'menu-label-light-orange' : 'menu-label-light-blue'}`}></div>
                     <p>PORTFOLIO</p>
                 </div>
 
                 <div className='menu-label'>
-                    <div className={`menu-label-light ${currentPath === '/blog' ? 'menu-label-light-orange' : 'menu-label-light-blue'}`}></div>
+                    <div className={`menu-label-light ${(currentPath.includes('/blog') || currentPath.includes('/post')) ? 'menu-label-light-orange' : 'menu-label-light-blue'}`}></div>
                     <p>BLOG</p>
                 </div>
             </div>
