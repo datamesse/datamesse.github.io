@@ -55,13 +55,11 @@ Source files are here: **[https://github.com/datamesse/datamesse.github.io/tree/
 
 Here are some asset references for this version:
 
+* Mars landscape from Wikipedia **[https://static.wikia.nocookie.net/planet-texture-maps/images/7/7e/RS3_Mars.jpg](https://static.wikia.nocookie.net/planet-texture-maps/images/7/7e/RS3_Mars.jpg)**
+
 * Gear used in the background by TheDigitalArtist from Pixabay **[https://pixabay.com/vectors/art-circle-design-pattern-science-7147602/](https://pixabay.com/vectors/art-circle-design-pattern-science-7147602/)**
 
 * Another gear used in the background by TheDigitalArtist from Pixabay **[https://pixabay.com/vectors/cyber-tech-circle-rings-pattern-7153617/](https://pixabay.com/vectors/cyber-tech-circle-rings-pattern-7153617/)**
-
-* Polygon world map used in the background by GDJ from Pixabay **[https://pixabay.com/vectors/triangles-triangular-low-poly-1289379/](https://pixabay.com/vectors/triangles-triangular-low-poly-1289379/)**
-
-* Patawan Island beach photo used in the background by Kris Guico from Unsplash **[https://unsplash.com/photos/rsB-he-ye7w](https://unsplash.com/photos/rsB-he-ye7w)**
 
 * mp3 tracks "*Time Flows*", "*Small Discoveries*", and "*Good Mood For No Reason*" by Evgeny_Bardyuzha from Pixabay **[https://pixabay.com/users/evgeny_bardyuzha-25235210/](https://pixabay.com/users/evgeny_bardyuzha-25235210/)**
 
@@ -260,6 +258,9 @@ I used this YouTube video [How to make horizontal scroll item - CSS Tricks by La
 ## Adding music bar animation
 
 I used this ["Animated music bar with CSS blog post by Samuel Kraft](https://samuelkraft.com/blog/animated-music-bars) to add a subtle music bar mini-animation to the site's header.
+
+
+
 
 
 ## ARCHIVED: Adding donut charts for skill sets (used in design version 2)
