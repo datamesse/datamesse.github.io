@@ -94,185 +94,118 @@ div { margin: 0px; padding: 0px; }
   pointer-events: none;
 }
 
-.bg-home-background {
+.bg-home-planet {
+  border-radius: 100%;
+  width: 90vw;
+  height: 90vw;
   position: absolute;
-  bottom: 0px;
-  left: 0px;
-  border: 0px;
-  z-index: 2;
-  opacity: 0.55;
-  position: fixed;
-  scroll-behavior: smooth;
-  background-repeat: repeat-x;
-  background-attachment: fixed;
-  background-image: url("https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-theme/background-japan-location-map-blue-dark.svg?raw=true");
-}
+  z-index: 6;
 
-.bg-home-lines-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 200vw;
-  height: 200vh;
-  transform: perspective(800px) rotateX(30deg) rotateY(0deg) rotate(0deg);
-  transform-origin: calc(100vw + 30vw) calc(-30vw);
-  animation: linesRotate 540s linear infinite;
-}
-
-.bg-home-line {
-  position: absolute;
-  background-color: #C0EAFF;
-  width: 1px;
-  height: 200vh;
-  opacity: 0.15;
-  z-index: 3;
-  transform: scaleX(0.4) scaleY(200);
-  transform-origin: left;
-  left: calc(50vw + 1.2vw * var(--i));
-}
-
-@keyframes linesRotate {
-  from { transform: perspective(800px) rotateX(30deg) rotateY(0deg) rotate(0deg); }
-  to { transform: perspective(800px) rotateX(30deg) rotateY(0deg) rotate(360deg); }
-}
-
-.bg-home-square {
-  position: absolute;
-  width: 3vw;
-  height: 3vw;
-  background: linear-gradient(to right, rgba(192, 234, 255, 0.85) 5%, rgba(255, 255, 255, 0));
-  border: 1px solid;
-  border-color: rgba(192, 234, 255, 1) rgba(192, 234, 255, 0.25);
-  opacity: 0.8;
-  z-index: 4;
-  bottom: 0;
-}
-
-@keyframes square-rise {
-  0% { bottom: 0; opacity: 1; }
-  20% { bottom: 20vh; opacity: 1; }
-  66% { bottom: 66vh; opacity: 0; }
-  100% { bottom: 100vh; opacity: 0; }
-}
-
-@keyframes square-sway {
-  0% { transform: translateX(0); }
-  50% { transform: translateX(2vw); }
-  100% { transform: translateX(0); }
-}
-
-@keyframes square-spin1 {
-  0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
-  100% { transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg); }
-}
-
-@keyframes square-spin2 {
-  0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
-  100% { transform: rotateX(-360deg) rotateY(360deg) rotateZ(-360deg); }
-}
-
-@keyframes square-spin3 {
-  0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
-  100% { transform: rotateX(360deg) rotateY(-360deg) rotateZ(360deg); }
-}
-
-.bg-home-map-1, .bg-home-map-2 {
-  position: absolute;
-  background-image: url("https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-theme/background-hokkaido-geolocalisation-blue-light.svg?raw=true");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 5;
-  transform: perspective(1000px) rotateX(-40deg) rotateY(-320deg); /* Tilt */
-  animation: mapBackgroundSpin 35s linear infinite reverse;
-  transform-origin: 20% 35%; /* Set rotation pivot point to center */
-}
-
-.bg-home-map-2 {
-  opacity: 0.4;
-}
-
-@keyframes mapBackgroundSpin {
-  0%   { transform: perspective(1000px) rotateX(20deg) rotateY(-30deg) rotateZ(0deg); }
-  25%  { transform: perspective(1000px) rotateX(15deg) rotateY(-35deg) rotateZ(-90deg); }
-  50%  { transform: perspective(1000px) rotateX(10deg) rotateY(-40deg) rotateZ(-180deg); }
-  75%  { transform: perspective(1000px) rotateX(15deg) rotateY(-35deg) rotateZ(-270deg); }
-  100% { transform: perspective(1000px) rotateX(20deg) rotateY(-30deg) rotateZ(-360deg); }
-}
-
-.bg-home-gear-orbit-container {
-  position: relative;
-  border-radius: 50%;
-  animation: mapBackgroundSpin 35s linear infinite reverse;
-  z-index: 5;
-}
-
-.bg-home-gear-orbit-gear {
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 7;
-}
-
-.bg-home-gear-orbit-gear-1 {
-  background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-gear-blue-light-7147647-circle.svg?raw=true");
-  animation: bg-home-gear-orbit-clockwise 6s linear infinite;
-}
-
-.bg-home-gear-orbit-gear-2 {
-  background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-gear-blue-light-7147647-line.svg?raw=true");
-  animation: bg-home-gear-orbit-anticlockwise 10s linear infinite;
-}
-
-@keyframes bg-home-gear-orbit-clockwise {
-  from { transform: rotate(0); }
-  to { transform: rotate(360deg); }
-}
-
-@keyframes bg-home-gear-orbit-anticlockwise {
-  from { transform: rotate(0); }
-  to { transform: rotate(-360deg); }
-}
-
-.bg-home-sphere-container {
-  border-radius: 50%;
-  position: absolute;
-  animation: bg-home-sphereOrbit 130s linear infinite;
-  z-index: 8;
-}
-
-.bg-home-sphere {
-  background-image: url("https://raw.githubusercontent.com/datamesse/datamesse.github.io/main/src/assets-theme/background-sphere-blue-light-5337556-sparse.svg?raw=true");
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  z-index: 9;
-  animation: bg-home-sphereSpin 130s linear infinite, bg-home-glowSphere 3s infinite alternate;
-}
-
-@keyframes bg-home-sphereOrbit {
-  from { transform: rotate(0); }
-  to { transform: rotate(360deg); }
-}
-
-@keyframes bg-home-sphereSpin {
-  0% { transform: translate(-50%, -50%) rotate(0deg); }
-  100% { transform: translate(-50%, -50%) rotate(-360deg); }
-}
-
-@keyframes bg-home-glowSphere {
-  from { box-shadow: 0 0 0.2vw 0.2vw rgba(255, 255, 255, 0.85); }
-  to { box-shadow: 0 0 0.25vw 0.25vw rgba(200, 255, 255, 0.5),
-                   0 0 0.175vw 0.374vw rgba(0, 152, 230, 0.36),
-                   0 0 0.375vw 0.74vw rgba(78, 221, 255, 0.25),
-                   0 0 0.75vw 3.5vw rgba(78, 221, 255, 0.1);
+  &:after {
+    content: '';
+    width: 90vw;
+    height: 90vw;
+    position: absolute;
+    border-radius: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: inset 25px 40px 100px 0px rgba(255, 255, 255, .45),
+      -50px -50px 100px 0px rgba(225, 69, 38, 0.35),
+      -25px -55px 100px 0px rgba(226, 108, 66, 0.2),
+      0 0 100px 100px rgba(58, 2, 0, .4);
+  }
+  &:before {
+    content: '';
+    width: 90vw;
+    height: 90vw;
+    position: absolute;
+    border-radius: 100%;
+    background: #E26C42;
+    mix-blend-mode: overlay;
+    opacity: .35;
+    z-index: 100;
   }
 }
+
+.bg-home-mars {
+  width: 90vw;
+  height: 90vw;
+  border-radius: 100%;
+  position: relative;
+  overflow: hidden;
+  clip-path: content-box;
+  background-image: radial-gradient(
+      circle farthest-side at 0% 0%,
+      rgba(255, 255, 255, .25) 0%,
+      rgba(20, 5, 0, 1) 100%
+    ),
+    radial-gradient(
+      circle farthest-side at 0% 0%,
+      rgba(255, 189, 157, 1) 10%,
+      transparent 80%
+    ),
+    radial-gradient(
+      circle farthest-side at 0% 0%,
+      rgba(218, 32, 13, 1) 10%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle farthest-side at 50% 0%,
+      rgba(240, 87, 72, 1) 0%,
+      rgba(39, 3, 0, 1) 80%
+    );
+}
+
+.bg-home-mars-map {
+  width: 180vw;
+  height: 95vw;
+  top: -5vw;
+  position: absolute;
+  mix-blend-mode: soft-light;
+  opacity: 0.75;
+  background: url('https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-theme/background-mars-landscape-1.png?raw=true');
+  background-repeat: repeat;
+}
+
+@keyframes bg-home-mars-rotate {
+  0% { background-position: 0% 0%; }
+  100% { background-position: -100% 0%; }
+}
+
+.bg-home-stars {
+  width: 500vw;
+  height: 500vh;
+  z-index: 5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.bg-home-star {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.0);
+}
+
+/* to make these twinkle, change opacity from 1.0 to 0.0 */
+@keyframes bg-home-twinkle {
+  0%   { transform: scale(1, 1);
+         background: rgba(255, 255, 255, 1.0);
+         animation-timing-function: ease-in; }
+  60%  { transform: scale(0.8, 0.8);
+         background: rgba(255, 255, 255, 1);
+         animation-timing-function: ease-out; }
+  80%  { background: rgba(255, 255, 255, 1.0);
+         transform: scale(1, 1); }
+  100% { background: rgba(255, 255, 255, 1.0);
+         transform: scale(1, 1); }
+}
+
+@keyframes starsBackgroundSpin {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
 
 .bg-blue {
   top: 0px;
@@ -649,7 +582,7 @@ div { margin: 0px; padding: 0px; }
 .about-scroll-triangle {
   right: 0px;
   bottom: 0px;
-  color: #4F4F50;
+  color: rgba(255, 255, 255, 0.4);
   font-family: 'Saira', 'Cambay', 'Kanit', 'Segoe UI', Helvetica;
   line-height: 1;
   grid-row-start: 3;
@@ -1465,7 +1398,7 @@ code::-webkit-scrollbar-track {
   box-sizing: border-box;
   border: 1px solid #EDEEED;
   border-bottom: 1px solid #ABABAA;
-  background: linear-gradient(0deg, #F5F6F4 0%, #F6F7F5 10%, #FCFDFB 20%, #FDFEFC 40%); /* W3C */
+  background: linear-gradient(0deg, #F5F6F4 0%, #F6F7F5 10%, #FCFDFB 20%, #FDFEFC 40%);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -1899,63 +1832,16 @@ code::-webkit-scrollbar-track {
 
 @media (max-aspect-ratio: 12/21) {
 
-  .bg-home-background {
-    width: 100vw;
-    height: 100%;
-    background-size: auto 100vh;
-    animation: bg-auto-scrolling 800.32s infinite; /* IE 10+ */
-    animation-timing-function: linear;
+  .bg-home-planet {
+    margin: calc(50vh - 45vw) auto auto 65vw;
   }
 
-  .bg-home-map-1, .bg-home-map-2 {
-    width: 100vw;
-    height: 92.65vw; /* Hokkaido map's height is .9265 of its width */
-    top: 32.5vh;
-  }
-  
-  .bg-home-map-2 {
-    top: 32.5vh + 10vw;
-    left: 10vw;
+  .bg-home-mars-map {
+    animation: bg-home-mars-rotate 360s linear infinite;
   }
 
-  .bg-home-line {
-    left: calc(50vw + 3.75vw * var(--i));
-  }
-
-  .bg-home-gear-orbit-container {
-    width: 140vw;
-    height: 140vw;
-    top: 10vh;
-    left: -30vw;
-  }	
-  
-  .bg-home-gear-orbit-gear {
-    width: 70vw;
-    height: 70vw;
-  }
-
-  .bg-home-sphere-container-1 {
-    top: calc(50vh - 35vh);
-    left: calc(50vw - 35vh);
-    width: 70vh;
-    height: 70vh;
-  }
-
-  .bg-home-sphere-1 {
-    width: 6.5vw;
-    height: 6.5vw;
-  }
-
-  .bg-home-sphere-container-2 {
-    top: calc(50vh - 22.5vh);
-    left: calc(50vw - 22.5vh);
-    width: 45vh;
-    height: 45vh;
-  }
-
-  .bg-home-sphere-2 {
-    width: 4.5vw;
-    height: 4.5vw;
+  .bg-home-stars {
+    animation: starsBackgroundSpin 600s linear infinite;
   }
 
   .bg-blue {
@@ -2512,64 +2398,16 @@ code::-webkit-scrollbar-track {
 
 @media (min-aspect-ratio: 12/21) and (max-aspect-ratio: 1/1) {
 
-  .bg-home-background {
-    width: 100vw;
-    height: 100%;
-    background-size: auto 100vh;
-    animation: bg-auto-scrolling 800.32s infinite; /* IE 10+ */
-    animation-timing-function: linear;
+  .bg-home-planet {
+    margin: calc(50vh - 45vw) auto auto 65vw;
   }
 
-  .bg-home-map-1, .bg-home-map-2 {
-    width: 85vw;
-    height: 78.7525vw; /* Hokkaido map's height is .9265 of its width */
-    top: 35vh;
-    left: 12.5vh;
-  }
-  
-  .bg-home-map-2 {
-    top: 37.5vh;
-    left: 15vh;
+  .bg-home-mars-map {
+    animation: bg-home-mars-rotate 120s linear infinite;
   }
 
-  .bg-home-line {
-    left: calc(50vw + 2vw * var(--i));
-  }
-
-  .bg-home-gear-orbit-container {
-    width: 115vw;
-    height: 115vw;
-    top: 0;
-    left: -20vw;
-  }	
-  
-  .bg-home-gear-orbit-gear {
-    width: 45vw;
-    height: 45vw;
-  }
-
-  .bg-home-sphere-container-1 {
-    top: calc(50vh - 42.5vh);
-    left: calc(50vw - 42.5vh);
-    width: 85vh;
-    height: 85vh;
-  }
-
-  .bg-home-sphere-1 {
-    width: 5vw;
-    height: 5vw;
-  }
-
-  .bg-home-sphere-container-2 {
-    top: calc(50vh - 17.5vh);
-    left: calc(50vw - 17.5vh);
-    width: 35vh;
-    height: 35vh;
-  }
-
-  .bg-home-sphere-2 {
-    width: 3.5vw;
-    height: 3.5vw;
+  .bg-home-stars {
+    animation: starsBackgroundSpin 660s linear infinite;
   }
 
   .bg-blue {
@@ -3147,73 +2985,21 @@ code::-webkit-scrollbar-track {
 
 @media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 16/10) {
 
-  .bg-home-background {
-    width: 100%;
-    height: 100vh;
-    background-size: 100vw auto;
-    animation: bg-auto-scrolling 800.32s infinite; /* IE 10+ */
-    animation-timing-function: linear;
+  .bg-home-planet {
+    margin: calc(100vh - 35vw) 5vw auto 5vw;
   }
 
-  .bg-home-map-1, .bg-home-map-2 {
-    width: 85vw;
-    height: 78.7525vw; /* Hokkaido map's height is .9265 of its width */
-    top: 32.5vh;
-    left: 17.5vh;
-  }
-  
-  .bg-home-map-2 {
-    top: 35.5vh;
-    left: 20.5vh;
+  .bg-home-mars-map {
+    animation: bg-home-mars-rotate 120s linear infinite;
   }
 
-  .bg-home-line {
-    left: calc(50vw + 1.5vw * var(--i));
+  @keyframes bg-home-mars-rotate {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 0%; }
   }
 
-  .bg-home-gear-orbit-container {
-    width: 120vh;
-    height: 120vh;
-    top: 2vh;
-    left: -20vh;
-  }	
-  
-  .bg-home-gear-orbit-gear {
-    width: 40vh;
-    height: 40vh;
-  }
-
-  .bg-home-sphere-container-1 {
-    top: calc(50vh - 42.5vw);
-    left: calc(50vw - 42.5vw);
-    width: 85vw;
-    height: 85vw;
-  }
-
-  .bg-home-sphere-1 {
-    width: 4vw;
-    height: 4vw;
-  }  
-
-  .bg-home-sphere-container-2 {
-    top: calc(50vh - 17.5vw);
-    left: calc(50vw - 17.5vw);
-    width: 35vw;
-    height: 35vw;
-  }
-
-  .bg-home-sphere-2 {
-    width: 3.5vw;
-    height: 3.5vw;
-  }
-
-  @keyframes bg-home-glowSphere {
-    from { box-shadow: 0 0 0.2vw 0.2vw rgba(255, 255, 255, 0.85); }
-    to { box-shadow: 0 0 0.25vw 0.25vw rgba(200, 255, 255, 0.5),
-                     0 0 0.175vw 0.374vw rgba(0, 152, 230, 0.36),
-                     0 0 0.375vw 0.74vw rgba(78, 221, 255, 0.25),
-                     0 0 0.65vw 2.25vw rgba(78, 221, 255, 0.1);
-    }
+  .bg-home-stars {
+    animation: starsBackgroundSpin 1200s linear infinite;
   }
 
   .bg-blue {
@@ -3797,73 +3583,21 @@ code::-webkit-scrollbar-track {
 
 @media (min-aspect-ratio: 16/10) {
 
-  .bg-home-background {
-    width: 100%;
-    height: 100vh;
-    background-size: 100vw auto;
-    animation: bg-auto-scrolling 3000.32s infinite; /* IE 10+ */
-    animation-timing-function: linear;
+  .bg-home-planet {
+    margin: calc(100vh - 20vw) 5vw auto 5vw;
   }
 
-  .bg-home-map-1, .bg-home-map-2 {
-    width: 65vw;
-    height: 60.2225vw; /* Hokkaido map's height is .9265 of its width */
-    top: 30vh;
-    left: 25vh;
-  }
-  
-  .bg-home-map-2 {
-    top: 34vh;
-    left: 29vh;
+  .bg-home-mars-map {
+    animation: bg-home-mars-rotate 180s linear infinite;
   }
 
-  .bg-home-line {
-    left: calc(50vw + 1.2vw * var(--i));
+  @keyframes bg-home-mars-rotate {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 0%; }
   }
 
-  .bg-home-gear-orbit-container {
-    width: 100vh;
-    height: 100vh;
-    top: 0vh;
-    left: 10vh;
-  }	
-  
-  .bg-home-gear-orbit-gear {
-    width: 20vh;
-    height: 20vh;
-  }
-
-  .bg-home-sphere-container-1 {
-    top: calc(50vh - 45vw);
-    left: calc(50vw - 45vw);
-    width: 90vw;
-    height: 90vw;
-  }
-
-  .bg-home-sphere-1 {
-    width: 3vw;
-    height: 3vw;
-  }  
-
-  .bg-home-sphere-container-2 {
-    top: calc(50vh - 20vw);
-    left: calc(50vw - 20vw);
-    width: 40vw;
-    height: 40vw;
-  }
-
-  .bg-home-sphere-2 {
-    width: 1.75vw;
-    height: 1.75vw;
-  }
-
-  @keyframes bg-home-glowSphere {
-    from { box-shadow: 0 0 0.2vw 0.2vw rgba(255, 255, 255, 0.85); }
-    to { box-shadow: 0 0 0.25vw 0.25vw rgba(200, 255, 255, 0.5),
-                     0 0 0.175vw 0.374vw rgba(0, 152, 230, 0.36),
-                     0 0 0.375vw 0.74vw rgba(78, 221, 255, 0.25),
-                     0 0 0.55vw 1.5vw rgba(78, 221, 255, 0.1);
-    }
+  .bg-home-stars {
+    animation: starsBackgroundSpin 1420s linear infinite;
   }
 
   .bg-blue {
