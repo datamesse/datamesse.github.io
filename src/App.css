@@ -110,9 +110,9 @@ div { margin: 0px; padding: 0px; }
     top: 0;
     left: 0;
     box-shadow: inset 25px 40px 100px 0px rgba(255, 255, 255, .45),
-      -50px -50px 150px 0px rgba(225, 69, 38, 0.35),
-      -25px -55px 150px 0px rgba(226, 108, 66, 0.2),
-      0 0 150px 100px rgba(58, 2, 0, .4);
+      -50px -50px 100px 0px rgba(225, 69, 38, 0.35),
+      -25px -55px 100px 0px rgba(226, 108, 66, 0.2),
+      0 0 100px 100px rgba(58, 2, 0, .4);
   }
   &:before {
     content: '';
@@ -582,7 +582,7 @@ div { margin: 0px; padding: 0px; }
 .about-scroll-triangle {
   right: 0px;
   bottom: 0px;
-  color: #4F4F50;
+  color: rgba(255, 255, 255, 0.4);
   font-family: 'Saira', 'Cambay', 'Kanit', 'Segoe UI', Helvetica;
   line-height: 1;
   grid-row-start: 3;
@@ -1833,7 +1833,7 @@ code::-webkit-scrollbar-track {
 @media (max-aspect-ratio: 12/21) {
 
   .bg-home-planet {
-    margin: 75vh 5vw auto 5vw;
+    margin: calc(50vh - 45vw) auto auto 65vw;
   }
 
   .bg-home-mars-map {
@@ -2399,7 +2399,7 @@ code::-webkit-scrollbar-track {
 @media (min-aspect-ratio: 12/21) and (max-aspect-ratio: 1/1) {
 
   .bg-home-planet {
-    margin: 60vh 5vw auto 5vw;
+    margin: calc(50vh - 45vw) auto auto 65vw;
   }
 
   .bg-home-mars-map {
@@ -2986,7 +2986,7 @@ code::-webkit-scrollbar-track {
 @media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 16/10) {
 
   .bg-home-planet {
-    margin: 50vh 5vw auto 5vw;
+    margin: calc(100vh - 35vw) 5vw auto 5vw;
   }
 
   .bg-home-mars-map {
@@ -3584,7 +3584,7 @@ code::-webkit-scrollbar-track {
 @media (min-aspect-ratio: 16/10) {
 
   .bg-home-planet {
-    margin: 35vh 5vw auto 5vw;
+    margin: calc(100vh - 20vw) 5vw auto 5vw;
   }
 
   .bg-home-mars-map {
