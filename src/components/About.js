@@ -37,7 +37,7 @@ function About() {
 
                     <div className='about-blue-dash'></div>
 
-                    <div className='about-name'>data messe</div>
+                    <div className='about-name'>DATA MESSE</div>
 
                     <div className='about-subtext-container about-subtext-photo-position'>
                         <div className='about-rectangle'></div>

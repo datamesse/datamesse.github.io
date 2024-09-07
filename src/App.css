@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 
 /*
 IMPORTANT NOTES 
@@ -109,10 +111,10 @@ div { margin: 0px; padding: 0px; }
     border-radius: 100%;
     top: 0;
     left: 0;
-    box-shadow: inset 25px 40px 100px 0px rgba(255, 255, 255, .45),
-      -50px -50px 100px 0px rgba(225, 69, 38, 0.35),
-      -25px -55px 100px 0px rgba(226, 108, 66, 0.2),
-      0 0 100px 100px rgba(58, 2, 0, .4);
+    box-shadow: inset 1.25vw 2vw 5vw 0px rgba(255, 255, 255, .45),
+      -2.5vw -2.5vw 5vw 0px rgba(225, 69, 38, 0.35),
+      -1.25vw -2.25vw 5vw 0px rgba(226, 108, 66, 0.2),
+      0 0 5vw 5vw rgba(58, 2, 0, .4);
   }
   &:before {
     content: '';
@@ -125,6 +127,17 @@ div { margin: 0px; padding: 0px; }
     opacity: .35;
     z-index: 100;
   }
+}
+
+.bg-home-mars-halo {
+  width: 90vw;
+  height: 90vw;
+  border-radius: 100%;
+  box-shadow: 
+  0 0 0.55vw 0.55vw rgba(255, 240, 240, 0.8),
+  inset 0 0 1.75vw 1.75vw rgba(255, 200, 180, 0.55);
+  position: absolute;
+  z-index: 110;  
 }
 
 .bg-home-mars {
@@ -390,12 +403,12 @@ div { margin: 0px; padding: 0px; }
 }
 
 .about-name {
-  color: #3F3F3F;
-  font-family: 'Cambay', 'Kanit', 'Segoe UI', Helvetica;
+  color: #8E8E8D;
+  font-family: 'Audiowide', 'Cambay', 'Kanit', 'Segoe UI', Helvetica;
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 2;
-  grid-column-end: 5;
+  grid-column-end: 7;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -1970,7 +1983,7 @@ code::-webkit-scrollbar-track {
 
   .about-name {
     margin: 0px 0px 0px 0.75vw;
-    font-size: 5vw;
+    font-size: 4vw;
   }
 
   .about-subtext-container {
@@ -2541,7 +2554,7 @@ code::-webkit-scrollbar-track {
 
   .about-name {
     margin: 0px 0px 0px 0.75vw;
-    font-size: 4vw;
+    font-size: 3.2vw;
   }
 
   .about-subtext-container {
@@ -3133,7 +3146,7 @@ code::-webkit-scrollbar-track {
 
   .about-name {
     margin: 0px 0px 0px 0.45vw;
-    font-size: 3vw;
+    font-size: 2.4vw;
   }
 
   .about-subtext-container {
@@ -3731,7 +3744,7 @@ code::-webkit-scrollbar-track {
 
   .about-name {
     margin: 0px 0px 0px 0.5vw;
-    font-size: 1.9vw;
+    font-size: 1.52vw;
   }
 
   .about-subtext-container {

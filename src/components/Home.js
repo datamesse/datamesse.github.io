@@ -56,6 +56,7 @@ function Home() {
 
       <div className="bg-home">
         <div className="bg-home-planet">
+          <div className="bg-home-mars-halo"></div>
           <div className="bg-home-mars">
             <div className="bg-home-mars-map"></div>
           </div>
