@@ -20,7 +20,7 @@ I wanted a clean and easy to look at light-blue and light-grey smooth-edged desi
 
 The video banner background ["Communication Line Technology"](https://pixabay.com/videos/communication-line-technology-45902/') is used free from [pixabay.com](https://www.pixabay.com) by [ArtDio2020](https://pixabay.com/users/artdio2020-8194567/?tab=videos).
 
-Archived source files are here: **[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version1](https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version1)**
+Archived source files are here: **[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_previous-versions/version1](https://github.com/datamesse/datamesse.github.io/tree/main/src/z_previous-versions/version1)**
 
 
 ### May 2022 (Version 2)
@@ -31,7 +31,7 @@ I updated the layout to be minimalistic with new sections including recent blog 
 
 The JavaScript title switch animation code was by [Ajay Narain Mathur on Stack Overflow](https://stackoverflow.com/questions/40878859/changing-a-heading-every-few-seconds-with-an-array-and-a-loop).
 
-Archived source files are here: **[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version2](https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version2)**
+Archived source files are here: **[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_previous-versions/version2](https://github.com/datamesse/datamesse.github.io/tree/main/src/z_previous-versions/version2)**
 
 
 ### December 2022 (Version 3)
@@ -42,7 +42,7 @@ It is re-designed as a compact portfolio preview gallery, but has a button to a 
 
 ![Site version 3](https://github.com/datamesse/datamesse.github.io/blob/main/src/assets-portfolio/img-2022-12-portfolio-website-react-v3.gif?raw=true)
 
-Source files are here: **[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version3](https://github.com/datamesse/datamesse.github.io/tree/main/src/z_version3)**
+Source files are here: **[https://github.com/datamesse/datamesse.github.io/tree/main/src/z_previous-versions/version3](https://github.com/datamesse/datamesse.github.io/tree/main/src/z_previous-versions/version3)**
 
 
 ### July 2023 (Version 4)
