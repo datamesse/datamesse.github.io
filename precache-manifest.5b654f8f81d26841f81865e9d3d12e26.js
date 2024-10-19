@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "a3f5ae85c563edc35d93",
-    "url": "/static/css/main.c65c1785.chunk.css"
+    "revision": "3368fe73fb51e839cb40",
+    "url": "/static/css/main.6289296b.chunk.css"
   },
   {
-    "revision": "a3f5ae85c563edc35d93",
-    "url": "/static/js/main.a3f5ae85.chunk.js"
+    "revision": "3368fe73fb51e839cb40",
+    "url": "/static/js/main.3368fe73.chunk.js"
   },
   {
-    "revision": "b420f4535a51b9ce71ba",
-    "url": "/static/js/1.b420f453.chunk.js"
+    "revision": "62b29575e2b919396439",
+    "url": "/static/js/1.62b29575.chunk.js"
   },
   {
-    "revision": "2c41883aaffab769c5a5",
-    "url": "/static/js/2.2c41883a.chunk.js"
+    "revision": "997eee59b9c31a428889",
+    "url": "/static/js/2.997eee59.chunk.js"
   },
   {
-    "revision": "5c4ad3d16ecd07680cfe",
-    "url": "/static/js/runtime~main.5c4ad3d1.js"
+    "revision": "88acd06e1faf55547e53",
+    "url": "/static/js/runtime~main.88acd06e.js"
   },
   {
     "revision": "2a0b694aa164f4639de93ee9fa38d011",
@@ -140,7 +140,7 @@ self.__precacheManifest = [
     "url": "/static/media/img-2022-11-power-bi-appsource-deneb-maps.f42b54e4.gif"
   },
   {
-    "revision": "390db9d3861bcd7c73dc6bc3cd32f6a9",
+    "revision": "e5b23db6768ccef8cdcd291e005811b5",
     "url": "/index.html"
   }
 ];
