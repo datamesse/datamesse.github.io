@@ -4,11 +4,15 @@ import Separator from './Separator';
 import { avatar } from '../data/assets';
 import Links from './Links';
 import Socials from './Socials';
+import Posts from '../data/posts.json'; // Import the posts data
 
 function About() {
 
     const myDiv = useRef(null);
     const [showTriangle, setShowTriangle] = useState(true);
+    
+    // Dynamically calculate the number of posts
+    const totalPosts = Posts.length;
 
     useEffect(() => {
         const div = myDiv.current;
@@ -86,7 +90,7 @@ function About() {
                             <li>5 reports in Power BI Community Gallery</li>
                             <li>2 downloadable Excel projects</li>
                             <li>1 SQL Server project</li>
-                            <li>20 blog posts since Sep 2021</li>
+                            <li>{totalPosts} blog posts since Sep 2021</li> {/* Dynamically insert the post count */}
                             <li>1 this React.js + GitHub Pages site</li>
                         </ul>
 

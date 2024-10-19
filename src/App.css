@@ -853,6 +853,40 @@ div { margin: 0px; padding: 0px; }
   line-height: 1.2;
 }
 
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping of buttons */
+  gap: 10px; /* Space between buttons */
+  justify-content: center; /* Center the buttons horizontally */
+  padding: 10px; /* Adjust padding as needed */
+}
+
+.filter-button {
+  background: #0D4B90;
+  background: linear-gradient(to bottom, #0D4B90 15%, #27B1F6 75%, #21C4FF 100%);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  height: auto;
+  width: auto;
+  min-width: 100px;
+  transition: background-color 0.3s ease;
+}
+
+.filter-button:hover {
+  background: #21C4FF;
+  background: linear-gradient(to top, #B5F6FF 15%, #21C4FF 50%, #9AECFF 100%);
+}
+
+.filter-button.active {
+  background: #fc4a1a;
+  background: linear-gradient(to bottom, #fc4a1a 15%, #FF942B 75%, #f7b733 100%);
+}
+
 .portfolio {
   position: relative;
   top: 0px;

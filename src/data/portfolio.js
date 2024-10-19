@@ -25,7 +25,7 @@ const portfolio = [
       photo: img_internationalmarketplaceexcel,
       siteURL: 'https://datamesse.github.io/#/project/ExcelInternationalMarketplaceProfitForecast',
       codeURL: 'https://github.com/datamesse/data-visualisation-datasets/blob/main/International%20Marketplace%20sales/Power%20Query%20and%20Deneb%20code.md',
-      tags: ["Excel", "Power Pivot", "DAX", "Forecasting"]
+      tags: ["Excel", "Power Pivot", "DAX", "Machine Learning"]
    },
    {
       title: 'Satellite launch overview',
@@ -58,7 +58,7 @@ const portfolio = [
       photo: img_internationalmarketplacepowerbi,
       siteURL: 'https://community.powerbi.com/t5/Data-Stories-Gallery/International-Marketplace-profit-report-using-Python-and-Deneb/m-p/2480550',
       codeURL: 'https://github.com/datamesse/data-visualisation-datasets/blob/main/International%20Marketplace%20sales/Power%20Query%20and%20Deneb%20code.md',
-      tags: ["Power BI", "Python", "Deneb", "Vega-Lite", "Power Query", "Forecasting"]
+      tags: ["Power BI", "Python", "Deneb", "Vega-Lite", "Power Query", "Machine Learning"]
    },
    {
       title: 'International marketplace dataset',

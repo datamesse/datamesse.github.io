@@ -12,26 +12,24 @@ class Post extends React.Component {
   }
 
   render() {
-    const validId = parseInt(this.props.match.params.id);
-    if (!validId) {
+    const validId = parseInt(this.props.match.params.id, 10); // Get the post ID from the URL params
+
+    // Validate if the validId is a number
+    if (isNaN(validId) || validId <= 0) {
       return <Redirect to="/404" />;
     }
-    const fetchedPost = {};
-    let postExists = false;
-    postList.forEach((post, i) => {
-      if (validId === post.id) {
-        fetchedPost.id = post.id ? post.id : 'No ID given';
-        fetchedPost.title = post.title ? post.title : 'No title given';
-        fetchedPost.tech = post.tech ? post.tech : 'No tech given';
-        fetchedPost.tag = post.tag ? post.tag : 'No tag given';
-        fetchedPost.date = post.date ? post.date : 'No date given';
-        fetchedPost.content = post.content ? post.content : 'No content given';
-        postExists = true;
-      }
-    });
-    if (postExists === false) {
+
+    // Fetch the post by ID
+    const fetchedPost = postList.find(post => post.id === validId);
+
+    // Check if post exists
+    if (!fetchedPost) {
       return <Redirect to="/404" />;
     }
+
+    // Use destructuring to get post properties
+    const { title, date, content } = fetchedPost;
+
     return (
       <div className="container page">
         <div className="interface">
@@ -45,15 +43,15 @@ class Post extends React.Component {
               <div className="post-overlay"></div>
               <div className="post-title-banner"></div>
               <div className="post-title">
-                <p>{fetchedPost.title}</p>
+                <p>{title || 'No title given'}</p>
               </div>
               <div className="separator-glow"></div>
               <div className="post-date">
-                <p>{fetchedPost.date}</p>
+                <p>{date || 'No date given'}</p>
               </div>
               <div className="post-body">
                 <ReactMarkdown escapeHtml={false}>
-                  {fetchedPost.content}
+                  {content || 'No content given'}
                 </ReactMarkdown>
               </div>
             </div>

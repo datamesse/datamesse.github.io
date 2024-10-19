@@ -1,107 +1,74 @@
-/* GENERATES POST AND PAGE DATA INTO DATA FOLDER */
-const path = require("path")
-const fs = require("fs")
+const path = require("path");
+const fs = require("fs");
 
-const dirPath = path.join(__dirname, "../posts")
-let postlist = []
+const dirPath = path.join(__dirname, "../posts");
+const dirPathPages = path.join(__dirname, "../pages");
 
-const dirPathPages = path.join(__dirname, "../pages")
-let pagelist = []
+let postlist = [];
+let pagelist = [];
 
 const getPosts = async () => {
-    fs.readdir(dirPath, (err, files) => {
+    try {
+        const files = await fs.promises.readdir(dirPath);
+        console.log(files);
 
-        if (err) {
-            return console.log("Failed to list contents of directory: " + err)
+        for (const file of files) {
+            const contents = await fs.promises.readFile(`${dirPath}/${file}`, "utf8");
+            const obj = parseMarkdown(contents, file); // Pass the filename
+            if (obj) {
+                postlist.push(obj);
+            }
         }
 
-        console.log(files)
+        // Sort postlist in descending order by id (timestamp)
+        postlist.sort((a, b) => b.id - a.id);
 
-        files.forEach((file, i) => {
-            let obj = {}
-            let post
-            fs.readFile(`${dirPath}/${file}`, "utf8", (err, contents) => {
+        // Save posts to posts.json
+        await fs.promises.writeFile(path.join(__dirname, "../data/posts.json"), JSON.stringify(postlist, null, 2));
+    } catch (err) {
+        console.error("Error reading posts directory:", err);
+    }
+};
 
-                const getMetadataIndices = (acc, elem, i) => {
-                    if (/^---/.test(elem)) {
-                        acc.push(i)
-                    }
-                    return acc
-                }
-                const parseMetadata = ({lines, metadataIndicies}) => {
-                    if (metadataIndicies.length > 0) {
-                        let metadata = lines.slice(metadataIndicies[0] + 1,
-                            metadataIndicies[1])
-                            metadata.forEach(line => {
-                                obj[line.split(": ")[0]] = line.split(": ")[1]
-                            })
-                            return obj
-                    }
-                }
-                const parseContent = ({lines, metadataIndicies}) => {
-                    if (metadataIndicies.length > 0) {
-                        lines = lines.slice(metadataIndicies[1] + 1,
-                        lines.length)
-                    }
-                    return lines.join("\n")
-                }
-                const lines = contents.split("\n")
-                const metadataIndicies = lines.reduce(getMetadataIndices, [])
-                const metadata = parseMetadata({lines, metadataIndicies})
-                const content = parseContent({lines, metadataIndicies})
-                const date = new Date(metadata.date)
-                const timestamp = date.getTime() / 1000
-                post = {
-                    id: timestamp,
-                    title: metadata.title ? (metadata.title).substring(0,(metadata.title).length - 1) : "No title given",
-                    tech: metadata.tech ? (metadata.tech).substring(0,(metadata.tech).length - 1) : "No tech given",
-                    tag: metadata.tag ? (metadata.tag).substring(0,(metadata.tag).length - 1) : "No tag given",
-                    date: metadata.date ? (metadata.date).substring(0,(metadata.date).length - 1) : "No date given",
-                    content: content ? content : "No content given",                   
-                }
-                postlist.push(post)
-                if (i === files.length - 1){
-                    const sortedList = postlist.sort((a, b) => {
-                        return a.id < b.id ? 1 : -1
-                    })
-                    let data = JSON.stringify(sortedList)
-                    fs.writeFileSync("src/data/posts.json", data)
-                }
-            })
-            setTimeout(() => {
-                console.log(postlist)
-            }, 1000)
-        })
-        return
-    })
-}
+// Update parseMarkdown to accept filename for unique ID
+const parseMarkdown = (contents, filename) => {
+    const lines = contents.split("\n");
+    const metadataIndices = getMetadataIndices(lines);
+    if (metadataIndices.length < 2) return null; // No metadata found
 
+    const metadata = parseMetadata(lines, metadataIndices);
+    const content = lines.slice(metadataIndices[1] + 1).join("\n").trim();
 
+    // Convert the date to a timestamp format without dashes
+    const timestamp = new Date(metadata.date).getTime() / 1000;
 
-const getPages = async () => {
-    fs.readdir(dirPathPages, (err, files) => {
+    return {
+        id: Math.floor(timestamp), // Use the timestamp as the ID
+        title: metadata.title || "No title given",
+        tech: metadata.tech || "No tech given",
+        tags: metadata.tags || "No tags given",
+        date: metadata.date || "No date given",
+        content: content || "No content given",
+    };
+};
 
-        if (err) {
-            return console.log("Failed to list contents of directory: " + err)
+const getMetadataIndices = (lines) => {
+    return lines.reduce((acc, line, i) => {
+        if (/^---/.test(line)) {
+            acc.push(i);
         }
+        return acc;
+    }, []);
+};
 
-        console.log(files)
+const parseMetadata = (lines, metadataIndices) => {
+    const metadata = {};
+    const metaLines = lines.slice(metadataIndices[0] + 1, metadataIndices[1]);
+    metaLines.forEach(line => {
+        const [key, value] = line.split(": ");
+        metadata[key] = value;
+    });
+    return metadata;
+};
 
-        files.forEach((file, i) => {
-            let obj = {}
-            let page
-            fs.readFile(`${dirPathPages}/${file}`, "utf8", (err, contents) => {
-                page = {
-                    content: contents
-                }
-                pagelist.push(page)
-                    let data = JSON.stringify(pagelist)
-                    fs.writeFileSync("src/data/about.json", data)
-                })
-            })
-        })
-        return
-}
-
-getPosts()
-getPages()
+getPosts();
