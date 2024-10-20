@@ -853,39 +853,57 @@ div { margin: 0px; padding: 0px; }
   line-height: 1.2;
 }
 
+/* Filter buttons container */
 .filter-buttons {
   display: flex;
-  flex-wrap: wrap; /* Enable wrapping of buttons */
-  gap: 10px; /* Space between buttons */
-  justify-content: center; /* Center the buttons horizontally */
-  padding: 10px; /* Adjust padding as needed */
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
 }
 
 .filter-button {
-  background: #0D4B90;
-  background: linear-gradient(to bottom, #0D4B90 15%, #27B1F6 75%, #21C4FF 100%);
-  color: #fff;
-  border: none;
-  border-radius: 20px;
+  color: #FFF;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.filter-button-highlight {
+  border-radius: 12px;
+  padding: 2px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-button-gradient {
+  border-radius: 9.8px;
   padding: 5px 15px;
   font-size: 14px;
-  cursor: pointer;
-  white-space: nowrap;
-  height: auto;
-  width: auto;
-  min-width: 100px;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+  text-align: center;
+  min-width: 60px;
 }
 
-.filter-button:hover {
-  background: #21C4FF;
-  background: linear-gradient(to top, #B5F6FF 15%, #21C4FF 50%, #9AECFF 100%);
+.filter-button:hover .filter-button-highlight,
+.filter-button:hover .filter-button-gradient {
+  transform: translateY(-1px);
 }
 
-.filter-button.active {
+.filter-button.active .filter-button-gradient {
   background: #fc4a1a;
   background: linear-gradient(to bottom, #fc4a1a 15%, #FF942B 75%, #f7b733 100%);
 }
+
+.filter-button.active .filter-button-highlight {
+  background: #FAF1C4;
+  background: linear-gradient(to top, #fae5c4 15%, #f4ba4e 50%, #ffe692 100%);
+}
+
 
 .portfolio {
   position: relative;

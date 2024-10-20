@@ -29,13 +29,17 @@ function ProjectPreviews() {
             {/* Filter Buttons */}
             <div className="filter-buttons">
                 {tags.map((tag, index) => (
-                    <button
+                    <div
                         key={index}
                         className={`filter-button ${selectedTag === tag ? 'active' : ''}`}
                         onClick={() => setSelectedTag(tag)}
                     >
-                        {tag}
-                    </button>
+                        <div className="filter-button-highlight menu-button-highlight-blue">
+                            <div className="filter-button-gradient menu-button-gradient-blue">
+                                {tag}
+                            </div>
+                        </div>
+                    </div>
                 ))}
             </div>
 

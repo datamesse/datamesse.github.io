@@ -45,13 +45,17 @@ function PostPreviews() {
             {/* Filter Buttons */}
             <div className='filter-buttons'>
                 {uniqueTags.map((tag, index) => (
-                    <button 
-                        key={index} 
+                    <div
+                        key={index}
                         className={`filter-button ${filteredTag === tag ? 'active' : ''}`}
                         onClick={() => handleFilterChange(tag)}
                     >
-                        {tag}
-                    </button>
+                        <div className="filter-button-highlight menu-button-highlight-blue">
+                            <div className="filter-button-gradient menu-button-gradient-blue">
+                                {tag}
+                            </div>
+                        </div>
+                    </div>
                 ))}
             </div>
 
