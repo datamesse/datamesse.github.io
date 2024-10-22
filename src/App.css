@@ -853,13 +853,10 @@ div { margin: 0px; padding: 0px; }
   line-height: 1.2;
 }
 
-/* Filter buttons container */
 .filter-buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
   justify-content: center;
-  padding: 10px;
 }
 
 .filter-button {
@@ -871,9 +868,6 @@ div { margin: 0px; padding: 0px; }
 }
 
 .filter-button-highlight {
-  border-radius: 12px;
-  padding: 2px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   display: flex;
   justify-content: center;
@@ -881,17 +875,8 @@ div { margin: 0px; padding: 0px; }
 }
 
 .filter-button-gradient {
-  border-radius: 9.8px;
-  padding: 5px 15px;
-  font-size: 14px;
   transition: all 0.3s ease;
   text-align: center;
-  min-width: 60px;
-}
-
-.filter-button:hover .filter-button-highlight,
-.filter-button:hover .filter-button-gradient {
-  transform: translateY(-1px);
 }
 
 .filter-button.active .filter-button-gradient {
@@ -903,7 +888,6 @@ div { margin: 0px; padding: 0px; }
   background: #FAF1C4;
   background: linear-gradient(to top, #fae5c4 15%, #f4ba4e 50%, #ffe692 100%);
 }
-
 
 .portfolio {
   position: relative;
@@ -2144,6 +2128,29 @@ code::-webkit-scrollbar-track {
     letter-spacing: 0.004vw;
   }
 
+  .filter-buttons {
+    gap: 1.5vw;
+    padding: 1.5vw;
+  }
+  
+  .filter-button-highlight {
+    border-radius: 1.25vw;
+    padding: 0.25vw;
+    box-shadow: 0 1.5vw 3vw rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-button-gradient {
+    border-radius: 1vw;
+    padding: 0.5vw 4vw;
+    font-size: 3vw;
+    min-width: 6vw;
+  }
+  
+  .filter-button:hover .filter-button-highlight,
+  .filter-button:hover .filter-button-gradient {
+    transform: translateY(-0.075vw);
+  }
+
   .portfolio {
     width: 100vw;
   }
@@ -2718,6 +2725,29 @@ code::-webkit-scrollbar-track {
   .award-id p {
     font-size: 1.3vh;
     letter-spacing: 0.004vw;
+  }
+
+  .filter-buttons {
+    gap: 0.75vw;
+    padding: 0.75vw;
+  }
+  
+  .filter-button-highlight {
+    border-radius: 0.625vw;
+    padding: 0.125vw;
+    box-shadow: 0 0.75vw 1.5vw rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-button-gradient {
+    border-radius: 0.5vw;
+    padding: 0.25vw 2vw;
+    font-size: 1.5vw;
+    min-width: 3vw;
+  }
+  
+  .filter-button:hover .filter-button-highlight,
+  .filter-button:hover .filter-button-gradient {
+    transform: translateY(-0.0375vw);
   }
 
   .portfolio {
@@ -3310,6 +3340,29 @@ code::-webkit-scrollbar-track {
   .award-id p {
     font-size: 1.1vw;
     letter-spacing: 0.0024vw;
+  }
+
+  .filter-buttons {
+    gap: 0.5625vw;
+    padding: 0.5625vw;
+  }
+  
+  .filter-button-highlight {
+    border-radius: 0.46875vw;
+    padding: 0.09375vw;
+    box-shadow: 0 0.5625vw 1.125vw rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-button-gradient {
+    border-radius: 0.375vw;
+    padding: 0.1875vw 1.5vw;
+    font-size: 1.125vw;
+    min-width: 2.25vw;
+  }
+  
+  .filter-button:hover .filter-button-highlight,
+  .filter-button:hover .filter-button-gradient {
+    transform: translateY(-0.028125vw);
   }
 
   .portfolio {
@@ -3909,6 +3962,29 @@ code::-webkit-scrollbar-track {
   .award-id p {
     font-size: 1.5vh;
     letter-spacing: 0.07vh;
+  }
+
+  .filter-buttons {
+    gap: 0.75vh;
+    padding: 0.75vh;
+  }
+  
+  .filter-button-highlight {
+    border-radius: 0.625vh;
+    padding: 0.125vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-button-gradient {
+    border-radius: 0.5vh;
+    padding: 0.25vh 2vh;
+    font-size: 1.5vh;
+    min-width: 3vh;
+  }
+  
+  .filter-button:hover .filter-button-highlight,
+  .filter-button:hover .filter-button-gradient {
+    transform: translateY(-0.0375vh);
   }
 
   .portfolio { /* REFACTORED */
